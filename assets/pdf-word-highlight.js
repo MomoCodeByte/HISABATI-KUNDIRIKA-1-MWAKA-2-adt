@@ -10,7 +10,7 @@
   var fallbackTimer = null;
   var currentSegments = [];
   var currentSegment = 0;
-  var currentRate = 1;
+  var currentRate = 0.9;
   var currentVolume = 1;
   var panel = null;
   var recordedAudio = null;
@@ -115,7 +115,7 @@
 
   function loadRecordedEntry() {
     if (!timingsPromise) {
-      timingsPromise = fetch("./content/rehema/timecodes.json?v=8")
+      timingsPromise = fetch("./content/rehema/timecodes.json?v=16")
         .then(function (response) { return response.ok ? response.json() : {}; })
         .catch(function () { return {}; });
     }
@@ -128,7 +128,12 @@
     var cues = recordedEntry.words || [];
     while (recordedCue + 1 < cues.length && Number(cues[recordedCue + 1].start) <= recordedAudio.currentTime + 0.03) recordedCue += 1;
     while (recordedCue > 0 && Number(cues[recordedCue].start) > recordedAudio.currentTime + 0.03) recordedCue -= 1;
-    var target = words()[Number(cues[recordedCue] && cues[recordedCue].sourceIndex || 0)];
+    var cue = cues[recordedCue] || {};
+    if (cue.targetImage) {
+      clear();
+      return;
+    }
+    var target = words()[Number(cue.sourceIndex || 0)];
     if (!target || target === activeWord) return;
     clear();
     target.classList.add("pdf-word-active");
@@ -139,7 +144,7 @@
     recordedEntry = entry;
     recordedCue = 0;
     if (!recordedAudio || !recordedAudio.src.endsWith("/" + entry.audio)) {
-      recordedAudio = new Audio("./content/rehema/" + entry.audio + "?v=" + (entry.version || 7) + "&r=9");
+      recordedAudio = new Audio("./content/rehema/" + entry.audio + "?v=" + (entry.version || 7) + "&r=10");
       recordedAudio.dataset.singleReaderAudio = "1";
       recordedAudio.addEventListener("timeupdate", highlightRecordedWord);
       recordedAudio.addEventListener("ended", stopReading);
@@ -170,7 +175,7 @@
       '<button type="button" data-voice-action="play" aria-label="Cheza au simamisha">&#9654;</button>' +
       '<button type="button" data-voice-action="next" aria-label="Nenda kwenye sauti inayofuata">&#9197;</button>' +
       '<button type="button" data-voice-action="stop" aria-label="Simamisha">&#9632;</button>' +
-      '<button type="button" data-voice-action="speed" aria-label="Kasi ya kucheza">1&times;</button>' +
+      '<button type="button" data-voice-action="speed" aria-label="Kasi ya kucheza">0.9&times;</button>' +
       '<label aria-label="Sauti">&#128266;<input data-voice-volume type="range" min="0" max="1" step="0.1" value="1"></label>';
     document.body.appendChild(panel);
     panel.addEventListener("click", function (event) {
@@ -192,7 +197,7 @@
         else { stopReading(); currentSegment = Math.min(Math.max(0, currentSegments.length - 1), currentSegment + 1); reading = true; speakCurrentSegment(); }
       }
       if (action === "speed") {
-        var rates = [0.75, 1, 1.25, 1.5];
+        var rates = [0.75, 0.9, 1, 1.25, 1.5];
         currentRate = rates[(rates.indexOf(currentRate) + 1) % rates.length];
         control.textContent = currentRate + "×";
         if (recordedAudio) recordedAudio.playbackRate = currentRate;
