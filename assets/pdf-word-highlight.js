@@ -115,7 +115,7 @@
 
   function loadRecordedEntry() {
     if (!timingsPromise) {
-      timingsPromise = fetch("./content/rehema/timecodes.json?v=16")
+      timingsPromise = fetch("./content/rehema/timecodes.json?v=25")
         .then(function (response) { return response.ok ? response.json() : {}; })
         .catch(function () { return {}; });
     }
@@ -129,6 +129,14 @@
     while (recordedCue + 1 < cues.length && Number(cues[recordedCue + 1].start) <= recordedAudio.currentTime + 0.03) recordedCue += 1;
     while (recordedCue > 0 && Number(cues[recordedCue].start) > recordedAudio.currentTime + 0.03) recordedCue -= 1;
     var cue = cues[recordedCue] || {};
+    if (cue.targetSelector) {
+      var visualTarget = document.querySelector(cue.targetSelector);
+      if (!visualTarget || visualTarget === activeWord) return;
+      clear();
+      visualTarget.classList.add("pdf-word-active");
+      activeWord = visualTarget;
+      return;
+    }
     if (cue.targetImage) {
       clear();
       return;
@@ -144,7 +152,7 @@
     recordedEntry = entry;
     recordedCue = 0;
     if (!recordedAudio || !recordedAudio.src.endsWith("/" + entry.audio)) {
-      recordedAudio = new Audio("./content/rehema/" + entry.audio + "?v=" + (entry.version || 7) + "&r=10");
+      recordedAudio = new Audio("./content/rehema/" + entry.audio + "?v=" + (entry.version || 7) + "&r=19");
       recordedAudio.dataset.singleReaderAudio = "1";
       recordedAudio.addEventListener("timeupdate", highlightRecordedWord);
       recordedAudio.addEventListener("ended", stopReading);

@@ -119,7 +119,7 @@
       "text": "mbili",
       "start": 10.583541,
       "end": 10.840957,
-      "sourceIndex": 20
+      "targetImage": true
     },
     {
       "text": "Tumia",
@@ -251,13 +251,13 @@
       "text": "mia",
       "start": 20.480541,
       "end": 20.709374,
-      "sourceIndex": 42
+      "targetImage": true
     },
     {
       "text": "nane",
       "start": 20.738,
       "end": 21.066958,
-      "sourceIndex": 42
+      "targetImage": true
     },
     {
       "text": "Minazini",
@@ -269,31 +269,31 @@
       "text": "elfu",
       "start": 21.83925,
       "end": 22.168208,
-      "sourceIndex": 44
+      "targetImage": true
     },
     {
       "text": "moja",
       "start": 22.196791,
       "end": 22.582957,
-      "sourceIndex": 44
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 22.611541,
       "end": 22.711666,
-      "sourceIndex": 44
+      "targetImage": true
     },
     {
       "text": "mia",
       "start": 22.740291,
       "end": 22.969124,
-      "sourceIndex": 44
+      "targetImage": true
     },
     {
       "text": "mbili",
       "start": 22.997708,
       "end": 23.312333,
-      "sourceIndex": 44
+      "targetImage": true
     },
     {
       "text": "Mwenge",
@@ -305,13 +305,13 @@
       "text": "mia",
       "start": 23.741416,
       "end": 24.013166,
-      "sourceIndex": 46
+      "targetImage": true
     },
     {
       "text": "tisa",
       "start": 24.056083,
       "end": 24.399333,
-      "sourceIndex": 46
+      "targetImage": true
     },
     {
       "text": "Kilimani",
@@ -323,13 +323,13 @@
       "text": "elfu",
       "start": 25.114416,
       "end": 25.443374,
-      "sourceIndex": 48
+      "targetImage": true
     },
     {
       "text": "moja",
       "start": 25.48625,
       "end": 25.843791,
-      "sourceIndex": 48
+      "targetImage": true
     },
     {
       "text": "Juhudi",
@@ -341,13 +341,13 @@
       "text": "mia",
       "start": 26.415916,
       "end": 26.659041,
-      "sourceIndex": 50
+      "targetImage": true
     },
     {
       "text": "sita",
       "start": 26.687625,
       "end": 27.088083,
-      "sourceIndex": 50
+      "targetImage": true
     },
     {
       "text": "Kipimio",
@@ -377,7 +377,7 @@
       "text": "moja",
       "start": 29.304916,
       "end": 29.691082,
-      "sourceIndex": 55
+      "targetImage": true
     },
     {
       "text": "inawakilisha",
@@ -395,13 +395,13 @@
       "text": "mia",
       "start": 31.25,
       "end": 31.478833,
-      "sourceIndex": 58
+      "targetImage": true
     },
     {
       "text": "moja",
       "start": 31.507416,
       "end": 31.879249,
-      "sourceIndex": 58
+      "targetImage": true
     },
     {
       "text": "Kuwasilisha",
@@ -1005,5 +1005,6 @@
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 1
+  "version": 25,
+  "rate": 0.9
 }

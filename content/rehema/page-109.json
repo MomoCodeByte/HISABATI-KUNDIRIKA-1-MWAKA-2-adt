@@ -17,7 +17,7 @@
       "text": "mbili",
       "start": 0.865208,
       "end": 1.194166,
-      "sourceIndex": 3
+      "targetImage": true
     },
     {
       "text": "Chunguza",
@@ -101,7 +101,7 @@
       "text": "moja",
       "start": 8.938791,
       "end": 9.324957,
-      "sourceIndex": 17
+      "targetImage": true
     },
     {
       "text": "Uso",
@@ -161,7 +161,7 @@
       "text": "mbili",
       "start": 13.072083,
       "end": 13.358124,
-      "sourceIndex": 27
+      "targetImage": true
     },
     {
       "text": "Uso",
@@ -209,7 +209,7 @@
       "text": "tatu",
       "start": 17.262583,
       "end": 17.620124,
-      "sourceIndex": 35
+      "targetImage": true
     },
     {
       "text": "Uso",
@@ -257,7 +257,7 @@
       "text": "nne",
       "start": 21.453083,
       "end": 21.681916,
-      "sourceIndex": 43
+      "targetImage": true
     },
     {
       "text": "Uso",
@@ -305,7 +305,7 @@
       "text": "tano",
       "start": 25.657875,
       "end": 25.943916,
-      "sourceIndex": 51
+      "targetImage": true
     },
     {
       "text": "Kuna",
@@ -407,7 +407,7 @@
       "text": "tatu",
       "start": 31.979416,
       "end": 32.451374,
-      "sourceIndex": 68
+      "targetImage": true
     },
     {
       "text": "a",
@@ -461,99 +461,100 @@
       "text": "Dakika",
       "start": 38.014875,
       "end": 38.358125,
-      "sourceIndex": 85
+      "targetImage": true
     },
     {
       "text": "sitini",
       "start": 38.45825,
       "end": 38.973125,
-      "sourceIndex": 88
+      "targetImage": true
     },
     {
       "text": "Dakika",
       "start": 39.001708,
       "end": 39.459374,
-      "sourceIndex": 89
+      "targetImage": true
     },
     {
       "text": "moja",
       "start": 39.488,
       "end": 39.816958,
-      "sourceIndex": 92
+      "targetImage": true
     },
     {
       "text": "Sekunde",
       "start": 39.845541,
       "end": 40.374707,
-      "sourceIndex": 92
+      "targetImage": true
     },
     {
       "text": "sitini",
       "start": 40.417625,
       "end": 40.9325,
-      "sourceIndex": 92
+      "targetImage": true
     },
     {
       "text": "Saa",
       "start": 40.975416,
       "end": 41.261457,
-      "sourceIndex": 92
+      "targetImage": true
     },
     {
       "text": "moja",
       "start": 41.290041,
       "end": 41.618999,
-      "sourceIndex": 92
+      "targetImage": true
     },
     {
       "text": "Sekunde",
       "start": 41.661916,
       "end": 42.205374,
-      "sourceIndex": 92
+      "targetImage": true
     },
     {
       "text": "moja",
       "start": 42.248291,
       "end": 42.620124,
-      "sourceIndex": 92
+      "targetImage": true
     },
     {
       "text": "Uhusiano",
       "start": 42.663041,
       "end": 43.349541,
-      "sourceIndex": 92
+      "sourceIndex": 77
     },
     {
       "text": "katika",
       "start": 43.392458,
       "end": 43.850124,
-      "sourceIndex": 92
+      "sourceIndex": 78
     },
     {
       "text": "wakati",
       "start": 43.893,
       "end": 44.37925,
-      "sourceIndex": 92
+      "sourceIndex": 79
     },
     {
       "text": "kwa",
       "start": 44.422208,
       "end": 44.579541,
-      "sourceIndex": 92
+      "sourceIndex": 80
     },
     {
       "text": "kutumia",
       "start": 44.608125,
       "end": 45.151583,
-      "sourceIndex": 92
+      "sourceIndex": 81
     },
     {
       "text": "saa",
       "start": 45.180208,
       "end": 45.552041,
-      "sourceIndex": 92
+      "sourceIndex": 82
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 1
+  "version": 25,
+  "rate": 0.9
 }

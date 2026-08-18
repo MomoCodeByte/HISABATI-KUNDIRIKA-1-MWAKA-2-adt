@@ -5,7 +5,7 @@
       "text": "moja",
       "start": 0.193,
       "end": 0.550541,
-      "sourceIndex": 1
+      "targetImage": true
     },
     {
       "text": "Maumbo",
@@ -41,7 +41,7 @@
       "text": "mbili",
       "start": 3.647041,
       "end": 3.918791,
-      "sourceIndex": 7
+      "targetImage": true
     },
     {
       "text": "Maumbo",
@@ -71,7 +71,7 @@
       "text": "tatu",
       "start": 6.779166,
       "end": 7.093791,
-      "sourceIndex": 12
+      "targetImage": true
     },
     {
       "text": "Andika",
@@ -119,7 +119,7 @@
       "text": "nne",
       "start": 9.525166,
       "end": 9.854124,
-      "sourceIndex": 20
+      "targetImage": true
     },
     {
       "text": "Umbo",
@@ -179,7 +179,7 @@
       "text": "tano",
       "start": 14.130416,
       "end": 14.445041,
-      "sourceIndex": 30
+      "targetImage": true
     },
     {
       "text": "Maumbo",
@@ -209,7 +209,7 @@
       "text": "sita",
       "start": 17.677333,
       "end": 18.106374,
-      "sourceIndex": 35
+      "targetImage": true
     },
     {
       "text": "Maumbo",
@@ -239,7 +239,7 @@
       "text": "saba",
       "start": 21.338666,
       "end": 21.767707,
-      "sourceIndex": 40
+      "targetImage": true
     },
     {
       "text": "Taja",
@@ -651,5 +651,6 @@
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 2
+  "version": 25,
+  "rate": 0.9
 }

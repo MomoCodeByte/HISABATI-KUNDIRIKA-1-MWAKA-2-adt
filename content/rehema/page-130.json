@@ -569,7 +569,7 @@
       "text": "mbili",
       "start": 47.697375,
       "end": 48.040625,
-      "sourceIndex": 95
+      "targetImage": true
     },
     {
       "text": "Kupima",
@@ -623,7 +623,7 @@
       "text": "moja",
       "start": 53.675625,
       "end": 54.004583,
-      "sourceIndex": 104
+      "targetImage": true
     },
     {
       "text": "Linganisha",
@@ -767,39 +767,40 @@
       "text": "mia",
       "start": 63.515458,
       "end": 63.744291,
-      "sourceIndex": 128
+      "targetImage": true
     },
     {
       "text": "moja",
       "start": 63.772875,
       "end": 64.130416,
-      "sourceIndex": 128
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 64.159041,
       "end": 64.244832,
-      "sourceIndex": 128
+      "targetImage": true
     },
     {
       "text": "ishirini",
       "start": 64.273458,
       "end": 64.802624,
-      "sourceIndex": 128
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 64.83125,
       "end": 64.945666,
-      "sourceIndex": 128
+      "targetImage": true
     },
     {
       "text": "tano",
       "start": 64.97425,
       "end": 65.446208,
-      "sourceIndex": 128
+      "targetImage": true
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 2
+  "version": 25,
+  "rate": 0.9
 }

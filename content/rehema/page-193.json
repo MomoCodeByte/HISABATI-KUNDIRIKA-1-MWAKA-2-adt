@@ -23,19 +23,19 @@
       "text": "themanini",
       "start": 1.866375,
       "end": 2.467041,
-      "sourceIndex": 4
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 2.495666,
       "end": 2.610082,
-      "sourceIndex": 4
+      "targetImage": true
     },
     {
       "text": "tano",
       "start": 2.652958,
       "end": 3.010499,
-      "sourceIndex": 4
+      "targetImage": true
     },
     {
       "text": "Amani",
@@ -47,7 +47,7 @@
       "text": "sitini",
       "start": 3.496791,
       "end": 4.040249,
-      "sourceIndex": 6
+      "targetImage": true
     },
     {
       "text": "Neema",
@@ -59,7 +59,7 @@
       "text": "tisini",
       "start": 4.526541,
       "end": 4.984207,
-      "sourceIndex": 8
+      "targetImage": true
     },
     {
       "text": "Shukuru",
@@ -71,7 +71,7 @@
       "text": "arobaini",
       "start": 5.742208,
       "end": 6.414416,
-      "sourceIndex": 10
+      "targetImage": true
     },
     {
       "text": "Ashura",
@@ -83,7 +83,7 @@
       "text": "themanini",
       "start": 6.9865,
       "end": 7.587166,
-      "sourceIndex": 12
+      "targetImage": true
     },
     {
       "text": "Bahati",
@@ -95,7 +95,7 @@
       "text": "sitini",
       "start": 8.116375,
       "end": 8.645541,
-      "sourceIndex": 14
+      "targetImage": true
     },
     {
       "text": "Kipimio",
@@ -113,7 +113,7 @@
       "text": "moja",
       "start": 9.761083,
       "end": 10.132916,
-      "sourceIndex": 17
+      "targetImage": true
     },
     {
       "text": "inawakilisha",
@@ -131,7 +131,7 @@
       "text": "kumi",
       "start": 11.491666,
       "end": 11.834916,
-      "sourceIndex": 20
+      "targetImage": true
     },
     {
       "text": "kwa",
@@ -155,7 +155,7 @@
       "text": "moja",
       "start": 13.758583,
       "end": 14.144749,
-      "sourceIndex": 24
+      "targetImage": true
     },
     {
       "text": "inawakilisha",
@@ -185,7 +185,7 @@
       "text": "moja",
       "start": 16.061208,
       "end": 16.475958,
-      "sourceIndex": 29
+      "targetImage": true
     },
     {
       "text": "kwa",
@@ -389,7 +389,7 @@
       "text": "tatu",
       "start": 34.181916,
       "end": 34.496541,
-      "sourceIndex": 63
+      "targetImage": true
     },
     {
       "text": "Angalia",
@@ -501,5 +501,6 @@
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 1
+  "version": 25,
+  "rate": 0.9
 }

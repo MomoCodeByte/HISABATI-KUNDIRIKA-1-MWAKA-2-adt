@@ -113,7 +113,7 @@
       "text": "moja",
       "start": 9.48225,
       "end": 9.854083,
-      "sourceIndex": 19
+      "targetImage": true
     },
     {
       "text": "inawakilisha",
@@ -131,7 +131,7 @@
       "text": "hamsini",
       "start": 11.141291,
       "end": 11.699082,
-      "sourceIndex": 22
+      "targetImage": true
     },
     {
       "text": "Siku",
@@ -485,7 +485,7 @@
       "text": "moja",
       "start": 41.576083,
       "end": 41.947916,
-      "sourceIndex": 81
+      "targetImage": true
     },
     {
       "text": "inawakilisha",
@@ -503,7 +503,7 @@
       "text": "hamsini",
       "start": 43.278041,
       "end": 43.864416,
-      "sourceIndex": 84
+      "targetImage": true
     },
     {
       "text": "Mayai",
@@ -539,61 +539,61 @@
       "text": "tisa",
       "start": 46.410166,
       "end": 46.624707,
-      "sourceIndex": 90
+      "targetImage": true
     },
     {
       "text": "zidisha",
       "start": 46.739125,
       "end": 47.268291,
-      "sourceIndex": 91
+      "targetImage": true
     },
     {
       "text": "kwa",
       "start": 47.296916,
       "end": 47.454249,
-      "sourceIndex": 91
+      "targetImage": true
     },
     {
       "text": "hamsini",
       "start": 47.482833,
       "end": 47.997708,
-      "sourceIndex": 92
+      "targetImage": true
     },
     {
       "text": "sawa",
       "start": 48.040625,
       "end": 48.412458,
-      "sourceIndex": 93
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 48.441083,
       "end": 48.541208,
-      "sourceIndex": 93
+      "targetImage": true
     },
     {
       "text": "mia",
       "start": 48.569791,
       "end": 48.827207,
-      "sourceIndex": 94
+      "targetImage": true
     },
     {
       "text": "nne",
       "start": 48.855833,
       "end": 49.113249,
-      "sourceIndex": 94
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 49.156166,
       "end": 49.256291,
-      "sourceIndex": 94
+      "targetImage": true
     },
     {
       "text": "hamsini",
       "start": 49.284916,
       "end": 49.871291,
-      "sourceIndex": 94
+      "targetImage": true
     },
     {
       "text": "Kwa",
@@ -641,27 +641,28 @@
       "text": "mia",
       "start": 52.917625,
       "end": 53.175041,
-      "sourceIndex": 102
+      "targetImage": true
     },
     {
       "text": "nne",
       "start": 53.203666,
       "end": 53.446791,
-      "sourceIndex": 102
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 53.475416,
       "end": 53.575541,
-      "sourceIndex": 102
+      "targetImage": true
     },
     {
       "text": "hamsini",
       "start": 53.604125,
       "end": 54.290625,
-      "sourceIndex": 102
+      "targetImage": true
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 1
+  "version": 25,
+  "rate": 0.9
 }

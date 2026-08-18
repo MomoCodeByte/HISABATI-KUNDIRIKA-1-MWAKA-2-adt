@@ -5,19 +5,19 @@
       "text": "kumi",
       "start": 0.178708,
       "end": 0.321708,
-      "sourceIndex": 1
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 0.421833,
       "end": 0.536249,
-      "sourceIndex": 1
+      "targetImage": true
     },
     {
       "text": "tano",
       "start": 0.579166,
       "end": 0.922416,
-      "sourceIndex": 1
+      "targetImage": true
     },
     {
       "text": "Furaha",
@@ -65,7 +65,7 @@
       "text": "saba",
       "start": 3.797125,
       "end": 4.211875,
-      "sourceIndex": 9
+      "targetImage": true
     },
     {
       "text": "Kisha",
@@ -131,19 +131,19 @@
       "text": "kumi",
       "start": 11.413041,
       "end": 11.556041,
-      "sourceIndex": 20
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 11.656166,
       "end": 11.741957,
-      "sourceIndex": 20
+      "targetImage": true
     },
     {
       "text": "sita",
       "start": 11.770583,
       "end": 12.171041,
-      "sourceIndex": 20
+      "targetImage": true
     },
     {
       "text": "Musa",
@@ -191,7 +191,7 @@
       "text": "nane",
       "start": 15.060083,
       "end": 15.417624,
-      "sourceIndex": 28
+      "targetImage": true
     },
     {
       "text": "na",
@@ -221,7 +221,7 @@
       "text": "tano",
       "start": 16.475958,
       "end": 16.847791,
-      "sourceIndex": 33
+      "targetImage": true
     },
     {
       "text": "Je",
@@ -275,19 +275,19 @@
       "text": "kumi",
       "start": 21.438791,
       "end": 21.581791,
-      "sourceIndex": 42
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 21.681916,
       "end": 21.767707,
-      "sourceIndex": 42
+      "targetImage": true
     },
     {
       "text": "saba",
       "start": 21.796333,
       "end": 22.168166,
-      "sourceIndex": 42
+      "targetImage": true
     },
     {
       "text": "Fundi",
@@ -341,7 +341,7 @@
       "text": "mbili",
       "start": 25.95825,
       "end": 26.3015,
-      "sourceIndex": 51
+      "targetImage": true
     },
     {
       "text": "na",
@@ -371,7 +371,7 @@
       "text": "moja",
       "start": 27.459958,
       "end": 27.831791,
-      "sourceIndex": 56
+      "targetImage": true
     },
     {
       "text": "Mzingo",
@@ -419,19 +419,19 @@
       "text": "kumi",
       "start": 31.979416,
       "end": 32.122416,
-      "sourceIndex": 64
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 32.222541,
       "end": 32.322666,
-      "sourceIndex": 64
+      "targetImage": true
     },
     {
       "text": "nane",
       "start": 32.35125,
       "end": 32.637291,
-      "sourceIndex": 64
+      "targetImage": true
     },
     {
       "text": "Zulia",
@@ -491,7 +491,7 @@
       "text": "saba",
       "start": 35.697958,
       "end": 36.112708,
-      "sourceIndex": 74
+      "targetImage": true
     },
     {
       "text": "na",
@@ -521,7 +521,7 @@
       "text": "tano",
       "start": 37.285458,
       "end": 37.628708,
-      "sourceIndex": 79
+      "targetImage": true
     },
     {
       "text": "Tafuta",
@@ -557,19 +557,19 @@
       "text": "kumi",
       "start": 40.703666,
       "end": 40.846666,
-      "sourceIndex": 85
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 40.946791,
       "end": 41.061207,
-      "sourceIndex": 85
+      "targetImage": true
     },
     {
       "text": "tisa",
       "start": 41.104125,
       "end": 41.447375,
-      "sourceIndex": 85
+      "targetImage": true
     },
     {
       "text": "Shiloli",
@@ -635,13 +635,13 @@
       "text": "mia",
       "start": 46.181333,
       "end": 46.395874,
-      "sourceIndex": 96
+      "targetImage": true
     },
     {
       "text": "moja",
       "start": 46.4245,
       "end": 46.824958,
-      "sourceIndex": 96
+      "targetImage": true
     },
     {
       "text": "na",
@@ -671,7 +671,7 @@
       "text": "sabini",
       "start": 47.911916,
       "end": 48.383874,
-      "sourceIndex": 101
+      "targetImage": true
     },
     {
       "text": "Shiloli",
@@ -701,7 +701,7 @@
       "text": "ishirini",
       "start": 51.730541,
       "end": 52.159582,
-      "sourceIndex": 106
+      "targetImage": true
     },
     {
       "text": "Mzingo",
@@ -737,19 +737,19 @@
       "text": "ishirini",
       "start": 54.0475,
       "end": 54.562375,
-      "sourceIndex": 112
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 54.590958,
       "end": 54.705374,
-      "sourceIndex": 112
+      "targetImage": true
     },
     {
       "text": "tatu",
       "start": 54.748291,
       "end": 55.120124,
-      "sourceIndex": 112
+      "targetImage": true
     },
     {
       "text": "Ikiwa",
@@ -803,7 +803,7 @@
       "text": "saba",
       "start": 57.623,
       "end": 58.03775,
-      "sourceIndex": 121
+      "targetImage": true
     },
     {
       "text": "urefu",
@@ -851,7 +851,7 @@
       "text": "sita",
       "start": 60.011458,
       "end": 60.440499,
-      "sourceIndex": 129
+      "targetImage": true
     },
     {
       "text": "Je",
@@ -909,5 +909,6 @@
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 1
+  "version": 25,
+  "rate": 0.9
 }

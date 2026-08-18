@@ -113,7 +113,7 @@
       "text": "moja",
       "start": 10.225958,
       "end": 10.569208,
-      "sourceIndex": 19
+      "targetImage": true
     },
     {
       "text": "lina",
@@ -143,7 +143,7 @@
       "text": "ishirini",
       "start": 12.099541,
       "end": 12.657332,
-      "sourceIndex": 24
+      "targetImage": true
     },
     {
       "text": "d",
@@ -167,7 +167,7 @@
       "text": "tatu",
       "start": 13.9445,
       "end": 14.28775,
-      "sourceIndex": 28
+      "targetImage": true
     },
     {
       "text": "lina",
@@ -215,7 +215,7 @@
       "text": "themanini",
       "start": 16.905041,
       "end": 17.548624,
-      "sourceIndex": 36
+      "targetImage": true
     },
     {
       "text": "e",
@@ -239,7 +239,7 @@
       "text": "mbili",
       "start": 18.778583,
       "end": 19.107541,
-      "sourceIndex": 40
+      "targetImage": true
     },
     {
       "text": "na",
@@ -257,7 +257,7 @@
       "text": "nne",
       "start": 19.465083,
       "end": 19.650999,
-      "sourceIndex": 43
+      "targetImage": true
     },
     {
       "text": "yana",
@@ -305,7 +305,7 @@
       "text": "arobaini",
       "start": 22.1825,
       "end": 22.783166,
-      "sourceIndex": 51
+      "targetImage": true
     },
     {
       "text": "Mfano",
@@ -323,7 +323,7 @@
       "text": "pili",
       "start": 23.412458,
       "end": 23.769999,
-      "sourceIndex": 54
+      "targetImage": true
     },
     {
       "text": "Angalia",
@@ -485,67 +485,67 @@
       "text": "tisini",
       "start": 37.22825,
       "end": 37.728833,
-      "sourceIndex": 81
+      "targetImage": true
     },
     {
       "text": "mia",
       "start": 37.77175,
       "end": 38.000583,
-      "sourceIndex": 82
+      "targetImage": true
     },
     {
       "text": "moja",
       "start": 38.029166,
       "end": 38.429624,
-      "sourceIndex": 82
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 38.45825,
       "end": 38.558375,
-      "sourceIndex": 82
+      "targetImage": true
     },
     {
       "text": "ishirini",
       "start": 38.586958,
       "end": 39.073208,
-      "sourceIndex": 82
+      "targetImage": true
     },
     {
       "text": "sabini",
       "start": 39.116125,
       "end": 39.573791,
-      "sourceIndex": 83
+      "targetImage": true
     },
     {
       "text": "sitini",
       "start": 39.616708,
       "end": 40.131583,
-      "sourceIndex": 84
+      "targetImage": true
     },
     {
       "text": "mia",
       "start": 40.1745,
       "end": 40.431916,
-      "sourceIndex": 85
+      "targetImage": true
     },
     {
       "text": "moja",
       "start": 40.460541,
       "end": 40.860999,
-      "sourceIndex": 85
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 40.889583,
       "end": 41.003999,
-      "sourceIndex": 85
+      "targetImage": true
     },
     {
       "text": "kumi",
       "start": 41.046916,
       "end": 41.361541,
-      "sourceIndex": 85
+      "targetImage": true
     },
     {
       "text": "Kipimio",
@@ -563,7 +563,7 @@
       "text": "moja",
       "start": 42.477125,
       "end": 42.834666,
-      "sourceIndex": 88
+      "targetImage": true
     },
     {
       "text": "inawakilisha",
@@ -581,7 +581,7 @@
       "text": "ishirini",
       "start": 44.379291,
       "end": 44.922749,
-      "sourceIndex": 91
+      "targetImage": true
     },
     {
       "text": "kwa",
@@ -605,7 +605,7 @@
       "text": "moja",
       "start": 46.824958,
       "end": 47.211124,
-      "sourceIndex": 95
+      "targetImage": true
     },
     {
       "text": "inawakilisha",
@@ -635,7 +635,7 @@
       "text": "moja",
       "start": 49.127583,
       "end": 49.542333,
-      "sourceIndex": 100
+      "targetImage": true
     },
     {
       "text": "kwa",
@@ -801,5 +801,6 @@
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 3
+  "version": 25,
+  "rate": 0.9
 }

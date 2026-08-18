@@ -5,7 +5,7 @@
       "text": "mbili",
       "start": 0.207333,
       "end": 0.450458,
-      "sourceIndex": 1
+      "targetImage": true
     },
     {
       "text": "Soma",
@@ -107,67 +107,67 @@
       "text": "elfu",
       "start": 8.938791,
       "end": 9.267749,
-      "sourceIndex": 18
+      "targetImage": true
     },
     {
       "text": "thelathini",
       "start": 9.296333,
       "end": 9.911333,
-      "sourceIndex": 18
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 9.939916,
       "end": 10.054332,
-      "sourceIndex": 18
+      "targetImage": true
     },
     {
       "text": "nane",
       "start": 10.082958,
       "end": 10.440499,
-      "sourceIndex": 18
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 10.469125,
       "end": 10.56925,
-      "sourceIndex": 18
+      "targetImage": true
     },
     {
       "text": "mia",
       "start": 10.597833,
       "end": 10.869583,
-      "sourceIndex": 18
+      "targetImage": true
     },
     {
       "text": "tisa",
       "start": 10.912458,
       "end": 11.284291,
-      "sourceIndex": 18
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 11.312916,
       "end": 11.413041,
-      "sourceIndex": 18
+      "targetImage": true
     },
     {
       "text": "hamsini",
       "start": 11.441666,
       "end": 11.999457,
-      "sourceIndex": 18
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 12.028041,
       "end": 12.142457,
-      "sourceIndex": 18
+      "targetImage": true
     },
     {
       "text": "moja",
       "start": 12.171041,
       "end": 12.628707,
-      "sourceIndex": 18
+      "targetImage": true
     },
     {
       "text": "b",
@@ -179,43 +179,43 @@
       "text": "elfu",
       "start": 13.243708,
       "end": 13.629874,
-      "sourceIndex": 20
+      "targetImage": true
     },
     {
       "text": "arobaini",
       "start": 13.67275,
       "end": 14.28775,
-      "sourceIndex": 20
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 14.316375,
       "end": 14.4165,
-      "sourceIndex": 20
+      "targetImage": true
     },
     {
       "text": "mia",
       "start": 14.445083,
       "end": 14.673916,
-      "sourceIndex": 20
+      "targetImage": true
     },
     {
       "text": "sita",
       "start": 14.716833,
       "end": 15.131583,
-      "sourceIndex": 20
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 15.160166,
       "end": 15.274582,
-      "sourceIndex": 20
+      "targetImage": true
     },
     {
       "text": "tisini",
       "start": 15.3175,
       "end": 15.860958,
-      "sourceIndex": 20
+      "targetImage": true
     },
     {
       "text": "c",
@@ -227,25 +227,25 @@
       "text": "elfu",
       "start": 16.461666,
       "end": 16.776291,
-      "sourceIndex": 22
+      "targetImage": true
     },
     {
       "text": "tisini",
       "start": 16.833541,
       "end": 17.305499,
-      "sourceIndex": 22
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 17.334083,
       "end": 17.419874,
-      "sourceIndex": 22
+      "targetImage": true
     },
     {
       "text": "saba",
       "start": 17.4485,
       "end": 17.93475,
-      "sourceIndex": 22
+      "targetImage": true
     },
     {
       "text": "d",
@@ -257,31 +257,31 @@
       "text": "elfu",
       "start": 18.521166,
       "end": 18.821499,
-      "sourceIndex": 24
+      "targetImage": true
     },
     {
       "text": "thelathini",
       "start": 18.850125,
       "end": 19.465125,
-      "sourceIndex": 24
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 19.493708,
       "end": 19.608124,
-      "sourceIndex": 24
+      "targetImage": true
     },
     {
       "text": "moja",
       "start": 19.636708,
       "end": 20.094374,
-      "sourceIndex": 24
+      "targetImage": true
     },
     {
       "text": "tatu",
       "start": 21.167041,
       "end": 21.467374,
-      "sourceIndex": 25
+      "targetImage": true
     },
     {
       "text": "Soma",
@@ -647,13 +647,13 @@
       "text": "S",
       "start": 47.311208,
       "end": 47.511416,
-      "sourceIndex": 86
+      "targetImage": true
     },
     {
       "text": "itini",
       "start": 47.554333,
       "end": 47.983374,
-      "sourceIndex": 86
+      "targetImage": true
     },
     {
       "text": "na",
@@ -755,7 +755,7 @@
       "text": "moja",
       "start": 53.861541,
       "end": 54.247707,
-      "sourceIndex": 103
+      "targetImage": true
     },
     {
       "text": "Tisini",
@@ -855,5 +855,6 @@
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 1
+  "version": 25,
+  "rate": 0.9
 }

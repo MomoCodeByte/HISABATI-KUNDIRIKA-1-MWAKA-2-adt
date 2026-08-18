@@ -431,7 +431,7 @@
       "text": "moja",
       "start": 41.919333,
       "end": 42.233958,
-      "sourceIndex": 72
+      "targetImage": true
     },
     {
       "text": "Mpangilio",
@@ -497,7 +497,7 @@
       "text": "mbili",
       "start": 47.911916,
       "end": 48.169332,
-      "sourceIndex": 83
+      "targetImage": true
     },
     {
       "text": "Mpangilio",
@@ -531,5 +531,6 @@
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 2
+  "version": 25,
+  "rate": 0.9
 }

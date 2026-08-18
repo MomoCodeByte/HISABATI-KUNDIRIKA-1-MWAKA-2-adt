@@ -11,7 +11,7 @@
       "text": "moja",
       "start": 2.188208,
       "end": 2.517166,
-      "sourceIndex": 2
+      "targetImage": true
     },
     {
       "text": "Kipande",
@@ -89,7 +89,7 @@
       "text": "mbili",
       "start": 8.509708,
       "end": 8.767124,
-      "sourceIndex": 15
+      "targetImage": true
     },
     {
       "text": "Mwale",
@@ -167,7 +167,7 @@
       "text": "tatu",
       "start": 14.90275,
       "end": 15.217375,
-      "sourceIndex": 28
+      "targetImage": true
     },
     {
       "text": "Mstari",
@@ -221,7 +221,7 @@
       "text": "nne",
       "start": 20.266,
       "end": 20.451916,
-      "sourceIndex": 37
+      "targetImage": true
     },
     {
       "text": "Mzingo",
@@ -285,5 +285,6 @@
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 1
+  "version": 25,
+  "rate": 0.9
 }

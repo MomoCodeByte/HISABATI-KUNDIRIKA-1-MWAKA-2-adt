@@ -191,7 +191,7 @@
       "text": "nne",
       "start": 17.4485,
       "end": 17.648708,
-      "sourceIndex": 32
+      "targetImage": true
     },
     {
       "text": "Soma",
@@ -809,7 +809,7 @@
       "text": "kumi",
       "start": 76.601833,
       "end": 76.902166,
-      "sourceIndex": 135
+      "targetImage": true
     },
     {
       "text": "jioni",
@@ -1037,7 +1037,7 @@
       "text": "moja",
       "start": 103.117833,
       "end": 103.446791,
-      "sourceIndex": 173
+      "targetImage": true
     },
     {
       "text": "Taja",
@@ -1085,7 +1085,7 @@
       "text": "mbili",
       "start": 108.137875,
       "end": 108.395291,
-      "sourceIndex": 181
+      "targetImage": true
     },
     {
       "text": "Maria",
@@ -1127,7 +1127,7 @@
       "text": "tatu",
       "start": 112.256875,
       "end": 112.585833,
-      "sourceIndex": 188
+      "targetImage": true
     },
     {
       "text": "Mto",
@@ -1169,7 +1169,7 @@
       "text": "nne",
       "start": 116.5475,
       "end": 116.733416,
-      "sourceIndex": 195
+      "targetImage": true
     },
     {
       "text": "Ni",
@@ -1223,7 +1223,7 @@
       "text": "tano",
       "start": 121.052625,
       "end": 121.310041,
-      "sourceIndex": 204
+      "targetImage": true
     },
     {
       "text": "Siku",
@@ -1301,7 +1301,7 @@
       "text": "sita",
       "start": 128.146458,
       "end": 128.589833,
-      "sourceIndex": 217
+      "targetImage": true
     },
     {
       "text": "Mvua",
@@ -1337,7 +1337,7 @@
       "text": "saba",
       "start": 132.20825,
       "end": 132.637291,
-      "sourceIndex": 223
+      "targetImage": true
     },
     {
       "text": "Ni",
@@ -1413,5 +1413,6 @@
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 2
+  "version": 25,
+  "rate": 0.9
 }

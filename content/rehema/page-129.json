@@ -683,7 +683,7 @@
       "text": "moja",
       "start": 60.040041,
       "end": 60.397582,
-      "sourceIndex": 114
+      "targetImage": true
     },
     {
       "text": "Kupima",
@@ -743,7 +743,7 @@
       "text": "moja",
       "start": 66.161333,
       "end": 66.504583,
-      "sourceIndex": 124
+      "targetImage": true
     },
     {
       "text": "Pima",
@@ -845,43 +845,43 @@
       "text": "mia",
       "start": 73.6985,
       "end": 73.927333,
-      "sourceIndex": 141
+      "targetImage": true
     },
     {
       "text": "moja",
       "start": 73.955958,
       "end": 74.313499,
-      "sourceIndex": 141
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 74.342125,
       "end": 74.427916,
-      "sourceIndex": 141
+      "targetImage": true
     },
     {
       "text": "ishirini",
       "start": 74.4565,
       "end": 74.985666,
-      "sourceIndex": 141
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 75.014291,
       "end": 75.142999,
-      "sourceIndex": 141
+      "targetImage": true
     },
     {
       "text": "nne",
       "start": 75.171625,
       "end": 75.500583,
-      "sourceIndex": 141
+      "targetImage": true
     },
     {
       "text": "mbili",
       "start": 76.587541,
       "end": 76.859291,
-      "sourceIndex": 142
+      "targetImage": true
     },
     {
       "text": "Pima",
@@ -941,7 +941,7 @@
       "text": "tatu",
       "start": 81.478833,
       "end": 81.779166,
-      "sourceIndex": 152
+      "targetImage": true
     },
     {
       "text": "Wanafunzi",
@@ -981,5 +981,6 @@
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 1
+  "version": 25,
+  "rate": 0.9
 }

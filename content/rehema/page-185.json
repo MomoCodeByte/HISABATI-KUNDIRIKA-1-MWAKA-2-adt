@@ -1,625 +1,681 @@
 {
-  "audio": "page-185.mp3",
+  "audio": "page-185-matrix-v9.mp3",
+  "voice": "sw-TZ-RehemaNeural",
+  "rate": 0.9,
+  "pitch": "neutral",
+  "version": 25,
   "words": [
     {
+      "text": "Mwendelezo",
+      "start": 0.196208,
+      "end": 0.751749,
+      "targetImage": true
+    },
+    {
+      "text": "wa",
+      "start": 0.868708,
+      "end": 0.971041,
+      "targetImage": true
+    },
+    {
+      "text": "jedwali",
+      "start": 1.000291,
+      "end": 1.731291,
+      "targetImage": true
+    },
+    {
       "text": "Viazi",
-      "start": 0.178708,
-      "end": 0.550541,
+      "start": 2.83625,
+      "end": 3.216375,
       "sourceIndex": 1
     },
     {
+      "text": "vina",
+      "start": 3.318708,
+      "end": 3.611124,
+      "targetImage": true
+    },
+    {
+      "text": "picha",
+      "start": 3.654958,
+      "end": 4.005833,
+      "targetImage": true
+    },
+    {
       "text": "thelathini",
-      "start": 0.650666,
-      "end": 1.265666,
-      "sourceIndex": 2
+      "start": 4.035083,
+      "end": 4.663749,
+      "targetImage": true
+    },
+    {
+      "text": "za",
+      "start": 4.693,
+      "end": 4.839208,
+      "targetImage": true
+    },
+    {
+      "text": "magunia",
+      "start": 4.868416,
+      "end": 5.628666,
+      "targetImage": true
+    },
+    {
+      "text": "Picha",
+      "start": 6.725166,
+      "end": 6.885999,
+      "targetImage": true
+    },
+    {
+      "text": "hizo",
+      "start": 6.988291,
+      "end": 7.309916,
+      "targetImage": true
+    },
+    {
+      "text": "zinawakilisha",
+      "start": 7.339166,
+      "end": 8.260207,
+      "targetImage": true
+    },
+    {
+      "text": "magunia",
+      "start": 8.289458,
+      "end": 8.888874,
+      "targetImage": true
+    },
+    {
+      "text": "elfu",
+      "start": 8.93275,
+      "end": 9.29825,
+      "targetImage": true
+    },
+    {
+      "text": "thelathini",
+      "start": 9.3275,
+      "end": 10.073125,
+      "targetImage": true
     },
     {
       "text": "Mtama",
-      "start": 1.308583,
-      "end": 1.766249,
-      "sourceIndex": 3
+      "start": 11.169583,
+      "end": 11.520458,
+      "targetImage": true
+    },
+    {
+      "text": "una",
+      "start": 11.652041,
+      "end": 11.885957,
+      "targetImage": true
+    },
+    {
+      "text": "picha",
+      "start": 11.929833,
+      "end": 12.266083,
+      "targetImage": true
     },
     {
       "text": "nane",
-      "start": 1.794833,
-      "end": 2.095166,
-      "sourceIndex": 4
+      "start": 12.295333,
+      "end": 12.616958,
+      "targetImage": true
+    },
+    {
+      "text": "za",
+      "start": 12.646208,
+      "end": 12.792416,
+      "targetImage": true
+    },
+    {
+      "text": "magunia",
+      "start": 12.821625,
+      "end": 13.56725,
+      "targetImage": true
+    },
+    {
+      "text": "Picha",
+      "start": 14.66375,
+      "end": 14.824583,
+      "targetImage": true
+    },
+    {
+      "text": "hizo",
+      "start": 14.926916,
+      "end": 15.263166,
+      "targetImage": true
+    },
+    {
+      "text": "zinawakilisha",
+      "start": 15.292416,
+      "end": 16.213457,
+      "targetImage": true
+    },
+    {
+      "text": "magunia",
+      "start": 16.242708,
+      "end": 16.827499,
+      "targetImage": true
+    },
+    {
+      "text": "elfu",
+      "start": 16.871333,
+      "end": 17.251458,
+      "targetImage": true
+    },
+    {
+      "text": "nane",
+      "start": 17.280708,
+      "end": 17.704666,
+      "targetImage": true
     },
     {
       "text": "Zoezi",
-      "start": 2.138083,
-      "end": 2.610041,
+      "start": 18.786541,
+      "end": 19.152041,
       "sourceIndex": 5
     },
     {
       "text": "la",
-      "start": 2.638666,
-      "end": 2.767374,
+      "start": 19.254375,
+      "end": 19.400583,
       "sourceIndex": 6
     },
     {
-      "text": "mbili",
-      "start": 2.796,
-      "end": 3.124958,
-      "sourceIndex": 7
+      "text": "Pili",
+      "start": 19.429833,
+      "end": 19.766083,
+      "targetImage": true
     },
     {
       "text": "Jaza",
-      "start": 3.167833,
-      "end": 3.553999,
+      "start": 19.809958,
+      "end": 20.190083,
       "sourceIndex": 8
     },
     {
       "text": "nafasi",
-      "start": 3.582625,
-      "end": 4.083208,
+      "start": 20.219291,
+      "end": 20.716374,
       "sourceIndex": 9
     },
     {
       "text": "zilizoachwa",
-      "start": 4.126083,
-      "end": 4.941291,
+      "start": 20.76025,
+      "end": 21.578958,
       "sourceIndex": 10
     },
     {
       "text": "wazi",
-      "start": 4.969916,
-      "end": 5.298874,
+      "start": 21.608208,
+      "end": 21.929833,
       "sourceIndex": 11
     },
     {
       "text": "katika",
-      "start": 5.34175,
-      "end": 5.785125,
+      "start": 21.973666,
+      "end": 22.441499,
       "sourceIndex": 12
     },
     {
       "text": "jedwali",
-      "start": 5.81375,
-      "end": 6.385833,
+      "start": 22.47075,
+      "end": 23.055541,
       "sourceIndex": 13
     },
     {
       "text": "lifuatalo",
-      "start": 6.414416,
-      "end": 7.229624,
+      "start": 23.084791,
+      "end": 23.932749,
       "sourceIndex": 14
     },
     {
       "text": "namba",
-      "start": 7.372666,
-      "end": 7.787416,
+      "start": 24.122791,
+      "end": 24.459041,
       "sourceIndex": 15
     },
     {
-      "text": "moja",
-      "start": 8.867291,
-      "end": 9.224832,
+      "text": "1",
+      "start": 24.488291,
+      "end": 24.839166,
       "sourceIndex": 16
     },
     {
       "text": "imefanyika",
-      "start": 9.425041,
-      "end": 10.240249,
+      "start": 24.868416,
+      "end": 25.599416,
       "sourceIndex": 17
     },
     {
       "text": "kama",
-      "start": 10.283166,
-      "end": 10.612124,
+      "start": 25.643291,
+      "end": 25.921082,
       "sourceIndex": 18
     },
     {
       "text": "mfano",
-      "start": 10.655041,
-      "end": 11.255707,
+      "start": 25.964916,
+      "end": 26.520457,
       "sourceIndex": 19
     },
     {
       "text": "Namba",
-      "start": 12.328375,
-      "end": 12.542916,
+      "start": 27.602333,
+      "end": 27.821624,
       "sourceIndex": 20
     },
     {
       "text": "Idadi",
-      "start": 12.657333,
-      "end": 13.100708,
+      "start": 27.938583,
+      "end": 28.391791,
       "sourceIndex": 21
     },
     {
       "text": "Idadi",
-      "start": 13.143583,
-      "end": 13.601249,
+      "start": 28.435666,
+      "end": 28.903499,
       "sourceIndex": 22
     },
     {
       "text": "kwa",
-      "start": 13.644166,
-      "end": 13.787166,
+      "start": 28.947375,
+      "end": 29.093583,
       "sourceIndex": 23
     },
     {
       "text": "Kipimio",
-      "start": 13.815791,
-      "end": 14.402166,
+      "start": 29.122791,
+      "end": 29.722207,
       "sourceIndex": 25
     },
     {
       "text": "picha",
-      "start": 14.445083,
-      "end": 14.902749,
-      "sourceIndex": 29
+      "start": 29.766083,
+      "end": 30.116958,
+      "targetImage": true
     },
     {
-      "text": "moja",
-      "start": 15.989708,
-      "end": 16.318666,
-      "sourceIndex": 32
+      "text": "1",
+      "start": 30.146208,
+      "end": 30.643291,
+      "sourceIndex": 26
     },
     {
       "text": "Miti",
-      "start": 16.518875,
-      "end": 16.905041,
-      "sourceIndex": 34
+      "start": 31.769,
+      "end": 32.017541,
+      "sourceIndex": 27
     },
     {
-      "text": "elfu",
-      "start": 16.947958,
-      "end": 17.276916,
-      "sourceIndex": 35
-    },
-    {
-      "text": "kumi",
-      "start": 17.319791,
-      "end": 17.634416,
-      "sourceIndex": 35
-    },
-    {
-      "text": "na",
-      "start": 17.663041,
-      "end": 17.777457,
-      "sourceIndex": 35
-    },
-    {
-      "text": "tano",
-      "start": 17.820375,
-      "end": 18.192208,
-      "sourceIndex": 35
+      "text": "15000",
+      "start": 32.16375,
+      "end": 33.421041,
+      "sourceIndex": 28
     },
     {
       "text": "Picha",
-      "start": 18.235125,
-      "end": 18.564083,
+      "start": 33.464916,
+      "end": 33.801166,
+      "sourceIndex": 29
+    },
+    {
+      "text": "ya",
+      "start": 33.830416,
+      "end": 33.932749,
+      "sourceIndex": 30
+    },
+    {
+      "text": "mti",
+      "start": 33.976625,
+      "end": 34.254416,
+      "sourceIndex": 31
+    },
+    {
+      "text": "1",
+      "start": 34.29825,
+      "end": 34.693,
+      "sourceIndex": 32
+    },
+    {
+      "text": "inawakilisha",
+      "start": 34.722208,
+      "end": 35.540916,
+      "sourceIndex": 33
+    },
+    {
+      "text": "miti",
+      "start": 35.584791,
+      "end": 35.964916,
+      "sourceIndex": 34
+    },
+    {
+      "text": "1000",
+      "start": 36.008791,
+      "end": 36.754375,
+      "sourceIndex": 35
+    },
+    {
+      "text": "2",
+      "start": 36.783625,
+      "end": 37.193,
+      "sourceIndex": 36
+    },
+    {
+      "text": "Mayai",
+      "start": 38.289458,
+      "end": 38.611083,
+      "sourceIndex": 37
+    },
+    {
+      "text": "11000",
+      "start": 38.757291,
+      "end": 39.985375,
+      "sourceIndex": 38
+    },
+    {
+      "text": "Picha",
+      "start": 40.02925,
+      "end": 40.3655,
       "sourceIndex": 39
     },
     {
       "text": "ya",
-      "start": 18.592666,
-      "end": 18.692791,
+      "start": 40.39475,
+      "end": 40.482458,
       "sourceIndex": 40
     },
     {
-      "text": "mti",
-      "start": 18.735708,
-      "end": 19.007458,
+      "text": "yai",
+      "start": 40.511708,
+      "end": 40.716374,
       "sourceIndex": 41
     },
     {
-      "text": "moja",
-      "start": 19.050333,
-      "end": 19.436499,
+      "text": "1",
+      "start": 40.745625,
+      "end": 41.140375,
       "sourceIndex": 42
     },
     {
       "text": "inawakilisha",
-      "start": 19.465083,
-      "end": 20.280291,
+      "start": 41.169583,
+      "end": 41.988291,
       "sourceIndex": 43
     },
     {
-      "text": "miti",
-      "start": 20.323208,
-      "end": 20.680749,
+      "text": "mayai",
+      "start": 42.032166,
+      "end": 42.485374,
       "sourceIndex": 44
     },
     {
-      "text": "elfu",
-      "start": 20.723666,
-      "end": 21.052624,
+      "text": "1000",
+      "start": 42.52925,
+      "end": 43.2895,
       "sourceIndex": 45
     },
     {
-      "text": "moja",
-      "start": 21.08125,
-      "end": 21.538916,
-      "sourceIndex": 45
-    },
-    {
-      "text": "mbili",
-      "start": 22.611541,
-      "end": 22.868957,
+      "text": "3",
+      "start": 43.333333,
+      "end": 43.830416,
       "sourceIndex": 46
     },
     {
-      "text": "Mayai",
-      "start": 23.069208,
-      "end": 23.498249,
-      "sourceIndex": 46
+      "text": "Boksi",
+      "start": 44.883041,
+      "end": 45.277791,
+      "sourceIndex": 47
     },
     {
-      "text": "elfu",
-      "start": 23.541208,
-      "end": 23.898749,
-      "sourceIndex": 46
-    },
-    {
-      "text": "kumi",
-      "start": 23.927333,
-      "end": 24.241958,
-      "sourceIndex": 46
-    },
-    {
-      "text": "na",
-      "start": 24.270583,
-      "end": 24.356374,
-      "sourceIndex": 46
-    },
-    {
-      "text": "moja",
-      "start": 24.385,
-      "end": 24.756833,
-      "sourceIndex": 46
+      "text": "200",
+      "start": 45.39475,
+      "end": 46.023375,
+      "sourceIndex": 48
     },
     {
       "text": "Picha",
-      "start": 24.79975,
-      "end": 25.128708,
+      "start": 46.06725,
+      "end": 46.4035,
       "sourceIndex": 49
     },
     {
       "text": "ya",
-      "start": 25.157333,
-      "end": 25.243124,
+      "start": 46.43275,
+      "end": 46.520458,
       "sourceIndex": 50
     },
     {
-      "text": "yai",
-      "start": 25.27175,
-      "end": 25.486291,
+      "text": "boksi",
+      "start": 46.549708,
+      "end": 47.046791,
       "sourceIndex": 51
     },
     {
-      "text": "moja",
-      "start": 25.529166,
-      "end": 25.900999,
+      "text": "1",
+      "start": 47.090625,
+      "end": 47.485375,
       "sourceIndex": 52
     },
     {
       "text": "inawakilisha",
-      "start": 25.929625,
-      "end": 26.730541,
+      "start": 47.514625,
+      "end": 48.347958,
       "sourceIndex": 53
     },
     {
-      "text": "mayai",
-      "start": 26.773458,
-      "end": 27.216833,
+      "text": "boksi",
+      "start": 48.391833,
+      "end": 48.874291,
       "sourceIndex": 54
     },
     {
-      "text": "elfu",
-      "start": 27.259708,
-      "end": 27.602958,
-      "sourceIndex": 54
-    },
-    {
-      "text": "moja",
-      "start": 27.631583,
-      "end": 28.074958,
-      "sourceIndex": 54
-    },
-    {
-      "text": "tatu",
-      "start": 29.133291,
-      "end": 29.462249,
-      "sourceIndex": 54
-    },
-    {
-      "text": "Boksi",
-      "start": 29.633875,
-      "end": 30.14875,
-      "sourceIndex": 54
-    },
-    {
-      "text": "mia",
-      "start": 30.191666,
-      "end": 30.434791,
+      "text": "100",
+      "start": 48.918125,
+      "end": 49.576041,
       "sourceIndex": 55
     },
     {
-      "text": "mbili",
-      "start": 30.463375,
-      "end": 30.806625,
-      "sourceIndex": 55
+      "text": "4",
+      "start": 49.60525,
+      "end": 49.9415,
+      "sourceIndex": 56
+    },
+    {
+      "text": "Magunia",
+      "start": 51.06725,
+      "end": 51.564333,
+      "sourceIndex": 57
     },
     {
       "text": "Picha",
-      "start": 30.849541,
-      "end": 31.192791,
+      "start": 51.695916,
+      "end": 52.032166,
       "sourceIndex": 61
     },
     {
       "text": "ya",
-      "start": 31.221375,
-      "end": 31.307166,
+      "start": 52.061416,
+      "end": 52.149124,
       "sourceIndex": 62
     },
     {
-      "text": "boksi",
-      "start": 31.335791,
-      "end": 31.822041,
+      "text": "gunia",
+      "start": 52.178375,
+      "end": 52.616958,
       "sourceIndex": 63
     },
     {
-      "text": "moja",
-      "start": 31.865,
-      "end": 32.222541,
+      "text": "1",
+      "start": 52.646208,
+      "end": 53.026333,
       "sourceIndex": 64
     },
     {
+      "text": "ya",
+      "start": 53.055541,
+      "end": 53.157874,
+      "targetImage": true
+    },
+    {
+      "text": "karanga",
+      "start": 53.187125,
+      "end": 53.698833,
+      "targetImage": true
+    },
+    {
       "text": "inawakilisha",
-      "start": 32.251125,
-      "end": 33.080625,
+      "start": 53.728083,
+      "end": 54.576041,
       "sourceIndex": 65
     },
     {
-      "text": "boksi",
-      "start": 33.123583,
-      "end": 33.595541,
+      "text": "magunia",
+      "start": 54.60525,
+      "end": 55.219291,
       "sourceIndex": 66
     },
     {
-      "text": "mia",
-      "start": 33.638458,
-      "end": 33.881583,
-      "sourceIndex": 66
+      "text": "40000",
+      "start": 55.263166,
+      "end": 56.37425,
+      "targetImage": true
     },
     {
-      "text": "moja",
-      "start": 33.910166,
-      "end": 34.353541,
-      "sourceIndex": 66
+      "text": "10000",
+      "start": 56.418125,
+      "end": 57.119875,
+      "sourceIndex": 67
     },
     {
-      "text": "nne",
-      "start": 35.426208,
-      "end": 35.597833,
-      "sourceIndex": 66
+      "text": "5",
+      "start": 57.149125,
+      "end": 57.616958,
+      "sourceIndex": 68
     },
     {
-      "text": "Magunia",
-      "start": 35.798041,
-      "end": 36.455916,
-      "sourceIndex": 66
+      "text": "Machungwa",
+      "start": 58.713458,
+      "end": 59.152041,
+      "sourceIndex": 69
     },
     {
       "text": "Picha",
-      "start": 36.484541,
-      "end": 36.813499,
+      "start": 59.283625,
+      "end": 59.619875,
       "sourceIndex": 71
     },
     {
       "text": "ya",
-      "start": 36.842125,
-      "end": 36.927916,
+      "start": 59.649125,
+      "end": 59.736833,
       "sourceIndex": 72
     },
     {
-      "text": "gunia",
-      "start": 36.956541,
-      "end": 37.399916,
+      "text": "chungwa",
+      "start": 59.766083,
+      "end": 60.116958,
       "sourceIndex": 73
     },
     {
-      "text": "moja",
-      "start": 37.4285,
-      "end": 37.800333,
+      "text": "1",
+      "start": 60.146208,
+      "end": 60.555583,
       "sourceIndex": 74
     },
     {
-      "text": "ya",
-      "start": 37.828958,
-      "end": 37.929083,
-      "sourceIndex": 84
-    },
-    {
-      "text": "karanga",
-      "start": 37.957666,
-      "end": 38.458249,
-      "sourceIndex": 85
+      "text": "80000",
+      "start": 60.599416,
+      "end": 61.593582,
+      "targetImage": true
     },
     {
       "text": "inawakilisha",
-      "start": 38.501125,
-      "end": 39.302041,
-      "sourceIndex": 87
-    },
-    {
-      "text": "magunia",
-      "start": 39.330666,
-      "end": 39.945666,
-      "sourceIndex": 88
-    },
-    {
-      "text": "elfu",
-      "start": 39.988541,
-      "end": 40.388999,
-      "sourceIndex": 88
-    },
-    {
-      "text": "arobaini",
-      "start": 40.431916,
-      "end": 41.061207,
-      "sourceIndex": 88
-    },
-    {
-      "text": "elfu",
-      "start": 41.104125,
-      "end": 41.461666,
-      "sourceIndex": 88
-    },
-    {
-      "text": "kumi",
-      "start": 41.504583,
-      "end": 41.876416,
-      "sourceIndex": 88
-    },
-    {
-      "text": "tano",
-      "start": 42.9205,
-      "end": 43.206541,
-      "sourceIndex": 88
-    },
-    {
-      "text": "Machungwa",
-      "start": 43.392458,
-      "end": 43.950249,
-      "sourceIndex": 88
-    },
-    {
-      "text": "Picha",
-      "start": 43.978833,
-      "end": 44.307791,
-      "sourceIndex": 88
-    },
-    {
-      "text": "ya",
-      "start": 44.336375,
-      "end": 44.4365,
-      "sourceIndex": 88
-    },
-    {
-      "text": "chungwa",
-      "start": 44.465083,
-      "end": 44.822624,
-      "sourceIndex": 88
-    },
-    {
-      "text": "moja",
-      "start": 44.85125,
-      "end": 45.251708,
-      "sourceIndex": 88
-    },
-    {
-      "text": "elfu",
-      "start": 45.308916,
-      "end": 45.652166,
-      "sourceIndex": 88
-    },
-    {
-      "text": "themanini",
-      "start": 45.680791,
-      "end": 46.267166,
-      "sourceIndex": 88
-    },
-    {
-      "text": "inawakilisha",
-      "start": 46.29575,
-      "end": 47.110958,
-      "sourceIndex": 88
+      "start": 61.622791,
+      "end": 62.441499,
+      "sourceIndex": 75
     },
     {
       "text": "machungwa",
-      "start": 47.139583,
-      "end": 47.683041,
-      "sourceIndex": 88
+      "start": 62.47075,
+      "end": 63.026291,
+      "sourceIndex": 76
     },
     {
-      "text": "elfu",
-      "start": 47.725958,
-      "end": 48.097791,
-      "sourceIndex": 88
+      "text": "10000",
+      "start": 63.070166,
+      "end": 63.771957,
+      "sourceIndex": 77
     },
     {
-      "text": "kumi",
-      "start": 48.14075,
-      "end": 48.512583,
-      "sourceIndex": 88
-    },
-    {
-      "text": "sita",
-      "start": 49.542333,
-      "end": 49.971374,
-      "sourceIndex": 88
+      "text": "6",
+      "start": 63.815791,
+      "end": 64.327499,
+      "sourceIndex": 78
     },
     {
       "text": "Chupa",
-      "start": 50.157333,
-      "end": 50.514874,
-      "sourceIndex": 88
+      "start": 65.39475,
+      "end": 65.672541,
+      "sourceIndex": 79
     },
     {
-      "text": "hamsini",
-      "start": 50.543458,
-      "end": 51.072624,
-      "sourceIndex": 89
+      "text": "50",
+      "start": 65.774875,
+      "end": 66.315791,
+      "sourceIndex": 80
     },
     {
       "text": "za",
-      "start": 51.10125,
-      "end": 51.272875,
-      "sourceIndex": 89
+      "start": 66.345041,
+      "end": 66.520499,
+      "sourceIndex": 81
     },
     {
       "text": "Picha",
-      "start": 51.315791,
-      "end": 51.644749,
-      "sourceIndex": 89
+      "start": 66.549708,
+      "end": 66.885958,
+      "sourceIndex": 83
     },
     {
       "text": "ya",
-      "start": 51.673333,
-      "end": 51.787749,
-      "sourceIndex": 89
+      "start": 66.915208,
+      "end": 67.017541,
+      "sourceIndex": 84
     },
     {
       "text": "chupa",
-      "start": 51.816375,
-      "end": 52.173916,
-      "sourceIndex": 89
+      "start": 67.046791,
+      "end": 67.412291,
+      "sourceIndex": 85
     },
     {
-      "text": "moja",
-      "start": 52.2025,
-      "end": 52.560041,
-      "sourceIndex": 89
+      "text": "1",
+      "start": 67.441541,
+      "end": 67.807041,
+      "sourceIndex": 86
     },
     {
       "text": "maji",
-      "start": 52.588666,
-      "end": 52.960499,
-      "sourceIndex": 89
+      "start": 67.83625,
+      "end": 68.231,
+      "targetImage": true
     },
     {
       "text": "inawakilisha",
-      "start": 52.989125,
-      "end": 53.804333,
-      "sourceIndex": 89
+      "start": 68.274875,
+      "end": 69.108208,
+      "sourceIndex": 87
     },
     {
       "text": "chupa",
-      "start": 53.832958,
-      "end": 54.204791,
-      "sourceIndex": 89
+      "start": 69.137416,
+      "end": 69.517541,
+      "sourceIndex": 88
     },
     {
-      "text": "kumi",
-      "start": 54.247708,
-      "end": 54.648166,
+      "text": "10",
+      "start": 69.561416,
+      "end": 69.970791,
       "sourceIndex": 89
     }
-  ],
-  "voice": "sw-TZ-RehemaNeural",
-  "version": 1
+  ]
 }

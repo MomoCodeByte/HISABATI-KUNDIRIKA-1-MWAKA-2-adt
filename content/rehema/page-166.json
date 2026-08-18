@@ -59,7 +59,7 @@
       "text": "sita",
       "start": 3.582625,
       "end": 3.997375,
-      "sourceIndex": 10
+      "targetImage": true
     },
     {
       "text": "na",
@@ -143,7 +143,7 @@
       "text": "sita",
       "start": 9.625291,
       "end": 10.068666,
-      "sourceIndex": 24
+      "targetImage": true
     },
     {
       "text": "B",
@@ -209,7 +209,7 @@
       "text": "tatu",
       "start": 13.887291,
       "end": 14.216249,
-      "sourceIndex": 35
+      "targetImage": true
     },
     {
       "text": "Chora",
@@ -233,7 +233,7 @@
       "text": "moja",
       "start": 16.619,
       "end": 16.947958,
-      "sourceIndex": 39
+      "targetImage": true
     },
     {
       "text": "Tumia",
@@ -281,105 +281,106 @@
       "text": "A",
       "start": 20.180208,
       "end": 20.323208,
-      "sourceIndex": 58
+      "targetImage": true
     },
     {
       "text": "B",
       "start": 20.351833,
       "end": 20.594958,
-      "sourceIndex": 59
+      "targetImage": true
     },
     {
       "text": "mbili",
       "start": 20.766583,
       "end": 21.195624,
-      "sourceIndex": 60
+      "targetImage": true
     },
     {
       "text": "Endeleza",
       "start": 21.324375,
       "end": 21.925041,
-      "sourceIndex": 60
+      "sourceIndex": 48
     },
     {
       "text": "kipande",
       "start": 21.967958,
       "end": 22.454208,
-      "sourceIndex": 60
+      "sourceIndex": 49
     },
     {
       "text": "hicho",
       "start": 22.482833,
       "end": 22.797458,
-      "sourceIndex": 60
+      "sourceIndex": 50
     },
     {
       "text": "upande",
       "start": 22.840375,
       "end": 23.269416,
-      "sourceIndex": 60
+      "sourceIndex": 51
     },
     {
       "text": "wa",
       "start": 23.312375,
       "end": 23.383875,
-      "sourceIndex": 60
+      "sourceIndex": 52
     },
     {
       "text": "kushoto",
       "start": 23.412458,
       "end": 23.970249,
-      "sourceIndex": 60
+      "sourceIndex": 53
     },
     {
       "text": "au",
       "start": 24.013166,
       "end": 24.227707,
-      "sourceIndex": 60
+      "sourceIndex": 54
     },
     {
       "text": "kulia",
       "start": 24.270583,
       "end": 24.771166,
-      "sourceIndex": 60
+      "sourceIndex": 55
     },
     {
       "text": "kiwekee",
       "start": 24.885583,
       "end": 25.486249,
-      "sourceIndex": 60
+      "sourceIndex": 56
     },
     {
       "text": "mshale",
       "start": 25.514875,
       "end": 26.10125,
-      "sourceIndex": 60
+      "sourceIndex": 57
     },
     {
       "text": "A",
       "start": 27.188208,
       "end": 27.216791,
-      "sourceIndex": 60
+      "sourceIndex": 58
     },
     {
       "text": "B",
       "start": 27.359833,
       "end": 27.660166,
-      "sourceIndex": 62
+      "sourceIndex": 59
     },
     {
       "text": "A",
       "start": 27.703083,
       "end": 27.903291,
-      "sourceIndex": 63
+      "sourceIndex": 60
     },
     {
       "text": "B",
       "start": 27.931916,
       "end": 28.217957,
-      "sourceIndex": 63
+      "sourceIndex": 62
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 2
+  "version": 25,
+  "rate": 0.9
 }

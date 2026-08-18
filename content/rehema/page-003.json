@@ -1,433 +1,513 @@
 {
-  "audio": "page-003.mp3",
+  "audio": "page-003-matrix-v9.mp3",
+  "voice": "sw-TZ-RehemaNeural",
+  "rate": 0.9,
+  "pitch": "neutral",
+  "version": 25,
   "words": [
     {
       "text": "Yaliyomo",
-      "start": 0.207333,
-      "end": 0.564874,
+      "start": 0.210833,
+      "end": 0.590958,
       "sourceIndex": 1
     },
     {
       "text": "Shukurani",
-      "start": 0.693583,
-      "end": 1.365791,
+      "start": 0.7225,
+      "end": 1.4535,
       "sourceIndex": 2
     },
     {
-      "text": "tano",
-      "start": 1.408708,
-      "end": 1.737666,
+      "text": "v",
+      "start": 1.658166,
+      "end": 1.892082,
       "sourceIndex": 3
     },
     {
       "text": "Utangulizi",
-      "start": 1.780541,
-      "end": 2.495624,
+      "start": 1.935958,
+      "end": 2.769291,
       "sourceIndex": 4
     },
     {
-      "text": "sita",
-      "start": 2.538541,
-      "end": 2.910374,
+      "text": "vi",
+      "start": 2.988583,
+      "end": 3.134791,
       "sourceIndex": 5
     },
     {
       "text": "Sura",
-      "start": 2.939,
-      "end": 3.310833,
+      "start": 3.178666,
+      "end": 3.558791,
       "sourceIndex": 6
     },
     {
       "text": "ya",
-      "start": 3.339458,
-      "end": 3.439583,
+      "start": 3.588,
+      "end": 3.690333,
       "sourceIndex": 7
     },
     {
       "text": "Kwanza",
-      "start": 3.468208,
-      "end": 3.954458,
+      "start": 3.719583,
+      "end": 4.187416,
       "sourceIndex": 8
     },
     {
       "text": "Namba",
-      "start": 4.2405,
-      "end": 4.598041,
+      "start": 4.406708,
+      "end": 4.757583,
       "sourceIndex": 9
     },
     {
       "text": "nzima",
-      "start": 4.626666,
-      "end": 5.012832,
+      "start": 4.786833,
+      "end": 5.313166,
       "sourceIndex": 10
     },
     {
-      "text": "moja",
-      "start": 5.041416,
-      "end": 5.370374,
-      "sourceIndex": 11
+      "text": "ukurasa",
+      "start": 5.430125,
+      "end": 6.058791,
+      "targetImage": true
+    },
+    {
+      "text": "wa",
+      "start": 6.088,
+      "end": 6.204958,
+      "targetImage": true
+    },
+    {
+      "text": "ADT",
+      "start": 6.248833,
+      "end": 6.497374,
+      "targetImage": true
+    },
+    {
+      "text": "7",
+      "start": 6.526625,
+      "end": 7.052958,
+      "targetImage": true
     },
     {
       "text": "Sura",
-      "start": 5.398958,
-      "end": 5.785124,
+      "start": 8.143291,
+      "end": 8.464916,
       "sourceIndex": 12
     },
     {
       "text": "ya",
-      "start": 5.81375,
-      "end": 5.913875,
+      "start": 8.56725,
+      "end": 8.684208,
       "sourceIndex": 13
     },
     {
       "text": "Pili",
-      "start": 5.942458,
-      "end": 6.257083,
+      "start": 8.713458,
+      "end": 9.035083,
       "sourceIndex": 14
     },
     {
       "text": "Mpangilio",
-      "start": 6.3,
-      "end": 6.915,
+      "start": 9.064333,
+      "end": 9.707624,
       "sourceIndex": 15
     },
     {
       "text": "wa",
-      "start": 6.943583,
-      "end": 7.029374,
+      "start": 9.736833,
+      "end": 9.824541,
       "sourceIndex": 16
     },
     {
       "text": "namba",
-      "start": 7.058,
-      "end": 7.415541,
+      "start": 9.853791,
+      "end": 10.219291,
       "sourceIndex": 17
     },
     {
       "text": "nzima",
-      "start": 7.444166,
-      "end": 7.930416,
+      "start": 10.248541,
+      "end": 10.774874,
       "sourceIndex": 18
     },
     {
-      "text": "kumi",
-      "start": 8.981708,
-      "end": 9.110416,
-      "sourceIndex": 19
+      "text": "ukurasa",
+      "start": 10.921041,
+      "end": 11.608166,
+      "targetImage": true
     },
     {
-      "text": "na",
-      "start": 9.210541,
-      "end": 9.296332,
-      "sourceIndex": 20
+      "text": "wa",
+      "start": 11.637416,
+      "end": 11.768999,
+      "targetImage": true
     },
     {
-      "text": "saba",
-      "start": 9.324958,
-      "end": 9.711124,
-      "sourceIndex": 20
+      "text": "ADT",
+      "start": 11.812875,
+      "end": 12.090666,
+      "targetImage": true
+    },
+    {
+      "text": "23",
+      "start": 12.1345,
+      "end": 13.435666,
+      "targetImage": true
     },
     {
       "text": "Sura",
-      "start": 9.739708,
-      "end": 10.125874,
-      "sourceIndex": 20
-    },
-    {
-      "text": "ya",
-      "start": 10.154458,
-      "end": 10.268874,
+      "start": 14.517541,
+      "end": 14.839166,
       "sourceIndex": 21
     },
     {
-      "text": "Tatu",
-      "start": 10.311791,
-      "end": 10.655041,
+      "text": "ya",
+      "start": 14.941541,
+      "end": 15.043874,
       "sourceIndex": 22
     },
     {
-      "text": "Namba",
-      "start": 10.683625,
-      "end": 11.026875,
+      "text": "Tatu",
+      "start": 15.073083,
+      "end": 15.423958,
       "sourceIndex": 23
     },
     {
-      "text": "za",
-      "start": 11.0555,
-      "end": 11.212833,
+      "text": "Namba",
+      "start": 15.453208,
+      "end": 15.804083,
       "sourceIndex": 24
     },
     {
-      "text": "Kirumi",
-      "start": 11.255708,
-      "end": 11.813499,
+      "text": "za",
+      "start": 15.833333,
+      "end": 15.994166,
       "sourceIndex": 25
     },
     {
-      "text": "ishirini",
-      "start": 12.871833,
-      "end": 13.329499,
+      "text": "Kirumi",
+      "start": 16.023375,
+      "end": 16.593541,
       "sourceIndex": 26
     },
     {
-      "text": "na",
-      "start": 13.443916,
-      "end": 13.529707,
-      "sourceIndex": 27
+      "text": "ukurasa",
+      "start": 16.710541,
+      "end": 17.368416,
+      "targetImage": true
     },
     {
-      "text": "saba",
-      "start": 13.558333,
-      "end": 13.930166,
-      "sourceIndex": 28
+      "text": "wa",
+      "start": 17.397666,
+      "end": 17.529249,
+      "targetImage": true
+    },
+    {
+      "text": "ADT",
+      "start": 17.573083,
+      "end": 17.850874,
+      "targetImage": true
+    },
+    {
+      "text": "33",
+      "start": 17.89475,
+      "end": 19.268999,
+      "targetImage": true
     },
     {
       "text": "Sura",
-      "start": 13.958791,
-      "end": 14.359249,
-      "sourceIndex": 28
-    },
-    {
-      "text": "ya",
-      "start": 14.387875,
-      "end": 14.488,
-      "sourceIndex": 28
-    },
-    {
-      "text": "Nne",
-      "start": 14.516583,
-      "end": 14.745416,
+      "start": 20.33625,
+      "end": 20.657875,
       "sourceIndex": 29
     },
     {
-      "text": "Kujumlisha",
-      "start": 14.788333,
-      "end": 15.517749,
+      "text": "ya",
+      "start": 20.76025,
+      "end": 20.862583,
       "sourceIndex": 30
     },
     {
-      "text": "namba",
-      "start": 15.546333,
-      "end": 15.889583,
+      "text": "Nne",
+      "start": 20.891833,
+      "end": 21.111124,
       "sourceIndex": 31
     },
     {
-      "text": "nzima",
-      "start": 15.918208,
-      "end": 16.418791,
+      "text": "Kujumlisha",
+      "start": 21.140333,
+      "end": 21.827458,
       "sourceIndex": 32
     },
     {
-      "text": "thelathini",
-      "start": 17.491416,
-      "end": 18.006291,
+      "text": "namba",
+      "start": 21.856708,
+      "end": 22.207583,
       "sourceIndex": 33
     },
     {
-      "text": "na",
-      "start": 18.106416,
-      "end": 18.192207,
+      "text": "nzima",
+      "start": 22.236833,
+      "end": 22.748541,
       "sourceIndex": 34
     },
     {
-      "text": "sita",
-      "start": 18.220833,
-      "end": 18.606999,
-      "sourceIndex": 35
+      "text": "ukurasa",
+      "start": 22.880125,
+      "end": 23.552625,
+      "targetImage": true
+    },
+    {
+      "text": "wa",
+      "start": 23.581875,
+      "end": 23.713458,
+      "targetImage": true
+    },
+    {
+      "text": "ADT",
+      "start": 23.757291,
+      "end": 24.064291,
+      "targetImage": true
+    },
+    {
+      "text": "42",
+      "start": 24.108208,
+      "end": 25.321624,
+      "targetImage": true
     },
     {
       "text": "Sura",
-      "start": 18.635583,
-      "end": 19.021749,
-      "sourceIndex": 36
-    },
-    {
-      "text": "ya",
-      "start": 19.050333,
-      "end": 19.164749,
-      "sourceIndex": 36
-    },
-    {
-      "text": "Tano",
-      "start": 19.207666,
-      "end": 19.579499,
-      "sourceIndex": 36
-    },
-    {
-      "text": "Kutoa",
-      "start": 19.622416,
-      "end": 20.008582,
+      "start": 26.4035,
+      "end": 26.7105,
       "sourceIndex": 37
     },
     {
-      "text": "namba",
-      "start": 20.037166,
-      "end": 20.394707,
+      "text": "ya",
+      "start": 26.812875,
+      "end": 26.915208,
       "sourceIndex": 38
     },
     {
-      "text": "nzima",
-      "start": 20.423333,
-      "end": 20.909583,
+      "text": "Tano",
+      "start": 26.944458,
+      "end": 27.309958,
       "sourceIndex": 39
     },
     {
-      "text": "46",
-      "start": 21.15275,
-      "end": 22.3684159,
+      "text": "Kutoa",
+      "start": 27.339166,
+      "end": 27.748541,
       "sourceIndex": 40
     },
     {
-      "text": "Sura",
-      "start": 22.397041,
-      "end": 22.783207,
+      "text": "namba",
+      "start": 27.777791,
+      "end": 28.114041,
       "sourceIndex": 41
     },
     {
-      "text": "ya",
-      "start": 22.826083,
-      "end": 22.926208,
-      "sourceIndex": 42
+      "text": "nzima",
+      "start": 28.143291,
+      "end": 28.654999,
+      "targetImage": true
     },
     {
-      "text": "Sita",
-      "start": 22.969125,
-      "end": 23.369583,
+      "text": "ukurasa",
+      "start": 28.786541,
+      "end": 29.429832,
+      "targetImage": true
+    },
+    {
+      "text": "wa",
+      "start": 29.459083,
+      "end": 29.590666,
+      "targetImage": true
+    },
+    {
+      "text": "ADT",
+      "start": 29.6345,
+      "end": 29.897666,
+      "targetImage": true
+    },
+    {
+      "text": "52",
+      "start": 29.941541,
+      "end": 31.125708,
+      "targetImage": true
+    },
+    {
+      "text": "Sura",
+      "start": 32.207583,
+      "end": 32.529208,
       "sourceIndex": 43
     },
     {
-      "text": "Kuzidisha",
-      "start": 23.412458,
-      "end": 24.084666,
+      "text": "ya",
+      "start": 32.631583,
+      "end": 32.733916,
       "sourceIndex": 44
     },
     {
-      "text": "namba",
-      "start": 24.113291,
-      "end": 24.470832,
+      "text": "Sita",
+      "start": 32.763166,
+      "end": 33.172541,
       "sourceIndex": 45
     },
     {
-      "text": "nzima",
-      "start": 24.499416,
-      "end": 25.014291,
+      "text": "Kuzidisha",
+      "start": 33.20175,
+      "end": 33.845041,
       "sourceIndex": 46
     },
     {
-      "text": "hamsini",
-      "start": 26.258583,
-      "end": 26.687624,
+      "text": "namba",
+      "start": 33.87425,
+      "end": 34.225125,
       "sourceIndex": 47
     },
     {
-      "text": "na",
-      "start": 26.78775,
-      "end": 26.873541,
+      "text": "nzima",
+      "start": 34.254375,
+      "end": 34.766083,
       "sourceIndex": 48
     },
     {
-      "text": "sita",
-      "start": 26.902166,
-      "end": 27.273999,
-      "sourceIndex": 49
+      "text": "ukurasa",
+      "start": 34.897666,
+      "end": 35.584791,
+      "targetImage": true
+    },
+    {
+      "text": "wa",
+      "start": 35.614041,
+      "end": 35.745624,
+      "targetImage": true
+    },
+    {
+      "text": "ADT",
+      "start": 35.789458,
+      "end": 36.052624,
+      "targetImage": true
+    },
+    {
+      "text": "62",
+      "start": 36.0965,
+      "end": 37.222208,
+      "targetImage": true
     },
     {
       "text": "Sura",
-      "start": 27.316916,
-      "end": 27.703082,
-      "sourceIndex": 50
-    },
-    {
-      "text": "ya",
-      "start": 27.731708,
-      "end": 27.817499,
-      "sourceIndex": 50
-    },
-    {
-      "text": "Saba",
-      "start": 27.846125,
-      "end": 28.246583,
-      "sourceIndex": 50
-    },
-    {
-      "text": "Kugawanya",
-      "start": 28.289458,
-      "end": 28.961666,
+      "start": 38.304083,
+      "end": 38.625708,
       "sourceIndex": 51
     },
     {
-      "text": "namba",
-      "start": 28.990291,
-      "end": 29.347832,
+      "text": "ya",
+      "start": 38.728083,
+      "end": 38.815791,
       "sourceIndex": 52
     },
     {
-      "text": "nzima",
-      "start": 29.376416,
-      "end": 29.748249,
+      "text": "Saba",
+      "start": 38.845041,
+      "end": 39.254416,
       "sourceIndex": 53
     },
     {
-      "text": "sabini",
-      "start": 29.791208,
-      "end": 30.291791,
+      "text": "Kugawanya",
+      "start": 39.283625,
+      "end": 39.9415,
       "sourceIndex": 54
     },
     {
-      "text": "na",
-      "start": 30.320375,
-      "end": 30.406166,
+      "text": "namba",
+      "start": 39.97075,
+      "end": 40.33625,
       "sourceIndex": 55
     },
     {
-      "text": "moja",
-      "start": 30.434791,
-      "end": 30.763749,
+      "text": "nzima",
+      "start": 40.3655,
+      "end": 40.877208,
       "sourceIndex": 56
     },
     {
+      "text": "ukurasa",
+      "start": 41.023375,
+      "end": 41.68125,
+      "targetImage": true
+    },
+    {
+      "text": "wa",
+      "start": 41.710541,
+      "end": 41.827499,
+      "targetImage": true
+    },
+    {
+      "text": "ADT",
+      "start": 41.871333,
+      "end": 42.105249,
+      "targetImage": true
+    },
+    {
+      "text": "77",
+      "start": 42.1345,
+      "end": 43.333333,
+      "targetImage": true
+    },
+    {
       "text": "Sura",
-      "start": 30.806625,
-      "end": 31.192791,
-      "sourceIndex": 57
-    },
-    {
-      "text": "ya",
-      "start": 31.221375,
-      "end": 31.3215,
-      "sourceIndex": 57
-    },
-    {
-      "text": "Nane",
-      "start": 31.350125,
-      "end": 31.679083,
-      "sourceIndex": 57
-    },
-    {
-      "text": "Sehemu",
-      "start": 31.721958,
-      "end": 32.279749,
+      "start": 44.415208,
+      "end": 44.751458,
       "sourceIndex": 58
     },
     {
-      "text": "themanini",
-      "start": 32.308333,
-      "end": 32.880416,
+      "text": "ya",
+      "start": 44.853791,
+      "end": 44.956124,
       "sourceIndex": 59
     },
     {
-      "text": "na",
-      "start": 32.909041,
-      "end": 33.037749,
+      "text": "Nane",
+      "start": 44.985375,
+      "end": 45.292375,
       "sourceIndex": 60
     },
     {
-      "text": "tano",
-      "start": 33.080666,
-      "end": 33.552624,
+      "text": "Sehemu",
+      "start": 45.321625,
+      "end": 45.9795,
       "sourceIndex": 61
+    },
+    {
+      "text": "ukurasa",
+      "start": 46.081875,
+      "end": 46.73975,
+      "targetImage": true
+    },
+    {
+      "text": "wa",
+      "start": 46.769,
+      "end": 46.885958,
+      "targetImage": true
+    },
+    {
+      "text": "ADT",
+      "start": 46.929833,
+      "end": 47.222249,
+      "targetImage": true
+    },
+    {
+      "text": "91",
+      "start": 47.266083,
+      "end": 48.421083,
+      "targetImage": true
+    },
+    {
+      "text": "iii",
+      "start": 49.532166,
+      "end": 49.868416,
+      "targetImage": true
     }
-  ],
-  "voice": "sw-TZ-RehemaNeural",
-  "version": 2
+  ]
 }

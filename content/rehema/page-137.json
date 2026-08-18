@@ -365,7 +365,7 @@
       "text": "nne",
       "start": 34.296333,
       "end": 34.510874,
-      "sourceIndex": 61
+      "targetImage": true
     },
     {
       "text": "Kupima",
@@ -401,7 +401,7 @@
       "text": "moja",
       "start": 38.873,
       "end": 39.201958,
-      "sourceIndex": 67
+      "targetImage": true
     },
     {
       "text": "Pima",
@@ -497,7 +497,7 @@
       "text": "mbili",
       "start": 46.925041,
       "end": 47.211082,
-      "sourceIndex": 83
+      "targetImage": true
     },
     {
       "text": "Je",
@@ -545,7 +545,7 @@
       "text": "tatu",
       "start": 51.916458,
       "end": 52.216791,
-      "sourceIndex": 91
+      "targetImage": true
     },
     {
       "text": "Rekodi",
@@ -755,19 +755,19 @@
       "text": "moja",
       "start": 70.594958,
       "end": 70.952499,
-      "sourceIndex": 126
+      "targetImage": true
     },
     {
       "text": "sawa",
       "start": 70.981125,
       "end": 71.338666,
-      "sourceIndex": 127
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 71.367291,
       "end": 71.467416,
-      "sourceIndex": 127
+      "targetImage": true
     },
     {
       "text": "miligramu",
@@ -779,63 +779,64 @@
       "text": "mg",
       "start": 72.382708,
       "end": 72.582916,
-      "sourceIndex": 129
+      "targetImage": true
     },
     {
       "text": "1000",
       "start": 72.711666,
       "end": 73.4410819,
-      "sourceIndex": 130
+      "targetImage": true
     },
     {
       "text": "Kilogramu",
       "start": 73.484,
       "end": 74.270625,
-      "sourceIndex": 131
+      "sourceIndex": 130
     },
     {
       "text": "kg",
       "start": 74.427916,
       "end": 74.570916,
-      "sourceIndex": 132
+      "sourceIndex": 131
     },
     {
       "text": "moja",
       "start": 74.671041,
       "end": 75.014291,
-      "sourceIndex": 133
+      "targetImage": true
     },
     {
       "text": "sawa",
       "start": 75.057208,
       "end": 75.414749,
-      "sourceIndex": 133
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 75.443375,
       "end": 75.557791,
-      "sourceIndex": 134
+      "targetImage": true
     },
     {
       "text": "gramu",
       "start": 75.600666,
       "end": 76.101249,
-      "sourceIndex": 135
+      "sourceIndex": 134
     },
     {
       "text": "g",
       "start": 76.244291,
       "end": 76.430207,
-      "sourceIndex": 135
+      "targetImage": true
     },
     {
       "text": "1000",
       "start": 76.573208,
       "end": 77.3598319,
-      "sourceIndex": 135
+      "targetImage": true
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 1
+  "version": 25,
+  "rate": 0.9
 }

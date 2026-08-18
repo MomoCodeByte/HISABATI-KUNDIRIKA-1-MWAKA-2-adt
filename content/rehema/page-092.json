@@ -5,7 +5,7 @@
       "text": "mbili",
       "start": 0.207333,
       "end": 0.464749,
-      "sourceIndex": 1
+      "targetImage": true
     },
     {
       "text": "Musa",
@@ -143,7 +143,7 @@
       "text": "tatu",
       "start": 13.887291,
       "end": 14.216249,
-      "sourceIndex": 24
+      "targetImage": true
     },
     {
       "text": "Mwalimu",
@@ -297,5 +297,6 @@
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 1
+  "version": 25,
+  "rate": 0.9
 }

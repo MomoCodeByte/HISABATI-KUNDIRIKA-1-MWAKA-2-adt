@@ -5,7 +5,7 @@
       "text": "moja",
       "start": 0.178708,
       "end": 0.550541,
-      "sourceIndex": 1
+      "targetImage": true
     },
     {
       "text": "Chora",
@@ -41,7 +41,7 @@
       "text": "mbili",
       "start": 4.104708,
       "end": 4.390749,
-      "sourceIndex": 7
+      "targetImage": true
     },
     {
       "text": "Maumbo",
@@ -77,7 +77,7 @@
       "text": "tatu",
       "start": 7.994833,
       "end": 8.323791,
-      "sourceIndex": 13
+      "targetImage": true
     },
     {
       "text": "Chora",
@@ -107,7 +107,7 @@
       "text": "nne",
       "start": 11.084083,
       "end": 11.284291,
-      "sourceIndex": 18
+      "targetImage": true
     },
     {
       "text": "Chora",
@@ -161,7 +161,7 @@
       "text": "tano",
       "start": 15.460541,
       "end": 15.732291,
-      "sourceIndex": 27
+      "targetImage": true
     },
     {
       "text": "Tengeneza",
@@ -209,7 +209,7 @@
       "text": "moja",
       "start": 19.007416,
       "end": 19.379249,
-      "sourceIndex": 35
+      "targetImage": true
     },
     {
       "text": "na",
@@ -567,5 +567,6 @@
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 2
+  "version": 25,
+  "rate": 0.9
 }

@@ -437,7 +437,7 @@
       "text": "tatu",
       "start": 37.542916,
       "end": 37.857541,
-      "sourceIndex": 73
+      "targetImage": true
     },
     {
       "text": "Kuchunguza",
@@ -521,7 +521,7 @@
       "text": "moja",
       "start": 46.681916,
       "end": 47.010874,
-      "sourceIndex": 87
+      "targetImage": true
     },
     {
       "text": "Chukua",
@@ -653,7 +653,7 @@
       "text": "mbili",
       "start": 57.580083,
       "end": 57.837499,
-      "sourceIndex": 109
+      "targetImage": true
     },
     {
       "text": "Nyanyua",
@@ -713,7 +713,7 @@
       "text": "tatu",
       "start": 62.113833,
       "end": 62.442791,
-      "sourceIndex": 119
+      "targetImage": true
     },
     {
       "text": "Je",
@@ -753,5 +753,6 @@
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 1
+  "version": 25,
+  "rate": 0.9
 }

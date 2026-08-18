@@ -125,19 +125,19 @@
       "text": "kumi",
       "start": 13.029166,
       "end": 13.343791,
-      "sourceIndex": 21
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 13.372416,
       "end": 13.458207,
-      "sourceIndex": 21
+      "targetImage": true
     },
     {
       "text": "moja",
       "start": 13.486833,
       "end": 13.844374,
-      "sourceIndex": 21
+      "targetImage": true
     },
     {
       "text": "hadi",
@@ -155,19 +155,19 @@
       "text": "kumi",
       "start": 14.530875,
       "end": 14.8455,
-      "sourceIndex": 24
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 14.874125,
       "end": 14.959916,
-      "sourceIndex": 24
+      "targetImage": true
     },
     {
       "text": "mbili",
       "start": 14.988541,
       "end": 15.317499,
-      "sourceIndex": 24
+      "targetImage": true
     },
     {
       "text": "alfajiri",
@@ -191,7 +191,7 @@
       "text": "moja",
       "start": 16.990833,
       "end": 17.362666,
-      "sourceIndex": 28
+      "targetImage": true
     },
     {
       "text": "hadi",
@@ -209,7 +209,7 @@
       "text": "tano",
       "start": 18.077791,
       "end": 18.435332,
-      "sourceIndex": 31
+      "targetImage": true
     },
     {
       "text": "asubuhi",
@@ -233,7 +233,7 @@
       "text": "sita",
       "start": 20.065791,
       "end": 20.466249,
-      "sourceIndex": 35
+      "targetImage": true
     },
     {
       "text": "kamili",
@@ -263,7 +263,7 @@
       "text": "sita",
       "start": 22.439916,
       "end": 22.840374,
-      "sourceIndex": 40
+      "targetImage": true
     },
     {
       "text": "hadi",
@@ -281,7 +281,7 @@
       "text": "nane",
       "start": 23.541208,
       "end": 23.855833,
-      "sourceIndex": 43
+      "targetImage": true
     },
     {
       "text": "mchana",
@@ -305,7 +305,7 @@
       "text": "tisa",
       "start": 25.286041,
       "end": 25.614999,
-      "sourceIndex": 47
+      "targetImage": true
     },
     {
       "text": "kamili",
@@ -335,7 +335,7 @@
       "text": "kumi",
       "start": 27.531458,
       "end": 27.846083,
-      "sourceIndex": 52
+      "targetImage": true
     },
     {
       "text": "hadi",
@@ -353,19 +353,19 @@
       "text": "kumi",
       "start": 28.532625,
       "end": 28.832958,
-      "sourceIndex": 55
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 28.861541,
       "end": 28.961666,
-      "sourceIndex": 55
+      "targetImage": true
     },
     {
       "text": "mbili",
       "start": 28.990291,
       "end": 29.362124,
-      "sourceIndex": 55
+      "targetImage": true
     },
     {
       "text": "jioni",
@@ -389,7 +389,7 @@
       "text": "moja",
       "start": 30.778041,
       "end": 31.135582,
-      "sourceIndex": 59
+      "targetImage": true
     },
     {
       "text": "hadi",
@@ -407,7 +407,7 @@
       "text": "kumi",
       "start": 31.822083,
       "end": 32.136708,
-      "sourceIndex": 62
+      "targetImage": true
     },
     {
       "text": "usiku",
@@ -705,5 +705,6 @@
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 1
+  "version": 25,
+  "rate": 0.9
 }

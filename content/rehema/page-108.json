@@ -17,7 +17,7 @@
       "text": "moja",
       "start": 0.865208,
       "end": 1.222749,
-      "sourceIndex": 3
+      "targetImage": true
     },
     {
       "text": "Chunguza",
@@ -83,7 +83,7 @@
       "text": "moja",
       "start": 8.967375,
       "end": 9.296333,
-      "sourceIndex": 14
+      "targetImage": true
     },
     {
       "text": "Ni",
@@ -143,7 +143,7 @@
       "text": "mbili",
       "start": 14.173333,
       "end": 14.445083,
-      "sourceIndex": 24
+      "targetImage": true
     },
     {
       "text": "Ni",
@@ -191,7 +191,7 @@
       "text": "tatu",
       "start": 18.564083,
       "end": 18.907333,
-      "sourceIndex": 32
+      "targetImage": true
     },
     {
       "text": "Unawezaje",
@@ -365,7 +365,7 @@
       "text": "sitini",
       "start": 35.826666,
       "end": 36.355832,
-      "sourceIndex": 61
+      "targetImage": true
     },
     {
       "text": "na",
@@ -401,7 +401,7 @@
       "text": "sitini",
       "start": 38.300916,
       "end": 38.815791,
-      "sourceIndex": 67
+      "targetImage": true
     },
     {
       "text": "Siku",
@@ -431,19 +431,19 @@
       "text": "ishirini",
       "start": 40.231708,
       "end": 40.775166,
-      "sourceIndex": 72
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 40.803791,
       "end": 40.932499,
-      "sourceIndex": 72
+      "targetImage": true
     },
     {
       "text": "nne",
       "start": 40.961083,
       "end": 41.218499,
-      "sourceIndex": 72
+      "targetImage": true
     },
     {
       "text": "Kusoma",
@@ -485,19 +485,19 @@
       "text": "kumi",
       "start": 43.449666,
       "end": 43.764291,
-      "sourceIndex": 79
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 43.792916,
       "end": 43.878707,
-      "sourceIndex": 79
+      "targetImage": true
     },
     {
       "text": "mbili",
       "start": 43.907333,
       "end": 44.221958,
-      "sourceIndex": 79
+      "targetImage": true
     },
     {
       "text": "Katika",
@@ -701,75 +701,76 @@
       "text": "Muda",
       "start": 62.643,
       "end": 62.814625,
-      "sourceIndex": 113
+      "sourceIndex": 114
     },
     {
       "text": "katika",
       "start": 62.943375,
       "end": 63.358125,
-      "sourceIndex": 114
+      "sourceIndex": 115
     },
     {
       "text": "saa",
       "start": 63.386708,
       "end": 63.672749,
-      "sourceIndex": 115
+      "sourceIndex": 116
     },
     {
       "text": "huoneshwa",
       "start": 63.701375,
       "end": 64.344958,
-      "sourceIndex": 116
+      "sourceIndex": 117
     },
     {
       "text": "kwa",
       "start": 64.373583,
       "end": 64.530916,
-      "sourceIndex": 117
+      "sourceIndex": 118
     },
     {
       "text": "namba",
       "start": 64.5595,
       "end": 64.888458,
-      "sourceIndex": 118
+      "sourceIndex": 119
     },
     {
       "text": "za",
       "start": 64.917041,
       "end": 65.074374,
-      "sourceIndex": 119
+      "sourceIndex": 120
     },
     {
       "text": "kawaida",
       "start": 65.117291,
       "end": 65.689374,
-      "sourceIndex": 120
+      "sourceIndex": 121
     },
     {
       "text": "au",
       "start": 65.73225,
       "end": 65.975375,
-      "sourceIndex": 121
+      "sourceIndex": 122
     },
     {
       "text": "namba",
       "start": 66.004,
       "end": 66.332958,
-      "sourceIndex": 122
+      "sourceIndex": 123
     },
     {
       "text": "za",
       "start": 66.361541,
       "end": 66.504541,
-      "sourceIndex": 123
+      "sourceIndex": 124
     },
     {
       "text": "Kirumi",
       "start": 66.5475,
       "end": 67.090958,
-      "sourceIndex": 124
+      "sourceIndex": 125
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 2
+  "version": 25,
+  "rate": 0.9
 }

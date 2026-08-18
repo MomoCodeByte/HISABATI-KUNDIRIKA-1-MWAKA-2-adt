@@ -1,355 +1,315 @@
 {
-  "audio": "page-004.mp3",
+  "audio": "page-004-matrix-v9.mp3",
+  "voice": "sw-TZ-RehemaNeural",
+  "rate": 0.9,
+  "pitch": "neutral",
+  "version": 25,
   "words": [
     {
       "text": "Sura",
-      "start": 0.178708,
-      "end": 0.521958,
+      "start": 0.181583,
+      "end": 0.503208,
       "sourceIndex": 1
     },
     {
       "text": "ya",
-      "start": 0.622083,
-      "end": 0.736499,
+      "start": 0.605541,
+      "end": 0.707874,
       "sourceIndex": 2
     },
     {
       "text": "Tisa",
-      "start": 0.779416,
-      "end": 1.151249,
+      "start": 0.737125,
+      "end": 1.088,
       "sourceIndex": 3
     },
     {
       "text": "Wakati",
-      "start": 1.179875,
-      "end": 1.83775,
+      "start": 1.11725,
+      "end": 1.702041,
       "sourceIndex": 4
     },
     {
-      "text": "mia",
-      "start": 2.917625,
-      "end": 3.003416,
-      "sourceIndex": 5
+      "text": "ukurasa",
+      "start": 1.804375,
+      "end": 2.433041,
+      "targetImage": true
     },
     {
-      "text": "moja",
-      "start": 3.132166,
-      "end": 3.503999,
-      "sourceIndex": 6
+      "text": "wa",
+      "start": 2.462291,
+      "end": 2.564624,
+      "targetImage": true
     },
     {
-      "text": "na",
-      "start": 3.532625,
-      "end": 3.618416,
-      "sourceIndex": 7
+      "text": "ADT",
+      "start": 2.6085,
+      "end": 2.886291,
+      "targetImage": true
     },
     {
-      "text": "moja",
-      "start": 3.647041,
-      "end": 3.975999,
-      "sourceIndex": 7
+      "text": "107",
+      "start": 2.930125,
+      "end": 4.216666,
+      "targetImage": true
     },
     {
       "text": "Sura",
-      "start": 4.004583,
-      "end": 4.390749,
-      "sourceIndex": 7
-    },
-    {
-      "text": "ya",
-      "start": 4.419333,
-      "end": 4.519458,
-      "sourceIndex": 7
-    },
-    {
-      "text": "Kumi",
-      "start": 4.548041,
-      "end": 4.819791,
+      "start": 5.307,
+      "end": 5.628625,
       "sourceIndex": 8
     },
     {
-      "text": "Vipimo",
-      "start": 4.848416,
-      "end": 5.334666,
+      "text": "ya",
+      "start": 5.731,
+      "end": 5.833333,
       "sourceIndex": 9
     },
     {
-      "text": "vya",
-      "start": 5.363291,
-      "end": 5.520624,
+      "text": "Kumi",
+      "start": 5.862583,
+      "end": 6.184208,
       "sourceIndex": 10
     },
     {
-      "text": "metriki",
-      "start": 5.549208,
-      "end": 6.249999,
+      "text": "Vipimo",
+      "start": 6.213458,
+      "end": 6.739791,
       "sourceIndex": 11
     },
     {
-      "text": "mia",
-      "start": 7.336958,
-      "end": 7.437083,
+      "text": "vya",
+      "start": 6.769,
+      "end": 6.929833,
       "sourceIndex": 12
     },
     {
-      "text": "moja",
-      "start": 7.565791,
-      "end": 7.951957,
+      "text": "metriki",
+      "start": 6.959083,
+      "end": 7.675458,
       "sourceIndex": 13
     },
     {
-      "text": "na",
-      "start": 7.980541,
-      "end": 8.066332,
-      "sourceIndex": 14
+      "text": "ukurasa",
+      "start": 7.777791,
+      "end": 8.391832,
+      "targetImage": true
     },
     {
-      "text": "ishirini",
-      "start": 8.094958,
-      "end": 8.624124,
-      "sourceIndex": 15
+      "text": "wa",
+      "start": 8.421041,
+      "end": 8.523374,
+      "targetImage": true
     },
     {
-      "text": "na",
-      "start": 8.65275,
-      "end": 8.752875,
-      "sourceIndex": 15
+      "text": "ADT",
+      "start": 8.56725,
+      "end": 8.87425,
+      "targetImage": true
     },
     {
-      "text": "tatu",
-      "start": 8.79575,
-      "end": 9.110375,
-      "sourceIndex": 15
+      "text": "129",
+      "start": 8.918125,
+      "end": 10.847958,
+      "targetImage": true
     },
     {
       "text": "Sura",
-      "start": 9.153333,
-      "end": 9.496583,
-      "sourceIndex": 15
-    },
-    {
-      "text": "ya",
-      "start": 9.525166,
-      "end": 9.625291,
-      "sourceIndex": 15
-    },
-    {
-      "text": "Kumi",
-      "start": 9.653875,
-      "end": 9.939916,
-      "sourceIndex": 15
-    },
-    {
-      "text": "na",
-      "start": 9.968541,
-      "end": 10.054332,
+      "start": 11.929833,
+      "end": 12.236833,
       "sourceIndex": 16
     },
     {
-      "text": "Moja",
-      "start": 10.082958,
-      "end": 10.426208,
+      "text": "ya",
+      "start": 12.339166,
+      "end": 12.441499,
       "sourceIndex": 17
     },
     {
-      "text": "Fedha",
-      "start": 10.469125,
-      "end": 10.840958,
+      "text": "Kumi",
+      "start": 12.47075,
+      "end": 12.792375,
       "sourceIndex": 18
     },
     {
-      "text": "ya",
-      "start": 10.869583,
-      "end": 10.969708,
+      "text": "na",
+      "start": 12.821625,
+      "end": 12.909333,
       "sourceIndex": 19
     },
     {
-      "text": "Tanzania",
-      "start": 10.998291,
-      "end": 11.799207,
+      "text": "Moja",
+      "start": 12.938583,
+      "end": 13.289458,
       "sourceIndex": 20
     },
     {
-      "text": "mia",
-      "start": 12.886166,
-      "end": 13.000582,
+      "text": "Fedha",
+      "start": 13.318708,
+      "end": 13.669583,
       "sourceIndex": 21
     },
     {
-      "text": "moja",
-      "start": 13.129291,
-      "end": 13.515457,
+      "text": "ya",
+      "start": 13.698833,
+      "end": 13.801166,
       "sourceIndex": 22
     },
     {
-      "text": "na",
-      "start": 13.544041,
-      "end": 13.644166,
+      "text": "Tanzania",
+      "start": 13.830416,
+      "end": 14.590666,
       "sourceIndex": 23
     },
     {
-      "text": "thelathini",
-      "start": 13.67275,
-      "end": 14.28775,
-      "sourceIndex": 24
+      "text": "ukurasa",
+      "start": 14.736833,
+      "end": 15.350874,
+      "targetImage": true
     },
     {
-      "text": "na",
-      "start": 14.316375,
-      "end": 14.430791,
-      "sourceIndex": 25
+      "text": "wa",
+      "start": 15.380125,
+      "end": 15.482458,
+      "targetImage": true
     },
     {
-      "text": "tisa",
-      "start": 14.473666,
-      "end": 14.816916,
-      "sourceIndex": 26
+      "text": "ADT",
+      "start": 15.526333,
+      "end": 15.804124,
+      "targetImage": true
+    },
+    {
+      "text": "145",
+      "start": 15.847958,
+      "end": 17.777791,
+      "targetImage": true
     },
     {
       "text": "Sura",
-      "start": 14.859833,
-      "end": 15.245999,
-      "sourceIndex": 26
-    },
-    {
-      "text": "ya",
-      "start": 15.274583,
-      "end": 15.374708,
-      "sourceIndex": 26
-    },
-    {
-      "text": "Kumi",
-      "start": 15.403333,
-      "end": 15.703666,
-      "sourceIndex": 26
-    },
-    {
-      "text": "na",
-      "start": 15.73225,
-      "end": 15.818041,
-      "sourceIndex": 26
-    },
-    {
-      "text": "Mbili",
-      "start": 15.846666,
-      "end": 16.175624,
-      "sourceIndex": 26
-    },
-    {
-      "text": "Maumbo",
-      "start": 16.218541,
-      "end": 16.747707,
+      "start": 18.859666,
+      "end": 19.181291,
       "sourceIndex": 27
     },
     {
-      "text": "mia",
-      "start": 18.106416,
-      "end": 18.220832,
+      "text": "ya",
+      "start": 19.283625,
+      "end": 19.400583,
       "sourceIndex": 28
     },
     {
-      "text": "moja",
-      "start": 18.349541,
-      "end": 18.749999,
+      "text": "Kumi",
+      "start": 19.429833,
+      "end": 19.751458,
       "sourceIndex": 29
     },
     {
       "text": "na",
-      "start": 18.778583,
-      "end": 18.878708,
+      "start": 19.780708,
+      "end": 19.883041,
       "sourceIndex": 30
     },
     {
-      "text": "hamsini",
-      "start": 18.907333,
-      "end": 19.479416,
+      "text": "Mbili",
+      "start": 19.912291,
+      "end": 20.248541,
       "sourceIndex": 31
     },
     {
-      "text": "na",
-      "start": 19.508,
-      "end": 19.636708,
+      "text": "Maumbo",
+      "start": 20.277791,
+      "end": 20.833332,
       "sourceIndex": 32
     },
     {
-      "text": "tatu",
-      "start": 19.679625,
-      "end": 20.008583,
-      "sourceIndex": 33
+      "text": "ukurasa",
+      "start": 20.950291,
+      "end": 21.593582,
+      "targetImage": true
+    },
+    {
+      "text": "wa",
+      "start": 21.622791,
+      "end": 21.725124,
+      "targetImage": true
+    },
+    {
+      "text": "ADT",
+      "start": 21.769,
+      "end": 22.061416,
+      "targetImage": true
+    },
+    {
+      "text": "159",
+      "start": 22.10525,
+      "end": 24.035083,
+      "targetImage": true
     },
     {
       "text": "Sura",
-      "start": 20.0515,
-      "end": 20.39475,
-      "sourceIndex": 34
-    },
-    {
-      "text": "ya",
-      "start": 20.423333,
-      "end": 20.523458,
-      "sourceIndex": 34
-    },
-    {
-      "text": "Kumi",
-      "start": 20.552041,
-      "end": 20.866666,
-      "sourceIndex": 34
-    },
-    {
-      "text": "na",
-      "start": 20.895291,
-      "end": 20.995416,
-      "sourceIndex": 34
-    },
-    {
-      "text": "Tatu",
-      "start": 21.038333,
-      "end": 21.367291,
-      "sourceIndex": 34
-    },
-    {
-      "text": "Takwimu",
-      "start": 21.410166,
-      "end": 22.068041,
-      "sourceIndex": 34
-    },
-    {
-      "text": "mia",
-      "start": 23.298041,
-      "end": 23.441041,
+      "start": 25.116958,
+      "end": 25.438583,
       "sourceIndex": 35
     },
     {
-      "text": "moja",
-      "start": 23.569791,
-      "end": 23.955957,
+      "text": "ya",
+      "start": 25.540916,
+      "end": 25.657874,
       "sourceIndex": 36
     },
     {
-      "text": "na",
-      "start": 23.984541,
-      "end": 24.070332,
+      "text": "Kumi",
+      "start": 25.687125,
+      "end": 26.00875,
       "sourceIndex": 37
     },
     {
-      "text": "sabini",
-      "start": 24.098958,
-      "end": 24.628124,
+      "text": "na",
+      "start": 26.038,
+      "end": 26.154958,
       "sourceIndex": 38
     },
     {
-      "text": "na",
-      "start": 24.65675,
-      "end": 24.785458,
+      "text": "Tatu",
+      "start": 26.198833,
+      "end": 26.564333,
       "sourceIndex": 39
     },
     {
-      "text": "tatu",
-      "start": 24.828375,
-      "end": 25.400458,
+      "text": "Takwimu",
+      "start": 26.608208,
+      "end": 27.251499,
       "sourceIndex": 40
+    },
+    {
+      "text": "ukurasa",
+      "start": 27.383041,
+      "end": 28.040916,
+      "targetImage": true
+    },
+    {
+      "text": "wa",
+      "start": 28.070166,
+      "end": 28.187124,
+      "targetImage": true
+    },
+    {
+      "text": "ADT",
+      "start": 28.231,
+      "end": 28.523416,
+      "targetImage": true
+    },
+    {
+      "text": "179",
+      "start": 28.56725,
+      "end": 30.438624,
+      "targetImage": true
+    },
+    {
+      "text": "iv",
+      "start": 31.535083,
+      "end": 31.798249,
+      "targetImage": true
     }
-  ],
-  "voice": "sw-TZ-RehemaNeural",
-  "version": 1
+  ]
 }

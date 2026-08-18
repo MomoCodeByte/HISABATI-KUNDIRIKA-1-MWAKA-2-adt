@@ -11,7 +11,7 @@
       "text": "moja",
       "start": 2.173916,
       "end": 2.517166,
-      "sourceIndex": 2
+      "targetImage": true
     },
     {
       "text": "Kuhesabu",
@@ -107,7 +107,7 @@
       "text": "mbili",
       "start": 10.583541,
       "end": 10.840957,
-      "sourceIndex": 18
+      "targetImage": true
     },
     {
       "text": "Mafungu",
@@ -173,13 +173,13 @@
       "text": "tatu",
       "start": 16.132708,
       "end": 16.433041,
-      "sourceIndex": 29
+      "targetImage": true
     },
     {
       "text": "samani",
       "start": 16.619,
       "end": 17.148166,
-      "sourceIndex": 30
+      "targetImage": true
     },
     {
       "text": "ya",
@@ -227,7 +227,7 @@
       "text": "nne",
       "start": 21.610416,
       "end": 21.824957,
-      "sourceIndex": 38
+      "targetImage": true
     },
     {
       "text": "Unapofafanua",
@@ -281,7 +281,7 @@
       "text": "tano",
       "start": 27.703083,
       "end": 27.974833,
-      "sourceIndex": 47
+      "targetImage": true
     },
     {
       "text": "Unapoandika",
@@ -357,5 +357,6 @@
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 2
+  "version": 25,
+  "rate": 0.9
 }

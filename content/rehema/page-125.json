@@ -569,7 +569,7 @@
       "text": "moja",
       "start": 69.765458,
       "end": 70.151624,
-      "sourceIndex": 95
+      "targetImage": true
     },
     {
       "text": "na",
@@ -641,7 +641,7 @@
       "text": "kumi",
       "start": 79.333541,
       "end": 79.590957,
-      "sourceIndex": 107
+      "targetImage": true
     },
     {
       "text": "Kwa",
@@ -731,21 +731,22 @@
       "text": "a",
       "start": 86.856416,
       "end": 86.985124,
-      "sourceIndex": 124
+      "targetImage": true
     },
     {
       "text": "sawa",
       "start": 87.113833,
       "end": 87.571499,
-      "sourceIndex": 124
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 87.600125,
       "end": 87.786041,
-      "sourceIndex": 124
+      "targetImage": true
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 1
+  "version": 25,
+  "rate": 0.9
 }

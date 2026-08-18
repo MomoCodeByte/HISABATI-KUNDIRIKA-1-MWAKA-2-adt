@@ -5,7 +5,7 @@
       "text": "tano",
       "start": 0.193,
       "end": 0.479041,
-      "sourceIndex": 1
+      "targetImage": true
     },
     {
       "text": "Andika",
@@ -53,7 +53,7 @@
       "text": "tano",
       "start": 3.868666,
       "end": 4.226207,
-      "sourceIndex": 9
+      "targetImage": true
     },
     {
       "text": "kila",
@@ -77,7 +77,7 @@
       "text": "tatu",
       "start": 5.699333,
       "end": 6.042583,
-      "sourceIndex": 13
+      "targetImage": true
     },
     {
       "text": "mpaka",
@@ -89,61 +89,61 @@
       "text": "elfu",
       "start": 6.57175,
       "end": 6.929291,
-      "sourceIndex": 15
+      "targetImage": true
     },
     {
       "text": "tisa",
       "start": 6.9865,
       "end": 7.32975,
-      "sourceIndex": 15
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 7.358333,
       "end": 7.458458,
-      "sourceIndex": 15
+      "targetImage": true
     },
     {
       "text": "mia",
       "start": 7.501375,
       "end": 7.758791,
-      "sourceIndex": 15
+      "targetImage": true
     },
     {
       "text": "tatu",
       "start": 7.801708,
       "end": 8.173541,
-      "sourceIndex": 15
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 8.202166,
       "end": 8.287957,
-      "sourceIndex": 15
+      "targetImage": true
     },
     {
       "text": "sabini",
       "start": 8.316583,
       "end": 8.817166,
-      "sourceIndex": 15
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 8.84575,
       "end": 8.974458,
-      "sourceIndex": 15
+      "targetImage": true
     },
     {
       "text": "tano",
       "start": 9.003083,
       "end": 9.475041,
-      "sourceIndex": 15
+      "targetImage": true
     },
     {
       "text": "sita",
       "start": 10.540625,
       "end": 10.941083,
-      "sourceIndex": 16
+      "targetImage": true
     },
     {
       "text": "Andika",
@@ -191,7 +191,7 @@
       "text": "sita",
       "start": 14.330666,
       "end": 14.745416,
-      "sourceIndex": 24
+      "targetImage": true
     },
     {
       "text": "kila",
@@ -215,7 +215,7 @@
       "text": "tano",
       "start": 16.189916,
       "end": 16.533166,
-      "sourceIndex": 28
+      "targetImage": true
     },
     {
       "text": "mpaka",
@@ -227,55 +227,55 @@
       "text": "elfu",
       "start": 17.062375,
       "end": 17.391333,
-      "sourceIndex": 30
+      "targetImage": true
     },
     {
       "text": "thelathini",
       "start": 17.434208,
       "end": 18.034874,
-      "sourceIndex": 30
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 18.0635,
       "end": 18.177916,
-      "sourceIndex": 30
+      "targetImage": true
     },
     {
       "text": "nane",
       "start": 18.206541,
       "end": 18.564082,
-      "sourceIndex": 30
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 18.592666,
       "end": 18.692791,
-      "sourceIndex": 30
+      "targetImage": true
     },
     {
       "text": "mia",
       "start": 18.721375,
       "end": 18.993125,
-      "sourceIndex": 30
+      "targetImage": true
     },
     {
       "text": "nane",
       "start": 19.02175,
       "end": 19.393583,
-      "sourceIndex": 30
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 19.422208,
       "end": 19.536624,
-      "sourceIndex": 30
+      "targetImage": true
     },
     {
       "text": "themanini",
       "start": 19.565208,
       "end": 20.151583,
-      "sourceIndex": 30
+      "targetImage": true
     },
     {
       "text": "Jikumbushe",
@@ -287,7 +287,7 @@
       "text": "moja",
       "start": 22.125291,
       "end": 22.454249,
-      "sourceIndex": 32
+      "targetImage": true
     },
     {
       "text": "Mpangilio",
@@ -329,7 +329,7 @@
       "text": "mbili",
       "start": 26.85925,
       "end": 27.131,
-      "sourceIndex": 39
+      "targetImage": true
     },
     {
       "text": "Ni",
@@ -419,7 +419,7 @@
       "text": "tatu",
       "start": 34.124708,
       "end": 34.410749,
-      "sourceIndex": 54
+      "targetImage": true
     },
     {
       "text": "Mpangilio",
@@ -483,5 +483,6 @@
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 2
+  "version": 25,
+  "rate": 0.9
 }

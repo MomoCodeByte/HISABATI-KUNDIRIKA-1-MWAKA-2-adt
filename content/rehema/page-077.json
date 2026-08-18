@@ -533,7 +533,7 @@
       "text": "kumi",
       "start": 47.540041,
       "end": 47.854666,
-      "sourceIndex": 89
+      "targetImage": true
     },
     {
       "text": "yamegawanywa",
@@ -699,5 +699,6 @@
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 1
+  "version": 25,
+  "rate": 0.9
 }

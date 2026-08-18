@@ -5,7 +5,7 @@
       "text": "tisa",
       "start": 0.193,
       "end": 0.479041,
-      "sourceIndex": 1
+      "targetImage": true
     },
     {
       "text": "Mfaume",
@@ -29,19 +29,19 @@
       "text": "tisini",
       "start": 2.324041,
       "end": 2.795999,
-      "sourceIndex": 5
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 2.824583,
       "end": 2.924708,
-      "sourceIndex": 5
+      "targetImage": true
     },
     {
       "text": "nane",
       "start": 2.953333,
       "end": 3.253666,
-      "sourceIndex": 5
+      "targetImage": true
     },
     {
       "text": "wa",
@@ -161,7 +161,7 @@
       "text": "kumi",
       "start": 13.52975,
       "end": 13.8015,
-      "sourceIndex": 25
+      "targetImage": true
     },
     {
       "text": "Ali",
@@ -239,7 +239,7 @@
       "text": "thelathini",
       "start": 19.365,
       "end": 20.022875,
-      "sourceIndex": 38
+      "targetImage": true
     },
     {
       "text": "kila",
@@ -269,19 +269,19 @@
       "text": "kumi",
       "start": 22.125291,
       "end": 22.439916,
-      "sourceIndex": 43
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 22.468541,
       "end": 22.554332,
-      "sourceIndex": 43
+      "targetImage": true
     },
     {
       "text": "mbili",
       "start": 22.582958,
       "end": 22.897583,
-      "sourceIndex": 43
+      "targetImage": true
     },
     {
       "text": "Bustani",
@@ -317,19 +317,19 @@
       "text": "kumi",
       "start": 25.057208,
       "end": 25.357541,
-      "sourceIndex": 49
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 25.386166,
       "end": 25.500582,
-      "sourceIndex": 49
+      "targetImage": true
     },
     {
       "text": "tisa",
       "start": 25.543458,
       "end": 25.886708,
-      "sourceIndex": 49
+      "targetImage": true
     },
     {
       "text": "kila",
@@ -359,19 +359,19 @@
       "text": "kumi",
       "start": 27.974833,
       "end": 28.275166,
-      "sourceIndex": 54
+      "targetImage": true
     },
     {
       "text": "na",
       "start": 28.303791,
       "end": 28.432499,
-      "sourceIndex": 54
+      "targetImage": true
     },
     {
       "text": "tano",
       "start": 28.475416,
       "end": 28.875874,
-      "sourceIndex": 54
+      "targetImage": true
     },
     {
       "text": "Ali",
@@ -431,7 +431,7 @@
       "text": "moja",
       "start": 35.2975,
       "end": 35.669333,
-      "sourceIndex": 64
+      "targetImage": true
     },
     {
       "text": "Unapozidisha",
@@ -503,7 +503,7 @@
       "text": "mbili",
       "start": 42.090958,
       "end": 42.334083,
-      "sourceIndex": 76
+      "targetImage": true
     },
     {
       "text": "Zidisha",
@@ -551,7 +551,7 @@
       "text": "tatu",
       "start": 47.654458,
       "end": 47.969083,
-      "sourceIndex": 84
+      "targetImage": true
     },
     {
       "text": "Kizidisho",
@@ -599,7 +599,7 @@
       "text": "nne",
       "start": 52.903333,
       "end": 53.132166,
-      "sourceIndex": 92
+      "targetImage": true
     },
     {
       "text": "Namba",
@@ -657,5 +657,6 @@
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 2
+  "version": 25,
+  "rate": 0.9
 }

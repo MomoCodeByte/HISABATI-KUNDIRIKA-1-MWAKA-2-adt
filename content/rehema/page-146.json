@@ -11,13 +11,13 @@
       "text": "mia",
       "start": 0.793708,
       "end": 1.022541,
-      "sourceIndex": 2
+      "targetImage": true
     },
     {
       "text": "moja",
       "start": 1.051125,
       "end": 1.422958,
-      "sourceIndex": 2
+      "targetImage": true
     },
     {
       "text": "Shilingi",
@@ -29,7 +29,7 @@
       "text": "hamsini",
       "start": 2.038,
       "end": 2.581458,
-      "sourceIndex": 4
+      "targetImage": true
     },
     {
       "text": "Shilingi",
@@ -41,7 +41,7 @@
       "text": "ishirini",
       "start": 3.182166,
       "end": 3.711332,
-      "sourceIndex": 6
+      "targetImage": true
     },
     {
       "text": "Shilingi",
@@ -53,9 +53,10 @@
       "text": "kumi",
       "start": 4.340625,
       "end": 4.755375,
-      "sourceIndex": 8
+      "targetImage": true
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 1
+  "version": 25,
+  "rate": 0.9
 }

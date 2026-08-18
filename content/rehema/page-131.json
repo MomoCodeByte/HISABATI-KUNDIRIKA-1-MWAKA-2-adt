@@ -29,7 +29,7 @@
       "text": "mbili",
       "start": 3.032041,
       "end": 3.289457,
-      "sourceIndex": 5
+      "targetImage": true
     },
     {
       "text": "Hesabu",
@@ -155,7 +155,7 @@
       "text": "tatu",
       "start": 14.230541,
       "end": 14.545166,
-      "sourceIndex": 26
+      "targetImage": true
     },
     {
       "text": "Andika",
@@ -431,7 +431,7 @@
       "text": "moja",
       "start": 41.304333,
       "end": 41.647583,
-      "sourceIndex": 72
+      "targetImage": true
     },
     {
       "text": "Vipimio",
@@ -497,7 +497,7 @@
       "text": "mbili",
       "start": 48.040625,
       "end": 48.298041,
-      "sourceIndex": 83
+      "targetImage": true
     },
     {
       "text": "Vipimio",
@@ -563,7 +563,7 @@
       "text": "tatu",
       "start": 54.776875,
       "end": 55.077208,
-      "sourceIndex": 94
+      "targetImage": true
     },
     {
       "text": "Vipimio",
@@ -623,7 +623,7 @@
       "text": "nne",
       "start": 60.655041,
       "end": 60.869582,
-      "sourceIndex": 104
+      "targetImage": true
     },
     {
       "text": "Vipimio",
@@ -663,5 +663,6 @@
     }
   ],
   "voice": "sw-TZ-RehemaNeural",
-  "version": 1
+  "version": 25,
+  "rate": 0.9
 }
