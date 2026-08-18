@@ -243,9 +243,38 @@ CONFIG = {
             "pg026_n0020": "Kumi na sita jumlisha tatu ni sawa na kumi na tisa.",
             "pg026_n0021": "Kumi na tisa jumlisha tatu ni sawa na ishirini na mbili.",
             "pg026_n0022": "Ishirini na mbili jumlisha tatu ni sawa na ishirini na tano.",
-            "pg026_n0023": "Kwa hiyo, jibu ni: moja, nne, saba, kumi, kumi na tatu, kumi na sita, kumi na tisa, ishirini na mbili, ishirini na tano.",
+            "pg026_n0023": "Kwa hiyo, jibu ni: ishirini na mbili na ishirini na tano.",
             "pg026_n0024": "Mfano wa Pili",
             "pg026_n0026": "Mfululizo ni: mia mbili na moja, mia tatu na mbili, mia nne na tatu, mia tano na nne, dashi ya kwanza, dashi ya pili, dashi ya tatu.",
+        },
+    },
+    27: {
+        "replace": {
+            "pg027_n0007": "Kwa hiyo, majibu ni: mia sita na tano, mia saba na sita, na mia nane na saba.",
+            "pg027_n0008": "Mfano wa Tatu",
+        },
+        "after": {
+            "pg027_n0009": [
+                "Mchoro unaonesha mstari wa namba wenye hatua nne zinazoongezeka kwa mia moja.",
+                "Mstari unaanzia elfu tano mia moja thelathini na nne. Hatua ya kwanza inaishia kwenye nafasi iliyo wazi. Hatua zinazofuata zinaishia kwenye elfu tano mia tatu thelathini na nne, elfu tano mia nne thelathini na nne, na elfu tano mia tano thelathini na nne.",
+                "Namba inayokosekana katika nafasi iliyo wazi ni elfu tano mia mbili thelathini na nne.",
+            ],
+        },
+    },
+    28: {
+        "replace": {
+            "pg028_n0004": "Swali namba kumi. Elfu arobaini na tano mia tano hamsini na mbili, mkato. Elfu arobaini na sita mia tano hamsini na mbili, mkato. Dashi, mkato. Dashi, mkato. Elfu arobaini na tisa mia tano hamsini na mbili, mkato. Elfu hamsini mia tano hamsini na mbili, mkato. Dashi, mkato. Elfu hamsini na mbili mia tano hamsini na mbili.",
+            "pg028_n0024": "Kwa hiyo, jibu ni: kumi na tano.",
+        },
+    },
+    30: {
+        "replace": {
+            "pg030_n0017": "Kwa hiyo, jibu ni: themanini na moja.",
+        },
+    },
+    31: {
+        "replace": {
+            "pg031_n0003": "Kwa hiyo, jibu ni: sitini na nne.",
         },
     },
     91: {
@@ -395,7 +424,7 @@ async def generate(page, timecodes):
             segments.append((extra, kind))
     text = " ".join(value for value, _ in segments)
     cues = []
-    audio_name = f"page-{page:03d}-matrix-v9.mp3"
+    audio_name = f"page-{page:03d}-matrix-v11.mp3"
     output = ROOT / "content" / "rehema"
     audio_path = output / audio_name
     temp_path = output / f".{audio_name}.tmp"
@@ -558,7 +587,7 @@ async def generate(page, timecodes):
                     active = 94
                 cue["sourceIndex"] = active
         offset += count
-    entry = {"audio": audio_name, "voice": VOICE, "rate": 0.8 if 8 <= page <= 15 or page == 17 else 0.9, "pitch": "neutral", "version": 24, "words": cues}
+    entry = {"audio": audio_name, "voice": VOICE, "rate": 0.8 if 8 <= page <= 15 or page == 17 else 0.9, "pitch": "neutral", "version": 26, "words": cues}
     (output / f"page-{page:03d}.json").write_text(json.dumps(entry, ensure_ascii=False, indent=2), encoding="utf-8")
     timecodes[str(page)] = entry
     path.write_text(patch_transcript(raw, replacements, after, cfg.get("remove", set())), encoding="utf-8")
