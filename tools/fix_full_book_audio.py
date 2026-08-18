@@ -22,6 +22,49 @@ ORDINALS = {
     "20": "Ishirini",
 }
 
+UNITS_SW = {
+    1: "moja", 2: "mbili", 3: "tatu", 4: "nne", 5: "tano",
+    6: "sita", 7: "saba", 8: "nane", 9: "tisa",
+}
+TENS_SW = {
+    10: "kumi", 20: "ishirini", 30: "thelathini", 40: "arobaini",
+    50: "hamsini", 60: "sitini", 70: "sabini", 80: "themanini", 90: "tisini",
+}
+
+
+def number_to_swahili(number):
+    if number == 0:
+        return "sifuri"
+    if number < 0:
+        return str(number)
+    if number < 10:
+        return UNITS_SW[number]
+    if number < 100:
+        tens, remainder = divmod(number, 10)
+        base = TENS_SW[tens * 10]
+        return base if not remainder else f"{base} na {UNITS_SW[remainder]}"
+    if number < 1000:
+        hundreds, remainder = divmod(number, 100)
+        base = f"mia {UNITS_SW[hundreds]}"
+        return base if not remainder else f"{base} na {number_to_swahili(remainder)}"
+    thousands, remainder = divmod(number, 1000)
+    base = f"elfu {number_to_swahili(thousands)}"
+    return base if not remainder else f"{base} {number_to_swahili(remainder)}"
+
+
+def roman_to_int(symbol):
+    values = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
+    total = 0
+    previous = 0
+    for character in reversed(symbol):
+        value = values[character]
+        if value < previous:
+            total -= value
+        else:
+            total += value
+            previous = value
+    return total
+
 
 def norm(value):
     return re.sub(r"[^a-z0-9\u00c0-\u024f]+", "", str(value).lower())
@@ -60,9 +103,26 @@ def spoken_stream(nodes):
     sequence_indexes = set()
     sequence_starts = set()
     arithmetic_operators = {}
+    step_indexes = set()
+    question_indexes = set()
+    in_steps = False
     for node_id, value in nodes:
         node_tokens = tokens(value)
         start = len(original)
+        plain_value = re.sub(r"[^A-Za-zÀ-ž]+", " ", value).strip().lower()
+        if plain_value == "hatua":
+            in_steps = True
+        elif in_steps and re.match(r"^(?:mfano|zoezi|sura)\b", plain_value):
+            in_steps = False
+        if in_steps and node_tokens:
+            step_match = re.fullmatch(r"\(?([0-9]+)[.)]?", node_tokens[0])
+            if step_match and step_match.group(1) in ORDINALS:
+                step_indexes.add(start)
+        for offset, token in enumerate(node_tokens):
+            if re.fullmatch(r"\d+[.]", token):
+                nearby = " ".join(node_tokens[offset + 1:offset + 6])
+                if re.search(r"(?:\+|\-|−|–|â€“|âˆ’|×|Ã—|=)", nearby):
+                    question_indexes.add(start + offset)
         original.extend(node_tokens)
         hidden.extend(["_matrix_" in node_id] * len(node_tokens))
         # Number-sequence questions contain comma-separated numbers followed
@@ -74,8 +134,13 @@ def spoken_stream(nodes):
         for offset, token in enumerate(node_tokens):
             absolute = start + offset
             symbol = token.strip(".,;:()")
-            if symbol in {"+", "-", "−", "–", "â€“", "âˆ’"}:
-                arithmetic_operators[absolute] = "kuongeza" if symbol == "+" else "kutoa"
+            if symbol in {"+", "-", "−", "–", "â€“", "âˆ’", "×", "Ã—"}:
+                if symbol == "+":
+                    arithmetic_operators[absolute] = "kuongeza"
+                elif symbol in {"×", "Ã—"}:
+                    arithmetic_operators[absolute] = "kuzidisha"
+                else:
+                    arithmetic_operators[absolute] = "kutoa"
             elif "=" in symbol:
                 has_answer = (
                     offset + 1 < len(node_tokens)
@@ -101,6 +166,18 @@ def spoken_stream(nodes):
             index += 1
             continue
         current = norm(original[index])
+        if index in step_indexes:
+            step_number = re.sub(r"\D", "", original[index])
+            spoken.extend(["Hatua", "ya"] + ORDINALS[step_number].split())
+            origins.extend([index] * (2 + len(ORDINALS[step_number].split())))
+            index += 1
+            continue
+        if index in question_indexes:
+            question_number = int(re.sub(r"\D", "", original[index]))
+            spoken.extend(["Swali", "namba"] + number_to_swahili(question_number).split())
+            origins.extend([index] * (2 + len(number_to_swahili(question_number).split())))
+            index += 1
+            continue
         if index in sequence_starts and re.fullmatch(r"\d+[.)]", original[index]):
             spoken.extend(["Swali", "namba", re.sub(r"\D", "", original[index])])
             origins.extend([index, index, index])
@@ -131,7 +208,24 @@ def spoken_stream(nodes):
                     origins.append(index + 2)
                 index += 3
                 continue
-        if current.startswith("gpe"):
+        embedded_operator = re.fullmatch(r"(\+|\-|−|–|â€“|âˆ’|×|Ã—)(\d+)[.,;:]?", original[index])
+        numeric_symbol = original[index].strip(".,;:()[]{}")
+        roman_symbol = numeric_symbol
+        if embedded_operator:
+            symbol, digits = embedded_operator.groups()
+            operation = "kuongeza" if symbol == "+" else "kuzidisha" if symbol in {"×", "Ã—"} else "kutoa"
+            number_words = number_to_swahili(int(digits)).split()
+            spoken.extend([operation] + number_words)
+            origins.extend([index] * (1 + len(number_words)))
+        elif re.fullmatch(r"\d+", numeric_symbol):
+            number_words = number_to_swahili(int(numeric_symbol)).split()
+            spoken.extend(number_words)
+            origins.extend([index] * len(number_words))
+        elif re.fullmatch(r"[IVXLCDM]+", roman_symbol):
+            roman_words = number_to_swahili(roman_to_int(roman_symbol)).split()
+            spoken.extend(roman_words + ["ya", "Kirumi"])
+            origins.extend([index] * (len(roman_words) + 2))
+        elif current.startswith("gpe"):
             spoken.append("gipiee")
             origins.append(index)
         elif current == "education":
@@ -140,6 +234,13 @@ def spoken_stream(nodes):
         elif current.startswith("kkk"):
             spoken.extend(["kei", "kei", "kei"])
             origins.extend([index, index, index])
+        elif "×" in original[index] or "Ã—" in original[index]:
+            parts = re.split(r"(×|Ã—)", original[index])
+            for part in parts:
+                if not part:
+                    continue
+                spoken.append("kuzidisha" if part in {"×", "Ã—"} else part)
+                origins.append(index)
         elif "=" in original[index]:
             parts = re.split(r"(=)", original[index])
             for part in parts:
@@ -192,7 +293,37 @@ def needs_sequence_audio(nodes):
 
 def needs_arithmetic_audio(nodes):
     text = " ".join(value for _, value in nodes)
-    return bool(re.search(r"\d\s*(?:\+|\-|−|–|â€“|âˆ’)\s*\d\s*=", text))
+    return bool(re.search(r"\d\s*(?:\+|\-|−|–|â€“|âˆ’|×|Ã—)\s*\d\s*=", text))
+
+
+def needs_multiplication_audio(nodes):
+    text = " ".join(value for _, value in nodes)
+    return bool(re.search(r"\d\s*(?:×|Ã—)\s*\d\s*=", text))
+
+
+def needs_roman_audio(nodes):
+    return any(
+        re.search(r"(?<![A-Za-z])(?:[IVXLCDM]+)(?![A-Za-z])", value)
+        for _, value in nodes
+    )
+
+
+def needs_steps_audio(nodes):
+    in_steps = False
+    for _, value in nodes:
+        plain_value = re.sub(r"[^A-Za-zÀ-ž]+", " ", value).strip().lower()
+        if plain_value == "hatua":
+            in_steps = True
+            continue
+        if in_steps and re.match(r"^(?:mfano|zoezi|sura)\b", plain_value):
+            in_steps = False
+        if in_steps and re.match(r"^\s*\(?\d+[.)]?\s+", value):
+            return True
+    return False
+
+
+def needs_number_words_audio(nodes):
+    return any(re.search(r"(?<!\d)\d{2,}(?!\d)", value) for _, value in nodes)
 
 
 def align_cues_to_spoken(cues, spoken):
@@ -302,6 +433,10 @@ async def main():
     parser.add_argument("--only-equals", action="store_true")
     parser.add_argument("--only-sequences", action="store_true")
     parser.add_argument("--only-arithmetic", action="store_true")
+    parser.add_argument("--only-multiplication", action="store_true")
+    parser.add_argument("--only-roman", action="store_true")
+    parser.add_argument("--only-steps", action="store_true")
+    parser.add_argument("--only-number-words", action="store_true")
     parser.add_argument("--page", type=int)
     args = parser.parse_args()
     timecodes_path = ROOT / "content" / "rehema" / "timecodes.json"
@@ -321,12 +456,24 @@ async def main():
             continue
         if args.only_arithmetic and not needs_arithmetic_audio(nodes):
             continue
+        if args.only_multiplication and not needs_multiplication_audio(nodes):
+            continue
+        if args.only_roman and not needs_roman_audio(nodes):
+            continue
+        if args.only_steps and not needs_steps_audio(nodes):
+            continue
+        if args.only_number_words and not needs_number_words_audio(nodes):
+            continue
         old_entry = timecodes.get(str(page), {})
         special = needs_new_audio(nodes)
         if special:
             report["special"].append(page)
         selected_for_audio = (
-            needs_arithmetic_audio(nodes) if args.only_arithmetic
+            needs_number_words_audio(nodes) if args.only_number_words
+            else needs_steps_audio(nodes) if args.only_steps
+            else needs_roman_audio(nodes) if args.only_roman
+            else needs_multiplication_audio(nodes) if args.only_multiplication
+            else needs_arithmetic_audio(nodes) if args.only_arithmetic
             else needs_sequence_audio(nodes) if args.only_sequences
             else needs_equals_audio(nodes) if args.only_equals
             else special and (not args.only_mfano or needs_mfano_audio(nodes))

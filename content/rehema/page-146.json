@@ -1,62 +1,63 @@
 {
-  "audio": "page-146.mp3",
+  "audio": "page-146-fullbook-v1.mp3",
+  "voice": "sw-TZ-RehemaNeural",
+  "rate": 0.9,
+  "pitch": "neutral",
+  "version": 25,
   "words": [
     {
       "text": "Shilingi",
-      "start": 0.178708,
-      "end": 0.679291,
+      "start": 0.181583,
+      "end": 0.693291,
       "sourceIndex": 1
     },
     {
       "text": "mia",
-      "start": 0.793708,
-      "end": 1.022541,
+      "start": 0.81025,
+      "end": 1.044166,
       "targetImage": true
     },
     {
       "text": "moja",
-      "start": 1.051125,
-      "end": 1.422958,
+      "start": 1.073375,
+      "end": 1.4535,
       "targetImage": true
     },
     {
       "text": "Shilingi",
-      "start": 1.465916,
-      "end": 1.995082,
+      "start": 1.497375,
+      "end": 2.038291,
       "sourceIndex": 3
     },
     {
       "text": "hamsini",
-      "start": 2.038,
-      "end": 2.581458,
+      "start": 2.082166,
+      "end": 2.637707,
       "targetImage": true
     },
     {
       "text": "Shilingi",
-      "start": 2.610083,
-      "end": 3.139249,
+      "start": 2.666958,
+      "end": 3.207874,
       "sourceIndex": 5
     },
     {
       "text": "ishirini",
-      "start": 3.182166,
-      "end": 3.711332,
+      "start": 3.25175,
+      "end": 3.792666,
       "targetImage": true
     },
     {
       "text": "Shilingi",
-      "start": 3.739916,
-      "end": 4.297707,
+      "start": 3.821916,
+      "end": 4.392082,
       "sourceIndex": 7
     },
     {
       "text": "kumi",
-      "start": 4.340625,
-      "end": 4.755375,
+      "start": 4.435958,
+      "end": 4.859916,
       "targetImage": true
     }
-  ],
-  "voice": "sw-TZ-RehemaNeural",
-  "version": 25,
-  "rate": 0.9
+  ]
 }

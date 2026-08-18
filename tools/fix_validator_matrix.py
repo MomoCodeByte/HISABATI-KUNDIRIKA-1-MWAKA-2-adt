@@ -275,6 +275,175 @@ CONFIG = {
     31: {
         "replace": {
             "pg031_n0003": "Kwa hiyo, jibu ni: sitini na nne.",
+            "pg031_n0004": "Zoezi la Nne",
+        },
+    },
+    34: {
+        "replace": {
+            "pg034_n0002": "Chunguza orodha hii; 4, II, 5, IV, I, III, 2, V, na 3 kisha jibu maswali",
+        },
+    },
+    40: {
+        "replace": {
+            "pg040_n0001": "Mfano wa Pili",
+        },
+    },
+    42: {
+        "remove": {
+            "pg042_n0009", "pg042_n0011", "pg042_n0013", "pg042_n0014",
+            "pg042_n0016", "pg042_n0024", "pg042_n0026", "pg042_n0028",
+        },
+        "replace": {
+            "pg042_n0015": "Zoezi la Kwanza: Marudio",
+            "pg042_n0018": "Swali namba moja. Mia tatu ishirini na saba kuongeza mia nne thelathini na mbili, sawa sawa na ngapi? Swali namba mbili. Mia nane kumi na tisa kuongeza mia moja hamsini, sawa sawa na ngapi?",
+            "pg042_n0019": "Swali namba tatu. Mia tano thelathini na sita kuongeza mia mbili thelathini na tano, sawa sawa na ngapi? Swali namba nne. Mia nane arobaini na tano kuongeza mia moja na moja, sawa sawa na ngapi?",
+            "pg042_n0020": "Swali namba tano. Mia saba thelathini na tano kuongeza mia mbili thelathini na tano, sawa sawa na ngapi? Swali namba sita. Mia sita arobaini na tano kuongeza mia tatu na kumi na mbili, sawa sawa na ngapi?",
+            "pg042_n0021": "Swali namba saba. Mia saba tisini na nane kuongeza mia moja arobaini na tano, sawa sawa na ngapi? Swali namba nane. Mia nane na tano kuongeza thelathini na moja, sawa sawa na ngapi?",
+            "pg042_n0022": "Swali namba tisa. Mia tano thelathini na nne kuongeza mia moja na kumi na mbili, sawa sawa na ngapi?",
+            "pg042_n0023": "Swali namba kumi. Mia tatu sitini na nne kuongeza mia moja ishirini na tatu, sawa sawa na ngapi? Swali namba kumi na moja. Mia tano thelathini na nne kuongeza mia moja na kumi na tano, sawa sawa na ngapi? Swali namba kumi na mbili. Mia tano arobaini na saba kuongeza mia tatu arobaini na sita, sawa sawa na ngapi?",
+            "pg042_n0025": "Swali namba kumi na tatu. Mia saba hamsini na nane kuongeza mia mbili na kumi, sawa sawa na ngapi? Swali namba kumi na nne. Mia tisa na kumi na mbili kuongeza themanini na moja, sawa sawa na ngapi? Swali namba kumi na tano. Mia nne themanini na tano kuongeza mia nne na tatu, sawa sawa na ngapi?",
+            "pg042_n0027": "Swali namba kumi na sita. Mia nane themanini na saba kuongeza arobaini, sawa sawa na ngapi? Swali namba kumi na saba. Mia tatu sabini na nne kuongeza mia mbili ishirini na nane, sawa sawa na ngapi? Swali namba kumi na nane. Mia mbili sabini na mbili kuongeza mia tano tisini na saba, sawa sawa na ngapi?",
+        },
+    },
+    43: {
+        "remove": {"pg043_n0015", "pg043_n0017", "pg043_n0025"},
+        "replace": {
+            "pg043_n0010": "Mfano wa Kwanza",
+            "pg043_n0012": "Namba ya kwanza ni elfu tano mia mbili arobaini na nane.",
+            "pg043_n0013": "Namba ya pili ni elfu moja mia mbili thelathini na moja.",
+            "pg043_n0016": "Hatua ya Kwanza. Linganisha namba kwa wima",
+            "pg043_n0019": "Hatua ya Pili. Jumlisha mamoja: nane kuongeza moja, sawa sawa na tisa.",
+            "pg043_n0020": "Andika tisa katika nafasi ya mamoja.",
+            "pg043_n0021": "Jibu la mamoja ni tisa.",
+            "pg043_n0022": "Hatua ya Tatu. Jumlisha makumi: nne kuongeza tatu, sawa sawa na saba.",
+            "pg043_n0023": "Andika saba katika nafasi ya makumi.",
+            "pg043_n0024": "Jibu la makumi na mamoja ni sabini na tisa.",
+        },
+    },
+    44: {
+        "remove": {"pg044_n0003", "pg044_n0005"},
+        "replace": {
+            "pg044_n0001": "Hatua ya Nne. Jumlisha mamia: mbili kuongeza mbili, sawa sawa na nne.",
+            "pg044_n0002": "Andika nne katika nafasi ya mamia.",
+            "pg044_n0004": "Hatua ya Tano. Jumlisha maelfu: tano kuongeza moja, sawa sawa na sita.",
+            "pg044_n0006": "Jibu la mwisho ni elfu sita mia nne sabini na tisa.",
+            "pg044_n0007": "Kwa hiyo, jibu ni elfu sita mia nne sabini na tisa.",
+            "pg044_n0008": "Mfano wa Pili",
+            "pg044_n0010": "Elfu sitini na nane mia tisa arobaini na mbili, kuongeza elfu thelathini na hamsini na moja, sawa sawa na ngapi?",
+            "pg044_n0012": "Soma jedwali kutoka chumba cha kulia kwenda chumba cha kushoto. Chumba cha mamoja kina mbili kuongeza moja, jibu ni tatu. Chumba cha makumi kina nne kuongeza tano, jibu ni tisa. Chumba cha mamia kina tisa kuongeza sifuri, jibu ni tisa. Chumba cha maelfu kina nane kuongeza sifuri, jibu ni nane. Chumba cha makumi elfu kina sita kuongeza tatu, jibu ni tisa. Majibu ya vyumba hivyo yanaungana na kuwa elfu tisini na nane mia tisa tisini na tatu.",
+            "pg044_n0014": "Hatua ya Kwanza. Jumlisha tarakimu kutoka kulia kuelekea kushoto.",
+            "pg044_n0015": "Hatua ya Pili. Jumlisha mamoja: mbili kuongeza moja, sawa sawa na tatu. Andika tatu katika nafasi ya",
+            "pg044_n0017": "Hatua ya Tatu. Jumlisha makumi: nne kuongeza tano, sawa sawa na tisa. Andika tisa katika nafasi ya",
+            "pg044_n0019": "Hatua ya Nne. Jumlisha mamia: tisa kuongeza sifuri, sawa sawa na tisa. Andika tisa katika nafasi ya",
+            "pg044_n0021": "Hatua ya Tano. Jumlisha maelfu: nane kuongeza sifuri, sawa sawa na nane. Andika nane katika nafasi ya",
+            "pg044_n0023": "Hatua ya Sita. Jumlisha makumi elfu: sita kuongeza tatu, sawa sawa na tisa. Andika tisa katika nafasi",
+            "pg044_n0025": "Kwa hiyo, elfu sitini na nane mia tisa arobaini na mbili, kuongeza elfu thelathini na hamsini na moja, sawa sawa na elfu tisini na nane mia tisa tisini na tatu.",
+        },
+    },
+    45: {
+        "remove": {"pg045_n0008", "pg045_n0010", "pg045_n0012", "pg045_n0014"},
+        "replace": {
+            "pg045_n0001": "Zoezi la Pili",
+            "pg045_n0003": "Swali namba moja. Elfu tano mia nne thelathini na tano kuongeza elfu moja mia mbili na nne, sawa sawa na ngapi? Swali namba mbili. Mia sita thelathini na moja kuongeza mia tatu hamsini na saba, sawa sawa na ngapi?",
+            "pg045_n0004": "Swali namba tatu. Elfu nne mia sita ishirini na mbili kuongeza elfu nne mia mbili arobaini na tano, sawa sawa na ngapi? Swali namba nne. Elfu ishirini mia mbili na kumi na nane kuongeza elfu tisa mia sita ishirini na moja, sawa sawa na ngapi?",
+            "pg045_n0005": "Swali namba tano. Elfu tatu ishirini na tatu kuongeza elfu tano mia tano ishirini na nne, sawa sawa na ngapi? Swali namba sita. Elfu thelathini mia mbili hamsini na moja kuongeza elfu saba arobaini na tatu, sawa sawa na ngapi?",
+            "pg045_n0006": "Swali namba saba. Elfu hamsini na tatu mia tisa tisini na tisa kuongeza elfu mbili, sawa sawa na ngapi? Swali namba nane. Elfu sabini na tatu mia nne arobaini na tatu kuongeza elfu sita mia mbili thelathini na sita, sawa sawa na ngapi?",
+            "pg045_n0007": "Swali namba tisa. Mpangilio wa wima. Namba ya juu ni elfu sitini na tano mia moja na kumi na nne. Namba ya chini ni elfu ishirini na tatu sabini na tano. Tarakimu za mamoja zinalingana upande wa kulia. Jumlisha namba hizo. Jibu ni ngapi? Swali namba kumi. Mpangilio wa wima. Namba ya juu ni elfu hamsini na saba arobaini na tatu. Namba ya chini ni elfu kumi na mbili mia saba arobaini na nne. Tarakimu za mamoja zinalingana upande wa kulia. Jumlisha namba hizo. Jibu ni ngapi? Swali namba kumi na moja. Mpangilio wa wima. Namba ya juu ni elfu sitini na mbili mia moja hamsini na tisa. Namba ya chini ni elfu ishirini mia nane na kumi. Tarakimu za mamoja zinalingana upande wa kulia. Jumlisha namba hizo. Jibu ni ngapi?",
+            "pg045_n0009": "Swali namba kumi na mbili. Mpangilio wa wima. Namba ya juu ni elfu themanini na mbili mia tatu na tano. Namba ya chini ni elfu tano mia mbili na kumi na tatu. Namba ya chini ina tarakimu nne, hivyo nafasi ya makumi elfu iko wazi. Pangilia mamoja upande wa kulia, kisha jumlisha. Jibu ni ngapi? Swali namba kumi na tatu. Mpangilio wa wima. Namba ya juu ni elfu hamsini na tisa mia mbili sitini na moja. Namba ya chini ni elfu arobaini mia saba na kumi na mbili. Pangilia mamoja upande wa kulia, kisha jumlisha. Jibu ni ngapi? Swali namba kumi na nne. Mpangilio wa wima. Namba ya juu ni elfu themanini na nne mia saba arobaini na tatu. Namba ya chini ni elfu kumi na mbili mia mbili hamsini na moja. Pangilia mamoja upande wa kulia, kisha jumlisha. Jibu ni ngapi?",
+            "pg045_n0011": "Swali namba kumi na tano. Mpangilio wa wima. Namba ya juu ni elfu hamsini na nne mia saba ishirini na moja. Namba ya chini ni elfu thelathini na tatu mia mbili ishirini na mbili. Pangilia mamoja upande wa kulia, kisha jumlisha. Jibu ni ngapi? Swali namba kumi na sita. Mpangilio wa wima. Namba ya juu ni elfu sabini na moja mia mbili thelathini na sita. Namba ya chini ni elfu ishirini na tatu mia nne hamsini na moja. Pangilia mamoja upande wa kulia, kisha jumlisha. Jibu ni ngapi? Swali namba kumi na saba. Mpangilio wa wima. Namba ya juu ni elfu hamsini na sita mia saba ishirini na nne. Namba ya chini ni elfu tatu mia moja na kumi na tatu. Namba ya chini ina tarakimu nne, hivyo nafasi ya makumi elfu iko wazi. Pangilia mamoja upande wa kulia, kisha jumlisha. Jibu ni ngapi?",
+            "pg045_n0013": "Swali namba kumi na nane. Mpangilio wa wima. Namba ya juu ni elfu sabini na tano sabini na mbili. Namba ya chini ni elfu ishirini na mbili na kumi na sita. Pangilia mamoja upande wa kulia, kisha jumlisha. Jibu ni ngapi? Swali namba kumi na tisa. Mpangilio wa wima. Namba ya juu ni elfu arobaini na tano mia tano na saba. Namba ya chini ni elfu ishirini na nne mia tatu sitini na mbili. Pangilia mamoja upande wa kulia, kisha jumlisha. Jibu ni ngapi? Swali namba ishirini. Mpangilio wa wima. Namba ya juu ni elfu hamsini na sita mia saba na sita. Namba ya chini ni elfu ishirini na tatu mia mbili sabini na tatu. Pangilia mamoja upande wa kulia, kisha jumlisha. Jibu ni ngapi?",
+        },
+    },
+    46: {
+        "remove": {
+            "pg046_n0006", "pg046_n0008", "pg046_n0009", "pg046_n0010", "pg046_n0011", "pg046_n0012", "pg046_n0013",
+            "pg046_n0015", "pg046_n0016", "pg046_n0017", "pg046_n0018", "pg046_n0019", "pg046_n0020",
+            "pg046_n0022", "pg046_n0023", "pg046_n0024", "pg046_n0025", "pg046_n0026", "pg046_n0027",
+            "pg046_n0029", "pg046_n0030", "pg046_n0031", "pg046_n0032", "pg046_n0033",
+            "pg046_n0035", "pg046_n0036", "pg046_n0037", "pg046_n0038",
+        },
+        "replace": {
+            "pg046_n0001": "Mfano wa Kwanza",
+            "pg046_n0003": "Namba ya juu ni elfu kumi na tatu mia nane ishirini na saba.",
+            "pg046_n0004": "Namba ya chini ni elfu kumi na tano mia sita themanini na tano.",
+            "pg046_n0005": "Jedwali lina upande wa kushoto wa Hatua na upande wa kulia wa Njia. Kila mstari utasomwa kuanzia Hatua, kisha Njia yake.",
+            "pg046_n0007": "Upande wa kushoto. Hatua ya Kwanza. Jumlisha mamoja: saba kuongeza tano, sawa sawa na kumi na mbili. Andika mbili katika nafasi ya mamoja. Badili mamoja kumi kuwa fungu moja la makumi, kisha peleka moja kwenye nafasi ya makumi. Upande wa kulia. Njia. Elfu kumi na tatu mia nane ishirini na saba ipo juu. Elfu kumi na tano mia sita themanini na tano ipo chini. Zimepangwa kwa wima. Baada ya kujumlisha mamoja, tarakimu ya mwisho ya jibu ni mbili, na moja imebebwa kwenda makumi.",
+            "pg046_n0014": "Upande wa kushoto. Hatua ya Pili. Jumlisha makumi: moja iliyobebwa, kuongeza mbili, kuongeza nane, sawa sawa na kumi na moja. Andika moja katika nafasi ya makumi. Badili makumi kumi kuwa fungu moja la mamia, kisha peleka moja kwenye nafasi ya mamia. Upande wa kulia. Njia. Mpangilio wa wima unaendelea bila kubadilika. Jibu la muda katika makumi na mamoja ni kumi na mbili, na moja imebebwa kwenda mamia.",
+            "pg046_n0021": "Upande wa kushoto. Hatua ya Tatu. Jumlisha mamia: moja iliyobebwa, kuongeza nane, kuongeza sita, sawa sawa na kumi na tano. Andika tano katika nafasi ya mamia. Badili mamia kumi kuwa fungu moja la maelfu, kisha peleka moja kwenye nafasi ya maelfu. Upande wa kulia. Njia. Jibu la muda katika mamia, makumi na mamoja ni mia tano na kumi na mbili, na moja imebebwa kwenda maelfu.",
+            "pg046_n0028": "Upande wa kushoto. Hatua ya Nne. Jumlisha maelfu: moja iliyobebwa, kuongeza tatu, kuongeza tano, sawa sawa na tisa. Andika tisa katika nafasi ya maelfu. Upande wa kulia. Njia. Jibu la muda katika maelfu, mamia, makumi na mamoja ni elfu tisa mia tano na kumi na mbili.",
+            "pg046_n0034": "Upande wa kushoto. Hatua ya Tano. Jumlisha makumi elfu: moja kuongeza moja, sawa sawa na mbili. Andika mbili katika nafasi ya makumi elfu. Upande wa kulia. Njia. Tarakimu zote zimeunganishwa na kupata elfu ishirini na tisa mia tano na kumi na mbili.",
+            "pg046_n0039": "Kwa hiyo, jibu ni elfu ishirini na tisa mia tano na kumi na mbili.",
+        },
+    },
+    47: {
+        "remove": {
+            "pg047_n0007", "pg047_n0008", "pg047_n0009", "pg047_n0010",
+            "pg047_n0012", "pg047_n0013", "pg047_n0014", "pg047_n0015", "pg047_n0016", "pg047_n0017",
+            "pg047_n0019", "pg047_n0020", "pg047_n0021", "pg047_n0022",
+            "pg047_n0024", "pg047_n0025", "pg047_n0026", "pg047_n0027", "pg047_n0028",
+            "pg047_n0030", "pg047_n0031", "pg047_n0032", "pg047_n0033",
+        },
+        "replace": {
+            "pg047_n0001": "Mfano wa Pili",
+            "pg047_n0003": "Namba ya juu ni elfu thelathini na moja sabini na mbili.",
+            "pg047_n0004": "Namba ya chini ni elfu ishirini na tisa mia nane hamsini na tatu.",
+            "pg047_n0005": "Jedwali lina upande wa kushoto wa Hatua na upande wa kulia wa Njia. Kila mstari utasomwa kuanzia Hatua, kisha Njia yake.",
+            "pg047_n0006": "Upande wa kushoto. Hatua ya Kwanza. Jumlisha mamoja: mbili kuongeza tatu, sawa sawa na tano. Andika tano katika nafasi ya mamoja. Upande wa kulia. Njia. Namba zimepangwa kwa wima. Tarakimu ya mamoja katika jibu ni tano.",
+            "pg047_n0011": "Upande wa kushoto. Hatua ya Pili. Jumlisha makumi: saba kuongeza tano, sawa sawa na kumi na mbili. Andika mbili katika nafasi ya makumi. Badili makumi kumi kuwa fungu moja la mamia, kisha peleka moja kwenye nafasi ya mamia. Upande wa kulia. Njia. Jibu la muda katika makumi na mamoja ni ishirini na tano, na moja imebebwa kwenda mamia.",
+            "pg047_n0018": "Upande wa kushoto. Hatua ya Tatu. Jumlisha mamia: moja iliyobebwa, kuongeza sifuri, kuongeza nane, sawa sawa na tisa. Andika tisa katika nafasi ya mamia. Upande wa kulia. Njia. Jibu la muda katika mamia, makumi na mamoja ni mia tisa ishirini na tano.",
+            "pg047_n0023": "Upande wa kushoto. Hatua ya Nne. Jumlisha maelfu: moja kuongeza tisa, sawa sawa na kumi. Andika sifuri katika nafasi ya maelfu. Badili maelfu kumi kuwa fungu moja la makumi elfu, kisha peleka moja kwenye nafasi ya makumi elfu. Upande wa kulia. Njia. Nafasi ya maelfu ina sifuri; sehemu ya jibu iliyopatikana hadi sasa ni sifuri, mia tisa ishirini na tano.",
+            "pg047_n0029": "Upande wa kushoto. Hatua ya Tano. Jumlisha makumi elfu: moja iliyobebwa, kuongeza tatu, kuongeza mbili, sawa sawa na sita. Andika sita katika nafasi ya makumi elfu. Upande wa kulia. Njia. Tarakimu zote zimeunganishwa na kupata elfu sitini mia tisa ishirini na tano.",
+            "pg047_n0034": "Kwa hiyo, jibu ni elfu sitini mia tisa ishirini na tano.",
+        },
+    },
+    48: {
+        "remove": {"pg048_n0005"},
+        "replace": {
+            "pg048_n0001": "Mfano wa Tatu",
+            "pg048_n0003": "Elfu hamsini na nane mia mbili sabini na moja, kuongeza elfu thelathini na mbili mia tisa themanini na tisa, sawa sawa na ngapi?",
+            "pg048_n0004": "Njia. Mchoro unaonesha namba mbili katika mpangilio wa ulalo. Kila tarakimu imeunganishwa na nafasi yake katika jibu, kuanzia mamoja upande wa kulia hadi makumi elfu upande wa kushoto.",
+            "pg048_n0006": "Namba ya kwanza ni elfu hamsini na nane mia mbili sabini na moja. Namba ya pili ni elfu thelathini na mbili mia tisa themanini na tisa. Alama ya kuongeza iko katikati. Jibu ni elfu tisini na moja mia mbili sitini. Namba moja imebebwa kutoka mamoja kwenda makumi, kutoka makumi kwenda mamia, kutoka mamia kwenda maelfu, na kutoka maelfu kwenda makumi elfu.",
+            "pg048_n0008": "Hatua ya Kwanza. Jumlisha tarakimu kuanzia kulia kuelekea kushoto.",
+            "pg048_n0009": "Hatua ya Pili. Jumlisha mamoja: moja kuongeza tisa, sawa sawa na kumi. Andika sifuri katika nafasi ya",
+            "pg048_n0010": "mamoja. Badili mamoja kumi kuwa fungu moja la makumi. Peleka moja",
+            "pg048_n0011": "kwenye nafasi ya makumi.",
+            "pg048_n0012": "Hatua ya Tatu. Jumlisha makumi: moja iliyobebwa, kuongeza saba, kuongeza nane, sawa sawa na kumi na sita. Andika sita katika nafasi ya",
+            "pg048_n0013": "makumi. Badili makumi kumi kuwa fungu moja la mamia. Peleka moja",
+            "pg048_n0015": "Hatua ya Nne. Jumlisha mamia: moja iliyobebwa, kuongeza mbili, kuongeza tisa, sawa sawa na kumi na mbili. Andika mbili katika nafasi ya",
+            "pg048_n0016": "mamia. Badili mamia kumi kuwa fungu moja la maelfu. Peleka moja",
+            "pg048_n0018": "Hatua ya Tano. Jumlisha maelfu: moja iliyobebwa, kuongeza nane, kuongeza mbili, sawa sawa na kumi na moja. Andika moja katika nafasi",
+            "pg048_n0019": "ya maelfu. Badili maelfu kumi kuwa fungu moja la makumi elfu. Peleka",
+            "pg048_n0021": "Hatua ya Sita. Jumlisha makumi elfu: moja iliyobebwa, kuongeza tano, kuongeza tatu, sawa sawa na tisa. Andika tisa katika nafasi",
+            "pg048_n0023": "Kwa hiyo, jibu ni elfu tisini na moja mia mbili sitini.",
+        },
+    },
+    49: {
+        "remove": {"pg049_n0009", "pg049_n0011", "pg049_n0013", "pg049_n0015"},
+        "replace": {
+            "pg049_n0001": "Zoezi la Tatu",
+            "pg049_n0003": "Swali namba 1. Namba 53415 kuongeza 21045, sawa sawa na ngapi? Swali namba 2. Namba 64124 kuongeza 16283, sawa sawa na ngapi?",
+            "pg049_n0004": "Swali namba 3. Namba 75520 kuongeza 9221, sawa sawa na ngapi? Swali namba 4. Namba 66612 kuongeza 24588, sawa sawa na ngapi?",
+            "pg049_n0005": "Swali namba 5. Namba 48434 kuongeza 23537, sawa sawa na ngapi? Swali namba 6. Namba 67456 kuongeza 11553, sawa sawa na ngapi?",
+            "pg049_n0006": "Swali namba 7. Namba 53656 kuongeza 6667, sawa sawa na ngapi? Swali namba 8. Namba 59816 kuongeza 32275, sawa sawa na ngapi?",
+            "pg049_n0007": "Swali namba 9. Namba 43892 kuongeza 8329, sawa sawa na ngapi? Swali namba 10. Namba 77999 kuongeza 10001, sawa sawa na ngapi?",
+            "pg049_n0008": "Swali namba 11. Mpangilio wa wima. Namba ya juu ni 57336. Namba ya chini ni 12217. Pangilia mamoja upande wa kulia, kisha jumlisha. Jibu ni ngapi? Swali namba 12. Mpangilio wa wima. Namba ya juu ni 55376. Namba ya chini ni 21206. Pangilia mamoja upande wa kulia, kisha jumlisha. Jibu ni ngapi? Swali namba 13. Mpangilio wa wima. Namba ya juu ni 81858. Namba ya chini ni 12141. Pangilia mamoja upande wa kulia, kisha jumlisha. Jibu ni ngapi?",
+            "pg049_n0010": "Swali namba 14. Mpangilio wa wima. Namba ya juu ni 64599. Namba ya chini ni 16433. Pangilia mamoja upande wa kulia, kisha jumlisha. Jibu ni ngapi? Swali namba 15. Mpangilio wa wima. Namba ya juu ni 48879. Namba ya chini ni 22300. Pangilia mamoja upande wa kulia, kisha jumlisha. Jibu ni ngapi? Swali namba 16. Mpangilio wa wima. Namba ya juu ni 48289. Namba ya chini ni 3457. Namba ya chini ina tarakimu nne, hivyo nafasi ya makumi elfu iko wazi. Pangilia mamoja upande wa kulia, kisha jumlisha. Jibu ni ngapi?",
+            "pg049_n0012": "Swali namba 17. Mpangilio wa wima. Namba ya juu ni 61823. Namba ya chini ni 27278. Pangilia mamoja upande wa kulia, kisha jumlisha. Jibu ni ngapi? Swali namba 18. Mpangilio wa wima. Namba ya juu ni 87735. Namba ya chini ni 5486. Namba ya chini ina tarakimu nne, hivyo nafasi ya makumi elfu iko wazi. Pangilia mamoja upande wa kulia, kisha jumlisha. Jibu ni ngapi? Swali namba 19. Mpangilio wa wima. Namba ya juu ni 85519. Namba ya chini ni 2791. Namba ya chini ina tarakimu nne, hivyo nafasi ya makumi elfu iko wazi. Pangilia mamoja upande wa kulia, kisha jumlisha. Jibu ni ngapi?",
+            "pg049_n0014": "Swali namba 20. Mpangilio wa wima. Namba ya juu ni 18702. Namba ya chini ni 79308. Pangilia mamoja upande wa kulia, kisha jumlisha. Jibu ni ngapi?",
+            "pg049_n0017": "Mfano wa Kwanza",
+        },
+    },
+    52: {
+        "remove": {"pg052_n0016", "pg052_n0018", "pg052_n0020", "pg052_n0022"},
+        "replace": {
+            "pg052_n0010": "Zoezi la Kwanza: Marudio",
+            "pg052_n0012": "Swali namba 1. Namba 536 kutoa 111, sawa sawa na ngapi? Swali namba 2. Namba 935 kutoa 235, sawa sawa na ngapi?",
+            "pg052_n0013": "Swali namba 3. Namba 945 kutoa 633, sawa sawa na ngapi? Swali namba 4. Namba 708 kutoa 455, sawa sawa na ngapi?",
+            "pg052_n0014": "Swali namba 5. Namba 798 kutoa 455, sawa sawa na ngapi? Swali namba 6. Namba 845 kutoa 101, sawa sawa na ngapi?",
+            "pg052_n0015": "Swali namba 7. Mpangilio wa wima. Namba ya juu ni 348. Namba ya chini ni 230. Pangilia mamoja upande wa kulia, kisha toa namba ya chini kutoka namba ya juu. Jibu ni ngapi? Swali namba 8. Mpangilio wa wima. Namba ya juu ni 789. Namba ya chini ni 255. Pangilia mamoja upande wa kulia, kisha toa. Jibu ni ngapi? Swali namba 9. Mpangilio wa wima. Namba ya juu ni 567. Namba ya chini ni 246. Pangilia mamoja upande wa kulia, kisha toa. Jibu ni ngapi?",
+            "pg052_n0017": "Swali namba 10. Mpangilio wa wima. Namba ya juu ni 659. Namba ya chini ni 185. Pangilia mamoja upande wa kulia, kisha toa. Jibu ni ngapi? Swali namba 11. Mpangilio wa wima. Namba ya juu ni 690. Namba ya chini ni 562. Pangilia mamoja upande wa kulia, kisha toa. Jibu ni ngapi? Swali namba 12. Mpangilio wa wima. Namba ya juu ni 876. Namba ya chini ni 643. Pangilia mamoja upande wa kulia, kisha toa. Jibu ni ngapi?",
+            "pg052_n0019": "Swali namba 13. Mpangilio wa wima. Namba ya juu ni 619. Namba ya chini ni 51. Namba ya chini ina tarakimu mbili, hivyo nafasi ya mamia iko wazi. Pangilia mamoja upande wa kulia, kisha toa. Jibu ni ngapi? Swali namba 14. Mpangilio wa wima. Namba ya juu ni 819. Namba ya chini ni 150. Pangilia mamoja upande wa kulia, kisha toa. Jibu ni ngapi? Swali namba 15. Mpangilio wa wima. Namba ya juu ni 328. Namba ya chini ni 226. Pangilia mamoja upande wa kulia, kisha toa. Jibu ni ngapi?",
+            "pg052_n0021": "Swali namba 16. Mpangilio wa wima. Namba ya juu ni 422. Namba ya chini ni 123. Pangilia mamoja upande wa kulia, kisha toa. Jibu ni ngapi? Swali namba 17. Mpangilio wa wima. Namba ya juu ni 505. Namba ya chini ni 146. Pangilia mamoja upande wa kulia, kisha toa. Jibu ni ngapi? Swali namba 18. Mpangilio wa wima. Namba ya juu ni 862. Namba ya chini ni 672. Pangilia mamoja upande wa kulia, kisha toa. Jibu ni ngapi?",
         },
     },
     91: {
@@ -410,6 +579,7 @@ def patch_transcript(raw, replacements, after, remove=()):
 
 async def generate(page, timecodes):
     import edge_tts
+    from fix_full_book_audio import number_to_swahili, roman_to_int
 
     cfg = CONFIG[page]
     path, raw, nodes, words = source(page)
@@ -418,13 +588,26 @@ async def generate(page, timecodes):
     for node_id, original in nodes:
         if node_id in cfg.get("remove", set()):
             continue
-        segments.append((replacements.get(node_id, original), "source"))
+        segment_text = replacements.get(node_id, original)
+        if page == 34:
+            segment_text = re.sub(
+                r"(?<![A-Za-z])([IVXLCDM]+)(?![A-Za-z])",
+                lambda match: f"{number_to_swahili(roman_to_int(match.group(1)))} ya Kirumi",
+                segment_text,
+            )
+        if page in {49, 52}:
+            segment_text = re.sub(
+                r"(?<!\d)(\d+)(?!\d)",
+                lambda match: number_to_swahili(int(match.group(1))),
+                segment_text,
+            )
+        segments.append((segment_text, "source"))
         for extra in after.get(node_id, []):
             kind = "table" if page == 7 and node_id == "pg007_n0012" else "image"
             segments.append((extra, kind))
     text = " ".join(value for value, _ in segments)
     cues = []
-    audio_name = f"page-{page:03d}-matrix-v11.mp3"
+    audio_name = f"page-{page:03d}-matrix-v12.mp3"
     output = ROOT / "content" / "rehema"
     audio_path = output / audio_name
     temp_path = output / f".{audio_name}.tmp"
@@ -587,7 +770,7 @@ async def generate(page, timecodes):
                     active = 94
                 cue["sourceIndex"] = active
         offset += count
-    entry = {"audio": audio_name, "voice": VOICE, "rate": 0.8 if 8 <= page <= 15 or page == 17 else 0.9, "pitch": "neutral", "version": 26, "words": cues}
+    entry = {"audio": audio_name, "voice": VOICE, "rate": 0.8 if 8 <= page <= 15 or page == 17 else 0.9, "pitch": "neutral", "version": 27, "words": cues}
     (output / f"page-{page:03d}.json").write_text(json.dumps(entry, ensure_ascii=False, indent=2), encoding="utf-8")
     timecodes[str(page)] = entry
     path.write_text(patch_transcript(raw, replacements, after, cfg.get("remove", set())), encoding="utf-8")
