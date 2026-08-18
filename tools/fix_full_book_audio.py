@@ -57,16 +57,70 @@ def parse_page(path):
 def spoken_stream(nodes):
     original = []
     hidden = []
+    sequence_indexes = set()
+    sequence_starts = set()
+    arithmetic_operators = {}
     for node_id, value in nodes:
         node_tokens = tokens(value)
+        start = len(original)
         original.extend(node_tokens)
         hidden.extend(["_matrix_" in node_id] * len(node_tokens))
+        # Number-sequence questions contain comma-separated numbers followed
+        # by blank dashes/dots. Only in these nodes should punctuation itself
+        # be spoken aloud.
+        if re.search(r"(?:_{1,}|\.{3,}|…+)", value) and re.search(r"\d\s*,", value):
+            sequence_indexes.update(range(start, start + len(node_tokens)))
+            sequence_starts.add(start)
+        for offset, token in enumerate(node_tokens):
+            absolute = start + offset
+            symbol = token.strip(".,;:()")
+            if symbol in {"+", "-", "−", "–", "â€“", "âˆ’"}:
+                arithmetic_operators[absolute] = "kuongeza" if symbol == "+" else "kutoa"
+            elif "=" in symbol:
+                has_answer = (
+                    offset + 1 < len(node_tokens)
+                    and re.fullmatch(r"\d+[.,;:]?", node_tokens[offset + 1])
+                )
+                arithmetic_operators[absolute] = "equals-answer" if has_answer else "equals-question"
 
     spoken = []
     origins = []
     index = 0
     while index < len(original):
+        if index in arithmetic_operators:
+            operation = arithmetic_operators[index]
+            if operation == "equals-question":
+                spoken.extend(["sawa", "sawa", "na", "ngapi?"])
+                origins.extend([index, index, index, index])
+            elif operation == "equals-answer":
+                spoken.extend(["sawa", "sawa", "na"])
+                origins.extend([index, index, index])
+            else:
+                spoken.append(operation)
+                origins.append(index)
+            index += 1
+            continue
         current = norm(original[index])
+        if index in sequence_starts and re.fullmatch(r"\d+[.)]", original[index]):
+            spoken.extend(["Swali", "namba", re.sub(r"\D", "", original[index])])
+            origins.extend([index, index, index])
+            index += 1
+            continue
+        if index in sequence_indexes:
+            pieces = re.findall(r"_{1,}|\.{3,}|…+|,|[^,_…]+", original[index])
+            for piece in pieces:
+                piece = piece.strip()
+                if not piece:
+                    continue
+                if piece == ",":
+                    spoken.append("mkato")
+                elif re.fullmatch(r"_{1,}|\.{3,}|…+", piece):
+                    spoken.append("dashi")
+                else:
+                    spoken.append(piece)
+                origins.append(index)
+            index += 1
+            continue
         if index + 2 < len(original) and current in {"zoezi", "mfano"} and norm(original[index + 1]) in {"la", "wa"}:
             number = norm(original[index + 2])
             if number in ORDINALS:
@@ -86,6 +140,17 @@ def spoken_stream(nodes):
         elif current.startswith("kkk"):
             spoken.extend(["kei", "kei", "kei"])
             origins.extend([index, index, index])
+        elif "=" in original[index]:
+            parts = re.split(r"(=)", original[index])
+            for part in parts:
+                if not part:
+                    continue
+                if part == "=":
+                    spoken.extend(["sawa", "sawa", "na"])
+                    origins.extend([index, index, index])
+                else:
+                    spoken.append(part)
+                    origins.append(index)
         else:
             spoken.append(original[index])
             origins.append(index)
@@ -112,6 +177,22 @@ def needs_new_audio(nodes):
 def needs_mfano_audio(nodes):
     text = " ".join(value for _, value in nodes)
     return bool(re.search(r"\bMfano\s+wa\s+\d+\b", text, re.I))
+
+
+def needs_equals_audio(nodes):
+    return any("=" in value for _, value in nodes)
+
+
+def needs_sequence_audio(nodes):
+    return any(
+        re.search(r"(?:_{1,}|\.{3,}|…+)", value) and re.search(r"\d\s*,", value)
+        for _, value in nodes
+    )
+
+
+def needs_arithmetic_audio(nodes):
+    text = " ".join(value for _, value in nodes)
+    return bool(re.search(r"\d\s*(?:\+|\-|−|–|â€“|âˆ’)\s*\d\s*=", text))
 
 
 def align_cues_to_spoken(cues, spoken):
@@ -166,18 +247,43 @@ async def generate_audio(page, nodes, visible, old_entry):
     text = " ".join(spoken)
     audio_name = f"page-{page:03d}-fullbook-v1.mp3"
     output = ROOT / "content" / "rehema"
+    audio_path = output / audio_name
+    temp_path = output / f".{audio_name}.tmp"
     cues = []
-    with (output / audio_name).open("wb") as audio:
-        stream = edge_tts.Communicate(text, VOICE, rate=RATE, boundary="WordBoundary")
-        async for event in stream.stream():
-            if event["type"] == "audio":
-                audio.write(event["data"])
-            elif event["type"] == "WordBoundary":
-                start = event["offset"] / 10_000_000
-                duration = event["duration"] / 10_000_000
-                cues.append({"text": event["text"], "start": round(start, 6), "end": round(start + duration, 6)})
+    try:
+        with temp_path.open("wb") as audio:
+            page_rate = "-20%" if 8 <= page <= 15 or page == 17 else RATE
+            stream = edge_tts.Communicate(
+                text, VOICE, rate=page_rate, boundary="WordBoundary",
+                connect_timeout=15, receive_timeout=90,
+            )
+            iterator = stream.stream().__aiter__()
+            while True:
+                try:
+                    event = await asyncio.wait_for(iterator.__anext__(), timeout=60)
+                except StopAsyncIteration:
+                    break
+                except TimeoutError:
+                    # Edge occasionally leaves an already-complete stream open.
+                    # Once audio and word boundaries exist, inactivity means the
+                    # useful payload has finished and is safe to keep.
+                    expected_tail = [norm(token) for token in spoken if norm(token)][-3:]
+                    actual_tail = [norm(cue["text"]) for cue in cues if norm(cue["text"])][-3:]
+                    if cues and audio.tell() >= 1000 and actual_tail == expected_tail:
+                        break
+                    raise
+                if event["type"] == "audio":
+                    audio.write(event["data"])
+                elif event["type"] == "WordBoundary":
+                    start = event["offset"] / 10_000_000
+                    duration = event["duration"] / 10_000_000
+                    cues.append({"text": event["text"], "start": round(start, 6), "end": round(start + duration, 6)})
+        temp_path.replace(audio_path)
+    finally:
+        if temp_path.exists():
+            temp_path.unlink()
     apply_safe_mapping(cues, nodes, visible, old_entry.get("words", []))
-    return {"audio": audio_name, "voice": VOICE, "rate": 0.9, "pitch": "neutral", "version": VERSION, "words": cues}
+    return {"audio": audio_name, "voice": VOICE, "rate": 0.8 if 8 <= page <= 15 or page == 17 else 0.9, "pitch": "neutral", "version": VERSION, "words": cues}
 
 
 def remap_existing(entry, nodes, visible):
@@ -193,12 +299,15 @@ async def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--generate-special", action="store_true")
     parser.add_argument("--only-mfano", action="store_true")
+    parser.add_argument("--only-equals", action="store_true")
+    parser.add_argument("--only-sequences", action="store_true")
+    parser.add_argument("--only-arithmetic", action="store_true")
     parser.add_argument("--page", type=int)
     args = parser.parse_args()
     timecodes_path = ROOT / "content" / "rehema" / "timecodes.json"
     timecodes = json.loads(timecodes_path.read_text(encoding="utf-8"))
     pages = sorted(ROOT.glob("pg*_sec001.html"), key=page_number)
-    report = {"pages": 0, "regenerated": [], "remapped": [], "special": []}
+    report = {"pages": 0, "regenerated": [], "remapped": [], "special": [], "failed": []}
     for path in pages:
         page = page_number(path)
         if args.page and page != args.page:
@@ -206,14 +315,30 @@ async def main():
         _, nodes, visible = parse_page(path)
         if not nodes:
             continue
+        if args.only_equals and not needs_equals_audio(nodes):
+            continue
+        if args.only_sequences and not needs_sequence_audio(nodes):
+            continue
+        if args.only_arithmetic and not needs_arithmetic_audio(nodes):
+            continue
         old_entry = timecodes.get(str(page), {})
         special = needs_new_audio(nodes)
         if special:
             report["special"].append(page)
-        selected_for_audio = special and (not args.only_mfano or needs_mfano_audio(nodes))
+        selected_for_audio = (
+            needs_arithmetic_audio(nodes) if args.only_arithmetic
+            else needs_sequence_audio(nodes) if args.only_sequences
+            else needs_equals_audio(nodes) if args.only_equals
+            else special and (not args.only_mfano or needs_mfano_audio(nodes))
+        )
         if args.generate_special and selected_for_audio:
-            entry = await generate_audio(page, nodes, visible, old_entry)
-            report["regenerated"].append(page)
+            try:
+                entry = await generate_audio(page, nodes, visible, old_entry)
+                report["regenerated"].append(page)
+            except Exception as error:
+                report["failed"].append({"page": page, "error": str(error)})
+                print(f"page={page} failed={error}", flush=True)
+                continue
         else:
             entry = remap_existing(old_entry, nodes, visible)
             report["remapped"].append(page)

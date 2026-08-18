@@ -1,602 +1,621 @@
 {
-  "audio": "page-126.mp3",
+  "audio": "page-126-fullbook-v1.mp3",
+  "voice": "sw-TZ-RehemaNeural",
+  "rate": 0.9,
+  "pitch": "neutral",
+  "version": 25,
   "words": [
     {
       "text": "b",
-      "start": 0.178708,
-      "end": 0.264499,
+      "start": 0.181583,
+      "end": 0.283916,
       "targetImage": true
     },
     {
       "text": "sawa",
-      "start": 0.479041,
-      "end": 0.908082,
+      "start": 0.517833,
+      "end": 0.971041,
       "targetImage": true
     },
     {
+      "text": "sawa",
+      "start": 1.000291,
+      "end": 1.409666,
+      "sourceIndex": 1
+    },
+    {
       "text": "na",
-      "start": 0.936708,
-      "end": 1.079708,
+      "start": 1.438875,
+      "end": 1.570458,
       "targetImage": true
+    },
+    {
+      "text": "ngapi",
+      "start": 1.599708,
+      "end": 2.140624,
+      "sourceIndex": 1
     },
     {
       "text": "c",
-      "start": 1.251375,
-      "end": 1.508791,
+      "start": 3.289458,
+      "end": 3.435666,
       "targetImage": true
     },
     {
       "text": "sawa",
-      "start": 1.651833,
-      "end": 2.037999,
+      "start": 3.654958,
+      "end": 4.093541,
       "targetImage": true
+    },
+    {
+      "text": "sawa",
+      "start": 4.122791,
+      "end": 4.502916,
+      "sourceIndex": 3
     },
     {
       "text": "na",
-      "start": 2.066583,
-      "end": 2.152374,
+      "start": 4.532166,
+      "end": 4.663749,
       "targetImage": true
     },
     {
+      "text": "ngapi",
+      "start": 4.693,
+      "end": 5.204708,
+      "sourceIndex": 3
+    },
+    {
       "text": "Mafumbo",
-      "start": 2.181,
-      "end": 2.695875,
+      "start": 6.359666,
+      "end": 6.739791,
       "sourceIndex": 5
     },
     {
       "text": "yenye",
-      "start": 2.7245,
-      "end": 2.981916,
+      "start": 6.871333,
+      "end": 7.149124,
       "sourceIndex": 6
     },
     {
       "text": "dhana",
-      "start": 3.010541,
-      "end": 3.310874,
+      "start": 7.178375,
+      "end": 7.485375,
       "sourceIndex": 7
     },
     {
       "text": "ya",
-      "start": 3.339458,
-      "end": 3.439583,
+      "start": 7.514625,
+      "end": 7.602333,
       "sourceIndex": 8
     },
     {
       "text": "wakati",
-      "start": 3.468208,
-      "end": 3.925874,
+      "start": 7.631583,
+      "end": 8.084791,
       "sourceIndex": 9
     },
     {
       "text": "Mfano",
-      "start": 3.96875,
-      "end": 4.412125,
+      "start": 8.128666,
+      "end": 8.567249,
       "sourceIndex": 10
     },
     {
       "text": "Ratiba",
-      "start": 4.44075,
-      "end": 4.955625,
+      "start": 8.5965,
+      "end": 9.122833,
       "sourceIndex": 11
     },
     {
       "text": "ya",
-      "start": 4.984208,
-      "end": 5.084333,
+      "start": 9.152041,
+      "end": 9.254374,
       "sourceIndex": 12
     },
     {
       "text": "shule",
-      "start": 5.112916,
-      "end": 5.427541,
+      "start": 9.283625,
+      "end": 9.60525,
       "sourceIndex": 13
     },
     {
       "text": "ya",
-      "start": 5.456166,
-      "end": 5.541957,
+      "start": 9.6345,
+      "end": 9.722208,
       "sourceIndex": 14
     },
     {
       "text": "msingi",
-      "start": 5.570583,
-      "end": 6.028249,
+      "start": 9.751458,
+      "end": 10.219291,
       "sourceIndex": 15
     },
     {
       "text": "Maendeleo",
-      "start": 6.071166,
-      "end": 6.657541,
+      "start": 10.263166,
+      "end": 10.862582,
       "sourceIndex": 16
     },
     {
       "text": "kwa",
-      "start": 6.700458,
-      "end": 6.843458,
+      "start": 10.906416,
+      "end": 11.052624,
       "sourceIndex": 17
     },
     {
       "text": "siku",
-      "start": 6.872083,
-      "end": 7.272541,
+      "start": 11.081875,
+      "end": 11.49125,
       "sourceIndex": 18
     },
     {
       "text": "inaanza",
-      "start": 7.315458,
-      "end": 7.773124,
+      "start": 11.535083,
+      "end": 11.988291,
       "sourceIndex": 19
     },
     {
       "text": "saa",
-      "start": 7.801708,
-      "end": 8.087749,
+      "start": 12.017541,
+      "end": 12.309957,
       "sourceIndex": 20
     },
     {
       "text": "2:45",
-      "start": 8.116375,
-      "end": 10.776541,
+      "start": 12.339166,
+      "end": 15.043875,
       "sourceIndex": 21
     },
     {
       "text": "asubuhi",
-      "start": 10.819458,
-      "end": 11.391541,
+      "start": 15.087708,
+      "end": 15.657874,
       "sourceIndex": 22
     },
     {
       "text": "na",
-      "start": 11.420125,
-      "end": 11.534541,
+      "start": 15.687125,
+      "end": 15.804083,
       "sourceIndex": 23
     },
     {
       "text": "kumalizika",
-      "start": 11.577458,
-      "end": 12.364083,
+      "start": 15.847958,
+      "end": 16.652041,
       "sourceIndex": 24
     },
     {
       "text": "saa",
-      "start": 12.392666,
-      "end": 12.650082,
+      "start": 16.681291,
+      "end": 16.944457,
       "sourceIndex": 25
     },
     {
       "text": "10:40",
-      "start": 12.678708,
-      "end": 14.752499,
+      "start": 16.973666,
+      "end": 19.108207,
       "sourceIndex": 26
     },
     {
       "text": "jioni",
-      "start": 14.795416,
-      "end": 15.324582,
+      "start": 19.152041,
+      "end": 19.692957,
       "sourceIndex": 27
     },
     {
       "text": "Muda",
-      "start": 16.390166,
-      "end": 16.590374,
+      "start": 20.789458,
+      "end": 20.994124,
       "sourceIndex": 28
     },
     {
       "text": "gani",
-      "start": 16.719125,
-      "end": 17.062375,
+      "start": 21.12575,
+      "end": 21.476625,
       "sourceIndex": 29
     },
     {
       "text": "hutumika",
-      "start": 17.090958,
-      "end": 17.691624,
+      "start": 21.505833,
+      "end": 22.119874,
       "sourceIndex": 30
     },
     {
       "text": "hadi",
-      "start": 17.72025,
-      "end": 18.006291,
+      "start": 22.149125,
+      "end": 22.441541,
       "sourceIndex": 31
     },
     {
       "text": "kukamilisha",
-      "start": 18.049208,
-      "end": 18.835833,
+      "start": 22.485375,
+      "end": 23.289458,
       "sourceIndex": 32
     },
     {
       "text": "ratiba",
-      "start": 18.864416,
-      "end": 19.364999,
+      "start": 23.318708,
+      "end": 23.830416,
       "sourceIndex": 33
     },
     {
       "text": "ya",
-      "start": 19.393583,
-      "end": 19.479374,
+      "start": 23.859666,
+      "end": 23.947374,
       "sourceIndex": 34
     },
     {
       "text": "shule",
-      "start": 19.508,
-      "end": 19.865541,
+      "start": 23.976625,
+      "end": 24.342125,
       "sourceIndex": 35
     },
     {
       "text": "kwa",
-      "start": 19.908458,
-      "end": 20.051458,
+      "start": 24.385958,
+      "end": 24.532166,
       "sourceIndex": 36
     },
     {
       "text": "siku",
-      "start": 20.080083,
-      "end": 20.566333,
+      "start": 24.561416,
+      "end": 25.058499,
       "sourceIndex": 37
     },
     {
       "text": "Njia",
-      "start": 21.653333,
-      "end": 21.925083,
+      "start": 26.184208,
+      "end": 26.461999,
       "sourceIndex": 38
     },
     {
       "text": "Muda",
-      "start": 22.039458,
-      "end": 22.339791,
+      "start": 26.593583,
+      "end": 26.900583,
       "sourceIndex": 39
     },
     {
       "text": "unaotumika",
-      "start": 22.368416,
-      "end": 23.140707,
+      "start": 26.944458,
+      "end": 27.704708,
       "sourceIndex": 40
     },
     {
       "text": "sawa",
-      "start": 23.169333,
-      "end": 23.526874,
+      "start": 27.733916,
+      "end": 28.099416,
       "targetImage": true
+    },
+    {
+      "text": "sawa",
+      "start": 28.128666,
+      "end": 28.508791,
+      "sourceIndex": 41
     },
     {
       "text": "na",
-      "start": 23.5555,
-      "end": 23.655625,
+      "start": 28.538,
+      "end": 28.654958,
       "targetImage": true
     },
     {
+      "text": "ngapi",
+      "start": 28.684208,
+      "end": 29.225124,
+      "sourceIndex": 41
+    },
+    {
       "text": "Muda",
-      "start": 23.684208,
-      "end": 23.984541,
+      "start": 30.350875,
+      "end": 30.526333,
       "sourceIndex": 42
     },
     {
       "text": "wa",
-      "start": 24.013166,
-      "end": 24.098957,
+      "start": 30.657916,
+      "end": 30.760249,
       "sourceIndex": 43
     },
     {
       "text": "kumaliza",
-      "start": 24.127583,
-      "end": 24.771166,
+      "start": 30.789458,
+      "end": 31.447333,
       "sourceIndex": 44
     },
     {
       "text": "Muda",
-      "start": 24.942791,
-      "end": 25.271749,
+      "start": 31.637416,
+      "end": 31.973666,
       "sourceIndex": 46
     },
     {
       "text": "wa",
-      "start": 25.300333,
-      "end": 25.400458,
+      "start": 32.002916,
+      "end": 32.105249,
       "sourceIndex": 47
     },
     {
       "text": "kuanza",
-      "start": 25.429041,
-      "end": 25.872416,
+      "start": 32.1345,
+      "end": 32.602333,
       "sourceIndex": 48
     },
     {
       "text": "sawa",
-      "start": 25.915333,
-      "end": 26.301499,
-      "targetImage": true
-    },
-    {
-      "text": "na",
-      "start": 26.330083,
-      "end": 26.430208,
-      "targetImage": true
-    },
-    {
-      "text": "10:40",
-      "start": 26.473125,
-      "end": 28.6184159,
-      "sourceIndex": 50
-    },
-    {
-      "text": "2:45",
-      "start": 28.747125,
-      "end": 31.3215,
-      "sourceIndex": 52
-    },
-    {
-      "text": "saa",
-      "start": 31.364416,
-      "end": 31.621832,
-      "sourceIndex": 53
-    },
-    {
-      "text": "dakika",
-      "start": 31.66475,
-      "end": 32.251125,
-      "sourceIndex": 54
-    },
-    {
-      "text": "kumi",
-      "start": 33.295208,
-      "end": 33.581249,
-      "targetImage": true
-    },
-    {
-      "text": "arobaini",
-      "start": 33.767166,
-      "end": 34.510874,
-      "targetImage": true
-    },
-    {
-      "text": "mbili",
-      "start": 34.653875,
-      "end": 34.997125,
-      "targetImage": true
-    },
-    {
-      "text": "arobaini",
-      "start": 35.040041,
-      "end": 35.683624,
-      "targetImage": true
-    },
-    {
-      "text": "na",
-      "start": 35.71225,
-      "end": 35.840958,
-      "targetImage": true
-    },
-    {
-      "text": "tano",
-      "start": 35.883875,
-      "end": 36.384458,
-      "targetImage": true
-    },
-    {
-      "text": "saba",
-      "start": 37.471375,
-      "end": 37.900416,
-      "targetImage": true
-    },
-    {
-      "text": "hamsini",
-      "start": 38.072083,
-      "end": 38.629874,
-      "targetImage": true
-    },
-    {
-      "text": "na",
-      "start": 38.658458,
-      "end": 38.772874,
-      "targetImage": true
-    },
-    {
-      "text": "tano",
-      "start": 38.815791,
-      "end": 39.144749,
-      "targetImage": true
-    },
-    {
-      "text": "Hatua",
-      "start": 39.187625,
-      "end": 39.831208,
-      "sourceIndex": 62
-    },
-    {
-      "text": "moja",
-      "start": 40.903875,
-      "end": 41.247125,
-      "targetImage": true
-    },
-    {
-      "text": "Dakika",
-      "start": 41.433083,
-      "end": 41.933666,
-      "sourceIndex": 64
-    },
-    {
-      "text": "arobaini",
-      "start": 41.96225,
-      "end": 42.548625,
-      "targetImage": true
-    },
-    {
-      "text": "ni",
-      "start": 42.57725,
-      "end": 42.677375,
-      "sourceIndex": 66
-    },
-    {
-      "text": "chache",
-      "start": 42.705958,
-      "end": 43.092124,
-      "sourceIndex": 67
-    },
-    {
-      "text": "kuliko",
-      "start": 43.120708,
-      "end": 43.549749,
-      "sourceIndex": 68
-    },
-    {
-      "text": "dakika",
-      "start": 43.578375,
-      "end": 44.064625,
-      "sourceIndex": 69
-    },
-    {
-      "text": "arobaini",
-      "start": 44.09325,
-      "end": 44.679625,
-      "targetImage": true
-    },
-    {
-      "text": "na",
-      "start": 44.70825,
-      "end": 44.836958,
-      "targetImage": true
-    },
-    {
-      "text": "tano",
-      "start": 44.865541,
-      "end": 45.351791,
-      "targetImage": true
-    },
-    {
-      "text": "mbili",
-      "start": 46.4245,
-      "end": 46.667625,
-      "targetImage": true
-    },
-    {
-      "text": "Chukua",
-      "start": 46.867833,
-      "end": 47.296874,
-      "sourceIndex": 72
-    },
-    {
-      "text": "saa",
-      "start": 47.3255,
-      "end": 47.59725,
-      "sourceIndex": 73
-    },
-    {
-      "text": "moja",
-      "start": 47.625875,
-      "end": 48.040625,
-      "targetImage": true
-    },
-    {
-      "text": "ambayo",
-      "start": 48.197958,
-      "end": 48.598416,
-      "sourceIndex": 75
-    },
-    {
-      "text": "ni",
-      "start": 48.627,
-      "end": 48.727125,
-      "sourceIndex": 76
-    },
-    {
-      "text": "dakika",
-      "start": 48.755708,
-      "end": 49.213374,
-      "sourceIndex": 77
-    },
-    {
-      "text": "sitini",
-      "start": 49.242,
-      "end": 49.785458,
-      "targetImage": true
-    },
-    {
-      "text": "toka",
-      "start": 49.828375,
-      "end": 50.157333,
-      "sourceIndex": 79
-    },
-    {
-      "text": "saa",
-      "start": 50.200208,
-      "end": 50.471958,
-      "sourceIndex": 80
-    },
-    {
-      "text": "kumi",
-      "start": 50.514875,
-      "end": 50.8295,
-      "targetImage": true
-    },
-    {
-      "text": "Jumlisha",
-      "start": 50.872416,
-      "end": 51.501707,
-      "sourceIndex": 82
-    },
-    {
-      "text": "dakika",
-      "start": 51.802041,
-      "end": 52.273999,
-      "sourceIndex": 83
-    },
-    {
-      "text": "sitini",
-      "start": 52.302625,
-      "end": 52.831791,
-      "targetImage": true
-    },
-    {
-      "text": "jumlisha",
-      "start": 52.874708,
-      "end": 53.446791,
-      "targetImage": true
-    },
-    {
-      "text": "dakika",
-      "start": 53.489708,
-      "end": 53.990291,
-      "sourceIndex": 86
-    },
-    {
-      "text": "arobaini",
-      "start": 54.033166,
-      "end": 54.605249,
+      "start": 32.631583,
+      "end": 32.997083,
       "targetImage": true
     },
     {
       "text": "sawa",
-      "start": 54.648166,
-      "end": 55.034332,
+      "start": 33.026333,
+      "end": 33.391833,
+      "sourceIndex": 49
+    },
+    {
+      "text": "na",
+      "start": 33.421041,
+      "end": 33.537999,
+      "targetImage": true
+    },
+    {
+      "text": "ngapi",
+      "start": 33.56725,
+      "end": 34.093583,
+      "sourceIndex": 49
+    },
+    {
+      "text": "10:40",
+      "start": 35.219291,
+      "end": 37.41225,
+      "sourceIndex": 50
+    },
+    {
+      "text": "2:45",
+      "start": 37.543875,
+      "end": 40.233916,
+      "sourceIndex": 52
+    },
+    {
+      "text": "saa",
+      "start": 40.277791,
+      "end": 40.570207,
+      "sourceIndex": 53
+    },
+    {
+      "text": "dakika",
+      "start": 40.614041,
+      "end": 41.111124,
+      "sourceIndex": 54
+    },
+    {
+      "text": "10",
+      "start": 41.154958,
+      "end": 41.505833,
+      "sourceIndex": 55
+    },
+    {
+      "text": "40",
+      "start": 41.549708,
+      "end": 42.251458,
+      "sourceIndex": 56
+    },
+    {
+      "text": "2",
+      "start": 42.397666,
+      "end": 42.763166,
+      "sourceIndex": 58
+    },
+    {
+      "text": "45",
+      "start": 42.807,
+      "end": 43.962,
+      "sourceIndex": 59
+    },
+    {
+      "text": "7",
+      "start": 44.005833,
+      "end": 44.400583,
+      "sourceIndex": 60
+    },
+    {
+      "text": "55",
+      "start": 44.444458,
+      "end": 45.555541,
+      "sourceIndex": 61
+    },
+    {
+      "text": "Hatua",
+      "start": 45.599416,
+      "end": 46.052624,
+      "sourceIndex": 62
+    },
+    {
+      "text": "1",
+      "start": 46.081875,
+      "end": 46.549708,
+      "sourceIndex": 63
+    },
+    {
+      "text": "Dakika",
+      "start": 47.631583,
+      "end": 47.997083,
+      "sourceIndex": 64
+    },
+    {
+      "text": "40",
+      "start": 48.128666,
+      "end": 48.713457,
+      "sourceIndex": 65
+    },
+    {
+      "text": "ni",
+      "start": 48.742708,
+      "end": 48.845041,
+      "sourceIndex": 66
+    },
+    {
+      "text": "chache",
+      "start": 48.874291,
+      "end": 49.283666,
+      "sourceIndex": 67
+    },
+    {
+      "text": "kuliko",
+      "start": 49.312875,
+      "end": 49.736833,
+      "sourceIndex": 68
+    },
+    {
+      "text": "dakika",
+      "start": 49.766083,
+      "end": 50.263166,
+      "sourceIndex": 69
+    },
+    {
+      "text": "45",
+      "start": 50.292416,
+      "end": 51.578958,
+      "sourceIndex": 70
+    },
+    {
+      "text": "2",
+      "start": 52.690041,
+      "end": 52.982457,
+      "sourceIndex": 71
+    },
+    {
+      "text": "Chukua",
+      "start": 53.216375,
+      "end": 53.654958,
+      "sourceIndex": 72
+    },
+    {
+      "text": "saa",
+      "start": 53.684208,
+      "end": 53.961999,
+      "sourceIndex": 73
+    },
+    {
+      "text": "1",
+      "start": 53.99125,
+      "end": 54.444458,
+      "sourceIndex": 74
+    },
+    {
+      "text": "ambayo",
+      "start": 54.60525,
+      "end": 55.043833,
+      "sourceIndex": 75
+    },
+    {
+      "text": "ni",
+      "start": 55.073083,
+      "end": 55.175416,
+      "sourceIndex": 76
+    },
+    {
+      "text": "dakika",
+      "start": 55.204666,
+      "end": 55.657874,
+      "sourceIndex": 77
+    },
+    {
+      "text": "60",
+      "start": 55.687125,
+      "end": 56.286541,
+      "sourceIndex": 78
+    },
+    {
+      "text": "toka",
+      "start": 56.418125,
+      "end": 56.725125,
+      "sourceIndex": 79
+    },
+    {
+      "text": "saa",
+      "start": 56.754375,
+      "end": 57.046791,
+      "sourceIndex": 80
+    },
+    {
+      "text": "10",
+      "start": 57.090666,
+      "end": 57.529249,
+      "sourceIndex": 81
+    },
+    {
+      "text": "Jumlisha",
+      "start": 58.5965,
+      "end": 59.122833,
+      "sourceIndex": 82
+    },
+    {
+      "text": "dakika",
+      "start": 59.356708,
+      "end": 59.839166,
+      "sourceIndex": 83
+    },
+    {
+      "text": "60",
+      "start": 59.868416,
+      "end": 60.423957,
+      "sourceIndex": 84
+    },
+    {
+      "text": "kuongeza",
+      "start": 60.467833,
+      "end": 61.067249,
+      "sourceIndex": 85
+    },
+    {
+      "text": "dakika",
+      "start": 61.0965,
+      "end": 61.608208,
+      "sourceIndex": 86
+    },
+    {
+      "text": "40",
+      "start": 61.652041,
+      "end": 62.266082,
+      "sourceIndex": 87
+    },
+    {
+      "text": "sawa",
+      "start": 62.309958,
+      "end": 62.690083,
+      "sourceIndex": 88
+    },
+    {
+      "text": "sawa",
+      "start": 62.733916,
+      "end": 63.114041,
       "targetImage": true
     },
     {
       "text": "na",
-      "start": 55.062916,
-      "end": 55.163041,
+      "start": 63.143291,
+      "end": 63.260249,
       "targetImage": true
+    },
+    {
+      "text": "ngapi",
+      "start": 63.289458,
+      "end": 63.815791,
+      "sourceIndex": 88
     },
     {
       "text": "dakika",
-      "start": 55.191666,
-      "end": 55.677916,
+      "start": 64.926916,
+      "end": 65.277791,
       "sourceIndex": 89
     },
     {
-      "text": "mia",
-      "start": 55.720833,
-      "end": 55.949666,
-      "targetImage": true
-    },
-    {
-      "text": "moja",
-      "start": 55.97825,
-      "end": 56.435916,
-      "targetImage": true
+      "text": "100",
+      "start": 65.39475,
+      "end": 66.198833,
+      "sourceIndex": 90
     }
-  ],
-  "voice": "sw-TZ-RehemaNeural",
-  "version": 25,
-  "rate": 0.9
+  ]
 }

@@ -33,7 +33,7 @@ CONFIG = {
     }},
     7: {
         "replace": {
-            "pg007_n0010": "Zoezi la Kwanza: Marudio",
+            "pg007_n0010": "Zoezi la Kwanza. Marudio.",
             "pg007_n0012": "2. Soma namba zilizopo katika jedwali lifuatalo, kisha",
         },
         "after": {
@@ -43,7 +43,7 @@ CONFIG = {
     },
     8: {
         "replace": {
-            "pg008_n0001": "Swali la 3. Bainisha na uandike namba zifuatazo kwa tarakimu. Mstari wa kwanza",
+            "pg008_n0001": "Swali la 3. Andika namba zifuatazo kwa tarakimu. Mstari wa kwanza",
             "pg008_n0003": "Jedwali lina safu mbili: namba kwa maneno, na namba kwa tarakimu.",
             "pg008_n0004": "Mstari wa kwanza ni mfano. Namba kwa maneno ni hamsini na saba. Kwa tarakimu ni 57.",
             "pg008_n0005": "Mstari wa pili ni mfano. Namba kwa maneno ni mia sita kumi na mbili. Kwa tarakimu ni 612.",
@@ -53,15 +53,16 @@ CONFIG = {
             "pg008_n0009": "Mstari wa sita. Mia saba themanini itaandikwaje kwa tarakimu?",
             "pg008_n0010": "Mstari wa saba. Mia moja kumi na moja itaandikwaje kwa tarakimu?",
             "pg008_n0011": "Mstari wa nane. Mia tisa tisini na tisa itaandikwaje kwa tarakimu?",
-            "pg008_n0012": "Swali la 4. Chunguza au bainisha chati ya namba, kisha jibu swali linalofuata.",
+            "pg008_n0012": "Swali la 4. Chunguza chati ya namba, kisha jibu swali linalofuata.",
             "pg008_n0013": "Mstari wa kwanza una namba: 16, 30, 102, 940, 20 na 15.",
             "pg008_n0014": "Mstari wa pili una namba: 5, 60, 2, 17, 312 na 72.",
             "pg008_n0015": "Mstari wa tatu una namba: 19, 1, 321, 35, 461 na 966.",
-            "pg008_n0017": "5. Bainisha na uandike namba zinazowakilishwa katika mchoro ufuatao.",
+            "pg008_n0017": "5. Andika namba zinazowakilishwa katika mchoro ufuatao.",
         },
-        "after": {"pg008_n0017": ["Makumi elfu. Maelfu. Mamia. Makumi. Mamoja. Mchoro una mafungu matatu ya makumi elfu, mafungu manne ya maelfu, mafungu matatu ya mamia, mafungu matatu ya makumi na mafungu manne ya mamoja. Namba hiyo itaandikwaje kwa tarakimu?"]},
+        "after": {"pg008_n0017": ["Mamoja. Makumi. Mamia. Maelfu. Makumi elfu. Mchoro una mafungu manne ya mamoja, mafungu matatu ya makumi, mafungu matatu ya mamia, mafungu manne ya maelfu na mafungu matatu ya makumi elfu. Namba hiyo itaandikwaje kwa tarakimu?"]},
     },
     9: {
+        "remove": {"pg009_n0006", "pg009_n0007", "pg009_n0008", "pg009_n0009"},
         "replace": {
             "pg009_n0003": "Mfano wa Kwanza",
             "pg009_n0004": "Hesabu au eleza, kisha andika kwa maneno namba inayowakilishwa",
@@ -71,10 +72,11 @@ CONFIG = {
             "pg009_n0018": "4. Hesabu au taja visanduku visivyo katika mafungu, unapata visanduku 3.",
         },
         "after": {
-            "pg009_n0005": ["Maelfu. Mamia. Makumi. Mamoja. Jedwali lina fungu moja la maelfu, mafungu mawili ya mamia, fungu moja la makumi, na visanduku vitatu vya mamoja."],
+            "pg009_n0005": ["Picha inaonesha mafungu ya visanduku katika maelfu, mamia, makumi na mamoja. Maelfu yana fungu moja la visanduku. Mamia yana mafungu mawili ya visanduku. Makumi yana fungu moja la visanduku. Mamoja yana visanduku vitatu."],
         },
     },
     10: {
+        "remove": {"pg010_n0006", "pg010_n0007", "pg010_n0008", "pg010_n0009"},
         "replace": {
             "pg010_n0004": "Mfano wa Pili",
             "pg010_n0005": "Hesabu au eleza mafungu ya sarafu, kisha andika namba kwa maneno.",
@@ -84,62 +86,131 @@ CONFIG = {
             "pg010_n0020": "4. Hesabu au taja sarafu katika mamoja; unapata mamoja tisa yenye",
         },
         "after": {
-            "pg010_n0005": ["Maelfu. Mamia. Makumi. Mamoja. Picha ina mafungu tisa ya maelfu, mafungu tisa ya mamia, mafungu tisa ya makumi na sarafu tisa za mamoja."],
+            "pg010_n0005": ["Picha inaonesha mafungu ya sarafu katika maelfu, mamia, makumi na mamoja. Maelfu yana mafungu tisa ya sarafu. Mamia yana mafungu tisa ya sarafu. Makumi yana mafungu tisa ya sarafu. Mamoja yana sarafu tisa."],
         },
     },
     11: {
         "replace": {"pg011_n0005": "Zoezi la Pili"},
+        "remove": {
+            "pg011_n0008", "pg011_n0009", "pg011_n0010", "pg011_n0011",
+            "pg011_n0012", "pg011_n0013", "pg011_n0014", "pg011_n0015",
+            "pg011_n0016", "pg011_n0017", "pg011_n0018", "pg011_n0019",
+            "pg011_n0020", "pg011_n0021", "pg011_n0022", "pg011_n0023",
+        },
         "after": {
             "pg011_n0007": [
-                "Jedwali la kwanza. Maelfu. Mamia. Makumi. Mamoja. Picha ina mafungu matano ya maelfu, mafungu matatu ya mamia, mafungu manne ya makumi na vipande sita vya mamoja.",
-                "Jedwali la pili. Maelfu. Mamia. Makumi. Mamoja. Picha ina mafungu tisa ya maelfu, mafungu tisa ya mamia, hakuna fungu la makumi, na penseli tisa za mamoja.",
+                "Jedwali la kwanza. Picha inaonesha mafungu ya visanduku katika maelfu, mamia, makumi na mamoja. Maelfu yana mafungu matano ya visanduku. Mamia yana mafungu matatu ya visanduku. Makumi yana mafungu manne ya visanduku. Mamoja yana visanduku sita.",
+                "Jedwali la pili. Picha inaonesha mafungu ya penseli katika maelfu, mamia, makumi na mamoja. Maelfu yana mafungu tisa ya penseli. Mamia yana mafungu tisa ya penseli. Makumi yana mafungu sifuri. Mamoja yana penseli tisa.",
             ],
         },
     },
     12: {
+        "remove": {"pg012_n0002", "pg012_n0003", "pg012_n0010", "pg012_n0011", "pg012_n0012"},
         "replace": {
             "pg012_n0007": "Mfano wa Kwanza",
-            "pg012_n0008": "Angalia au bainisha jedwali, kisha taja na uandike namba kwa tarakimu",
+            "pg012_n0008": "Angalia jedwali, kisha taja na uandike namba kwa tarakimu",
             "pg012_n0009": "na kwa maneno.",
         },
         "after": {
-            "pg012_n0001": ["Maelfu. Mamia. Makumi. Mamoja. Picha ina mafungu sita ya maelfu, mafungu saba ya mamia, mafungu matano ya makumi na vipande tisa vya mamoja."],
+            "pg012_n0001": ["Picha inaonesha mafungu katika maelfu, mamia, makumi na mamoja. Maelfu yana mafungu sita. Mamia yana mafungu saba. Makumi yana mafungu matano. Mamoja yana vipande tisa."],
             "pg012_n0009": ["Makumi elfu. Maelfu. Mamia. Makumi. Mamoja. Jedwali lina fungu moja la makumi elfu. Safu za maelfu, mamia, makumi na mamoja hazina mafungu; kila moja imeandikwa sifuri."],
         },
     },
     13: {
+        "remove": {
+            "pg013_n0004", "pg013_n0005", "pg013_n0006",
+            "pg013_n0021", "pg013_n0022", "pg013_n0023",
+        },
         "replace": {
             "pg013_n0001": "Mfano wa Pili",
             "pg013_n0018": "Mfano wa Tatu",
-            "pg013_n0002": "Angalia au bainisha jedwali, kisha taja na uandike namba kwa",
-            "pg013_n0019": "Angalia au bainisha jedwali, kisha taja na uandike namba kwa",
+            "pg013_n0002": "Angalia jedwali, kisha taja na uandike namba kwa",
+            "pg013_n0019": "Angalia jedwali, kisha taja na uandike namba kwa",
         },
         "after": {
-            "pg013_n0003": ["Makumi elfu. Maelfu. Mamia. Makumi. Mamoja. Jedwali lina fungu moja la makumi elfu na sarafu moja ya mamoja. Safu za maelfu, mamia na makumi zimeandikwa sifuri."],
-            "pg013_n0020": ["Makumi elfu. Maelfu. Mamia. Makumi. Mamoja. Jedwali lina mafungu matatu ya makumi elfu, mafungu mawili ya maelfu, fungu moja la mamia, mafungu mawili ya makumi na sarafu moja ya mamoja."],
+            "pg013_n0003": ["Picha inaonesha mafungu ya sarafu katika makumi elfu, maelfu, mamia, makumi na mamoja. Makumi elfu yana fungu moja la sarafu. Maelfu, mamia na makumi yana mafungu sifuri. Mamoja yana sarafu moja."],
+            "pg013_n0020": ["Picha inaonesha mafungu ya sarafu katika makumi elfu, maelfu, mamia, makumi na mamoja. Makumi elfu yana mafungu matatu ya sarafu. Maelfu yana mafungu mawili ya sarafu. Mamia yana fungu moja la sarafu. Makumi yana mafungu mawili ya sarafu. Mamoja yana sarafu moja."],
         },
     },
     14: {
+        "remove": {"pg014_n0020", "pg014_n0021", "pg014_n0022", "pg014_n0023"},
         "replace": {
             "pg014_n0016": "Zoezi la Tatu",
             "pg014_n0018": "1. Hesabu au eleza, kisha andika kwa tarakimu na kwa maneno",
         },
         "after": {
-            "pg014_n0019": ["Makumi elfu. Maelfu. Mamia. Makumi. Mamoja. Mchoro a una mafungu mawili ya makumi elfu, mafungu matano ya maelfu, mafungu manne ya mamia, mafungu matano ya makumi na sarafu sita za mamoja."],
+            "pg014_n0019": ["Mchoro a unaonesha mafungu ya sarafu katika makumi elfu, maelfu, mamia, makumi na mamoja. Makumi elfu yana mafungu mawili ya sarafu. Maelfu yana mafungu matano ya sarafu. Mamia yana mafungu manne ya sarafu. Makumi yana mafungu matano ya sarafu. Mamoja yana sarafu sita."],
         },
     },
-    15: {"after": {
-        "pg015_n0002": ["Makumi elfu. Maelfu. Mamia. Makumi. Mamoja. Mchoro b una mafungu nane ya makumi elfu, fungu moja la maelfu, fungu moja la mamia, mafungu matatu ya makumi na sarafu sita za mamoja."],
+    15: {"remove": {"pg015_n0002", "pg015_n0003", "pg015_n0004", "pg015_n0005", "pg015_n0006"}, "after": {
+        "pg015_n0001": ["Mchoro b unaonesha mafungu ya sarafu katika makumi elfu, maelfu, mamia, makumi na mamoja. Makumi elfu yana mafungu nane ya sarafu. Maelfu yana fungu moja la sarafu. Mamia yana fungu moja la sarafu. Makumi yana mafungu matatu ya sarafu. Mamoja yana sarafu sita."],
         "pg015_n0016": ["Makumi elfu. Maelfu. Mamia. Makumi. Mamoja. Abakasi ina shanga saba za makumi elfu, shanga nne za maelfu, shanga tatu za mamia, shanga tatu za makumi na shanga tano za mamoja."],
     }},
     17: {
-        "remove": {"pg017_n0005"},
+        "remove": {
+            "pg017_n0005", "pg017_n0006", "pg017_n0007",
+            "pg017_n0015", "pg017_n0016", "pg017_n0017", "pg017_n0018", "pg017_n0019",
+        },
         "replace": {
             "pg017_n0001": "Mfano wa Kwanza",
-            "pg017_n0004": "Jedwali lina nafasi tano. Kutoka kushoto kwenda kulia ni ya tano, ya nne, ya tatu, ya pili na ya kwanza.",
+            "pg017_n0004": "Jedwali lina nafasi tano. Namba ni elfu ishirini na moja, mia tatu sitini na nne. Kutoka kushoto kwenda kulia: nafasi ya tano ni makumi elfu, ina tarakimu mbili. Nafasi ya nne ni maelfu, ina tarakimu moja. Nafasi ya tatu ni mamia, ina tarakimu tatu. Nafasi ya pili ni makumi, ina tarakimu sita. Nafasi ya kwanza ni mamoja, ina tarakimu nne.",
             "pg017_n0010": "Mfano wa Pili",
+            "pg017_n0014": "Jibu. Sehemu a. Namba ni elfu nne mia sita ishirini na nane. Kutoka kulia kwenda kushoto: nane ni mamoja, mbili ni makumi, sita ni mamia, na nne ni maelfu. Sehemu b. Namba ni elfu themanini na tatu na hamsini. Kutoka kulia kwenda kushoto: sifuri ni mamoja, tano ni makumi, sifuri ni mamia, tatu ni maelfu, na nane ni makumi elfu.",
         },
-        "after": {"pg017_n0006": ["Makumi elfu. Maelfu. Mamia. Makumi. Mamoja. Namba elfu ishirini na moja mia tatu sitini na nne ina tarakimu mbili katika makumi elfu, moja katika maelfu, tatu katika mamia, sita katika makumi na nne katika mamoja."]},
+    },
+    19: {
+        "remove": {
+            "pg019_n0009", "pg019_n0011", "pg019_n0013",
+            "pg019_n0016", "pg019_n0018", "pg019_n0020", "pg019_n0022",
+            "pg019_n0024", "pg019_n0025",
+        },
+        "replace": {
+            "pg019_n0005": "Zoezi la Nne",
+            "pg019_n0007": "Swali la kwanza. Andika thamani ya kila tarakimu katika namba zifuatazo.",
+            "pg019_n0008": "Sehemu a, 23967. Sehemu b, 76012. Sehemu c, 30645. Sehemu d, 80020.",
+            "pg019_n0010": "Swali la pili. Fafanua namba zifuatazo kwa kuzingatia nafasi ya kila tarakimu.",
+            "pg019_n0012": "Sehemu a, 40788. Sehemu b, 39615. Sehemu c, 8205. Sehemu d, 98735.",
+            "pg019_n0014": "Swali la tatu. Tumia namba zilizoorodheshwa kujaza nafasi zilizo wazi.",
+            "pg019_n0015": "Sehemu a. Namba 13739. Makumi elfu, dashi. Maelfu, dashi. Mamia, dashi. Makumi, dashi. Mamoja, dashi.",
+            "pg019_n0017": "Sehemu b. Namba 19897. Makumi elfu, dashi. Maelfu, dashi. Mamia, dashi. Makumi, dashi. Mamoja, dashi.",
+            "pg019_n0019": "Sehemu c. Namba 39001. Makumi elfu, dashi. Maelfu, dashi. Mamia, dashi. Makumi, dashi. Mamoja, dashi.",
+            "pg019_n0021": "Sehemu d. Namba 99678. Makumi elfu, dashi. Maelfu, dashi. Mamia, dashi. Makumi, dashi. Mamoja, dashi.",
+            "pg019_n0023": "Swali la nne. Andika namba ambayo tarakimu 7 ipo katika nafasi ya mamia, tarakimu 8 ipo katika nafasi ya mamoja, tarakimu 2 ipo katika nafasi ya maelfu, na tarakimu 8 ipo katika nafasi ya makumi.",
+        },
+    },
+    20: {
+        "remove": {"pg020_n0002"},
+        "replace": {
+            "pg020_n0001": "Swali la tano. Andika thamani ya tarakimu iliyopigiwa mstari katika namba zifuatazo.",
+            "pg020_n0003": "Sehemu a. Namba ni elfu tisini na tatu, mia saba arobaini na moja. Namba iliyopigiwa mstari ni ipi? Sehemu b. Namba ni elfu sita na tisini. Namba iliyopigiwa mstari ni ipi? Sehemu c. Namba ni elfu sabini na mbili, mia tisa tisini na nne. Namba iliyopigiwa mstari ni ipi? Sehemu d. Namba ni elfu hamsini, mia moja arobaini na nane. Namba iliyopigiwa mstari ni ipi?",
+            "pg020_n0018": "Zoezi la Tano",
+        },
+    },
+    21: {
+        "remove": {
+            "pg021_n0002", "pg021_n0009", "pg021_n0011",
+            "pg021_n0014", "pg021_n0016", "pg021_n0021",
+        },
+        "replace": {
+            "pg021_n0001": "Swali la pili. Soma namba zifuatazo katika jedwali.",
+            "pg021_n0003": "Jedwali lina safu ya namba kwa tarakimu na safu ya namba kwa maneno.",
+            "pg021_n0004": "Sehemu a. Namba kwa tarakimu ni 38951. Namba hii kwa maneno inatamkwaje?",
+            "pg021_n0005": "Sehemu b. Namba kwa tarakimu ni 40690. Namba hii kwa maneno inatamkwaje?",
+            "pg021_n0006": "Sehemu c. Namba kwa tarakimu ni 97000. Namba hii kwa maneno inatamkwaje?",
+            "pg021_n0007": "Sehemu d. Namba kwa tarakimu ni 30001. Namba hii kwa maneno inatamkwaje?",
+            "pg021_n0008": "Swali la tatu. Soma namba zifuatazo zilizoandikwa kwa maneno.",
+            "pg021_n0010": "Jedwali lina safu ya namba kwa maneno na safu ya namba kwa tarakimu.",
+            "pg021_n0012": "Sehemu a. Sabini elfu mia nane na tano. Namba hii kwa tarakimu inatamkwaje?",
+            "pg021_n0013": "Sehemu b. Tisini na tisa elfu mia nane tisini na nane. Namba hii kwa tarakimu inatamkwaje?",
+            "pg021_n0015": "Sehemu c. Elfu thelathini na tatu mia sita sabini na mbili. Namba hii kwa tarakimu inatamkwaje?",
+            "pg021_n0017": "Sehemu d. Elfu ishirini na moja mia mbili na tano. Namba hii kwa tarakimu inatamkwaje?",
+            "pg021_n0018": "Sehemu e. Tisini elfu na tisa. Namba hii kwa tarakimu inatamkwaje?",
+            "pg021_n0019": "Sehemu f. Elfu hamsini. Namba hii kwa tarakimu inatamkwaje?",
+            "pg021_n0020": "Sehemu g. Sitini na tisa elfu mia moja hamsini na tano. Namba hii kwa tarakimu inatamkwaje?",
+            "pg021_n0022": "Sehemu h. Elfu tisa mia saba hamsini na tatu. Namba hii kwa tarakimu inatamkwaje?",
+            "pg021_n0023": "Sehemu i. Tisini na tisa elfu mia moja tisini na tisa. Namba hii kwa tarakimu inatamkwaje?",
+            "pg021_n0024": "Sehemu j. Themanini elfu mia mbili na saba. Namba hii kwa tarakimu inatamkwaje?",
+        },
     },
     25: {
         "replace": {
@@ -155,7 +226,7 @@ CONFIG = {
     26: {
         "remove": {"pg026_n0007_matrix_1", "pg026_n0008_matrix_1", "pg026_n0025_matrix_1"},
         "replace": {
-            "pg026_n0004": "Hatua ya kwanza. Bainisha namba mbili zilizotangulia.",
+            "pg026_n0004": "Hatua ya kwanza. Taja namba mbili zilizotangulia.",
             "pg026_n0005": "Hatua ya pili. Tafuta tofauti ya namba mbili zilizotangulia.",
             "pg026_n0006": "Hatua ya tatu. Jumlisha tofauti ya namba hizo na namba iliyotangulia.",
             "pg026_n0007": "Mfano wa Kwanza",
@@ -298,16 +369,13 @@ def patch_transcript(raw, replacements, after, remove=()):
         raw = re.sub(pattern, lambda m: m.group(1) + html.escape(replacement) + m.group(3), raw, count=1, flags=re.S)
     for node_id, additions in after.items():
         pattern = rf'(<span data-id="{re.escape(node_id)}">.*?</span>)'
-        stale = rf'\s*<span data-id="{re.escape(node_id)}_matrix_(\d+)">.*?</span>'
-        raw = re.sub(stale, lambda m: "" if int(m.group(1)) > len(additions) else m.group(0), raw, flags=re.S)
-        for i, text in enumerate(additions):
-            addition_id = f"{node_id}_matrix_{i+1}"
-            existing = rf'(<span data-id="{re.escape(addition_id)}">)(.*?)(</span>)'
-            if re.search(existing, raw, re.S):
-                raw = re.sub(existing, lambda m: m.group(1) + html.escape(text) + m.group(3), raw, count=1, flags=re.S)
-            else:
-                extra = f' <span data-id="{addition_id}">{html.escape(text)}</span>'
-                raw = re.sub(pattern, lambda m: m.group(1) + extra, raw, count=1, flags=re.S)
+        stale = rf'\s*<span data-id="{re.escape(node_id)}_matrix_\d+">.*?</span>'
+        raw = re.sub(stale, "", raw, flags=re.S)
+        extras = "".join(
+            f' <span data-id="{node_id}_matrix_{i+1}">{html.escape(text)}</span>'
+            for i, text in enumerate(additions)
+        )
+        raw = re.sub(pattern, lambda m: m.group(1) + extras, raw, count=1, flags=re.S)
     return raw
 
 
@@ -329,20 +397,47 @@ async def generate(page, timecodes):
     cues = []
     audio_name = f"page-{page:03d}-matrix-v9.mp3"
     output = ROOT / "content" / "rehema"
-    with (output / audio_name).open("wb") as audio:
-        stream = edge_tts.Communicate(text, VOICE, rate=RATE, boundary="WordBoundary")
-        async for event in stream.stream():
+    audio_path = output / audio_name
+    temp_path = output / f".{audio_name}.tmp"
+    with temp_path.open("wb") as audio:
+        page_rate = "-20%" if 8 <= page <= 15 or page == 17 else RATE
+        stream = edge_tts.Communicate(
+            text, VOICE, rate=page_rate, boundary="WordBoundary",
+            connect_timeout=15, receive_timeout=90,
+        )
+        iterator = stream.stream().__aiter__()
+        while True:
+            try:
+                event = await asyncio.wait_for(iterator.__anext__(), timeout=60)
+            except StopAsyncIteration:
+                break
+            except TimeoutError:
+                expected_tail = [norm(token) for token in text.split() if norm(token)][-3:]
+                actual_tail = [norm(cue["text"]) for cue in cues if norm(cue["text"])][-3:]
+                if cues and audio.tell() >= 1000 and actual_tail == expected_tail:
+                    break
+                raise
             if event["type"] == "audio":
                 audio.write(event["data"])
             elif event["type"] == "WordBoundary":
                 start = event["offset"] / 10_000_000
                 duration = event["duration"] / 10_000_000
                 cues.append({"text": event["text"], "start": round(start, 6), "end": round(start + duration, 6)})
+    temp_path.replace(audio_path)
     map_words(cues, words)
+    if page == 7:
+        heading = ["zoezi", "la", "kwanza", "marudio"]
+        normalized_cues = [norm(cue["text"]) for cue in cues]
+        for start in range(len(cues) - len(heading) + 1):
+            if normalized_cues[start:start + len(heading)] == heading:
+                for offset, source_index in enumerate((56, 57, 58, 59)):
+                    cues[start + offset]["sourceIndex"] = source_index
+                break
     if page == 8:
         visual_phrases = {
-            "q4": "Chunguza au bainisha chati ya namba kisha jibu swali linalofuata",
-            "q5": "Bainisha na uandike namba zinazowakilishwa katika mchoro ufuatao",
+            "q3": "Andika namba zifuatazo kwa tarakimu Mstari wa kwanza na wa pili ni mfano",
+            "q4": "Chunguza chati ya namba kisha jibu swali linalofuata",
+            "q5": "Andika namba zinazowakilishwa katika mchoro ufuatao",
         }
         normalized_cues = [norm(cue["text"]) for cue in cues]
         for class_name, phrase in visual_phrases.items():
@@ -410,7 +505,7 @@ async def generate(page, timecodes):
                 cues[cue_index]["targetSelector"] = f".step{step_number} .matrix-highlight-word:nth-of-type({match + 1})"
                 visual_pos = match + 1
     if page == 12:
-        phrase = "Angalia au bainisha jedwali kisha taja na uandike namba kwa tarakimu na kwa maneno"
+        phrase = "Angalia jedwali kisha taja na uandike namba kwa tarakimu na kwa maneno"
         tokens = [norm(token) for token in phrase.split()]
         normalized_cues = [norm(cue["text"]) for cue in cues]
         for start in range(len(cues) - len(tokens) + 1):
@@ -419,7 +514,7 @@ async def generate(page, timecodes):
                     cues[start + offset]["targetSelector"] = f".inclusive-instruction-patch .matrix-highlight-word:nth-of-type({offset + 1})"
                 break
     if page == 13:
-        phrase = "Angalia au bainisha jedwali kisha taja na uandike namba kwa tarakimu na kwa maneno"
+        phrase = "Angalia jedwali kisha taja na uandike namba kwa tarakimu na kwa maneno"
         tokens = [norm(token) for token in phrase.split()]
         normalized_cues = [norm(cue["text"]) for cue in cues]
         occurrence = 0
@@ -463,7 +558,7 @@ async def generate(page, timecodes):
                     active = 94
                 cue["sourceIndex"] = active
         offset += count
-    entry = {"audio": audio_name, "voice": VOICE, "rate": 0.9, "pitch": "neutral", "version": 24, "words": cues}
+    entry = {"audio": audio_name, "voice": VOICE, "rate": 0.8 if 8 <= page <= 15 or page == 17 else 0.9, "pitch": "neutral", "version": 24, "words": cues}
     (output / f"page-{page:03d}.json").write_text(json.dumps(entry, ensure_ascii=False, indent=2), encoding="utf-8")
     timecodes[str(page)] = entry
     path.write_text(patch_transcript(raw, replacements, after, cfg.get("remove", set())), encoding="utf-8")
