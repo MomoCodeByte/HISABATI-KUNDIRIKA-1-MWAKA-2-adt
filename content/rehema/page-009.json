@@ -1,9 +1,9 @@
 {
-  "audio": "page-009-fullbook-v1.mp3",
+  "audio": "page-009-matrix-v32.mp3",
   "voice": "sw-TZ-RehemaNeural",
   "rate": 0.8,
   "pitch": "neutral",
-  "version": 25,
+  "version": 47,
   "words": [
     {
       "text": "Kuhesabu",
@@ -19,8 +19,8 @@
     },
     {
       "text": "katika",
-      "start": 1.316458,
-      "end": 1.826333,
+      "start": 1.332875,
+      "end": 1.826291,
       "sourceIndex": 3
     },
     {
@@ -38,1201 +38,1335 @@
     {
       "text": "vitu",
       "start": 3.224333,
-      "end": 3.635499,
+      "end": 3.619083,
       "sourceIndex": 6
     },
     {
       "text": "katika",
-      "start": 3.668416,
-      "end": 4.145374,
+      "start": 3.651958,
+      "end": 4.128916,
       "sourceIndex": 7
     },
     {
       "text": "mafungu",
-      "start": 4.178291,
-      "end": 4.721041,
+      "start": 4.161833,
+      "end": 4.704583,
       "sourceIndex": 8
     },
     {
       "text": "ya",
-      "start": 4.753958,
-      "end": 4.836208,
+      "start": 4.7375,
+      "end": 4.81975,
       "sourceIndex": 9
     },
     {
       "text": "maelfu",
-      "start": 4.869083,
-      "end": 5.378958,
+      "start": 4.852625,
+      "end": 5.313166,
       "sourceIndex": 10
     },
     {
       "text": "Mfano",
-      "start": 5.428291,
-      "end": 5.921707,
+      "start": 5.3625,
+      "end": 5.855916,
       "sourceIndex": 11
     },
     {
       "text": "wa",
-      "start": 5.954625,
-      "end": 6.06975,
+      "start": 5.888833,
+      "end": 6.003958,
       "sourceIndex": 12
     },
     {
       "text": "Kwanza",
-      "start": 6.119083,
-      "end": 6.513833,
-      "targetImage": true
+      "start": 6.053291,
+      "end": 6.448041,
+      "sourceIndex": 115
     },
     {
       "text": "Hesabu",
-      "start": 6.563166,
-      "end": 7.188166,
+      "start": 6.480916,
+      "end": 7.073041,
+      "sourceIndex": 115,
       "targetSelector": ".example-instruction-patch .matrix-highlight-word:nth-of-type(1)"
     },
     {
       "text": "au",
-      "start": 7.2375,
-      "end": 7.533541,
+      "start": 7.122375,
+      "end": 7.402,
+      "sourceIndex": 115,
       "targetSelector": ".example-instruction-patch .matrix-highlight-word:nth-of-type(2)"
     },
     {
       "text": "eleza",
-      "start": 7.582875,
-      "end": 8.175,
+      "start": 7.451333,
+      "end": 8.043458,
+      "sourceIndex": 115,
       "targetSelector": ".example-instruction-patch .matrix-highlight-word:nth-of-type(3)"
     },
     {
       "text": "kisha",
-      "start": 8.520375,
-      "end": 8.931541,
+      "start": 8.421708,
+      "end": 8.832874,
+      "sourceIndex": 115,
       "targetSelector": ".example-instruction-patch .matrix-highlight-word:nth-of-type(4)"
     },
     {
       "text": "andika",
-      "start": 8.964458,
-      "end": 9.474333,
+      "start": 8.865791,
+      "end": 9.375666,
+      "sourceIndex": 115,
       "targetSelector": ".example-instruction-patch .matrix-highlight-word:nth-of-type(5)"
     },
     {
       "text": "kwa",
-      "start": 9.523666,
-      "end": 9.688124,
+      "start": 9.425,
+      "end": 9.589458,
+      "sourceIndex": 115,
       "targetSelector": ".example-instruction-patch .matrix-highlight-word:nth-of-type(6)"
     },
     {
       "text": "maneno",
-      "start": 9.721041,
-      "end": 10.263791,
+      "start": 9.622375,
+      "end": 10.165125,
+      "sourceIndex": 115,
       "targetSelector": ".example-instruction-patch .matrix-highlight-word:nth-of-type(7)"
     },
     {
       "text": "namba",
-      "start": 10.296708,
-      "end": 10.674999,
+      "start": 10.198041,
+      "end": 10.576332,
+      "sourceIndex": 115,
       "targetSelector": ".example-instruction-patch .matrix-highlight-word:nth-of-type(8)"
     },
     {
       "text": "inayowakilishwa",
-      "start": 10.724333,
-      "end": 11.826291,
+      "start": 10.625666,
+      "end": 11.727624,
+      "sourceIndex": 115,
       "targetSelector": ".example-instruction-patch .matrix-highlight-word:nth-of-type(9)"
     },
     {
       "text": "na",
-      "start": 11.859208,
-      "end": 11.974333,
+      "start": 11.760541,
+      "end": 11.859207,
+      "sourceIndex": 128,
       "targetSelector": ".example-instruction-patch .matrix-highlight-word:nth-of-type(10)"
     },
     {
       "text": "visanduku",
-      "start": 12.023666,
-      "end": 12.796707,
+      "start": 11.908541,
+      "end": 12.681582,
+      "sourceIndex": 128,
       "targetSelector": ".example-instruction-patch .matrix-highlight-word:nth-of-type(11)"
     },
     {
       "text": "vifuatavyo",
-      "start": 12.846041,
-      "end": 13.849332,
+      "start": 12.714458,
+      "end": 13.701291,
+      "sourceIndex": 128,
       "targetSelector": ".example-instruction-patch .matrix-highlight-word:nth-of-type(12)"
     },
     {
+      "text": "Tunasoma",
+      "start": 14.013833,
+      "end": 14.737499,
+      "sourceIndex": 128
+    },
+    {
+      "text": "jedwali",
+      "start": 14.786833,
+      "end": 15.411833,
+      "sourceIndex": 128
+    },
+    {
+      "text": "kuanzia",
+      "start": 15.461166,
+      "end": 16.020374,
+      "sourceIndex": 128
+    },
+    {
+      "text": "upande",
+      "start": 16.053291,
+      "end": 16.563166,
+      "sourceIndex": 128
+    },
+    {
+      "text": "wa",
+      "start": 16.6125,
+      "end": 16.69475,
+      "sourceIndex": 128
+    },
+    {
+      "text": "kulia",
+      "start": 16.727625,
+      "end": 17.221041,
+      "sourceIndex": 128
+    },
+    {
+      "text": "kwenda",
+      "start": 17.270375,
+      "end": 17.648666,
+      "sourceIndex": 128
+    },
+    {
+      "text": "kushoto",
+      "start": 17.698041,
+      "end": 18.454624,
+      "sourceIndex": 128
+    },
+    {
       "text": "Picha",
-      "start": 14.145375,
-      "end": 14.507208,
-      "targetImage": true
+      "start": 19.654625,
+      "end": 19.868458,
+      "sourceIndex": 128
     },
     {
       "text": "inaonesha",
-      "start": 14.540125,
-      "end": 15.263791,
-      "targetImage": true
-    },
-    {
-      "text": "mafungu",
-      "start": 15.296708,
-      "end": 15.839458,
-      "targetImage": true
-    },
-    {
-      "text": "ya",
-      "start": 15.888833,
-      "end": 15.971083,
-      "targetImage": true
-    },
-    {
-      "text": "visanduku",
-      "start": 16.003958,
-      "end": 16.793416,
-      "targetImage": true
-    },
-    {
-      "text": "katika",
-      "start": 16.84275,
-      "end": 17.336166,
-      "targetImage": true
-    },
-    {
-      "text": "maelfu",
-      "start": 17.369083,
-      "end": 17.961208,
-      "targetImage": true
-    },
-    {
-      "text": "mamia",
-      "start": 18.09275,
-      "end": 18.701291,
-      "targetImage": true
-    },
-    {
-      "text": "makumi",
-      "start": 19.161166,
-      "end": 19.588791,
-      "targetImage": true
-    },
-    {
-      "text": "na",
-      "start": 19.736833,
-      "end": 19.851958,
-      "targetImage": true
+      "start": 19.983541,
+      "end": 20.723666,
+      "sourceIndex": 128
     },
     {
       "text": "mamoja",
-      "start": 19.884875,
-      "end": 20.641458,
-      "targetImage": true
+      "start": 20.756583,
+      "end": 21.430916,
+      "sourceIndex": 128
     },
     {
-      "text": "Maelfu",
-      "start": 21.907875,
-      "end": 22.286166,
-      "targetImage": true
+      "text": "makumi",
+      "start": 21.5625,
+      "end": 22.220375,
+      "sourceIndex": 128
     },
     {
-      "text": "yana",
-      "start": 22.434208,
-      "end": 22.680916,
-      "targetImage": true
-    },
-    {
-      "text": "fungu",
-      "start": 22.713833,
-      "end": 23.141458,
-      "targetImage": true
-    },
-    {
-      "text": "moja",
-      "start": 23.174333,
-      "end": 23.618416,
-      "targetImage": true
-    },
-    {
-      "text": "la",
-      "start": 23.651333,
-      "end": 23.799374,
-      "targetImage": true
-    },
-    {
-      "text": "visanduku",
-      "start": 23.83225,
-      "end": 24.786208,
-      "targetImage": true
-    },
-    {
-      "text": "Mamia",
-      "start": 26.01975,
-      "end": 26.33225,
-      "targetImage": true
-    },
-    {
-      "text": "yana",
-      "start": 26.48025,
-      "end": 26.776291,
-      "targetImage": true
-    },
-    {
-      "text": "mafungu",
-      "start": 26.809208,
-      "end": 27.368416,
-      "targetImage": true
-    },
-    {
-      "text": "mawili",
-      "start": 27.401333,
-      "end": 27.878291,
-      "targetImage": true
-    },
-    {
-      "text": "ya",
-      "start": 27.911166,
-      "end": 27.993416,
-      "targetImage": true
-    },
-    {
-      "text": "visanduku",
-      "start": 28.026333,
-      "end": 28.996708,
-      "targetImage": true
-    },
-    {
-      "text": "Makumi",
-      "start": 30.23025,
-      "end": 30.625,
-      "targetImage": true
-    },
-    {
-      "text": "yana",
-      "start": 30.773041,
-      "end": 31.036207,
-      "targetImage": true
-    },
-    {
-      "text": "fungu",
-      "start": 31.069083,
-      "end": 31.496708,
-      "targetImage": true
-    },
-    {
-      "text": "moja",
-      "start": 31.529625,
-      "end": 31.973708,
-      "targetImage": true
-    },
-    {
-      "text": "la",
-      "start": 32.006583,
-      "end": 32.154624,
-      "targetImage": true
-    },
-    {
-      "text": "visanduku",
-      "start": 32.1875,
-      "end": 33.174333,
-      "targetImage": true
-    },
-    {
-      "text": "Mamoja",
-      "start": 34.407875,
-      "end": 34.819041,
-      "targetImage": true
-    },
-    {
-      "text": "yana",
-      "start": 34.967125,
-      "end": 35.24675,
-      "targetImage": true
-    },
-    {
-      "text": "visanduku",
-      "start": 35.279625,
-      "end": 36.069083,
-      "targetImage": true
-    },
-    {
-      "text": "vitatu",
-      "start": 36.101958,
-      "end": 36.907874,
-      "targetImage": true
-    },
-    {
-      "text": "Hatua",
-      "start": 38.125,
-      "end": 38.503291,
-      "sourceIndex": 28
-    },
-    {
-      "text": "Hatua",
-      "start": 38.618416,
-      "end": 39.078957,
-      "sourceIndex": 29
-    },
-    {
-      "text": "ya",
-      "start": 39.111833,
-      "end": 39.226958,
-      "sourceIndex": 29
-    },
-    {
-      "text": "Kwanza",
-      "start": 39.259875,
-      "end": 39.654625,
-      "sourceIndex": 29
-    },
-    {
-      "text": "Hesabu",
-      "start": 39.6875,
-      "end": 40.3125,
-      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(1)"
-    },
-    {
-      "text": "au",
-      "start": 40.361833,
-      "end": 40.575666,
-      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(2)"
-    },
-    {
-      "text": "taja",
-      "start": 40.625,
-      "end": 41.036166,
-      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(3)"
-    },
-    {
-      "text": "mafungu",
-      "start": 41.069083,
-      "end": 41.628291,
-      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(4)"
-    },
-    {
-      "text": "yenye",
-      "start": 41.677625,
-      "end": 41.95725,
-      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(5)"
-    },
-    {
-      "text": "visanduku",
-      "start": 41.990125,
-      "end": 42.8125,
-      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(6)"
-    },
-    {
-      "text": "elfu",
-      "start": 42.861833,
-      "end": 43.223666,
-      "sourceIndex": 34
-    },
-    {
-      "text": "moja",
-      "start": 43.256583,
-      "end": 43.684208,
-      "sourceIndex": 34
-    },
-    {
-      "text": "Unapata",
-      "start": 43.733541,
-      "end": 44.342082,
-      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(8)"
-    },
-    {
-      "text": "fungu",
-      "start": 44.375,
-      "end": 44.786166,
-      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(9)"
-    },
-    {
-      "text": "moja",
-      "start": 44.835541,
-      "end": 45.279624,
-      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(10)"
-    },
-    {
-      "text": "lenye",
-      "start": 45.328958,
-      "end": 45.657916,
-      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(11)"
-    },
-    {
-      "text": "visanduku",
-      "start": 45.70725,
-      "end": 46.546083,
-      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(12)"
-    },
-    {
-      "text": "elfu",
-      "start": 46.595375,
-      "end": 46.990125,
-      "sourceIndex": 40
-    },
-    {
-      "text": "moja",
-      "start": 47.023041,
-      "end": 47.450666,
-      "sourceIndex": 40
-    },
-    {
-      "text": "Hatua",
-      "start": 47.483541,
-      "end": 47.960499,
-      "sourceIndex": 41
-    },
-    {
-      "text": "ya",
-      "start": 47.993416,
-      "end": 48.108541,
-      "sourceIndex": 41
-    },
-    {
-      "text": "Pili",
-      "start": 48.141458,
-      "end": 48.503291,
-      "sourceIndex": 41
-    },
-    {
-      "text": "Hesabu",
-      "start": 48.536166,
-      "end": 49.177624,
-      "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(1)"
-    },
-    {
-      "text": "au",
-      "start": 49.226958,
-      "end": 49.440791,
-      "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(2)"
-    },
-    {
-      "text": "taja",
-      "start": 49.490125,
-      "end": 49.91775,
-      "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(3)"
-    },
-    {
-      "text": "mafungu",
-      "start": 49.950666,
-      "end": 50.526332,
-      "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(4)"
-    },
-    {
-      "text": "yenye",
-      "start": 50.575666,
-      "end": 50.838832,
-      "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(5)"
-    },
-    {
-      "text": "visanduku",
-      "start": 50.888166,
-      "end": 51.661207,
-      "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(6)"
-    },
-    {
-      "text": "mia",
-      "start": 51.710541,
-      "end": 51.973707,
-      "sourceIndex": 46
-    },
-    {
-      "text": "moja",
-      "start": 52.006583,
-      "end": 52.434208,
-      "sourceIndex": 46
-    },
-    {
-      "text": "Unapata",
-      "start": 52.467125,
-      "end": 53.108583,
-      "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(8)"
-    },
-    {
-      "text": "mafungu",
-      "start": 53.141458,
-      "end": 53.684208,
-      "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(9)"
-    },
-    {
-      "text": "mawili",
-      "start": 53.733541,
-      "end": 54.210499,
-      "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(10)"
-    },
-    {
-      "text": "yenye",
-      "start": 54.243416,
-      "end": 54.506582,
-      "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(11)"
-    },
-    {
-      "text": "visanduku",
-      "start": 54.555916,
-      "end": 55.312499,
-      "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(12)"
-    },
-    {
-      "text": "mia",
-      "start": 55.361833,
-      "end": 55.624999,
-      "sourceIndex": 52
-    },
-    {
-      "text": "moja",
-      "start": 55.657875,
-      "end": 56.0855,
-      "sourceIndex": 52
-    },
-    {
-      "text": "kila",
-      "start": 56.134875,
-      "end": 56.496708,
-      "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(14)"
-    },
-    {
-      "text": "fungu",
-      "start": 56.529625,
-      "end": 57.055958,
-      "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(15)"
-    },
-    {
-      "text": "visanduku",
-      "start": 57.516458,
-      "end": 58.157916,
-      "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(16)"
-    },
-    {
-      "text": "mia",
-      "start": 58.289458,
-      "end": 58.536166,
-      "sourceIndex": 56
-    },
-    {
-      "text": "moja",
-      "start": 58.569083,
-      "end": 58.980249,
-      "sourceIndex": 56
-    },
-    {
-      "text": "kuongeza",
-      "start": 59.013166,
-      "end": 59.654624,
-      "sourceIndex": 57
-    },
-    {
-      "text": "visanduku",
-      "start": 59.6875,
-      "end": 60.444083,
-      "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(19)"
-    },
-    {
-      "text": "mia",
-      "start": 60.493416,
-      "end": 60.723666,
-      "sourceIndex": 59
-    },
-    {
-      "text": "moja",
-      "start": 60.756583,
-      "end": 61.134874,
-      "sourceIndex": 59
-    },
-    {
-      "text": "sawa",
-      "start": 61.16775,
-      "end": 61.578916,
-      "sourceIndex": 60
-    },
-    {
-      "text": "sawa",
-      "start": 61.628291,
-      "end": 62.039457,
-      "sourceIndex": 60
+      "text": "mamia",
+      "start": 22.351958,
+      "end": 22.878291,
+      "sourceIndex": 128
     },
     {
       "text": "na",
-      "start": 62.072375,
-      "end": 62.203958,
-      "sourceIndex": 60
+      "start": 22.911166,
+      "end": 23.026291,
+      "sourceIndex": 128
     },
     {
-      "text": "ngapi",
-      "start": 62.236833,
-      "end": 62.812499,
-      "sourceIndex": 60
+      "text": "maelfu",
+      "start": 23.059208,
+      "end": 23.749999,
+      "sourceIndex": 132
     },
     {
-      "text": "visanduku",
-      "start": 64.029625,
-      "end": 64.671083,
-      "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(22)"
+      "text": "Mamoja",
+      "start": 25.0,
+      "end": 25.411166,
+      "sourceIndex": 132
     },
     {
-      "text": "mia",
-      "start": 64.786166,
-      "end": 65.032874,
-      "sourceIndex": 62
-    },
-    {
-      "text": "mbili",
-      "start": 65.065791,
-      "end": 65.427624,
-      "sourceIndex": 62
-    },
-    {
-      "text": "Hatua",
-      "start": 65.460541,
-      "end": 65.953957,
-      "sourceIndex": 63
-    },
-    {
-      "text": "ya",
-      "start": 65.986833,
-      "end": 66.118416,
-      "sourceIndex": 63
-    },
-    {
-      "text": "Tatu",
-      "start": 66.16775,
-      "end": 66.5625,
-      "sourceIndex": 63
-    },
-    {
-      "text": "Hesabu",
-      "start": 66.595375,
-      "end": 67.220375,
-      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(1)"
-    },
-    {
-      "text": "au",
-      "start": 67.26975,
-      "end": 67.5,
-      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(2)"
-    },
-    {
-      "text": "taja",
-      "start": 67.549333,
-      "end": 67.976958,
-      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(3)"
-    },
-    {
-      "text": "mafungu",
-      "start": 68.009875,
-      "end": 68.585541,
-      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(4)"
-    },
-    {
-      "text": "yenye",
-      "start": 68.634875,
-      "end": 68.9145,
-      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(5)"
+      "text": "yana",
+      "start": 25.559208,
+      "end": 25.838833,
+      "sourceIndex": 132
     },
     {
       "text": "visanduku",
-      "start": 68.963833,
-      "end": 69.769749,
-      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(6)"
+      "start": 25.871708,
+      "end": 26.661166,
+      "sourceIndex": 132
     },
     {
-      "text": "kumi",
-      "start": 69.819083,
-      "end": 70.180916,
-      "sourceIndex": 68
+      "text": "vitatu",
+      "start": 26.694083,
+      "end": 27.499999,
+      "sourceIndex": 132
     },
     {
-      "text": "unapata",
-      "start": 70.23025,
-      "end": 70.888125,
-      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(8)"
+      "text": "Makumi",
+      "start": 28.75,
+      "end": 29.14475,
+      "sourceIndex": 132
+    },
+    {
+      "text": "yana",
+      "start": 29.29275,
+      "end": 29.572375,
+      "sourceIndex": 132
     },
     {
       "text": "fungu",
-      "start": 70.921041,
-      "end": 71.365124,
-      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(9)"
+      "start": 29.60525,
+      "end": 30.016416,
+      "sourceIndex": 132
     },
     {
       "text": "moja",
-      "start": 71.414458,
-      "end": 71.858541,
-      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(10)"
+      "start": 30.065791,
+      "end": 30.509874,
+      "sourceIndex": 13
     },
     {
       "text": "lenye",
-      "start": 71.891458,
-      "end": 72.220416,
-      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(11)"
+      "start": 30.54275,
+      "end": 30.871708,
+      "sourceIndex": 132
     },
     {
       "text": "visanduku",
-      "start": 72.26975,
-      "end": 73.075666,
-      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(12)"
+      "start": 30.904625,
+      "end": 31.727,
+      "sourceIndex": 132
     },
     {
       "text": "kumi",
-      "start": 73.125,
-      "end": 73.470375,
-      "sourceIndex": 74
+      "start": 31.776333,
+      "end": 32.269749,
+      "sourceIndex": 68
+    },
+    {
+      "text": "Mamia",
+      "start": 33.503291,
+      "end": 33.799332,
+      "sourceIndex": 132
+    },
+    {
+      "text": "yana",
+      "start": 33.947375,
+      "end": 34.243416,
+      "sourceIndex": 132
+    },
+    {
+      "text": "mafungu",
+      "start": 34.276333,
+      "end": 34.819083,
+      "sourceIndex": 132
+    },
+    {
+      "text": "mawili",
+      "start": 34.851958,
+      "end": 35.328916,
+      "sourceIndex": 132
+    },
+    {
+      "text": "yenye",
+      "start": 35.361833,
+      "end": 35.657874,
+      "sourceIndex": 132
+    },
+    {
+      "text": "visanduku",
+      "start": 35.70725,
+      "end": 36.463833,
+      "sourceIndex": 132
+    },
+    {
+      "text": "mia",
+      "start": 36.513166,
+      "end": 36.759874,
+      "sourceIndex": 46
+    },
+    {
+      "text": "moja",
+      "start": 36.79275,
+      "end": 37.203916,
+      "sourceIndex": 46
+    },
+    {
+      "text": "kila",
+      "start": 37.253291,
+      "end": 37.631582,
+      "sourceIndex": 132
+    },
+    {
+      "text": "fungu",
+      "start": 37.664458,
+      "end": 38.207208,
+      "sourceIndex": 132
+    },
+    {
+      "text": "Maelfu",
+      "start": 39.424333,
+      "end": 39.802624,
+      "sourceIndex": 132
+    },
+    {
+      "text": "yana",
+      "start": 39.950666,
+      "end": 40.213832,
+      "sourceIndex": 132
+    },
+    {
+      "text": "fungu",
+      "start": 40.246708,
+      "end": 40.657874,
+      "sourceIndex": 132
+    },
+    {
+      "text": "moja",
+      "start": 40.690791,
+      "end": 41.134874,
+      "sourceIndex": 29
+    },
+    {
+      "text": "lenye",
+      "start": 41.16775,
+      "end": 41.48025,
+      "sourceIndex": 132
+    },
+    {
+      "text": "visanduku",
+      "start": 41.513166,
+      "end": 42.335541,
+      "sourceIndex": 132
+    },
+    {
+      "text": "elfu",
+      "start": 42.384875,
+      "end": 42.746708,
+      "sourceIndex": 34
+    },
+    {
+      "text": "moja",
+      "start": 42.779625,
+      "end": 43.322375,
+      "sourceIndex": 34
     },
     {
       "text": "Hatua",
-      "start": 73.51975,
-      "end": 73.996708,
-      "sourceIndex": 75
+      "start": 44.523041,
+      "end": 44.917791,
+      "sourceIndex": 132
+    },
+    {
+      "text": "Hatua",
+      "start": 45.032875,
+      "end": 45.526291,
+      "sourceIndex": 132
     },
     {
       "text": "ya",
-      "start": 74.029625,
-      "end": 74.14475,
-      "sourceIndex": 75
+      "start": 45.559208,
+      "end": 45.707249,
+      "sourceIndex": 132
     },
     {
-      "text": "Nne",
-      "start": 74.177625,
-      "end": 74.440791,
-      "sourceIndex": 75
+      "text": "kwanza",
+      "start": 45.740125,
+      "end": 46.365125,
+      "sourceIndex": 132
+    },
+    {
+      "text": "Anza",
+      "start": 47.631583,
+      "end": 47.861833,
+      "sourceIndex": 132
+    },
+    {
+      "text": "upande",
+      "start": 48.009875,
+      "end": 48.503291,
+      "sourceIndex": 132
+    },
+    {
+      "text": "wa",
+      "start": 48.536166,
+      "end": 48.634832,
+      "sourceIndex": 132
+    },
+    {
+      "text": "kulia",
+      "start": 48.66775,
+      "end": 49.144708,
+      "sourceIndex": 132
+    },
+    {
+      "text": "kwenye",
+      "start": 49.194083,
+      "end": 49.506583,
+      "sourceIndex": 132
+    },
+    {
+      "text": "mamoja",
+      "start": 49.539458,
+      "end": 50.246708,
+      "sourceIndex": 132
     },
     {
       "text": "Hesabu",
-      "start": 74.490125,
-      "end": 75.131583,
+      "start": 51.463833,
+      "end": 51.990166,
+      "sourceIndex": 132,
       "targetSelector": ".step4 .matrix-highlight-word:nth-of-type(1)"
     },
     {
       "text": "au",
-      "start": 75.180916,
-      "end": 75.411166,
+      "start": 52.121708,
+      "end": 52.368416,
+      "sourceIndex": 132,
       "targetSelector": ".step4 .matrix-highlight-word:nth-of-type(2)"
     },
     {
       "text": "taja",
-      "start": 75.460541,
-      "end": 75.888166,
+      "start": 52.41775,
+      "end": 52.861833,
+      "sourceIndex": 132,
       "targetSelector": ".step4 .matrix-highlight-word:nth-of-type(3)"
     },
     {
       "text": "visanduku",
-      "start": 75.9375,
-      "end": 76.694083,
+      "start": 52.89475,
+      "end": 53.667791,
+      "sourceIndex": 132,
       "targetSelector": ".step4 .matrix-highlight-word:nth-of-type(4)"
     },
     {
       "text": "visivyo",
-      "start": 76.743416,
-      "end": 77.269749,
+      "start": 53.717125,
+      "end": 54.259875,
+      "sourceIndex": 132,
       "targetSelector": ".step4 .matrix-highlight-word:nth-of-type(5)"
     },
     {
       "text": "katika",
-      "start": 77.319083,
-      "end": 77.812499,
+      "start": 54.309208,
+      "end": 54.786166,
+      "sourceIndex": 132,
       "targetSelector": ".step4 .matrix-highlight-word:nth-of-type(6)"
     },
     {
       "text": "mafungu",
-      "start": 77.845375,
-      "end": 78.519708,
+      "start": 54.819083,
+      "end": 55.509874,
+      "sourceIndex": 132,
       "targetSelector": ".step4 .matrix-highlight-word:nth-of-type(7)"
     },
     {
       "text": "unapata",
-      "start": 78.914458,
-      "end": 79.440791,
+      "start": 55.690791,
+      "end": 56.365124,
+      "sourceIndex": 132,
       "targetSelector": ".step4 .matrix-highlight-word:nth-of-type(8)"
     },
     {
       "text": "visanduku",
-      "start": 79.588833,
-      "end": 80.378291,
+      "start": 56.398041,
+      "end": 57.220416,
+      "sourceIndex": 132,
       "targetSelector": ".step4 .matrix-highlight-word:nth-of-type(9)"
     },
     {
-      "text": "tatu",
-      "start": 80.427625,
-      "end": 80.822375,
-      "sourceIndex": 83
+      "text": "3",
+      "start": 57.26975,
+      "end": 57.845416,
+      "sourceIndex": 141,
+      "targetSelector": ".step4 .matrix-highlight-word:nth-of-type(10)"
     },
     {
       "text": "Hatua",
-      "start": 80.85525,
-      "end": 81.332208,
-      "sourceIndex": 84
+      "start": 59.029625,
+      "end": 59.440791,
+      "sourceIndex": 141
     },
     {
       "text": "ya",
-      "start": 81.365125,
-      "end": 81.48025,
-      "sourceIndex": 84
+      "start": 59.555916,
+      "end": 59.703957,
+      "sourceIndex": 141
     },
     {
-      "text": "Tano",
-      "start": 81.513166,
-      "end": 81.907916,
-      "sourceIndex": 84
+      "text": "pili",
+      "start": 59.736833,
+      "end": 60.296041,
+      "sourceIndex": 141
     },
     {
-      "text": "Jumlisha",
-      "start": 81.95725,
-      "end": 82.615125,
-      "targetSelector": ".step5 .matrix-highlight-word:nth-of-type(1)"
+      "text": "Hamia",
+      "start": 61.529625,
+      "end": 61.842125,
+      "sourceIndex": 141
     },
     {
-      "text": "idadi",
-      "start": 82.648041,
-      "end": 83.141457,
-      "targetSelector": ".step5 .matrix-highlight-word:nth-of-type(2)"
+      "text": "nafasi",
+      "start": 61.95725,
+      "end": 62.549375,
+      "sourceIndex": 141
     },
     {
-      "text": "ya",
-      "start": 83.174333,
-      "end": 83.256583,
-      "targetSelector": ".step5 .matrix-highlight-word:nth-of-type(3)"
+      "text": "inayofuata",
+      "start": 62.58225,
+      "end": 63.4375,
+      "sourceIndex": 141
     },
     {
-      "text": "visanduku",
-      "start": 83.289458,
-      "end": 84.095374,
-      "targetSelector": ".step5 .matrix-highlight-word:nth-of-type(4)"
+      "text": "upande",
+      "start": 63.470375,
+      "end": 63.947333,
+      "sourceIndex": 141
     },
     {
-      "text": "katika",
-      "start": 84.14475,
-      "end": 84.621708,
-      "targetSelector": ".step5 .matrix-highlight-word:nth-of-type(5)"
+      "text": "wa",
+      "start": 63.98025,
+      "end": 64.078916,
+      "sourceIndex": 141
+    },
+    {
+      "text": "kushoto",
+      "start": 64.111833,
+      "end": 64.835499,
+      "sourceIndex": 141
+    },
+    {
+      "text": "kwenye",
+      "start": 64.983541,
+      "end": 65.312499,
+      "sourceIndex": 141
+    },
+    {
+      "text": "makumi",
+      "start": 65.345375,
+      "end": 66.052625,
+      "sourceIndex": 141
+    },
+    {
+      "text": "Hesabu",
+      "start": 67.253291,
+      "end": 67.779624,
+      "sourceIndex": 141,
+      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(1)"
+    },
+    {
+      "text": "au",
+      "start": 67.911166,
+      "end": 68.141416,
+      "sourceIndex": 141,
+      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(2)"
+    },
+    {
+      "text": "taja",
+      "start": 68.190791,
+      "end": 68.601957,
+      "sourceIndex": 141,
+      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(3)"
     },
     {
       "text": "mafungu",
-      "start": 84.654625,
-      "end": 85.197375,
-      "targetSelector": ".step5 .matrix-highlight-word:nth-of-type(6)"
+      "start": 68.634875,
+      "end": 69.194083,
+      "sourceIndex": 141,
+      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(4)"
     },
     {
-      "text": "yote",
+      "text": "yenye",
+      "start": 69.243416,
+      "end": 69.523041,
+      "sourceIndex": 141,
+      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(5)"
+    },
+    {
+      "text": "visanduku",
+      "start": 69.555916,
+      "end": 70.361832,
+      "sourceIndex": 141,
+      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(6)"
+    },
+    {
+      "text": "10",
+      "start": 70.411166,
+      "end": 70.855249,
+      "sourceIndex": 141,
+      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(7)"
+    },
+    {
+      "text": "unapata",
+      "start": 71.085541,
+      "end": 71.759874,
+      "sourceIndex": 141,
+      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(8)"
+    },
+    {
+      "text": "fungu",
+      "start": 71.79275,
+      "end": 72.203916,
+      "sourceIndex": 141,
+      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(9)"
+    },
+    {
+      "text": "moja",
+      "start": 72.253291,
+      "end": 72.697374,
+      "sourceIndex": 138,
+      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(10)"
+    },
+    {
+      "text": "lenye",
+      "start": 72.73025,
+      "end": 73.04275,
+      "sourceIndex": 141,
+      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(11)"
+    },
+    {
+      "text": "visanduku",
+      "start": 73.075666,
+      "end": 73.881582,
+      "sourceIndex": 141,
+      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(12)"
+    },
+    {
+      "text": "10",
+      "start": 73.930916,
+      "end": 74.391457,
+      "sourceIndex": 141,
+      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(13)"
+    },
+    {
+      "text": "Hatua",
+      "start": 75.575666,
+      "end": 76.003291,
+      "sourceIndex": 141
+    },
+    {
+      "text": "ya",
+      "start": 76.118416,
+      "end": 76.266457,
+      "sourceIndex": 141
+    },
+    {
+      "text": "tatu",
+      "start": 76.315791,
+      "end": 77.006582,
+      "sourceIndex": 0
+    },
+    {
+      "text": "Hamia",
+      "start": 78.223666,
+      "end": 78.536166,
+      "sourceIndex": 141
+    },
+    {
+      "text": "nafasi",
+      "start": 78.651333,
+      "end": 79.243458,
+      "sourceIndex": 141
+    },
+    {
+      "text": "inayofuata",
+      "start": 79.276333,
+      "end": 80.115166,
+      "sourceIndex": 141
+    },
+    {
+      "text": "upande",
+      "start": 80.148041,
+      "end": 80.624999,
+      "sourceIndex": 141
+    },
+    {
+      "text": "wa",
+      "start": 80.657875,
+      "end": 80.756541,
+      "sourceIndex": 141
+    },
+    {
+      "text": "kushoto",
+      "start": 80.789458,
+      "end": 81.513124,
+      "sourceIndex": 141
+    },
+    {
+      "text": "kwenye",
+      "start": 81.64475,
+      "end": 81.973708,
+      "sourceIndex": 141
+    },
+    {
+      "text": "mamia",
+      "start": 82.006583,
+      "end": 82.664458,
+      "sourceIndex": 141
+    },
+    {
+      "text": "Hesabu",
+      "start": 83.914458,
+      "end": 84.424333,
+      "sourceIndex": 141
+    },
+    {
+      "text": "au",
+      "start": 84.555916,
+      "end": 84.769749,
+      "sourceIndex": 141
+    },
+    {
+      "text": "taja",
+      "start": 84.802625,
+      "end": 85.213791,
+      "sourceIndex": 141
+    },
+    {
+      "text": "mafungu",
       "start": 85.246708,
-      "end": 85.641458,
-      "targetSelector": ".step5 .matrix-highlight-word:nth-of-type(7)"
+      "end": 85.805916,
+      "sourceIndex": 141
+    },
+    {
+      "text": "yenye",
+      "start": 85.838833,
+      "end": 86.118458,
+      "sourceIndex": 141
+    },
+    {
+      "text": "visanduku",
+      "start": 86.151333,
+      "end": 86.907916,
+      "sourceIndex": 141
+    },
+    {
+      "text": "100",
+      "start": 86.95725,
+      "end": 87.746708,
+      "sourceIndex": 141
+    },
+    {
+      "text": "unapata",
+      "start": 87.960541,
+      "end": 88.634874,
+      "sourceIndex": 141
+    },
+    {
+      "text": "mafungu",
+      "start": 88.66775,
+      "end": 89.194083,
+      "sourceIndex": 141
+    },
+    {
+      "text": "mawili",
+      "start": 89.226958,
+      "end": 89.720374,
+      "sourceIndex": 141
+    },
+    {
+      "text": "yenye",
+      "start": 89.753291,
+      "end": 90.032916,
+      "sourceIndex": 141
+    },
+    {
+      "text": "visanduku",
+      "start": 90.08225,
+      "end": 90.838833,
+      "sourceIndex": 141
+    },
+    {
+      "text": "100",
+      "start": 90.888166,
+      "end": 91.578916,
+      "sourceIndex": 141
+    },
+    {
+      "text": "kila",
+      "start": 91.628291,
+      "end": 92.006582,
+      "sourceIndex": 141
+    },
+    {
+      "text": "fungu",
+      "start": 92.039458,
+      "end": 92.615124,
+      "sourceIndex": 141
+    },
+    {
+      "text": "Visanduku",
+      "start": 93.799333,
+      "end": 94.440791,
+      "sourceIndex": 141
+    },
+    {
+      "text": "100",
+      "start": 94.572375,
+      "end": 95.246708,
+      "sourceIndex": 141
+    },
+    {
+      "text": "jumlisha",
+      "start": 95.279625,
+      "end": 95.921083,
+      "sourceIndex": 57,
+      "targetSelector": ".step5 .matrix-highlight-word:nth-of-type(1)"
+    },
+    {
+      "text": "visanduku",
+      "start": 95.953958,
+      "end": 96.710541,
+      "sourceIndex": 141,
+      "targetSelector": ".step5 .matrix-highlight-word:nth-of-type(2)"
+    },
+    {
+      "text": "100",
+      "start": 96.759875,
+      "end": 97.532874,
+      "sourceIndex": 141,
+      "targetSelector": ".step5 .matrix-highlight-word:nth-of-type(3)"
+    },
+    {
+      "text": "sawa",
+      "start": 97.648041,
+      "end": 98.108582,
+      "sourceIndex": 60,
+      "targetSelector": ".step5 .matrix-highlight-word:nth-of-type(4)"
+    },
+    {
+      "text": "sawa",
+      "start": 98.141458,
+      "end": 98.552624,
+      "sourceIndex": 110,
+      "targetSelector": ".step5 .matrix-highlight-word:nth-of-type(5)"
     },
     {
       "text": "na",
-      "start": 85.690791,
-      "end": 85.805916,
+      "start": 98.585541,
+      "end": 98.700666,
+      "sourceIndex": 110,
+      "targetSelector": ".step5 .matrix-highlight-word:nth-of-type(6)"
+    },
+    {
+      "text": "visanduku",
+      "start": 98.733541,
+      "end": 99.490124,
+      "sourceIndex": 141,
+      "targetSelector": ".step5 .matrix-highlight-word:nth-of-type(7)"
+    },
+    {
+      "text": "200",
+      "start": 99.539458,
+      "end": 100.279624,
+      "sourceIndex": 141,
       "targetSelector": ".step5 .matrix-highlight-word:nth-of-type(8)"
     },
     {
-      "text": "idadi",
-      "start": 85.838833,
-      "end": 86.332249,
+      "text": "Hatua",
+      "start": 101.48025,
+      "end": 101.924333,
+      "sourceIndex": 141,
       "targetSelector": ".step5 .matrix-highlight-word:nth-of-type(9)"
     },
     {
       "text": "ya",
-      "start": 86.365125,
-      "end": 86.447375,
+      "start": 102.039458,
+      "end": 102.203916,
+      "sourceIndex": 141,
       "targetSelector": ".step5 .matrix-highlight-word:nth-of-type(10)"
     },
     {
-      "text": "visanduku",
-      "start": 86.48025,
-      "end": 87.236833,
+      "text": "nne",
+      "start": 102.236833,
+      "end": 102.697374,
+      "sourceIndex": 75,
       "targetSelector": ".step5 .matrix-highlight-word:nth-of-type(11)"
     },
     {
-      "text": "visivyo",
-      "start": 87.286166,
-      "end": 87.845374,
+      "text": "Hamia",
+      "start": 103.98025,
+      "end": 104.29275,
+      "sourceIndex": 141,
       "targetSelector": ".step5 .matrix-highlight-word:nth-of-type(12)"
     },
     {
-      "text": "katika",
-      "start": 87.89475,
-      "end": 88.371708,
+      "text": "nafasi",
+      "start": 104.407916,
+      "end": 105.016457,
+      "sourceIndex": 141,
       "targetSelector": ".step5 .matrix-highlight-word:nth-of-type(13)"
     },
     {
-      "text": "mafungu",
-      "start": 88.404625,
-      "end": 89.078958,
+      "text": "inayofuata",
+      "start": 105.049333,
+      "end": 105.888166,
+      "sourceIndex": 141,
       "targetSelector": ".step5 .matrix-highlight-word:nth-of-type(14)"
     },
     {
-      "text": "Hii",
-      "start": 90.263166,
-      "end": 90.411207,
+      "text": "upande",
+      "start": 105.921041,
+      "end": 106.397999,
+      "sourceIndex": 141,
       "targetSelector": ".step5 .matrix-highlight-word:nth-of-type(15)"
     },
     {
-      "text": "ni",
-      "start": 90.526333,
-      "end": 90.723708,
+      "text": "wa",
+      "start": 106.447375,
+      "end": 106.546041,
+      "sourceIndex": 141,
       "targetSelector": ".step5 .matrix-highlight-word:nth-of-type(16)"
     },
     {
-      "text": "elfu",
-      "start": 90.921041,
-      "end": 91.332207,
-      "sourceIndex": 101
+      "text": "kushoto",
+      "start": 106.578958,
+      "end": 107.302624,
+      "sourceIndex": 141,
+      "targetSelector": ".step5 .matrix-highlight-word:nth-of-type(17)"
+    },
+    {
+      "text": "kwenye",
+      "start": 107.450666,
+      "end": 107.779624,
+      "sourceIndex": 141,
+      "targetSelector": ".step5 .matrix-highlight-word:nth-of-type(27)"
+    },
+    {
+      "text": "maelfu",
+      "start": 107.8125,
+      "end": 108.453958,
+      "sourceIndex": 141
+    },
+    {
+      "text": "Hesabu",
+      "start": 109.654625,
+      "end": 110.1645,
+      "sourceIndex": 141,
+      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(1)"
+    },
+    {
+      "text": "au",
+      "start": 110.296041,
+      "end": 110.526291,
+      "sourceIndex": 141,
+      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(2)"
+    },
+    {
+      "text": "taja",
+      "start": 110.575666,
+      "end": 110.986832,
+      "sourceIndex": 141,
+      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(3)"
+    },
+    {
+      "text": "mafungu",
+      "start": 111.01975,
+      "end": 111.578958,
+      "sourceIndex": 141,
+      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(4)"
+    },
+    {
+      "text": "yenye",
+      "start": 111.611833,
+      "end": 111.891458,
+      "sourceIndex": 141,
+      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(5)"
+    },
+    {
+      "text": "visanduku",
+      "start": 111.924333,
+      "end": 112.713791,
+      "sourceIndex": 141,
+      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(6)"
+    },
+    {
+      "text": "1000",
+      "start": 112.763166,
+      "end": 113.667791,
+      "sourceIndex": 141,
+      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(7)"
+    },
+    {
+      "text": "unapata",
+      "start": 113.865125,
+      "end": 114.539458,
+      "sourceIndex": 141,
+      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(8)"
+    },
+    {
+      "text": "fungu",
+      "start": 114.572375,
+      "end": 114.983541,
+      "sourceIndex": 141,
+      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(9)"
     },
     {
       "text": "moja",
-      "start": 91.365125,
-      "end": 91.79275,
-      "sourceIndex": 101
+      "start": 115.016458,
+      "end": 115.444083,
+      "sourceIndex": 141,
+      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(10)"
     },
     {
-      "text": "kuongeza",
-      "start": 91.825666,
-      "end": 92.450666,
+      "text": "lenye",
+      "start": 115.476958,
+      "end": 115.789458,
+      "sourceIndex": 141,
+      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(11)"
+    },
+    {
+      "text": "visanduku",
+      "start": 115.822375,
+      "end": 116.628291,
+      "sourceIndex": 141,
+      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(12)"
+    },
+    {
+      "text": "1000",
+      "start": 116.677625,
+      "end": 117.598708,
+      "sourceIndex": 141,
+      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(13)"
+    },
+    {
+      "text": "5",
+      "start": 118.815791,
+      "end": 119.144749,
+      "sourceIndex": 141
+    },
+    {
+      "text": "Jumlisha",
+      "start": 119.375,
+      "end": 120.016458,
       "sourceIndex": 102
     },
     {
-      "text": "mia",
-      "start": 92.5,
-      "end": 92.746708,
-      "sourceIndex": 103
-    },
-    {
-      "text": "moja",
-      "start": 92.779625,
-      "end": 93.190791,
-      "sourceIndex": 103
-    },
-    {
-      "text": "kuongeza",
-      "start": 93.223666,
-      "end": 93.848666,
-      "sourceIndex": 104
-    },
-    {
-      "text": "mia",
-      "start": 93.898041,
-      "end": 94.144749,
-      "sourceIndex": 105
-    },
-    {
-      "text": "moja",
-      "start": 94.177625,
-      "end": 94.588791,
-      "sourceIndex": 105
-    },
-    {
-      "text": "kuongeza",
-      "start": 94.621708,
-      "end": 95.263166,
-      "sourceIndex": 106
-    },
-    {
-      "text": "kumi",
-      "start": 95.3125,
-      "end": 95.690791,
-      "sourceIndex": 107
-    },
-    {
-      "text": "kuongeza",
-      "start": 95.723666,
-      "end": 96.381541,
-      "sourceIndex": 108
-    },
-    {
-      "text": "tatu",
-      "start": 96.430916,
-      "end": 96.825666,
-      "sourceIndex": 109
-    },
-    {
-      "text": "sawa",
-      "start": 96.875,
-      "end": 97.26975,
-      "sourceIndex": 110
-    },
-    {
-      "text": "sawa",
-      "start": 97.302625,
-      "end": 97.746708,
-      "sourceIndex": 110
-    },
-    {
-      "text": "na",
-      "start": 97.779625,
-      "end": 97.911208,
-      "sourceIndex": 110
-    },
-    {
-      "text": "elfu",
-      "start": 97.960541,
-      "end": 98.338832,
-      "sourceIndex": 111
-    },
-    {
-      "text": "moja",
-      "start": 98.371708,
-      "end": 98.799333,
-      "sourceIndex": 111
-    },
-    {
-      "text": "mia",
-      "start": 98.848666,
-      "end": 99.095374,
-      "sourceIndex": 111
-    },
-    {
-      "text": "mbili",
-      "start": 99.128291,
-      "end": 99.490124,
-      "sourceIndex": 111
-    },
-    {
-      "text": "na",
-      "start": 99.523041,
-      "end": 99.654624,
-      "sourceIndex": 111
-    },
-    {
-      "text": "kumi",
-      "start": 99.703958,
-      "end": 100.065791,
-      "sourceIndex": 111
-    },
-    {
-      "text": "na",
-      "start": 100.098666,
-      "end": 100.213791,
-      "sourceIndex": 111
-    },
-    {
-      "text": "tatu",
-      "start": 100.263166,
-      "end": 100.690791,
-      "sourceIndex": 111
-    },
-    {
-      "text": "Hatua",
-      "start": 100.723666,
-      "end": 101.200624,
-      "sourceIndex": 112
+      "text": "idadi",
+      "start": 120.049333,
+      "end": 120.509874,
+      "sourceIndex": 141
     },
     {
       "text": "ya",
-      "start": 101.233541,
-      "end": 101.348666,
-      "sourceIndex": 112
+      "start": 120.54275,
+      "end": 120.625,
+      "sourceIndex": 141
     },
     {
-      "text": "Sita",
-      "start": 101.381583,
-      "end": 101.842124,
-      "sourceIndex": 112
+      "text": "visanduku",
+      "start": 120.657916,
+      "end": 121.414499,
+      "sourceIndex": 141
+    },
+    {
+      "text": "katika",
+      "start": 121.447375,
+      "end": 121.924333,
+      "sourceIndex": 141
+    },
+    {
+      "text": "mafungu",
+      "start": 121.95725,
+      "end": 122.5,
+      "sourceIndex": 141
+    },
+    {
+      "text": "yote",
+      "start": 122.549333,
+      "end": 122.927624,
+      "sourceIndex": 141
+    },
+    {
+      "text": "na",
+      "start": 122.960541,
+      "end": 123.075666,
+      "sourceIndex": 141
+    },
+    {
+      "text": "idadi",
+      "start": 123.108541,
+      "end": 123.585499,
+      "sourceIndex": 141
+    },
+    {
+      "text": "ya",
+      "start": 123.618416,
+      "end": 123.700666,
+      "sourceIndex": 141
+    },
+    {
+      "text": "visanduku",
+      "start": 123.733541,
+      "end": 124.490124,
+      "sourceIndex": 141
+    },
+    {
+      "text": "visivyo",
+      "start": 124.539458,
+      "end": 125.065791,
+      "sourceIndex": 141
+    },
+    {
+      "text": "katika",
+      "start": 125.115125,
+      "end": 125.608541,
+      "sourceIndex": 141
+    },
+    {
+      "text": "mafungu",
+      "start": 125.641458,
+      "end": 126.332249,
+      "sourceIndex": 141
+    },
+    {
+      "text": "Hii",
+      "start": 127.516458,
+      "end": 127.664499,
+      "sourceIndex": 141
+    },
+    {
+      "text": "ni",
+      "start": 127.779625,
+      "end": 127.977,
+      "sourceIndex": 141
+    },
+    {
+      "text": "1000 + 100 + 100 + 10 + 3",
+      "start": 128.125,
+      "end": 133.618416,
+      "sourceIndex": 141
+    },
+    {
+      "text": "1213",
+      "start": 133.66775,
+      "end": 136.743416,
+      "sourceIndex": 141
+    },
+    {
+      "text": "6",
+      "start": 137.944083,
+      "end": 138.437499,
+      "sourceIndex": 141
     },
     {
       "text": "Tarakimu",
-      "start": 101.875,
-      "end": 102.631583,
+      "start": 138.700666,
+      "end": 139.407916,
+      "sourceIndex": 141,
       "targetSelector": ".step6 .matrix-highlight-word:nth-of-type(1)"
     },
     {
       "text": "ya",
-      "start": 102.680916,
-      "end": 102.796041,
+      "start": 139.440791,
+      "end": 139.555916,
+      "sourceIndex": 141,
       "targetSelector": ".step6 .matrix-highlight-word:nth-of-type(2)"
     },
     {
       "text": "kwanza",
-      "start": 102.828958,
-      "end": 103.256583,
+      "start": 139.588833,
+      "end": 139.999999,
+      "sourceIndex": 141,
       "targetSelector": ".step6 .matrix-highlight-word:nth-of-type(3)"
     },
     {
       "text": "kutoka",
-      "start": 103.305916,
-      "end": 103.815791,
+      "start": 140.032916,
+      "end": 140.526332,
+      "sourceIndex": 141,
       "targetSelector": ".step6 .matrix-highlight-word:nth-of-type(4)"
     },
     {
       "text": "kulia",
-      "start": 103.865125,
-      "end": 104.342083,
+      "start": 140.559208,
+      "end": 141.019749,
+      "sourceIndex": 141,
       "targetSelector": ".step6 .matrix-highlight-word:nth-of-type(5)"
     },
     {
       "text": "ni",
-      "start": 104.375,
-      "end": 104.490125,
+      "start": 141.052625,
+      "end": 141.16775,
+      "sourceIndex": 141,
       "targetSelector": ".step6 .matrix-highlight-word:nth-of-type(6)"
     },
     {
       "text": "mamoja",
-      "start": 104.523041,
-      "end": 105.213832,
+      "start": 141.200666,
+      "end": 141.858541,
+      "sourceIndex": 141,
       "targetSelector": ".step6 .matrix-highlight-word:nth-of-type(7)"
     },
     {
       "text": "ya",
-      "start": 105.460541,
-      "end": 105.592124,
+      "start": 142.023041,
+      "end": 142.154624,
+      "sourceIndex": 141,
       "targetSelector": ".step6 .matrix-highlight-word:nth-of-type(8)"
     },
     {
       "text": "pili",
-      "start": 105.625,
-      "end": 106.003291,
+      "start": 142.1875,
+      "end": 142.58225,
+      "sourceIndex": 141,
       "targetSelector": ".step6 .matrix-highlight-word:nth-of-type(9)"
     },
     {
       "text": "ni",
-      "start": 106.036166,
-      "end": 106.134832,
+      "start": 142.615125,
+      "end": 142.713791,
+      "sourceIndex": 141,
       "targetSelector": ".step6 .matrix-highlight-word:nth-of-type(10)"
     },
     {
       "text": "makumi",
-      "start": 106.16775,
-      "end": 106.825625,
+      "start": 142.746708,
+      "end": 143.371708,
+      "sourceIndex": 141,
       "targetSelector": ".step6 .matrix-highlight-word:nth-of-type(11)"
     },
     {
       "text": "ya",
-      "start": 107.039458,
-      "end": 107.187499,
+      "start": 143.536166,
+      "end": 143.684207,
+      "sourceIndex": 141,
       "targetSelector": ".step6 .matrix-highlight-word:nth-of-type(12)"
     },
     {
       "text": "tatu",
-      "start": 107.236833,
-      "end": 107.631583,
+      "start": 143.733541,
+      "end": 144.128291,
+      "sourceIndex": 63,
       "targetSelector": ".step6 .matrix-highlight-word:nth-of-type(13)"
     },
     {
       "text": "ni",
-      "start": 107.664458,
-      "end": 107.763124,
+      "start": 144.161166,
+      "end": 144.259832,
+      "sourceIndex": 141,
       "targetSelector": ".step6 .matrix-highlight-word:nth-of-type(14)"
     },
     {
       "text": "mamia",
-      "start": 107.796041,
-      "end": 108.404582,
+      "start": 144.29275,
+      "end": 144.901291,
+      "sourceIndex": 141,
       "targetSelector": ".step6 .matrix-highlight-word:nth-of-type(15)"
     },
     {
       "text": "na",
-      "start": 108.569083,
-      "end": 108.700666,
+      "start": 145.049333,
+      "end": 145.180916,
+      "sourceIndex": 141,
       "targetSelector": ".step6 .matrix-highlight-word:nth-of-type(16)"
     },
     {
       "text": "ya",
-      "start": 108.733541,
-      "end": 108.848666,
+      "start": 145.213833,
+      "end": 145.328958,
+      "sourceIndex": 141,
       "targetSelector": ".step6 .matrix-highlight-word:nth-of-type(17)"
     },
     {
       "text": "nne",
-      "start": 108.881583,
-      "end": 109.161208,
+      "start": 145.361833,
+      "end": 145.657874,
+      "sourceIndex": 141,
       "targetSelector": ".step6 .matrix-highlight-word:nth-of-type(18)"
     },
     {
       "text": "ni",
-      "start": 109.194083,
-      "end": 109.309208,
+      "start": 145.70725,
+      "end": 145.822375,
+      "sourceIndex": 141,
       "targetSelector": ".step6 .matrix-highlight-word:nth-of-type(19)"
     },
     {
       "text": "maelfu",
-      "start": 109.342125,
-      "end": 110.0,
+      "start": 145.85525,
+      "end": 146.496708,
+      "sourceIndex": 141,
       "targetSelector": ".step6 .matrix-highlight-word:nth-of-type(20)"
     }
   ]

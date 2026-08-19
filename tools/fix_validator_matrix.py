@@ -66,13 +66,17 @@ CONFIG = {
         "replace": {
             "pg009_n0003": "Mfano wa Kwanza",
             "pg009_n0004": "Hesabu au eleza, kisha andika kwa maneno namba inayowakilishwa",
-            "pg009_n0011": "1. Hesabu au taja mafungu yenye visanduku 1000. Unapata fungu moja",
-            "pg009_n0013": "2. Hesabu au taja mafungu yenye visanduku 100. Unapata mafungu",
-            "pg009_n0016": "3. Hesabu au taja mafungu yenye visanduku 10, unapata fungu moja",
-            "pg009_n0018": "4. Hesabu au taja visanduku visivyo katika mafungu, unapata visanduku 3.",
+            "pg009_n0011": "Hatua ya kwanza. Anza upande wa kulia kwenye mamoja. Hesabu au taja visanduku visivyo katika mafungu; unapata visanduku 3.",
+            "pg009_n0012": "",
+            "pg009_n0013": "Hatua ya pili. Hamia nafasi inayofuata upande wa kushoto, kwenye makumi. Hesabu au taja mafungu yenye visanduku 10; unapata fungu moja lenye visanduku 10.",
+            "pg009_n0014": "",
+            "pg009_n0015": "",
+            "pg009_n0016": "Hatua ya tatu. Hamia nafasi inayofuata upande wa kushoto, kwenye mamia. Hesabu au taja mafungu yenye visanduku 100; unapata mafungu mawili yenye visanduku 100 kila fungu. Visanduku 100 jumlisha visanduku 100, sawa sawa na visanduku 200.",
+            "pg009_n0017": "",
+            "pg009_n0018": "Hatua ya nne. Hamia nafasi inayofuata upande wa kushoto, kwenye maelfu. Hesabu au taja mafungu yenye visanduku 1000; unapata fungu moja lenye visanduku 1000.",
         },
         "after": {
-            "pg009_n0005": ["Picha inaonesha mafungu ya visanduku katika maelfu, mamia, makumi na mamoja. Maelfu yana fungu moja la visanduku. Mamia yana mafungu mawili ya visanduku. Makumi yana fungu moja la visanduku. Mamoja yana visanduku vitatu."],
+            "pg009_n0005": ["Tunasoma jedwali kuanzia upande wa kulia kwenda kushoto. Picha inaonesha mamoja, makumi, mamia na maelfu. Mamoja yana visanduku vitatu. Makumi yana fungu moja lenye visanduku kumi. Mamia yana mafungu mawili yenye visanduku mia moja kila fungu. Maelfu yana fungu moja lenye visanduku elfu moja."],
         },
     },
     10: {
@@ -2797,16 +2801,18 @@ CONFIG = {
         "remove": {"pg189_n0006", "pg189_n0007", "pg189_n0008", "pg189_n0009", "pg189_n0020", "pg189_n0021", "pg189_n0022", "pg189_n0023"},
         "after": {
             "pg189_n0005": [
-                "Grafu ina mhimili wa wima wa idadi ya wanafunzi na mhimili wa ulalo wa madarasa. Darasa la kwanza lina wanafunzi ishirini. Darasa la pili lina wanafunzi arobaini. Darasa la tatu lina wanafunzi themanini. Darasa la nne lina wanafunzi arobaini.",
+                "Grafu ina mhimili wa wima wa idadi ya wanafunzi na mhimili wa ulalo wa madarasa. Mhimili wa ulalo una darasa la moja ya Kirumi, mbili ya Kirumi, tatu ya Kirumi, na nne ya Kirumi. Darasa la moja ya Kirumi lina wanafunzi ishirini. Darasa la mbili ya Kirumi lina wanafunzi arobaini. Darasa la tatu ya Kirumi lina wanafunzi themanini. Darasa la nne ya Kirumi lina wanafunzi arobaini.",
             ],
         },
         "replace": {
             "pg189_n0001": "Mfano wa Kwanza.",
+            "pg189_n0003": "darasa la moja ya Kirumi hadi nne ya Kirumi katika Shule ya Msingi Mwenge.",
+            "pg189_n0005": "wanafunzi wa darasa la moja ya Kirumi hadi nne ya Kirumi.",
             "pg189_n0010": "Kipimio: sentimita moja inawakilisha wanafunzi ishirini kwa wima.",
             "pg189_n0011": "Sentimita moja inawakilisha upana wa mhimili mmoja kwa ulalo.",
             "pg189_n0013": "Swali sehemu a. Mstari wa wima unaonesha nini?",
             "pg189_n0014": "Swali sehemu b. Mstari wa ulalo unaonesha nini?",
-            "pg189_n0015": "Swali sehemu c. Darasa la Roman moja lina wanafunzi wangapi?",
+            "pg189_n0015": "Swali sehemu c. Darasa la moja ya Kirumi lina wanafunzi wangapi?",
             "pg189_n0016": "Swali sehemu d. Darasa lipi lina idadi kubwa ya wanafunzi?",
             "pg189_n0018": "Swali sehemu e. Madarasa yapi yana idadi sawa ya wanafunzi?",
         },
