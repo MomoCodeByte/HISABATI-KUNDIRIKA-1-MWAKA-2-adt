@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools" / "vendor"))
 VOICE = "sw-TZ-RehemaNeural"
 RATE = "-10%"
-VERSION = 25
+VERSION = 26
 
 ORDINALS = {
     "1": "Kwanza", "2": "Pili", "3": "Tatu", "4": "Nne", "5": "Tano",
@@ -121,7 +121,7 @@ def spoken_stream(nodes):
         for offset, token in enumerate(node_tokens):
             if re.fullmatch(r"\d+[.]", token):
                 nearby = " ".join(node_tokens[offset + 1:offset + 6])
-                if re.search(r"(?:\+|\-|−|–|â€“|âˆ’|×|Ã—|=)", nearby):
+                if re.search(r"(?:\+|\-|−|–|â€“|âˆ’|×|Ã—|÷|Ã·|=)", nearby):
                     question_indexes.add(start + offset)
         original.extend(node_tokens)
         hidden.extend(["_matrix_" in node_id] * len(node_tokens))
@@ -134,11 +134,13 @@ def spoken_stream(nodes):
         for offset, token in enumerate(node_tokens):
             absolute = start + offset
             symbol = token.strip(".,;:()")
-            if symbol in {"+", "-", "−", "–", "â€“", "âˆ’", "×", "Ã—"}:
+            if symbol in {"+", "-", "−", "–", "â€“", "âˆ’", "×", "Ã—", "÷", "Ã·"}:
                 if symbol == "+":
-                    arithmetic_operators[absolute] = "kuongeza"
+                    arithmetic_operators[absolute] = "jumlisha"
                 elif symbol in {"×", "Ã—"}:
                     arithmetic_operators[absolute] = "kuzidisha"
+                elif symbol in {"÷", "Ã·"}:
+                    arithmetic_operators[absolute] = "kugawanya"
                 else:
                     arithmetic_operators[absolute] = "kutoa"
             elif "=" in symbol:
@@ -161,8 +163,9 @@ def spoken_stream(nodes):
                 spoken.extend(["sawa", "sawa", "na"])
                 origins.extend([index, index, index])
             else:
-                spoken.append(operation)
-                origins.append(index)
+                operation_words = operation.split()
+                spoken.extend(operation_words)
+                origins.extend([index] * len(operation_words))
             index += 1
             continue
         current = norm(original[index])
@@ -208,23 +211,42 @@ def spoken_stream(nodes):
                     origins.append(index + 2)
                 index += 3
                 continue
-        embedded_operator = re.fullmatch(r"(\+|\-|−|–|â€“|âˆ’|×|Ã—)(\d+)[.,;:]?", original[index])
+        embedded_operator = re.fullmatch(r"(\+|\-|−|–|â€“|âˆ’|×|Ã—|÷|Ã·)(\d+)[.,;:]?", original[index])
         numeric_symbol = original[index].strip(".,;:()[]{}")
         roman_symbol = numeric_symbol
         if embedded_operator:
             symbol, digits = embedded_operator.groups()
-            operation = "kuongeza" if symbol == "+" else "kuzidisha" if symbol in {"×", "Ã—"} else "kutoa"
+            operation = "jumlisha" if symbol == "+" else "kuzidisha" if symbol in {"×", "Ã—"} else "kugawanya" if symbol in {"÷", "Ã·"} else "kutoa"
             number_words = number_to_swahili(int(digits)).split()
-            spoken.extend([operation] + number_words)
-            origins.extend([index] * (1 + len(number_words)))
+            operation_words = operation.split()
+            spoken.extend(operation_words + number_words)
+            origins.extend([index] * (len(operation_words) + len(number_words)))
         elif re.fullmatch(r"\d+", numeric_symbol):
             number_words = number_to_swahili(int(numeric_symbol)).split()
             spoken.extend(number_words)
             origins.extend([index] * len(number_words))
         elif re.fullmatch(r"[IVXLCDM]+", roman_symbol):
-            roman_words = number_to_swahili(roman_to_int(roman_symbol)).split()
-            spoken.extend(roman_words + ["ya", "Kirumi"])
-            origins.extend([index] * (len(roman_words) + 2))
+            roman_pronunciations = {"I": "aii", "V": "vii", "X": "exi", "L": "eli", "C": "sii", "D": "dii", "M": "emu"}
+            roman_words = [roman_pronunciations[letter] for letter in roman_symbol]
+            spoken.extend(roman_words)
+            origins.extend([index] * len(roman_words))
+        elif re.fullmatch(r"\d+/\d+", numeric_symbol):
+            numerator, denominator = map(int, numeric_symbol.split("/"))
+            fraction_words = number_to_swahili(numerator).split() + ["kwa"] + number_to_swahili(denominator).split()
+            spoken.extend(fraction_words)
+            origins.extend([index] * len(fraction_words))
+        elif current in {"sh", "shs"}:
+            spoken.append("shilingi")
+            origins.append(index)
+        elif current == "m":
+            spoken.append("mita")
+            origins.append(index)
+        elif current == "cm":
+            spoken.append("sentimita")
+            origins.append(index)
+        elif current == "madakika":
+            spoken.append("dakika")
+            origins.append(index)
         elif current.startswith("gpe"):
             spoken.append("gipiee")
             origins.append(index)
@@ -241,6 +263,17 @@ def spoken_stream(nodes):
                     continue
                 spoken.append("kuzidisha" if part in {"×", "Ã—"} else part)
                 origins.append(index)
+        elif "÷" in original[index] or "Ã·" in original[index]:
+            parts = re.split(r"(÷|Ã·)", original[index])
+            for part in parts:
+                if not part:
+                    continue
+                if part in {"÷", "Ã·"}:
+                    spoken.append("kugawanya")
+                    origins.append(index)
+                else:
+                    spoken.append(part)
+                    origins.append(index)
         elif "=" in original[index]:
             parts = re.split(r"(=)", original[index])
             for part in parts:
@@ -293,12 +326,17 @@ def needs_sequence_audio(nodes):
 
 def needs_arithmetic_audio(nodes):
     text = " ".join(value for _, value in nodes)
-    return bool(re.search(r"\d\s*(?:\+|\-|−|–|â€“|âˆ’|×|Ã—)\s*\d\s*=", text))
+    return bool(re.search(r"\d\s*(?:\+|\-|−|–|â€“|âˆ’|×|Ã—|÷|Ã·)\s*\d\s*=", text))
 
 
 def needs_multiplication_audio(nodes):
     text = " ".join(value for _, value in nodes)
     return bool(re.search(r"\d\s*(?:×|Ã—)\s*\d\s*=", text))
+
+
+def needs_division_audio(nodes):
+    text = " ".join(value for _, value in nodes)
+    return bool(re.search(r"\d\s*(?:÷|Ã·)\s*\d", text))
 
 
 def needs_roman_audio(nodes):
@@ -376,14 +414,14 @@ async def generate_audio(page, nodes, visible, old_entry):
 
     _, _, spoken, _ = spoken_stream(nodes)
     text = " ".join(spoken)
-    audio_name = f"page-{page:03d}-fullbook-v1.mp3"
+    audio_name = f"page-{page:03d}-fullbook-v2.mp3"
     output = ROOT / "content" / "rehema"
     audio_path = output / audio_name
     temp_path = output / f".{audio_name}.tmp"
     cues = []
     try:
         with temp_path.open("wb") as audio:
-            page_rate = "-20%" if 8 <= page <= 15 or page == 17 else RATE
+            page_rate = "-20%" if 8 <= page <= 15 or page == 17 else "-15%" if page == 166 else RATE
             stream = edge_tts.Communicate(
                 text, VOICE, rate=page_rate, boundary="WordBoundary",
                 connect_timeout=15, receive_timeout=90,
@@ -414,7 +452,7 @@ async def generate_audio(page, nodes, visible, old_entry):
         if temp_path.exists():
             temp_path.unlink()
     apply_safe_mapping(cues, nodes, visible, old_entry.get("words", []))
-    return {"audio": audio_name, "voice": VOICE, "rate": 0.8 if 8 <= page <= 15 or page == 17 else 0.9, "pitch": "neutral", "version": VERSION, "words": cues}
+    return {"audio": audio_name, "voice": VOICE, "rate": 0.8 if 8 <= page <= 15 or page == 17 else 0.85 if page == 166 else 0.9, "pitch": "neutral", "version": VERSION, "words": cues}
 
 
 def remap_existing(entry, nodes, visible):
@@ -434,11 +472,15 @@ async def main():
     parser.add_argument("--only-sequences", action="store_true")
     parser.add_argument("--only-arithmetic", action="store_true")
     parser.add_argument("--only-multiplication", action="store_true")
+    parser.add_argument("--only-division", action="store_true")
     parser.add_argument("--only-roman", action="store_true")
     parser.add_argument("--only-steps", action="store_true")
     parser.add_argument("--only-number-words", action="store_true")
     parser.add_argument("--page", type=int)
+    parser.add_argument("--pages", type=str)
+    parser.add_argument("--force", action="store_true")
     args = parser.parse_args()
+    requested_pages = {int(value) for value in args.pages.split(",")} if args.pages else None
     timecodes_path = ROOT / "content" / "rehema" / "timecodes.json"
     timecodes = json.loads(timecodes_path.read_text(encoding="utf-8"))
     pages = sorted(ROOT.glob("pg*_sec001.html"), key=page_number)
@@ -446,6 +488,8 @@ async def main():
     for path in pages:
         page = page_number(path)
         if args.page and page != args.page:
+            continue
+        if requested_pages is not None and page not in requested_pages:
             continue
         _, nodes, visible = parse_page(path)
         if not nodes:
@@ -458,6 +502,8 @@ async def main():
             continue
         if args.only_multiplication and not needs_multiplication_audio(nodes):
             continue
+        if args.only_division and not needs_division_audio(nodes):
+            continue
         if args.only_roman and not needs_roman_audio(nodes):
             continue
         if args.only_steps and not needs_steps_audio(nodes):
@@ -469,10 +515,12 @@ async def main():
         if special:
             report["special"].append(page)
         selected_for_audio = (
-            needs_number_words_audio(nodes) if args.only_number_words
+            True if args.force
+            else needs_number_words_audio(nodes) if args.only_number_words
             else needs_steps_audio(nodes) if args.only_steps
             else needs_roman_audio(nodes) if args.only_roman
             else needs_multiplication_audio(nodes) if args.only_multiplication
+            else needs_division_audio(nodes) if args.only_division
             else needs_arithmetic_audio(nodes) if args.only_arithmetic
             else needs_sequence_audio(nodes) if args.only_sequences
             else needs_equals_audio(nodes) if args.only_equals

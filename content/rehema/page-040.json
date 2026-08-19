@@ -1,1557 +1,1419 @@
 {
-  "audio": "page-040-fullbook-v1.mp3",
+  "audio": "page-040-matrix-v30.mp3",
   "voice": "sw-TZ-RehemaNeural",
   "rate": 0.9,
   "pitch": "neutral",
-  "version": 25,
+  "version": 45,
   "words": [
     {
       "text": "Mfano",
       "start": 0.210833,
-      "end": 0.532458,
+      "end": 0.561708,
       "sourceIndex": 1
     },
     {
       "text": "wa",
-      "start": 0.664041,
-      "end": 0.780999,
+      "start": 0.693291,
+      "end": 0.824874,
       "sourceIndex": 2
     },
     {
       "text": "Pili",
-      "start": 0.81025,
-      "end": 1.161125,
-      "targetImage": true
+      "start": 0.854083,
+      "end": 1.365791,
+      "sourceIndex": 2
     },
     {
       "text": "Andika",
-      "start": 1.190333,
-      "end": 1.643541,
+      "start": 2.514625,
+      "end": 2.8655,
       "sourceIndex": 4
     },
     {
       "text": "arobaini",
-      "start": 1.687416,
-      "end": 2.316082,
-      "sourceIndex": 5
-    },
-    {
-      "text": "kwa",
-      "start": 2.359958,
-      "end": 2.520791,
-      "sourceIndex": 6
-    },
-    {
-      "text": "namba",
-      "start": 2.55,
-      "end": 2.900875,
-      "sourceIndex": 7
-    },
-    {
-      "text": "za",
-      "start": 2.930125,
-      "end": 3.090958,
-      "sourceIndex": 8
-    },
-    {
-      "text": "Kirumi",
-      "start": 3.134791,
-      "end": 3.719582,
-      "sourceIndex": 9
-    },
-    {
-      "text": "Jibu",
-      "start": 4.795333,
-      "end": 5.146208,
-      "sourceIndex": 10
-    },
-    {
-      "text": "arobaini",
-      "start": 5.263166,
-      "end": 5.891832,
-      "sourceIndex": 11
-    },
-    {
-      "text": "sawa",
-      "start": 5.935666,
-      "end": 6.301166,
-      "sourceIndex": 12
-    },
-    {
-      "text": "sawa",
-      "start": 6.330416,
-      "end": 6.710541,
-      "sourceIndex": 12
-    },
-    {
-      "text": "na",
-      "start": 6.73975,
-      "end": 6.842083,
-      "sourceIndex": 12
-    },
-    {
-      "text": "hamsini",
-      "start": 6.871333,
-      "end": 7.441499,
-      "sourceIndex": 13
-    },
-    {
-      "text": "kutoa",
-      "start": 7.47075,
-      "end": 7.850875,
-      "sourceIndex": 14
-    },
-    {
-      "text": "kumi",
-      "start": 7.880125,
-      "end": 8.231,
-      "sourceIndex": 15
-    },
-    {
-      "text": "Kwa",
-      "start": 8.274875,
-      "end": 8.435708,
-      "sourceIndex": 16
-    },
-    {
-      "text": "hiyo",
-      "start": 8.464916,
-      "end": 8.830416,
-      "sourceIndex": 17
-    },
-    {
-      "text": "arobaini",
-      "start": 9.020458,
-      "end": 9.736833,
-      "sourceIndex": 18
-    },
-    {
-      "text": "kwa",
-      "start": 9.780708,
-      "end": 9.926916,
-      "sourceIndex": 19
-    },
-    {
-      "text": "namba",
-      "start": 9.956125,
-      "end": 10.307,
-      "sourceIndex": 20
-    },
-    {
-      "text": "za",
-      "start": 10.33625,
-      "end": 10.511708,
-      "sourceIndex": 21
-    },
-    {
-      "text": "Kirumi",
-      "start": 10.555541,
-      "end": 11.067249,
-      "sourceIndex": 22
-    },
-    {
-      "text": "ni",
-      "start": 11.111125,
-      "end": 11.213458,
-      "sourceIndex": 23
-    },
-    {
-      "text": "arobaini",
-      "start": 11.242708,
-      "end": 11.871374,
-      "sourceIndex": 24
-    },
-    {
-      "text": "ya",
-      "start": 11.900583,
-      "end": 12.002916,
-      "sourceIndex": 24
-    },
-    {
-      "text": "Kirumi",
-      "start": 12.032166,
-      "end": 12.529249,
-      "sourceIndex": 24
-    },
-    {
-      "text": "Zoezi",
-      "start": 12.573083,
-      "end": 13.084791,
-      "sourceIndex": 25
-    },
-    {
-      "text": "la",
-      "start": 13.114041,
-      "end": 13.260249,
-      "sourceIndex": 26
-    },
-    {
-      "text": "Nne",
-      "start": 13.304083,
-      "end": 13.567249,
-      "sourceIndex": 27
-    },
-    {
-      "text": "Jibu",
-      "start": 13.611125,
-      "end": 14.0205,
-      "sourceIndex": 28
-    },
-    {
-      "text": "maswali",
-      "start": 14.064333,
-      "end": 14.619874,
-      "sourceIndex": 29
-    },
-    {
-      "text": "yafuatayo",
-      "start": 14.649125,
-      "end": 15.453208,
-      "sourceIndex": 30
-    },
-    {
-      "text": "moja",
-      "start": 15.643291,
-      "end": 16.052666,
-      "sourceIndex": 31
-    },
-    {
-      "text": "Andika",
-      "start": 16.081875,
-      "end": 16.535083,
-      "sourceIndex": 32
-    },
-    {
-      "text": "namba",
-      "start": 16.564333,
-      "end": 16.900583,
-      "sourceIndex": 33
-    },
-    {
-      "text": "zifuatazo",
-      "start": 16.929833,
-      "end": 17.777791,
-      "sourceIndex": 34
-    },
-    {
-      "text": "kwa",
-      "start": 17.821625,
-      "end": 17.997083,
-      "sourceIndex": 35
-    },
-    {
-      "text": "Kirumi",
-      "start": 18.026333,
-      "end": 18.581874,
-      "sourceIndex": 36
-    },
-    {
-      "text": "a",
-      "start": 19.66375,
-      "end": 19.66375,
-      "sourceIndex": 37
-    },
-    {
-      "text": "arobaini",
-      "start": 19.883041,
-      "end": 20.570166,
-      "sourceIndex": 38
-    },
-    {
-      "text": "na",
-      "start": 20.599416,
-      "end": 20.745624,
-      "sourceIndex": 38
-    },
-    {
-      "text": "nne",
-      "start": 20.774875,
-      "end": 21.0965,
-      "sourceIndex": 38
-    },
-    {
-      "text": "b",
-      "start": 21.286541,
-      "end": 21.505832,
-      "sourceIndex": 39
-    },
-    {
-      "text": "thelathini",
-      "start": 21.725166,
-      "end": 22.368457,
-      "sourceIndex": 40
-    },
-    {
-      "text": "na",
-      "start": 22.397666,
-      "end": 22.543874,
-      "sourceIndex": 40
-    },
-    {
-      "text": "tisa",
-      "start": 22.587708,
-      "end": 23.011666,
-      "sourceIndex": 40
-    },
-    {
-      "text": "c",
-      "start": 23.1725,
-      "end": 23.435666,
-      "sourceIndex": 41
-    },
-    {
-      "text": "thelathini",
-      "start": 23.654958,
-      "end": 24.298249,
-      "sourceIndex": 42
-    },
-    {
-      "text": "na",
-      "start": 24.3275,
-      "end": 24.459083,
-      "sourceIndex": 42
-    },
-    {
-      "text": "tano",
-      "start": 24.502916,
-      "end": 24.970749,
-      "sourceIndex": 42
-    },
-    {
-      "text": "d",
-      "start": 25.160833,
-      "end": 25.350874,
-      "sourceIndex": 43
-    },
-    {
-      "text": "arobaini",
-      "start": 25.526333,
-      "end": 26.154999,
-      "sourceIndex": 44
-    },
-    {
-      "text": "na",
-      "start": 26.184208,
-      "end": 26.286541,
-      "sourceIndex": 44
-    },
-    {
-      "text": "sita",
-      "start": 26.315791,
-      "end": 26.783624,
-      "sourceIndex": 44
-    },
-    {
-      "text": "e",
-      "start": 26.944458,
-      "end": 27.046791,
-      "sourceIndex": 45
-    },
-    {
-      "text": "arobaini",
-      "start": 27.193,
-      "end": 27.850875,
-      "sourceIndex": 46
-    },
-    {
-      "text": "na",
-      "start": 27.880125,
-      "end": 27.982458,
-      "sourceIndex": 46
-    },
-    {
-      "text": "moja",
-      "start": 28.011708,
-      "end": 28.377208,
-      "sourceIndex": 46
-    },
-    {
-      "text": "mbili",
-      "start": 28.421041,
-      "end": 28.786541,
-      "sourceIndex": 47
-    },
-    {
-      "text": "Andika",
-      "start": 28.830416,
-      "end": 29.254374,
-      "sourceIndex": 48
-    },
-    {
-      "text": "namba",
-      "start": 29.283625,
-      "end": 29.619875,
-      "sourceIndex": 49
-    },
-    {
-      "text": "zifuatazo",
-      "start": 29.66375,
-      "end": 30.511708,
-      "sourceIndex": 50
-    },
-    {
-      "text": "kwa",
-      "start": 30.555541,
-      "end": 30.730999,
-      "sourceIndex": 51
-    },
-    {
-      "text": "Kiarabu",
-      "start": 30.774875,
-      "end": 31.49125,
-      "sourceIndex": 52
-    },
-    {
-      "text": "a",
-      "start": 32.602333,
-      "end": 32.836249,
-      "sourceIndex": 53
-    },
-    {
-      "text": "hamsini",
-      "start": 32.83625,
-      "end": 33.377166,
-      "sourceIndex": 54
-    },
-    {
-      "text": "ya",
-      "start": 33.406416,
-      "end": 33.494124,
-      "sourceIndex": 54
-    },
-    {
-      "text": "Kirumi",
-      "start": 33.523375,
-      "end": 34.049708,
-      "sourceIndex": 54
-    },
-    {
-      "text": "b",
-      "start": 34.225166,
-      "end": 34.473707,
-      "sourceIndex": 55
-    },
-    {
-      "text": "thelathini",
-      "start": 34.678375,
-      "end": 35.292416,
-      "sourceIndex": 56
-    },
-    {
-      "text": "na",
-      "start": 35.321625,
-      "end": 35.409333,
-      "sourceIndex": 56
-    },
-    {
-      "text": "sita",
-      "start": 35.438583,
-      "end": 35.818708,
-      "sourceIndex": 56
-    },
-    {
-      "text": "ya",
-      "start": 35.847958,
-      "end": 35.950291,
-      "sourceIndex": 56
-    },
-    {
-      "text": "Kirumi",
-      "start": 35.979541,
-      "end": 36.505874,
-      "sourceIndex": 56
-    },
-    {
-      "text": "c",
-      "start": 36.637416,
-      "end": 36.885957,
-      "sourceIndex": 57
-    },
-    {
-      "text": "arobaini",
-      "start": 37.046791,
-      "end": 37.690082,
-      "sourceIndex": 58
-    },
-    {
-      "text": "na",
-      "start": 37.719291,
-      "end": 37.821624,
-      "sourceIndex": 58
-    },
-    {
-      "text": "nane",
-      "start": 37.850875,
-      "end": 38.157875,
-      "sourceIndex": 58
-    },
-    {
-      "text": "ya",
-      "start": 38.187125,
-      "end": 38.289458,
-      "sourceIndex": 58
-    },
-    {
-      "text": "Kirumi",
-      "start": 38.318708,
-      "end": 38.859624,
-      "sourceIndex": 58
-    },
-    {
-      "text": "d",
-      "start": 39.035083,
-      "end": 39.225124,
-      "sourceIndex": 59
-    },
-    {
-      "text": "arobaini",
-      "start": 39.429833,
-      "end": 40.043874,
-      "sourceIndex": 60
-    },
-    {
-      "text": "na",
-      "start": 40.073083,
-      "end": 40.175416,
-      "sourceIndex": 60
-    },
-    {
-      "text": "moja",
-      "start": 40.204666,
-      "end": 40.540916,
-      "sourceIndex": 60
-    },
-    {
-      "text": "ya",
-      "start": 40.570166,
-      "end": 40.672499,
-      "sourceIndex": 60
-    },
-    {
-      "text": "Kirumi",
-      "start": 40.70175,
-      "end": 41.228083,
-      "sourceIndex": 60
-    },
-    {
-      "text": "e",
-      "start": 41.4035,
-      "end": 41.505833,
-      "sourceIndex": 61
-    },
-    {
-      "text": "thelathini",
-      "start": 41.652041,
-      "end": 42.295332,
-      "sourceIndex": 62
-    },
-    {
-      "text": "na",
-      "start": 42.324583,
-      "end": 42.456166,
-      "sourceIndex": 62
-    },
-    {
-      "text": "nne",
-      "start": 42.485375,
-      "end": 42.675416,
-      "sourceIndex": 62
-    },
-    {
-      "text": "ya",
-      "start": 42.719291,
-      "end": 42.836249,
-      "sourceIndex": 62
-    },
-    {
-      "text": "Kirumi",
-      "start": 42.8655,
-      "end": 43.377208,
-      "sourceIndex": 62
-    },
-    {
-      "text": "tatu",
-      "start": 43.421041,
-      "end": 43.830416,
-      "sourceIndex": 63
-    },
-    {
-      "text": "Andika",
-      "start": 43.874291,
-      "end": 44.312874,
-      "sourceIndex": 64
-    },
-    {
-      "text": "namba",
-      "start": 44.342125,
-      "end": 44.693,
-      "sourceIndex": 65
-    },
-    {
-      "text": "za",
-      "start": 44.736833,
-      "end": 44.883041,
-      "sourceIndex": 66
-    },
-    {
-      "text": "Kirumi",
-      "start": 44.926916,
-      "end": 45.423999,
-      "sourceIndex": 67
-    },
-    {
-      "text": "zinazokosekana",
-      "start": 45.467833,
-      "end": 46.666666,
-      "sourceIndex": 68
-    },
-    {
-      "text": "katika",
-      "start": 46.710541,
-      "end": 47.192999,
-      "sourceIndex": 69
-    },
-    {
-      "text": "kila",
-      "start": 47.236833,
-      "end": 47.543833,
-      "sourceIndex": 70
-    },
-    {
-      "text": "mfululizo",
-      "start": 47.587708,
-      "end": 48.362541,
-      "sourceIndex": 71
-    },
-    {
-      "text": "ufuatao",
-      "start": 48.406416,
-      "end": 49.137416,
-      "sourceIndex": 72
-    },
-    {
-      "text": "a",
-      "start": 49.473666,
-      "end": 49.649124,
-      "sourceIndex": 73
-    },
-    {
-      "text": "thelathini",
-      "start": 50.0,
-      "end": 50.540916,
-      "sourceIndex": 74
-    },
-    {
-      "text": "na",
-      "start": 50.643291,
-      "end": 50.789499,
-      "sourceIndex": 74
-    },
-    {
-      "text": "nne",
-      "start": 50.818708,
-      "end": 50.994166,
-      "sourceIndex": 74
-    },
-    {
-      "text": "ya",
-      "start": 51.023375,
-      "end": 51.125708,
-      "sourceIndex": 74
-    },
-    {
-      "text": "Kirumi",
-      "start": 51.154958,
-      "end": 51.695874,
-      "sourceIndex": 74
-    },
-    {
-      "text": "thelathini",
-      "start": 51.871333,
-      "end": 52.514624,
-      "sourceIndex": 76
-    },
-    {
-      "text": "na",
-      "start": 52.543875,
-      "end": 52.631583,
-      "sourceIndex": 76
-    },
-    {
-      "text": "sita",
-      "start": 52.660833,
-      "end": 53.040958,
-      "sourceIndex": 76
-    },
-    {
-      "text": "ya",
-      "start": 53.070166,
-      "end": 53.172499,
-      "sourceIndex": 76
-    },
-    {
-      "text": "Kirumi",
-      "start": 53.20175,
-      "end": 53.771916,
-      "sourceIndex": 76
-    },
-    {
-      "text": "thelathini",
-      "start": 53.976625,
-      "end": 54.649125,
-      "sourceIndex": 79
-    },
-    {
-      "text": "na",
-      "start": 54.678375,
-      "end": 54.795333,
-      "sourceIndex": 79
-    },
-    {
-      "text": "tisa",
-      "start": 54.839166,
-      "end": 55.175416,
-      "sourceIndex": 79
-    },
-    {
-      "text": "ya",
-      "start": 55.204666,
-      "end": 55.306999,
-      "sourceIndex": 79
-    },
-    {
-      "text": "Kirumi",
-      "start": 55.33625,
-      "end": 55.906416,
-      "sourceIndex": 79
-    },
-    {
-      "text": "b",
-      "start": 56.0965,
-      "end": 56.345041,
-      "sourceIndex": 80
-    },
-    {
-      "text": "thelathini",
-      "start": 56.578958,
-      "end": 57.236833,
-      "sourceIndex": 81
-    },
-    {
-      "text": "na",
-      "start": 57.266083,
-      "end": 57.353791,
-      "sourceIndex": 81
-    },
-    {
-      "text": "sita",
-      "start": 57.383041,
-      "end": 57.777791,
-      "sourceIndex": 81
-    },
-    {
-      "text": "ya",
-      "start": 57.807,
-      "end": 57.909333,
-      "sourceIndex": 81
-    },
-    {
-      "text": "Kirumi",
-      "start": 57.938583,
-      "end": 58.435666,
-      "sourceIndex": 81
-    },
-    {
-      "text": "thelathini",
-      "start": 58.479541,
-      "end": 59.122832,
-      "sourceIndex": 82
-    },
-    {
-      "text": "na",
-      "start": 59.152041,
-      "end": 59.268999,
-      "sourceIndex": 82
-    },
-    {
-      "text": "nane",
-      "start": 59.29825,
-      "end": 59.60525,
-      "sourceIndex": 82
-    },
-    {
-      "text": "ya",
-      "start": 59.6345,
-      "end": 59.736833,
-      "sourceIndex": 82
-    },
-    {
-      "text": "Kirumi",
-      "start": 59.766083,
-      "end": 60.350874,
-      "sourceIndex": 82
-    },
-    {
-      "text": "arobaini",
-      "start": 60.628666,
-      "end": 61.330416,
-      "sourceIndex": 84
-    },
-    {
-      "text": "na",
-      "start": 61.359666,
-      "end": 61.447374,
-      "sourceIndex": 84
-    },
-    {
-      "text": "mbili",
-      "start": 61.476625,
-      "end": 61.783625,
-      "sourceIndex": 84
-    },
-    {
-      "text": "ya",
-      "start": 61.812875,
-      "end": 61.900583,
-      "sourceIndex": 84
-    },
-    {
-      "text": "Kirumi",
-      "start": 61.929833,
-      "end": 62.456166,
-      "sourceIndex": 84
-    },
-    {
-      "text": "arobaini",
-      "start": 62.514625,
-      "end": 63.1725,
-      "sourceIndex": 85
-    },
-    {
-      "text": "na",
-      "start": 63.20175,
-      "end": 63.333333,
-      "sourceIndex": 85
-    },
-    {
-      "text": "nne",
-      "start": 63.362583,
-      "end": 63.581874,
-      "sourceIndex": 85
-    },
-    {
-      "text": "ya",
-      "start": 63.611125,
-      "end": 63.713458,
-      "sourceIndex": 85
-    },
-    {
-      "text": "Kirumi",
-      "start": 63.742708,
-      "end": 64.298249,
-      "sourceIndex": 85
-    },
-    {
-      "text": "c",
-      "start": 64.517541,
-      "end": 64.780707,
-      "sourceIndex": 89
-    },
-    {
-      "text": "hamsini",
-      "start": 64.926916,
-      "end": 65.497082,
-      "sourceIndex": 90
-    },
-    {
-      "text": "ya",
-      "start": 65.526333,
-      "end": 65.614041,
-      "sourceIndex": 90
-    },
-    {
-      "text": "Kirumi",
-      "start": 65.643291,
-      "end": 66.169624,
-      "sourceIndex": 90
-    },
-    {
-      "text": "arobaini",
-      "start": 66.301166,
-      "end": 67.061416,
-      "sourceIndex": 92
-    },
-    {
-      "text": "na",
-      "start": 68.1725,
-      "end": 68.216375,
-      "sourceIndex": 92
-    },
-    {
-      "text": "nne",
-      "start": 68.333333,
-      "end": 68.523374,
-      "sourceIndex": 92
-    },
-    {
-      "text": "ya",
-      "start": 68.552625,
-      "end": 68.640333,
-      "sourceIndex": 92
-    },
-    {
-      "text": "Kirumi",
-      "start": 68.669583,
-      "end": 69.210499,
-      "sourceIndex": 92
-    },
-    {
-      "text": "thelathini",
-      "start": 69.415208,
-      "end": 70.102333,
-      "sourceIndex": 94
-    },
-    {
-      "text": "na",
-      "start": 70.131583,
-      "end": 70.233916,
-      "sourceIndex": 94
-    },
-    {
-      "text": "nane",
-      "start": 70.263166,
-      "end": 70.584791,
-      "sourceIndex": 94
-    },
-    {
-      "text": "ya",
-      "start": 70.614041,
-      "end": 70.716374,
-      "sourceIndex": 94
-    },
-    {
-      "text": "Kirumi",
-      "start": 70.745625,
-      "end": 71.228083,
-      "sourceIndex": 94
-    },
-    {
-      "text": "thelathini",
-      "start": 71.271916,
-      "end": 71.915207,
-      "sourceIndex": 95
-    },
-    {
-      "text": "na",
-      "start": 71.944458,
-      "end": 72.061416,
-      "sourceIndex": 95
-    },
-    {
-      "text": "tano",
-      "start": 72.10525,
-      "end": 72.4415,
-      "sourceIndex": 95
-    },
-    {
-      "text": "ya",
-      "start": 72.47075,
-      "end": 72.573083,
-      "sourceIndex": 95
-    },
-    {
-      "text": "Kirumi",
-      "start": 72.602333,
-      "end": 73.157874,
-      "sourceIndex": 95
-    },
-    {
-      "text": "d",
-      "start": 73.377208,
-      "end": 73.567249,
-      "sourceIndex": 96
-    },
-    {
-      "text": "kumi",
-      "start": 73.757333,
-      "end": 74.049749,
-      "sourceIndex": 97
-    },
-    {
-      "text": "ya",
-      "start": 74.078958,
-      "end": 74.166666,
-      "sourceIndex": 97
-    },
-    {
-      "text": "Kirumi",
-      "start": 74.195916,
-      "end": 74.766082,
-      "sourceIndex": 97
-    },
-    {
-      "text": "ishirini",
-      "start": 74.941541,
-      "end": 75.511707,
-      "sourceIndex": 99
-    },
-    {
-      "text": "ya",
-      "start": 75.540958,
-      "end": 75.628666,
-      "sourceIndex": 99
-    },
-    {
-      "text": "Kirumi",
-      "start": 75.657916,
-      "end": 76.169624,
-      "sourceIndex": 99
-    },
-    {
-      "text": "ishirini",
-      "start": 76.213458,
-      "end": 76.754374,
-      "sourceIndex": 100
-    },
-    {
-      "text": "na",
-      "start": 76.783625,
-      "end": 76.900583,
-      "sourceIndex": 100
-    },
-    {
-      "text": "tano",
-      "start": 76.944458,
-      "end": 77.280708,
-      "sourceIndex": 100
-    },
-    {
-      "text": "ya",
-      "start": 77.309958,
-      "end": 77.412291,
-      "sourceIndex": 100
-    },
-    {
-      "text": "Kirumi",
-      "start": 77.441541,
-      "end": 77.967874,
-      "sourceIndex": 100
-    },
-    {
-      "text": "arobaini",
-      "start": 78.157916,
-      "end": 78.845041,
-      "sourceIndex": 103
-    },
-    {
-      "text": "ya",
-      "start": 78.874291,
-      "end": 78.961999,
-      "sourceIndex": 103
-    },
-    {
-      "text": "Kirumi",
-      "start": 78.99125,
-      "end": 79.546791,
-      "sourceIndex": 103
-    },
-    {
-      "text": "hamsini",
-      "start": 79.897666,
-      "end": 80.292416,
-      "sourceIndex": 105
-    },
-    {
-      "text": "ya",
-      "start": 80.39475,
-      "end": 80.482458,
-      "sourceIndex": 105
-    },
-    {
-      "text": "Kirumi",
-      "start": 80.511708,
-      "end": 80.994166,
-      "sourceIndex": 105
-    },
-    {
-      "text": "nne",
-      "start": 81.023375,
-      "end": 81.242666,
-      "sourceIndex": 106
-    },
-    {
-      "text": "Panga",
-      "start": 81.286541,
-      "end": 81.652041,
-      "sourceIndex": 107
-    },
-    {
-      "text": "vijiti",
-      "start": 81.681291,
-      "end": 82.163749,
-      "sourceIndex": 108
-    },
-    {
-      "text": "kuonesha",
-      "start": 82.207625,
-      "end": 82.821666,
-      "sourceIndex": 109
-    },
-    {
-      "text": "kumi",
-      "start": 82.850875,
-      "end": 83.187125,
-      "sourceIndex": 110
-    },
-    {
-      "text": "inavyoandikwa",
-      "start": 83.231,
-      "end": 84.181291,
-      "sourceIndex": 111
-    },
-    {
-      "text": "kwa",
-      "start": 84.225166,
-      "end": 84.385999,
-      "sourceIndex": 112
-    },
-    {
-      "text": "Kirumi",
-      "start": 84.429833,
-      "end": 84.926916,
-      "sourceIndex": 113
-    },
-    {
-      "text": "kisha",
-      "start": 84.97075,
-      "end": 85.307,
-      "sourceIndex": 114
-    },
-    {
-      "text": "chora",
-      "start": 85.33625,
-      "end": 85.687125,
-      "sourceIndex": 115
-    },
-    {
-      "text": "kwenye",
-      "start": 85.731,
-      "end": 86.008791,
-      "sourceIndex": 116
-    },
-    {
-      "text": "daftari",
-      "start": 86.038,
-      "end": 86.783625,
-      "sourceIndex": 117
-    },
-    {
-      "text": "tano",
-      "start": 87.850875,
-      "end": 88.055541,
-      "sourceIndex": 118
-    },
-    {
-      "text": "Nuru",
-      "start": 88.1725,
-      "end": 88.611083,
-      "sourceIndex": 119
-    },
-    {
-      "text": "aliona",
-      "start": 88.654958,
-      "end": 89.137416,
-      "sourceIndex": 120
-    },
-    {
-      "text": "bango",
-      "start": 89.166666,
-      "end": 89.546791,
-      "sourceIndex": 121
-    },
-    {
-      "text": "limeandikwa",
-      "start": 89.576041,
-      "end": 90.336291,
-      "sourceIndex": 122
-    },
-    {
-      "text": "arobaini",
-      "start": 90.380125,
-      "end": 91.023416,
-      "sourceIndex": 123
-    },
-    {
-      "text": "na",
-      "start": 91.052625,
-      "end": 91.184208,
-      "sourceIndex": 123
-    },
-    {
-      "text": "nne",
-      "start": 91.213458,
-      "end": 91.432749,
-      "sourceIndex": 123
-    },
-    {
-      "text": "ya",
-      "start": 91.462,
-      "end": 91.564333,
-      "sourceIndex": 123
-    },
-    {
-      "text": "Kirumi",
-      "start": 91.593583,
-      "end": 92.076041,
-      "sourceIndex": 123
-    },
-    {
-      "text": "hiyo",
-      "start": 92.10525,
-      "end": 92.339166,
-      "sourceIndex": 124
-    },
-    {
-      "text": "ni",
-      "start": 92.368416,
-      "end": 92.485374,
-      "sourceIndex": 125
-    },
-    {
-      "text": "namba",
-      "start": 92.514625,
-      "end": 92.89475,
-      "sourceIndex": 126
-    },
-    {
-      "text": "gani",
-      "start": 92.924,
-      "end": 93.406458,
-      "sourceIndex": 127
-    },
-    {
-      "text": "sita",
-      "start": 94.502916,
-      "end": 94.868416,
-      "sourceIndex": 128
-    },
-    {
-      "text": "Andika",
-      "start": 94.97075,
-      "end": 95.409333,
-      "sourceIndex": 129
-    },
-    {
-      "text": "namba",
-      "start": 95.438583,
-      "end": 95.774833,
-      "sourceIndex": 130
-    },
-    {
-      "text": "zifuatazo",
-      "start": 95.804083,
-      "end": 96.666666,
-      "sourceIndex": 131
-    },
-    {
-      "text": "kwa",
-      "start": 96.710541,
-      "end": 96.856749,
-      "sourceIndex": 132
-    },
-    {
-      "text": "maneno",
-      "start": 96.885958,
-      "end": 97.470749,
-      "sourceIndex": 133
-    },
-    {
-      "text": "a",
-      "start": 97.850875,
-      "end": 98.040916,
-      "sourceIndex": 134
-    },
-    {
-      "text": "arobaini",
-      "start": 98.187125,
-      "end": 98.859625,
-      "sourceIndex": 135
-    },
-    {
-      "text": "na",
-      "start": 98.888875,
-      "end": 99.020458,
-      "sourceIndex": 135
-    },
-    {
-      "text": "tisa",
-      "start": 99.064333,
-      "end": 99.385958,
-      "sourceIndex": 135
-    },
-    {
-      "text": "ya",
-      "start": 99.415208,
-      "end": 99.532166,
-      "sourceIndex": 135
-    },
-    {
-      "text": "Kirumi",
-      "start": 99.561416,
-      "end": 100.102332,
-      "sourceIndex": 135
-    },
-    {
-      "text": "b",
-      "start": 100.263166,
-      "end": 100.511707,
-      "sourceIndex": 136
-    },
-    {
-      "text": "arobaini",
-      "start": 100.687125,
-      "end": 101.330416,
-      "sourceIndex": 137
-    },
-    {
-      "text": "na",
-      "start": 101.359666,
-      "end": 101.476624,
-      "sourceIndex": 137
-    },
-    {
-      "text": "tatu",
-      "start": 101.520458,
-      "end": 101.856708,
-      "sourceIndex": 137
-    },
-    {
-      "text": "ya",
-      "start": 101.885958,
-      "end": 101.988291,
-      "sourceIndex": 137
-    },
-    {
-      "text": "Kirumi",
-      "start": 102.017541,
-      "end": 102.558457,
-      "sourceIndex": 137
-    },
-    {
-      "text": "c",
-      "start": 102.690083,
-      "end": 102.953249,
-      "sourceIndex": 138
-    },
-    {
-      "text": "thelathini",
-      "start": 103.143291,
-      "end": 103.771957,
-      "sourceIndex": 139
-    },
-    {
-      "text": "na",
-      "start": 103.801166,
-      "end": 103.918124,
-      "sourceIndex": 139
-    },
-    {
-      "text": "tano",
-      "start": 103.962,
-      "end": 104.283625,
-      "sourceIndex": 139
-    },
-    {
-      "text": "ya",
-      "start": 104.312875,
-      "end": 104.415208,
-      "sourceIndex": 139
-    },
-    {
-      "text": "Kirumi",
-      "start": 104.444458,
-      "end": 104.999999,
-      "sourceIndex": 139
-    },
-    {
-      "text": "d",
-      "start": 105.190083,
-      "end": 105.380124,
-      "sourceIndex": 140
-    },
-    {
-      "text": "thelathini",
-      "start": 105.628666,
-      "end": 106.271957,
-      "sourceIndex": 141
-    },
-    {
-      "text": "na",
-      "start": 106.301166,
-      "end": 106.388874,
-      "sourceIndex": 141
-    },
-    {
-      "text": "saba",
-      "start": 106.418125,
-      "end": 106.783625,
-      "sourceIndex": 141
-    },
-    {
-      "text": "ya",
-      "start": 106.812875,
-      "end": 106.929833,
-      "sourceIndex": 141
-    },
-    {
-      "text": "Kirumi",
-      "start": 106.973708,
-      "end": 107.441541,
-      "sourceIndex": 141
-    },
-    {
-      "text": "saba",
-      "start": 107.485375,
-      "end": 107.89475,
-      "sourceIndex": 142
-    },
-    {
-      "text": "Badili",
-      "start": 107.938583,
-      "end": 108.435666,
-      "sourceIndex": 143
-    },
-    {
-      "text": "namba",
-      "start": 108.479541,
-      "end": 108.830416,
-      "sourceIndex": 144
-    },
-    {
-      "text": "zifuatazo",
-      "start": 108.874291,
-      "end": 109.751499,
-      "sourceIndex": 145
-    },
-    {
-      "text": "kuwa",
-      "start": 109.795333,
-      "end": 110.073124,
-      "sourceIndex": 146
-    },
-    {
-      "text": "namba",
-      "start": 110.102333,
-      "end": 110.453208,
-      "sourceIndex": 147
-    },
-    {
-      "text": "za",
-      "start": 110.482458,
-      "end": 110.643291,
-      "sourceIndex": 148
-    },
-    {
-      "text": "kirumi",
-      "start": 110.687125,
-      "end": 111.242666,
-      "sourceIndex": 149
-    },
-    {
-      "text": "a",
-      "start": 111.549708,
-      "end": 111.710541,
-      "sourceIndex": 150
-    },
-    {
-      "text": "arobaini",
-      "start": 111.85675,
-      "end": 112.514625,
+      "start": 3.011708,
+      "end": 3.669583,
       "sourceIndex": 151
     },
     {
-      "text": "na",
-      "start": 112.543875,
-      "end": 112.660833,
-      "sourceIndex": 152
+      "text": "kwa",
+      "start": 3.713458,
+      "end": 3.874291,
+      "sourceIndex": 151
     },
     {
-      "text": "mbili",
-      "start": 112.690083,
-      "end": 113.084833,
-      "sourceIndex": 153
+      "text": "namba",
+      "start": 3.9035,
+      "end": 4.23975,
+      "sourceIndex": 151
     },
     {
-      "text": "b",
-      "start": 113.406458,
-      "end": 113.494166,
-      "sourceIndex": 154
+      "text": "za",
+      "start": 4.269,
+      "end": 4.429833,
+      "sourceIndex": 151
     },
     {
-      "text": "ishirini",
-      "start": 113.728083,
-      "end": 114.312874,
-      "sourceIndex": 155
+      "text": "Kirumi",
+      "start": 4.473666,
+      "end": 5.073082,
+      "sourceIndex": 151
     },
     {
-      "text": "na",
-      "start": 114.342125,
-      "end": 114.473708,
-      "sourceIndex": 156
+      "text": "Jibu",
+      "start": 6.169583,
+      "end": 6.652041,
+      "sourceIndex": 151
     },
     {
-      "text": "nane",
-      "start": 114.502916,
-      "end": 114.912291,
-      "sourceIndex": 157
+      "text": "Arobaini",
+      "start": 7.850875,
+      "end": 8.333333,
+      "sourceIndex": 163
     },
     {
-      "text": "c",
-      "start": 115.087708,
-      "end": 115.321624,
-      "sourceIndex": 158
+      "text": "sawa",
+      "start": 8.479541,
+      "end": 8.859666,
+      "sourceIndex": 163
     },
     {
-      "text": "thelathini",
-      "start": 115.526333,
-      "end": 116.184208,
-      "sourceIndex": 159
-    },
-    {
-      "text": "na",
-      "start": 116.213458,
-      "end": 116.359666,
-      "sourceIndex": 160
-    },
-    {
-      "text": "tisa",
-      "start": 116.4035,
-      "end": 116.856708,
-      "sourceIndex": 161
-    },
-    {
-      "text": "d",
-      "start": 117.046791,
-      "end": 117.266082,
-      "sourceIndex": 162
-    },
-    {
-      "text": "arobaini",
-      "start": 117.441541,
-      "end": 118.099416,
+      "text": "sawa",
+      "start": 8.888875,
+      "end": 9.269,
       "sourceIndex": 163
     },
     {
       "text": "na",
-      "start": 118.128666,
-      "end": 118.274874,
+      "start": 9.29825,
+      "end": 9.400583,
       "sourceIndex": 164
     },
     {
+      "text": "hamsini",
+      "start": 9.429833,
+      "end": 10.029249,
+      "sourceIndex": 164
+    },
+    {
+      "text": "kutoa",
+      "start": 10.073083,
+      "end": 10.497041,
+      "sourceIndex": 164
+    },
+    {
+      "text": "kumi",
+      "start": 10.540916,
+      "end": 10.994124,
+      "sourceIndex": 164
+    },
+    {
+      "text": "Kwa",
+      "start": 12.076041,
+      "end": 12.090666,
+      "sourceIndex": 164
+    },
+    {
+      "text": "hiyo",
+      "start": 12.193,
+      "end": 12.616958,
+      "sourceIndex": 164
+    },
+    {
+      "text": "arobaini",
+      "start": 12.719291,
+      "end": 13.435666,
+      "sourceIndex": 164
+    },
+    {
+      "text": "kwa",
+      "start": 13.479541,
+      "end": 13.611124,
+      "sourceIndex": 164
+    },
+    {
+      "text": "namba",
+      "start": 13.640333,
+      "end": 13.976583,
+      "sourceIndex": 164
+    },
+    {
+      "text": "za",
+      "start": 14.005833,
+      "end": 14.166666,
+      "sourceIndex": 164
+    },
+    {
+      "text": "Kirumi",
+      "start": 14.210541,
+      "end": 14.722249,
+      "sourceIndex": 164
+    },
+    {
+      "text": "ni",
+      "start": 14.751458,
+      "end": 14.883041,
+      "sourceIndex": 164
+    },
+    {
+      "text": "alama",
+      "start": 14.912291,
+      "end": 15.350874,
+      "sourceIndex": 164
+    },
+    {
+      "text": "exi",
+      "start": 15.39475,
+      "end": 15.731,
+      "sourceIndex": 164
+    },
+    {
+      "text": "ikifuatiwa",
+      "start": 15.774875,
+      "end": 16.578958,
+      "sourceIndex": 164
+    },
+    {
+      "text": "na",
+      "start": 16.608208,
+      "end": 16.725166,
+      "sourceIndex": 164
+    },
+    {
+      "text": "eli",
+      "start": 16.769,
+      "end": 17.1345,
+      "sourceIndex": 164
+    },
+    {
+      "text": "Zoezi",
+      "start": 18.20175,
+      "end": 18.5965,
+      "sourceIndex": 164
+    },
+    {
+      "text": "la",
+      "start": 18.698833,
+      "end": 18.859666,
+      "sourceIndex": 164
+    },
+    {
+      "text": "4",
+      "start": 18.888875,
+      "end": 19.137416,
+      "sourceIndex": 164
+    },
+    {
+      "text": "Jibu",
+      "start": 19.181291,
+      "end": 19.546791,
+      "sourceIndex": 164
+    },
+    {
+      "text": "maswali",
+      "start": 19.576041,
+      "end": 20.116957,
+      "sourceIndex": 164
+    },
+    {
+      "text": "yafuatayo",
+      "start": 20.146208,
+      "end": 20.921041,
+      "sourceIndex": 164
+    },
+    {
+      "text": "1",
+      "start": 21.140333,
+      "end": 21.622791,
+      "sourceIndex": 168
+    },
+    {
+      "text": "Andika",
+      "start": 21.769,
+      "end": 22.251458,
+      "sourceIndex": 168
+    },
+    {
+      "text": "namba",
+      "start": 22.280708,
+      "end": 22.602333,
+      "sourceIndex": 168
+    },
+    {
+      "text": "zifuatazo",
+      "start": 22.631583,
+      "end": 23.450291,
+      "sourceIndex": 168
+    },
+    {
+      "text": "kwa",
+      "start": 23.494166,
+      "end": 23.669624,
+      "sourceIndex": 168
+    },
+    {
+      "text": "Kirumi",
+      "start": 23.698833,
+      "end": 24.268999,
+      "sourceIndex": 168
+    },
+    {
+      "text": "a",
+      "start": 25.350875,
+      "end": 25.350875,
+      "sourceIndex": 168
+    },
+    {
+      "text": "44",
+      "start": 25.570166,
+      "end": 26.783625,
+      "sourceIndex": 168
+    },
+    {
+      "text": "b",
+      "start": 26.973666,
+      "end": 27.192957,
+      "sourceIndex": 168
+    },
+    {
+      "text": "39",
+      "start": 27.412291,
+      "end": 28.728041,
+      "sourceIndex": 168
+    },
+    {
+      "text": "c",
+      "start": 28.888875,
+      "end": 29.152041,
+      "sourceIndex": 168
+    },
+    {
+      "text": "35",
+      "start": 29.400583,
+      "end": 30.745624,
+      "sourceIndex": 168
+    },
+    {
+      "text": "d",
+      "start": 30.935666,
+      "end": 31.111124,
+      "sourceIndex": 168
+    },
+    {
+      "text": "46",
+      "start": 31.301166,
+      "end": 32.573083,
+      "sourceIndex": 168
+    },
+    {
+      "text": "e",
+      "start": 32.733916,
+      "end": 32.836249,
+      "sourceIndex": 168
+    },
+    {
+      "text": "41",
+      "start": 32.967833,
+      "end": 34.137416,
+      "sourceIndex": 168
+    },
+    {
+      "text": "2",
+      "start": 34.166666,
+      "end": 34.590624,
+      "sourceIndex": 168
+    },
+    {
+      "text": "Andika",
+      "start": 35.70175,
+      "end": 36.038,
+      "sourceIndex": 168
+    },
+    {
+      "text": "namba",
+      "start": 36.169583,
+      "end": 36.476583,
+      "sourceIndex": 168
+    },
+    {
+      "text": "zifuatazo",
+      "start": 36.505833,
+      "end": 37.339166,
+      "sourceIndex": 168
+    },
+    {
+      "text": "kwa",
+      "start": 37.383041,
+      "end": 37.558499,
+      "sourceIndex": 168
+    },
+    {
+      "text": "Kiarabu",
+      "start": 37.587708,
+      "end": 38.362541,
+      "sourceIndex": 168
+    },
+    {
+      "text": "a",
+      "start": 39.459083,
+      "end": 39.488333,
+      "sourceIndex": 168
+    },
+    {
+      "text": "eli",
+      "start": 39.751458,
+      "end": 40.043874,
+      "sourceIndex": 168
+    },
+    {
+      "text": "b",
+      "start": 40.219291,
+      "end": 40.453207,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 40.614041,
+      "end": 40.921041,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 40.964916,
+      "end": 41.286541,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 41.330416,
+      "end": 41.608207,
+      "sourceIndex": 168
+    },
+    {
+      "text": "vii",
+      "start": 41.652041,
+      "end": 41.944457,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 41.988291,
+      "end": 42.397666,
+      "sourceIndex": 168
+    },
+    {
+      "text": "c",
+      "start": 42.52925,
+      "end": 42.807041,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 43.011708,
+      "end": 43.318708,
+      "sourceIndex": 168
+    },
+    {
+      "text": "eli",
+      "start": 43.362583,
+      "end": 43.625749,
+      "sourceIndex": 168
+    },
+    {
+      "text": "vii",
+      "start": 43.669583,
+      "end": 43.976583,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 44.035083,
+      "end": 44.459041,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 44.517541,
+      "end": 44.926916,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 44.985375,
+      "end": 45.39475,
+      "sourceIndex": 168
+    },
+    {
+      "text": "d",
+      "start": 45.540958,
+      "end": 45.716416,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 45.921041,
+      "end": 46.242666,
+      "sourceIndex": 168
+    },
+    {
+      "text": "eli",
+      "start": 46.286541,
+      "end": 46.578957,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 46.637416,
+      "end": 47.046791,
+      "sourceIndex": 168
+    },
+    {
+      "text": "e",
+      "start": 47.193,
+      "end": 47.280708,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 47.426916,
+      "end": 47.748541,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 47.792416,
+      "end": 48.128666,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 48.1725,
+      "end": 48.50875,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 48.56725,
+      "end": 48.9035,
+      "sourceIndex": 168
+    },
+    {
+      "text": "vii",
+      "start": 48.947375,
+      "end": 49.195916,
+      "sourceIndex": 168
+    },
+    {
+      "text": "3",
+      "start": 49.23975,
+      "end": 49.722208,
+      "sourceIndex": 168
+    },
+    {
+      "text": "Andika",
+      "start": 50.818708,
+      "end": 51.140333,
+      "sourceIndex": 168
+    },
+    {
+      "text": "namba",
+      "start": 51.271916,
+      "end": 51.608166,
+      "sourceIndex": 168
+    },
+    {
+      "text": "za",
+      "start": 51.637416,
+      "end": 51.798249,
+      "sourceIndex": 168
+    },
+    {
+      "text": "Kirumi",
+      "start": 51.8275,
+      "end": 52.295333,
+      "sourceIndex": 168
+    },
+    {
+      "text": "zinazokosekana",
+      "start": 52.324583,
+      "end": 53.464916,
+      "sourceIndex": 168
+    },
+    {
+      "text": "katika",
+      "start": 53.494166,
+      "end": 53.947374,
+      "sourceIndex": 168
+    },
+    {
+      "text": "kila",
+      "start": 53.99125,
+      "end": 54.29825,
+      "sourceIndex": 168
+    },
+    {
+      "text": "mfululizo",
+      "start": 54.3275,
+      "end": 55.0585,
+      "sourceIndex": 168
+    },
+    {
+      "text": "ufuatao",
+      "start": 55.102333,
+      "end": 55.818708,
+      "sourceIndex": 168
+    },
+    {
+      "text": "a",
+      "start": 56.0965,
+      "end": 56.242708,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 56.447375,
+      "end": 56.783625,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 56.8275,
+      "end": 57.16375,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 57.207625,
+      "end": 57.543875,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 57.587708,
+      "end": 57.909333,
+      "sourceIndex": 168
+    },
+    {
+      "text": "vii",
+      "start": 57.938583,
+      "end": 58.201749,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 58.377208,
+      "end": 58.728083,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 58.771916,
+      "end": 59.108166,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 59.152041,
+      "end": 59.429832,
+      "sourceIndex": 168
+    },
+    {
+      "text": "vii",
+      "start": 59.459083,
+      "end": 59.751499,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 59.795333,
+      "end": 60.219291,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 60.380125,
+      "end": 60.716375,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 60.76025,
+      "end": 61.081875,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 61.12575,
+      "end": 61.462,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 61.505833,
+      "end": 61.885958,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 61.929833,
+      "end": 62.295333,
+      "sourceIndex": 168
+    },
+    {
+      "text": "b",
+      "start": 62.456125,
+      "end": 62.690041,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 62.8655,
+      "end": 63.1725,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 63.216375,
+      "end": 63.538,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 63.581875,
+      "end": 63.859666,
+      "sourceIndex": 168
+    },
+    {
+      "text": "vii",
+      "start": 63.888875,
+      "end": 64.195875,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 64.23975,
+      "end": 64.663708,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 64.824583,
+      "end": 65.160833,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 65.204666,
+      "end": 65.526291,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 65.570166,
+      "end": 65.847957,
+      "sourceIndex": 168
+    },
+    {
+      "text": "vii",
+      "start": 65.877208,
+      "end": 66.184208,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 66.228083,
+      "end": 66.637458,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 66.681291,
+      "end": 67.090666,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 67.1345,
+      "end": 67.558458,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 67.675458,
+      "end": 68.011708,
+      "sourceIndex": 168
+    },
+    {
+      "text": "eli",
+      "start": 68.055541,
+      "end": 68.333332,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 68.377208,
+      "end": 68.801166,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 68.845041,
+      "end": 69.268999,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 69.400583,
+      "end": 69.736833,
+      "sourceIndex": 168
+    },
+    {
+      "text": "eli",
+      "start": 69.780708,
+      "end": 70.058499,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 70.102333,
+      "end": 70.438583,
+      "sourceIndex": 168
+    },
+    {
+      "text": "vii",
+      "start": 70.467833,
+      "end": 70.730999,
+      "sourceIndex": 168
+    },
+    {
+      "text": "c",
+      "start": 70.877208,
+      "end": 71.111124,
+      "sourceIndex": 168
+    },
+    {
+      "text": "eli",
+      "start": 71.257333,
+      "end": 71.564333,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 71.929833,
+      "end": 72.134499,
+      "sourceIndex": 168
+    },
+    {
+      "text": "eli",
+      "start": 72.280708,
+      "end": 72.587708,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 72.631583,
+      "end": 72.953208,
+      "sourceIndex": 168
+    },
+    {
+      "text": "vii",
+      "start": 72.982458,
+      "end": 73.289458,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 73.435666,
+      "end": 73.786541,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 73.830416,
+      "end": 74.166666,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 74.210541,
+      "end": 74.488332,
+      "sourceIndex": 168
+    },
+    {
+      "text": "vii",
+      "start": 74.517541,
+      "end": 74.839166,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 74.883041,
+      "end": 75.263166,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 75.307041,
+      "end": 75.701791,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 75.745625,
+      "end": 76.155,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 76.301166,
+      "end": 76.652041,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 76.695916,
+      "end": 77.032166,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 77.076041,
+      "end": 77.353832,
+      "sourceIndex": 168
+    },
+    {
+      "text": "vii",
+      "start": 77.397666,
+      "end": 77.660832,
+      "sourceIndex": 168
+    },
+    {
+      "text": "d",
+      "start": 77.821625,
+      "end": 77.982458,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 78.187125,
+      "end": 78.538,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 78.684208,
+      "end": 79.035083,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 79.078958,
+      "end": 79.459083,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 79.60525,
+      "end": 79.9415,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 79.985375,
+      "end": 80.292375,
+      "sourceIndex": 168
+    },
+    {
+      "text": "vii",
+      "start": 80.321625,
+      "end": 80.599416,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 80.731,
+      "end": 81.081875,
+      "sourceIndex": 168
+    },
+    {
+      "text": "eli",
+      "start": 81.12575,
+      "end": 81.462,
+      "sourceIndex": 168
+    },
+    {
+      "text": "eli",
+      "start": 81.593583,
+      "end": 81.871374,
+      "sourceIndex": 168
+    },
+    {
+      "text": "4",
+      "start": 81.900583,
+      "end": 82.236833,
+      "sourceIndex": 168
+    },
+    {
+      "text": "Panga",
+      "start": 83.333333,
+      "end": 83.508791,
+      "sourceIndex": 168
+    },
+    {
+      "text": "vijiti",
+      "start": 83.611125,
+      "end": 84.093583,
+      "sourceIndex": 168
+    },
+    {
+      "text": "kuonesha",
+      "start": 84.137416,
+      "end": 84.751457,
+      "sourceIndex": 168
+    },
+    {
+      "text": "10",
+      "start": 84.780708,
+      "end": 85.116958,
+      "sourceIndex": 168
+    },
+    {
+      "text": "inavyoandikwa",
+      "start": 85.160833,
+      "end": 86.081874,
+      "sourceIndex": 168
+    },
+    {
+      "text": "kwa",
+      "start": 86.12575,
+      "end": 86.286583,
+      "sourceIndex": 168
+    },
+    {
+      "text": "Kirumi",
+      "start": 86.315791,
+      "end": 86.812874,
+      "sourceIndex": 168
+    },
+    {
+      "text": "kisha",
+      "start": 86.85675,
+      "end": 87.193,
+      "sourceIndex": 168
+    },
+    {
+      "text": "chora",
+      "start": 87.222208,
+      "end": 87.558458,
+      "sourceIndex": 168
+    },
+    {
+      "text": "kwenye",
+      "start": 87.602333,
+      "end": 87.880124,
+      "sourceIndex": 168
+    },
+    {
+      "text": "daftari",
+      "start": 87.909375,
+      "end": 88.655,
+      "sourceIndex": 168
+    },
+    {
+      "text": "5",
+      "start": 89.722208,
+      "end": 90.029208,
+      "sourceIndex": 168
+    },
+    {
+      "text": "Nuru",
+      "start": 90.277791,
+      "end": 90.687166,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aliona",
+      "start": 90.731,
+      "end": 91.198833,
+      "sourceIndex": 168
+    },
+    {
+      "text": "bango",
+      "start": 91.228083,
+      "end": 91.593583,
+      "sourceIndex": 168
+    },
+    {
+      "text": "limeandikwa",
+      "start": 91.622791,
+      "end": 92.353791,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 92.397666,
+      "end": 92.748541,
+      "sourceIndex": 168
+    },
+    {
+      "text": "eli",
+      "start": 92.792416,
+      "end": 93.084832,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 93.128666,
+      "end": 93.464916,
+      "sourceIndex": 168
+    },
+    {
+      "text": "vii",
+      "start": 93.494166,
+      "end": 93.771957,
+      "sourceIndex": 168
+    },
+    {
+      "text": "hiyo",
+      "start": 93.888875,
+      "end": 94.137416,
+      "sourceIndex": 168
+    },
+    {
+      "text": "ni",
+      "start": 94.166666,
+      "end": 94.283624,
+      "sourceIndex": 168
+    },
+    {
+      "text": "namba",
+      "start": 94.312875,
+      "end": 94.66375,
+      "sourceIndex": 168
+    },
+    {
+      "text": "gani",
+      "start": 94.693,
+      "end": 95.160833,
+      "sourceIndex": 168
+    },
+    {
+      "text": "6",
+      "start": 96.257333,
+      "end": 96.681291,
+      "sourceIndex": 168
+    },
+    {
+      "text": "Andika",
+      "start": 96.885958,
+      "end": 97.353791,
+      "sourceIndex": 168
+    },
+    {
+      "text": "namba",
+      "start": 97.383041,
+      "end": 97.690041,
+      "sourceIndex": 168
+    },
+    {
+      "text": "zifuatazo",
+      "start": 97.719291,
+      "end": 98.552624,
+      "sourceIndex": 168
+    },
+    {
+      "text": "kwa",
+      "start": 98.5965,
+      "end": 98.742708,
+      "sourceIndex": 168
+    },
+    {
+      "text": "maneno",
+      "start": 98.771916,
+      "end": 99.342082,
+      "sourceIndex": 168
+    },
+    {
+      "text": "a",
+      "start": 99.649125,
+      "end": 99.795333,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 99.97075,
+      "end": 100.307,
+      "sourceIndex": 168
+    },
+    {
+      "text": "eli",
+      "start": 100.350875,
+      "end": 100.643291,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 100.687125,
+      "end": 101.0965,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 101.140375,
+      "end": 101.505875,
+      "sourceIndex": 168
+    },
+    {
+      "text": "b",
+      "start": 101.666666,
+      "end": 101.900582,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 102.061416,
+      "end": 102.397666,
+      "sourceIndex": 168
+    },
+    {
+      "text": "eli",
+      "start": 102.441541,
+      "end": 102.748541,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 102.807041,
+      "end": 103.245624,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 103.289458,
+      "end": 103.713416,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 103.757333,
+      "end": 104.181291,
+      "sourceIndex": 168
+    },
+    {
+      "text": "c",
+      "start": 104.312875,
+      "end": 104.605291,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 104.795333,
+      "end": 105.116958,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 105.160833,
+      "end": 105.467833,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 105.511708,
+      "end": 105.789499,
+      "sourceIndex": 168
+    },
+    {
+      "text": "vii",
+      "start": 105.833333,
+      "end": 106.125749,
+      "sourceIndex": 168
+    },
+    {
+      "text": "d",
+      "start": 106.301166,
+      "end": 106.491207,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 106.695916,
+      "end": 107.032166,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 107.076041,
+      "end": 107.397666,
+      "sourceIndex": 168
+    },
+    {
+      "text": "exi",
+      "start": 107.441541,
+      "end": 107.719332,
+      "sourceIndex": 168
+    },
+    {
+      "text": "vii",
+      "start": 107.763166,
+      "end": 108.070166,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 108.128666,
+      "end": 108.552624,
+      "sourceIndex": 168
+    },
+    {
+      "text": "aii",
+      "start": 108.5965,
+      "end": 108.918125,
+      "sourceIndex": 168
+    },
+    {
+      "text": "7",
+      "start": 108.962,
+      "end": 109.488333,
+      "sourceIndex": 168
+    },
+    {
+      "text": "Badili",
+      "start": 110.555541,
+      "end": 110.935666,
+      "sourceIndex": 168
+    },
+    {
+      "text": "namba",
+      "start": 111.038,
+      "end": 111.359625,
+      "sourceIndex": 168
+    },
+    {
+      "text": "zifuatazo",
+      "start": 111.388875,
+      "end": 112.251458,
+      "sourceIndex": 168
+    },
+    {
+      "text": "kuwa",
+      "start": 112.295333,
+      "end": 112.587749,
+      "sourceIndex": 168
+    },
+    {
+      "text": "namba",
+      "start": 112.616958,
+      "end": 112.967833,
+      "sourceIndex": 168
+    },
+    {
+      "text": "za",
+      "start": 112.997083,
+      "end": 113.172541,
+      "sourceIndex": 168
+    },
+    {
+      "text": "kirumi",
+      "start": 113.216375,
+      "end": 113.771916,
+      "sourceIndex": 168
+    },
+    {
+      "text": "a",
+      "start": 114.064333,
+      "end": 114.225166,
+      "sourceIndex": 168
+    },
+    {
+      "text": "arobaini",
+      "start": 114.371333,
+      "end": 115.058458,
+      "sourceIndex": 168
+    },
+    {
+      "text": "na",
+      "start": 115.087708,
+      "end": 115.190041,
+      "sourceIndex": 168
+    },
+    {
+      "text": "mbili",
+      "start": 115.219291,
+      "end": 115.614041,
+      "sourceIndex": 168
+    },
+    {
+      "text": "b",
+      "start": 115.804083,
+      "end": 116.052624,
+      "sourceIndex": 168
+    },
+    {
+      "text": "ishirini",
+      "start": 116.213458,
+      "end": 116.768999,
+      "sourceIndex": 168
+    },
+    {
+      "text": "na",
+      "start": 116.79825,
+      "end": 116.915208,
+      "sourceIndex": 168
+    },
+    {
+      "text": "nane",
+      "start": 116.944458,
+      "end": 117.353833,
+      "sourceIndex": 168
+    },
+    {
+      "text": "c",
+      "start": 117.514625,
+      "end": 117.748541,
+      "sourceIndex": 168
+    },
+    {
+      "text": "thelathini",
+      "start": 117.967833,
+      "end": 118.611124,
+      "sourceIndex": 168
+    },
+    {
+      "text": "na",
+      "start": 118.640375,
+      "end": 118.786583,
+      "sourceIndex": 168
+    },
+    {
       "text": "tisa",
-      "start": 118.318708,
-      "end": 118.845041,
-      "sourceIndex": 165
+      "start": 118.830416,
+      "end": 119.268999,
+      "sourceIndex": 168
+    },
+    {
+      "text": "d",
+      "start": 119.488291,
+      "end": 119.692957,
+      "sourceIndex": 168
+    },
+    {
+      "text": "arobaini",
+      "start": 119.883041,
+      "end": 120.526332,
+      "sourceIndex": 168
+    },
+    {
+      "text": "na",
+      "start": 120.555541,
+      "end": 120.701749,
+      "sourceIndex": 168
+    },
+    {
+      "text": "tisa",
+      "start": 120.745625,
+      "end": 121.228083,
+      "sourceIndex": 168
     }
   ]
 }

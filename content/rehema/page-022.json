@@ -1,362 +1,423 @@
 {
-  "audio": "page-022.mp3",
+  "audio": "page-022-matrix-v16.mp3",
+  "voice": "sw-TZ-RehemaNeural",
+  "rate": 0.9,
+  "pitch": "neutral",
+  "version": 31,
   "words": [
     {
       "text": "Jikumbushe",
-      "start": 0.178708,
-      "end": 1.022541,
+      "start": 0.181583,
+      "end": 1.044166,
       "sourceIndex": 1
     },
     {
-      "text": "moja",
-      "start": 2.173916,
-      "end": 2.517166,
-      "targetImage": true
+      "text": "Jambo",
+      "start": 2.222208,
+      "end": 2.514624,
+      "sourceIndex": 1
+    },
+    {
+      "text": "la",
+      "start": 2.616958,
+      "end": 2.777791,
+      "sourceIndex": 1
+    },
+    {
+      "text": "kwanza",
+      "start": 2.821625,
+      "end": 3.347958,
+      "sourceIndex": 1
     },
     {
       "text": "Kuhesabu",
-      "start": 2.703083,
-      "end": 3.346666,
+      "start": 4.429833,
+      "end": 4.926916,
       "sourceIndex": 3
     },
     {
       "text": "vitu",
-      "start": 3.375291,
-      "end": 3.704249,
+      "start": 5.02925,
+      "end": 5.3655,
       "sourceIndex": 4
     },
     {
       "text": "vingi",
-      "start": 3.732833,
-      "end": 4.090374,
+      "start": 5.39475,
+      "end": 5.774875,
       "sourceIndex": 5
     },
     {
       "text": "kwa",
-      "start": 4.133291,
-      "end": 4.247707,
+      "start": 5.818708,
+      "end": 5.950291,
       "sourceIndex": 6
     },
     {
       "text": "urahisi",
-      "start": 4.276333,
-      "end": 4.791208,
+      "start": 5.979541,
+      "end": 6.505874,
       "sourceIndex": 7
     },
     {
       "text": "zaidi",
-      "start": 4.819791,
-      "end": 5.263166,
+      "start": 6.535083,
+      "end": 7.046791,
       "sourceIndex": 8
     },
     {
       "text": "ni",
-      "start": 5.29175,
-      "end": 5.406166,
+      "start": 7.178375,
+      "end": 7.295333,
       "sourceIndex": 9
     },
     {
       "text": "vizuri",
-      "start": 5.434791,
-      "end": 5.949666,
+      "start": 7.324541,
+      "end": 7.865457,
       "sourceIndex": 10
     },
     {
       "text": "kufunga",
-      "start": 5.992583,
-      "end": 6.507458,
+      "start": 7.89475,
+      "end": 8.406458,
       "sourceIndex": 11
     },
     {
       "text": "vitu",
-      "start": 6.536041,
-      "end": 6.879291,
+      "start": 8.435666,
+      "end": 8.801166,
       "sourceIndex": 12
     },
     {
       "text": "hivyo",
-      "start": 6.922208,
-      "end": 7.236833,
+      "start": 8.845041,
+      "end": 9.181291,
       "sourceIndex": 13
     },
     {
       "text": "katika",
-      "start": 7.27975,
-      "end": 7.6945,
+      "start": 9.225166,
+      "end": 9.663749,
       "sourceIndex": 14
     },
     {
       "text": "mafungu",
-      "start": 7.723125,
-      "end": 8.238,
+      "start": 9.693,
+      "end": 10.307041,
       "sourceIndex": 15
     },
     {
       "text": "ndipo",
-      "start": 8.266583,
-      "end": 8.595541,
+      "start": 10.453208,
+      "end": 10.818708,
       "sourceIndex": 16
     },
     {
       "text": "uvihesabu",
-      "start": 8.638458,
-      "end": 9.525166,
+      "start": 10.862583,
+      "end": 11.783624,
       "sourceIndex": 17
     },
     {
-      "text": "mbili",
-      "start": 10.583541,
-      "end": 10.840957,
-      "targetImage": true
+      "text": "Jambo",
+      "start": 12.850875,
+      "end": 13.1725,
+      "sourceIndex": 17
+    },
+    {
+      "text": "la",
+      "start": 13.274875,
+      "end": 13.435708,
+      "sourceIndex": 17
+    },
+    {
+      "text": "pili",
+      "start": 13.464916,
+      "end": 13.918124,
+      "sourceIndex": 17
     },
     {
       "text": "Mafungu",
-      "start": 11.0555,
-      "end": 11.556083,
+      "start": 15.043875,
+      "end": 15.39475,
       "sourceIndex": 19
     },
     {
       "text": "ya",
-      "start": 11.584666,
-      "end": 11.670457,
+      "start": 15.526333,
+      "end": 15.628666,
       "sourceIndex": 20
     },
     {
       "text": "vitu",
-      "start": 11.699083,
-      "end": 12.028041,
+      "start": 15.657875,
+      "end": 15.994125,
       "sourceIndex": 21
     },
     {
       "text": "vya",
-      "start": 12.070958,
-      "end": 12.228291,
+      "start": 16.038,
+      "end": 16.228041,
       "sourceIndex": 22
     },
     {
       "text": "kuhesabu",
-      "start": 12.256875,
-      "end": 12.900458,
+      "start": 16.257291,
+      "end": 16.915166,
       "sourceIndex": 23
     },
     {
       "text": "huweza",
-      "start": 12.929041,
-      "end": 13.415291,
+      "start": 16.944458,
+      "end": 17.441541,
       "sourceIndex": 24
     },
     {
       "text": "kuwa",
-      "start": 13.45825,
-      "end": 13.715666,
+      "start": 17.485375,
+      "end": 17.748541,
       "sourceIndex": 25
     },
     {
       "text": "na",
-      "start": 13.744291,
-      "end": 13.830082,
+      "start": 17.777791,
+      "end": 17.865499,
       "sourceIndex": 26
     },
     {
       "text": "ukubwa",
-      "start": 13.858708,
-      "end": 14.330666,
+      "start": 17.89475,
+      "end": 18.362583,
       "sourceIndex": 27
     },
     {
       "text": "tofauti",
-      "start": 14.35925,
-      "end": 15.074333,
+      "start": 18.391833,
+      "end": 19.122833,
+      "sourceIndex": 28
+    },
+    {
+      "text": "Jambo",
+      "start": 20.190041,
+      "end": 20.497041,
+      "sourceIndex": 28
+    },
+    {
+      "text": "la",
+      "start": 20.599416,
+      "end": 20.745624,
       "sourceIndex": 28
     },
     {
       "text": "tatu",
-      "start": 16.132708,
-      "end": 16.433041,
-      "targetImage": true
+      "start": 20.789458,
+      "end": 21.344999,
+      "sourceIndex": 28
     },
     {
-      "text": "samani",
-      "start": 16.619,
-      "end": 17.148166,
-      "targetImage": true
+      "text": "Thamani",
+      "start": 22.412291,
+      "end": 22.763166,
+      "sourceIndex": 30
     },
     {
       "text": "ya",
-      "start": 17.176791,
-      "end": 17.262582,
+      "start": 22.8655,
+      "end": 22.953208,
       "sourceIndex": 31
     },
     {
       "text": "tarakimu",
-      "start": 17.291208,
-      "end": 17.920499,
+      "start": 22.982458,
+      "end": 23.640333,
       "sourceIndex": 32
     },
     {
       "text": "inategemea",
-      "start": 17.949083,
-      "end": 18.721374,
+      "start": 23.669583,
+      "end": 24.444416,
       "sourceIndex": 33
     },
     {
       "text": "nafasi",
-      "start": 18.75,
-      "end": 19.264875,
+      "start": 24.473666,
+      "end": 25.014582,
       "sourceIndex": 34
     },
     {
       "text": "yake",
-      "start": 19.293458,
-      "end": 19.608083,
+      "start": 25.043875,
+      "end": 25.3655,
       "sourceIndex": 35
     },
     {
       "text": "katika",
-      "start": 19.636708,
-      "end": 20.094374,
+      "start": 25.39475,
+      "end": 25.862583,
       "sourceIndex": 36
     },
     {
       "text": "namba",
-      "start": 20.123,
-      "end": 20.53775,
+      "start": 25.891833,
+      "end": 26.345041,
+      "sourceIndex": 37
+    },
+    {
+      "text": "Jambo",
+      "start": 27.426916,
+      "end": 27.777791,
+      "sourceIndex": 37
+    },
+    {
+      "text": "la",
+      "start": 27.880125,
+      "end": 28.055583,
       "sourceIndex": 37
     },
     {
       "text": "nne",
-      "start": 21.610416,
-      "end": 21.824957,
-      "targetImage": true
+      "start": 28.084791,
+      "end": 28.464916,
+      "sourceIndex": 37
     },
     {
       "text": "Unapofafanua",
-      "start": 22.039458,
-      "end": 23.126416,
+      "start": 29.619875,
+      "end": 30.584791,
       "sourceIndex": 39
     },
     {
       "text": "namba",
-      "start": 23.155041,
-      "end": 23.555499,
+      "start": 30.716375,
+      "end": 31.111125,
       "sourceIndex": 40
     },
     {
       "text": "zingatia",
-      "start": 23.669916,
-      "end": 24.356416,
+      "start": 31.213458,
+      "end": 31.915208,
       "sourceIndex": 41
     },
     {
       "text": "nafasi",
-      "start": 24.385,
-      "end": 24.899875,
+      "start": 31.944458,
+      "end": 32.441541,
       "sourceIndex": 42
     },
     {
       "text": "ya",
-      "start": 24.9285,
-      "end": 25.014291,
+      "start": 32.47075,
+      "end": 32.558458,
       "sourceIndex": 43
     },
     {
       "text": "tarakimu",
-      "start": 25.042916,
-      "end": 25.672207,
+      "start": 32.587708,
+      "end": 33.230999,
       "sourceIndex": 44
     },
     {
       "text": "katika",
-      "start": 25.715083,
-      "end": 26.172749,
+      "start": 33.274875,
+      "end": 33.742708,
       "sourceIndex": 45
     },
     {
       "text": "namba",
-      "start": 26.201375,
-      "end": 26.616125,
+      "start": 33.771916,
+      "end": 34.195874,
+      "sourceIndex": 46
+    },
+    {
+      "text": "Jambo",
+      "start": 35.277791,
+      "end": 35.584791,
+      "sourceIndex": 46
+    },
+    {
+      "text": "la",
+      "start": 35.687125,
+      "end": 35.847958,
       "sourceIndex": 46
     },
     {
       "text": "tano",
-      "start": 27.703083,
-      "end": 27.974833,
-      "targetImage": true
+      "start": 35.891833,
+      "end": 36.418166,
+      "sourceIndex": 46
     },
     {
       "text": "Unapoandika",
-      "start": 28.175041,
-      "end": 29.018874,
+      "start": 37.5585,
+      "end": 38.304125,
       "sourceIndex": 48
     },
     {
       "text": "namba",
-      "start": 29.0475,
-      "end": 29.362125,
+      "start": 38.435666,
+      "end": 38.757291,
       "sourceIndex": 49
     },
     {
       "text": "kwa",
-      "start": 29.405041,
-      "end": 29.562374,
+      "start": 38.801166,
+      "end": 38.961999,
       "sourceIndex": 50
     },
     {
       "text": "kifupi",
-      "start": 29.590958,
-      "end": 30.248833,
+      "start": 38.99125,
+      "end": 39.66375,
       "sourceIndex": 51
     },
     {
       "text": "jumlisha",
-      "start": 30.4205,
-      "end": 31.021166,
+      "start": 39.824583,
+      "end": 40.438624,
       "sourceIndex": 52
     },
     {
       "text": "namba",
-      "start": 31.04975,
-      "end": 31.378708,
+      "start": 40.467833,
+      "end": 40.804083,
       "sourceIndex": 53
     },
     {
       "text": "zilizoandikwa",
-      "start": 31.407333,
-      "end": 32.336958,
+      "start": 40.833333,
+      "end": 41.798249,
       "sourceIndex": 54
     },
     {
       "text": "kwa",
-      "start": 32.365541,
-      "end": 32.537166,
+      "start": 41.8275,
+      "end": 42.002958,
       "sourceIndex": 55
     },
     {
       "text": "kirefu",
-      "start": 32.565791,
-      "end": 33.094957,
+      "start": 42.032166,
+      "end": 42.573082,
       "sourceIndex": 56
     },
     {
       "text": "kupata",
-      "start": 33.123583,
-      "end": 33.638458,
+      "start": 42.602333,
+      "end": 43.128666,
       "sourceIndex": 57
     },
     {
       "text": "namba",
-      "start": 33.667041,
-      "end": 33.995999,
+      "start": 43.157916,
+      "end": 43.494166,
       "sourceIndex": 58
     },
     {
       "text": "moja",
-      "start": 34.024583,
-      "end": 34.496541,
+      "start": 43.523375,
+      "end": 44.020458,
       "sourceIndex": 59
     }
-  ],
-  "voice": "sw-TZ-RehemaNeural",
-  "version": 25,
-  "rate": 0.9
+  ]
 }

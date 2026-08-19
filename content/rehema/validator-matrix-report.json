@@ -1,0 +1,34 @@
+{
+  "date": "2026-08-18",
+  "status": "passed",
+  "matrix_pages_checked": 96,
+  "voice": "sw-TZ-RehemaNeural",
+  "default_rate": 0.9,
+  "slow_rate_pages": {
+    "166": 0.85
+  },
+  "specialized_accessibility_pages": [
+    40, 42, 43, 44, 45, 47, 48, 49, 52, 78, 84, 91, 111, 114,
+    125, 148, 161, 162, 163, 164, 169, 170, 171, 184, 185, 186,
+    187, 188, 189, 191, 192, 193, 194
+  ],
+  "corrections": [
+    "Matendo ya hesabu yanasomwa kwa Kiswahili: jumlisha, kutoa, mara, gawanya kwa, na sawa sawa na.",
+    "Maswali, mazoezi, njia na hatua zinasomwa kwa mpangilio.",
+    "Jedwali linasomwa mstari mmoja hadi ukamilike kabla ya kuhamia mstari unaofuata.",
+    "Picha, maumbo, saa, fedha, vipimo na grafu zimepewa maelezo pale matrix ilipohitaji.",
+    "Kurasa zilizoelekeza kutotoa jibu au kutofafanua picha zimehifadhi masharti hayo.",
+    "Shilingi, mita, sentimita, milimita na sehemu nne kwa nne zimesahihishwa kimatamshi.",
+    "Ukurasa 187 unasoma mwezi kwanza, kisha mauzo katika kilogramu kwa picha.",
+    "Namba za ukurasa, footer, tarehe na jina la faili hazijumuishwi kwenye audio."
+  ],
+  "qa": {
+    "missing_json": 0,
+    "missing_audio": 0,
+    "wrong_voice": 0,
+    "wrong_rate": 0,
+    "empty_word_timings": 0,
+    "footer_in_audio": 0,
+    "preview_http_failures": 0
+  }
+}
