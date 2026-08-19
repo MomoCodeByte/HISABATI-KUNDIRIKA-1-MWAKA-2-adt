@@ -2964,18 +2964,18 @@ CONFIG = {
         "remove": {"pg189_n0006", "pg189_n0007", "pg189_n0008", "pg189_n0009", "pg189_n0020", "pg189_n0021", "pg189_n0022", "pg189_n0023", "pg189_n0024", "pg189_n0025", "pg189_n0026", "pg189_n0027"},
         "after": {
             "pg189_n0005": [
-                "Grafu ina mhimili wa wima wa idadi ya wanafunzi na mhimili wa ulalo wa madarasa. Mhimili wa ulalo una darasa la moja ya Kirumi, mbili ya Kirumi, tatu ya Kirumi, na nne ya Kirumi. Darasa la moja ya Kirumi lina wanafunzi ishirini. Darasa la mbili ya Kirumi lina wanafunzi arobaini. Darasa la tatu ya Kirumi lina wanafunzi themanini. Darasa la nne ya Kirumi lina wanafunzi arobaini.",
+                "Grafu ina mhimili wa wima wa idadi ya wanafunzi na mhimili wa ulalo wa madarasa. Mhimili wa ulalo una darasa la kwanza, darasa la pili, darasa la tatu, na darasa la nne. Darasa la kwanza lina wanafunzi ishirini. Darasa la pili lina wanafunzi arobaini. Darasa la tatu lina wanafunzi themanini. Darasa la nne lina wanafunzi arobaini.",
             ],
         },
         "replace": {
             "pg189_n0001": "Mfano wa Kwanza.",
-            "pg189_n0003": "darasa la moja ya Kirumi hadi nne ya Kirumi katika Shule ya Msingi Mwenge.",
-            "pg189_n0005": "wanafunzi wa darasa la moja ya Kirumi hadi nne ya Kirumi.",
+            "pg189_n0003": "darasa la kwanza hadi darasa la nne katika Shule ya Msingi Mwenge.",
+            "pg189_n0005": "wanafunzi wa darasa la kwanza hadi darasa la nne.",
             "pg189_n0010": "Kipimio: sentimita moja inawakilisha wanafunzi ishirini kwa wima.",
             "pg189_n0011": "Sentimita moja inawakilisha upana wa mhimili mmoja kwa ulalo.",
             "pg189_n0013": "Swali sehemu a. Mstari wa wima unaonesha nini?",
             "pg189_n0014": "Swali sehemu b. Mstari wa ulalo unaonesha nini?",
-            "pg189_n0015": "Swali sehemu c. Darasa la moja ya Kirumi lina wanafunzi wangapi?",
+            "pg189_n0015": "Swali sehemu c. Darasa la kwanza lina wanafunzi wangapi?",
             "pg189_n0016": "Swali sehemu d. Darasa lipi lina idadi kubwa ya wanafunzi?",
             "pg189_n0018": "Swali sehemu e. Madarasa yapi yana idadi sawa ya wanafunzi?",
         },

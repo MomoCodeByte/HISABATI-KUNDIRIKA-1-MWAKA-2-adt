@@ -116,7 +116,7 @@
 
   function loadRecordedEntry() {
     if (!timingsPromise) {
-      timingsPromise = fetch("./content/rehema/timecodes.json?v=74")
+      timingsPromise = fetch("./content/rehema/timecodes.json?v=75")
         .then(function (response) { return response.ok ? response.json() : {}; })
         .catch(function () { return {}; });
     }
@@ -153,7 +153,7 @@
     recordedEntry = entry;
     recordedCue = 0;
     if (!recordedAudio || !recordedAudio.src.endsWith("/" + entry.audio)) {
-      recordedAudio = new Audio("./content/rehema/" + entry.audio + "?v=" + (entry.version || 7) + "&r=83");
+      recordedAudio = new Audio("./content/rehema/" + entry.audio + "?v=" + (entry.version || 7) + "&r=84");
       recordedAudio.dataset.singleReaderAudio = "1";
       recordedAudio.addEventListener("timeupdate", highlightRecordedWord);
       recordedAudio.addEventListener("ended", stopReading);
