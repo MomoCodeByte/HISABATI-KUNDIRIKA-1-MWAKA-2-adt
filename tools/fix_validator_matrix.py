@@ -1868,8 +1868,8 @@ CONFIG = {
         "remove": {"pg120_n0002", "pg120_n0003", "pg120_n0004", "pg120_n0005", "pg120_n0009", "pg120_n0010", "pg120_n0012", "pg120_n0013", "pg120_n0015", "pg120_n0016", "pg120_n0018", "pg120_n0019"},
         "replace": {
             "pg120_n0001": "Mfano wa Pili. Mpangilio wa wima: saa nne na dakika thelathini, jumlisha saa tano na dakika ishirini na nane, sawa sawa na saa tisa na dakika hamsini na nane.",
-            "pg120_n0006": "Zoezi la Tatu",
-            "pg120_n0007": "Jibu kila swali likamilike kabla ya kuanza linalofuata.",
+            "pg120_n0006": "Zoezi la Tatu.",
+            "pg120_n0007": "Jibu maswali haya yafuatayo.",
             "pg120_n0008": "Swali namba moja. Saa tatu na dakika kumi na tano, jumlisha saa nne na dakika ishirini na tano. Swali namba mbili. Saa mbili na dakika kumi na saba, jumlisha saa moja na dakika ishirini. Swali namba tatu. Saa saba na dakika ishirini, jumlisha saa tano na dakika thelathini na tano.",
             "pg120_n0011": "Swali namba nne. Saa tatu na dakika thelathini, jumlisha saa tatu na dakika kumi. Swali namba tano. Saa tano na dakika arobaini na tano, jumlisha saa nne na dakika kumi na nne. Swali namba sita. Saa tano na dakika sifuri, jumlisha saa mbili na dakika hamsini na tisa.",
             "pg120_n0014": "Swali namba saba. Saa saba na dakika ishirini, jumlisha saa moja na dakika thelathini na tano. Swali namba nane. Saa sita na dakika tisa, jumlisha saa moja na dakika ishirini na nane. Swali namba tisa. Saa tatu na dakika nane, jumlisha saa sita na dakika hamsini na moja.",
@@ -2306,14 +2306,15 @@ CONFIG = {
     },
     144: {
         "rate": 0.85,
+        "remove": {"pg144_n0002", "pg144_n0010"},
         "replace": {
             "pg144_n0001": "Swali namba kumi. Oanisha na andika maneno kutoka Kifungu A na yale ya Kifungu B ili kuleta maana.",
             "pg144_n0003": "Jedwali lina vifungu viwili. Nitasoma Kifungu A kwanza, kisha Kifungu B.",
-            "pg144_n0004": "Kifungu A. Roman moja: vipimo.",
-            "pg144_n0005": "Roman mbili: uzani.",
-            "pg144_n0006": "Roman tatu: urefu.",
-            "pg144_n0007": "Roman nne: ujazo.",
-            "pg144_n0008": "Roman tano: vipimio.",
+            "pg144_n0004": "Kifungu A. Moja ya Kirumi: vipimo.",
+            "pg144_n0005": "Mbili ya Kirumi: uzani.",
+            "pg144_n0006": "Tatu ya Kirumi: urefu.",
+            "pg144_n0007": "Nne ya Kirumi: ujazo.",
+            "pg144_n0008": "Tano ya Kirumi: vipimio.",
             "pg144_n0009": "Kifungu B. a: vifaa vya kupimia. b: mkusanyiko wa watu. c: mita, gramu na lita. d: uzito wa kitu. e: penseli ya kuchorea. f: umbali kati ya vitu viwili. g: kiasi cha kimiminika.",
             "pg144_n0011": "Jikumbushe.",
             "pg144_n0012": "Jambo la kwanza. Kipimo cha msingi cha urefu ni mita, kifupi m.",
@@ -2960,7 +2961,7 @@ CONFIG = {
     },
     189: {
         "rate": 0.85,
-        "remove": {"pg189_n0006", "pg189_n0007", "pg189_n0008", "pg189_n0009", "pg189_n0020", "pg189_n0021", "pg189_n0022", "pg189_n0023"},
+        "remove": {"pg189_n0006", "pg189_n0007", "pg189_n0008", "pg189_n0009", "pg189_n0020", "pg189_n0021", "pg189_n0022", "pg189_n0023", "pg189_n0024", "pg189_n0025", "pg189_n0026", "pg189_n0027"},
         "after": {
             "pg189_n0005": [
                 "Grafu ina mhimili wa wima wa idadi ya wanafunzi na mhimili wa ulalo wa madarasa. Mhimili wa ulalo una darasa la moja ya Kirumi, mbili ya Kirumi, tatu ya Kirumi, na nne ya Kirumi. Darasa la moja ya Kirumi lina wanafunzi ishirini. Darasa la mbili ya Kirumi lina wanafunzi arobaini. Darasa la tatu ya Kirumi lina wanafunzi themanini. Darasa la nne ya Kirumi lina wanafunzi arobaini.",
@@ -3097,12 +3098,13 @@ CONFIG = {
     },
     181: {
         "rate": 0.85,
-        "remove": {"pg181_n0013", "pg181_n0014"},
+        "remove": {"pg181_n0002", "pg181_n0003", "pg181_n0004", "pg181_n0013", "pg181_n0014", "pg181_n0015", "pg181_n0016", "pg181_n0017"},
+        "replace": {
+            "pg181_n0001": "Jedwali lina safu tatu: jina la chombo, idadi ya vyombo kwa picha, na idadi ya vyombo kwa tarakimu.",
+            "pg181_n0005": "Mstari wa kwanza. Jina la chombo ni vikombe. Idadi ya vyombo kwa picha ni vikombe vinne. Idadi ya vyombo kwa tarakimu ni nne. Mstari wa pili. Jina la chombo ni vijiko. Idadi ya vyombo kwa picha ni vijiko kumi. Idadi ya vyombo kwa tarakimu ni kumi.",
+        },
         "after": {
-            "pg181_n0005": [
-                "Huu ni mwendelezo wa jedwali la vyombo.",
-                "Mstari wa vikombe una picha nne za vikombe. Idadi kwa tarakimu ni nne. Mstari wa vijiko una picha kumi za vijiko. Idadi kwa tarakimu ni kumi.",
-            ],
+            "pg181_n0005": [],
             "pg181_n0012": [
                 "Jedwali la juu lina safu nne za miaka na idadi ya miti iliyopandwa.",
                 "Mwaka elfu mbili na kumi na mbili, idadi ya miti ni kumi. Mwaka elfu mbili na kumi na tatu, idadi ya miti ni minane. Mwaka elfu mbili na kumi na nne, idadi ya miti ni sita. Mwaka elfu mbili na kumi na tano, idadi ya miti ni kumi na miwili.",
@@ -3111,12 +3113,8 @@ CONFIG = {
             ],
         },
     },
-    182: {"after": {"pg182_n0004": [
-        "Huu ni mwendelezo wa jedwali la picha za miti.",
-        "Safu ya mwaka elfu mbili na kumi na tatu ina picha nane za miti. Hivyo, idadi ya miti ni minane.",
-        "Safu ya mwaka elfu mbili na kumi na nne ina picha sita za miti. Hivyo, idadi ya miti ni sita.",
-        "Safu ya mwaka elfu mbili na kumi na tano ina picha kumi na mbili za miti. Hivyo, idadi ya miti ni kumi na miwili.",
-    ]}, "rate": 0.85, "replace": {
+    182: {"remove": {"pg182_n0002", "pg182_n0003", "pg182_n0004", "pg182_n0019"}, "after": {"pg182_n0004": []}, "rate": 0.85, "replace": {
+        "pg182_n0001": "Mwendelezo wa jedwali la picha za miti. Mwaka elfu mbili na kumi na tatu una picha nane za miti; idadi ya miti ni minane. Mwaka elfu mbili na kumi na nne una picha sita za miti; idadi ya miti ni sita. Mwaka elfu mbili na kumi na tano una picha kumi na mbili za miti; idadi ya miti ni kumi na miwili.",
         "pg182_n0014": "Hatua.",
         "pg182_n0015": "Hatua ya kwanza. Baini aina ya picha katika taarifa kwa kila kundi.",
         "pg182_n0016": "Hatua ya pili. Hesabu idadi ya picha kulingana na makundi.",
@@ -3125,8 +3123,10 @@ CONFIG = {
     }},
     183: {
         "rate": 0.85,
+        "remove": {"pg183_n0005", "pg183_n0006", "pg183_n0007", "pg183_n0008"},
         "replace": {
             "pg183_n0001": "Mfano wa kwanza",
+            "pg183_n0004": "Jedwali lina safu mbili: aina ya mifugo, na idadi ya mifugo kwa picha.",
             "pg183_n0010": "Hatua ya kwanza. Takwimu kwa picha hapo juu inaonesha aina tatu za mifugo:",
             "pg183_n0011": "ng'ombe, mbuzi na mbwa.",
             "pg183_n0012": "Hatua ya pili. Jibu.",
@@ -3137,7 +3137,9 @@ CONFIG = {
         },
         "after": {"pg183_n0004": [
             "Jedwali lina mistari mitatu ya mifugo.",
-            "Mstari wa kwanza una picha nne za ng'ombe. Mstari wa pili una picha nane za mbuzi. Mstari wa tatu una picha mbili za mbwa.",
+            "Mstari wa kwanza. Aina ya mifugo ni ng'ombe. Idadi ya mifugo kwa picha ni ng'ombe wanne.",
+            "Mstari wa pili. Aina ya mifugo ni mbuzi. Idadi ya mifugo kwa picha ni mbuzi wanane.",
+            "Mstari wa tatu. Aina ya mifugo ni mbwa. Idadi ya mifugo kwa picha ni mbwa wawili.",
         ]},
     },
     184: {"replace": {
@@ -3168,6 +3170,38 @@ CONFIG = {
         "pg185_n0021": "Picha moja ya chupa inawakilisha chupa kumi.",
     }, "rate": 0.85},
 }
+
+
+FRACTION_PAGES = set(range(93, 107))
+FRACTION_NUMBER_WORD = (
+    r"(?:sifuri|moja|mbili|tatu|nne|tano|sita|saba|nane|tisa|kumi|"
+    r"ishirini|thelathini|arobaini|hamsini|sitini|sabini|themanini|tisini|mia|elfu)"
+)
+FRACTION_NUMBER_PHRASE = rf"{FRACTION_NUMBER_WORD}(?:\s+(?:na\s+)?{FRACTION_NUMBER_WORD})*"
+
+
+def standardize_fraction_pronunciation(value):
+    """Read a stacked fraction as 'kiasi ya asili', never as division."""
+    return re.sub(
+        rf"\b({FRACTION_NUMBER_PHRASE})\s+kwa\s+({FRACTION_NUMBER_PHRASE})\b",
+        r"\1 ya \2",
+        value,
+        flags=re.I,
+    )
+
+
+for _fraction_page in FRACTION_PAGES:
+    _fraction_cfg = CONFIG.get(_fraction_page)
+    if not _fraction_cfg:
+        continue
+    _fraction_cfg["replace"] = {
+        node_id: standardize_fraction_pronunciation(text)
+        for node_id, text in _fraction_cfg.get("replace", {}).items()
+    }
+    _fraction_cfg["after"] = {
+        node_id: [standardize_fraction_pronunciation(text) for text in additions]
+        for node_id, additions in _fraction_cfg.get("after", {}).items()
+    }
 
 
 def source(page):
