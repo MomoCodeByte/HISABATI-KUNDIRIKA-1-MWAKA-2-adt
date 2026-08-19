@@ -42,6 +42,7 @@ CONFIG = {
         },
     },
     8: {
+        "remove": {"pg008_n0018", "pg008_n0019"},
         "replace": {
             "pg008_n0001": "Swali la 3. Andika namba zifuatazo kwa tarakimu. Mstari wa kwanza",
             "pg008_n0003": "Jedwali lina safu mbili: namba kwa maneno, na namba kwa tarakimu.",
@@ -71,7 +72,7 @@ CONFIG = {
             "pg009_n0013": "Hatua ya pili. Hamia nafasi inayofuata upande wa kushoto, kwenye makumi. Hesabu au taja mafungu yenye visanduku 10; unapata fungu moja lenye visanduku 10.",
             "pg009_n0014": "",
             "pg009_n0015": "",
-            "pg009_n0016": "Hatua ya tatu. Hamia nafasi inayofuata upande wa kushoto, kwenye mamia. Hesabu au taja mafungu yenye visanduku 100; unapata mafungu mawili yenye visanduku 100 kila fungu. Visanduku 100 jumlisha visanduku 100, sawa sawa na visanduku 200.",
+            "pg009_n0016": "Hatua ya tatu. Hamia nafasi inayofuata upande wa kushoto, kwenye mamia. Hesabu au taja mafungu yenye visanduku 100; unapata mafungu mawili yenye visanduku 100 kila fungu. Visanduku 100 jumlisha visanduku 100 ni sawa na visanduku 200.",
             "pg009_n0017": "",
             "pg009_n0018": "Hatua ya nne. Hamia nafasi inayofuata upande wa kushoto, kwenye maelfu. Hesabu au taja mafungu yenye visanduku 1000; unapata fungu moja lenye visanduku 1000.",
         },
@@ -82,19 +83,35 @@ CONFIG = {
     10: {
         "remove": {"pg010_n0006", "pg010_n0007", "pg010_n0008", "pg010_n0009"},
         "replace": {
+            "pg010_n0001": "7. Hivyo, kutoka kulia kwenda kushoto, kuna mamoja 3, fungu moja la makumi, mafungu mawili ya mamia, na fungu moja la maelfu.",
+            "pg010_n0002": "",
             "pg010_n0004": "Mfano wa Pili",
             "pg010_n0005": "Hesabu au eleza mafungu ya sarafu, kisha andika namba kwa maneno.",
-            "pg010_n0011": "1. Hesabu au taja mafungu yenye maelfu; unapata mafungu tisa",
-            "pg010_n0014": "2. Hesabu au taja mafungu ya mamia; unapata mafungu tisa yenye",
-            "pg010_n0017": "3. Hesabu au taja mafungu ya makumi; unapata mafungu tisa yenye",
-            "pg010_n0020": "4. Hesabu au taja sarafu katika mamoja; unapata mamoja tisa yenye",
+            "pg010_n0011": "Hatua ya kwanza. Anza upande wa kulia kwenye mamoja. Hesabu au taja sarafu katika mamoja; unapata sarafu tisa za mamoja.",
+            "pg010_n0012": "",
+            "pg010_n0013": "",
+            "pg010_n0014": "Hatua ya pili. Hamia kushoto kwenye makumi. Hesabu mafungu ya makumi; unapata mafungu tisa yenye sarafu 10 kila moja, sawa sawa na 90.",
+            "pg010_n0015": "",
+            "pg010_n0016": "",
+            "pg010_n0017": "Hatua ya tatu. Hamia kushoto kwenye mamia. Hesabu mafungu ya mamia; unapata mafungu tisa yenye sarafu 100 kila moja, sawa sawa na 900.",
+            "pg010_n0018": "",
+            "pg010_n0019": "",
+            "pg010_n0020": "Hatua ya nne. Hamia kushoto kwenye maelfu. Hesabu mafungu ya maelfu; unapata mafungu tisa yenye sarafu 1000 kila moja, sawa sawa na 9000.",
+            "pg010_n0021": "",
+            "pg010_n0022": "",
         },
         "after": {
-            "pg010_n0005": ["Picha inaonesha mafungu ya sarafu katika maelfu, mamia, makumi na mamoja. Maelfu yana mafungu tisa ya sarafu. Mamia yana mafungu tisa ya sarafu. Makumi yana mafungu tisa ya sarafu. Mamoja yana sarafu tisa."],
+            "pg010_n0005": ["Tunasoma picha kuanzia upande wa kulia kwenda kushoto. Mamoja yana sarafu tisa. Makumi yana mafungu tisa ya sarafu. Mamia yana mafungu tisa ya sarafu. Maelfu yana mafungu tisa ya sarafu."],
         },
     },
     11: {
-        "replace": {"pg011_n0005": "Zoezi la Pili"},
+        "replace": {
+            "pg011_n0001": "Hatua ya tano. Jumlisha kutoka kulia kwenda kushoto: 9 jumlisha 90, jumlisha 900, jumlisha 9000, sawa sawa na 9999.",
+            "pg011_n0002": "Hatua ya sita. Tarakimu ya kwanza kutoka kulia ni mamoja, ya pili ni makumi, ya tatu ni mamia, na ya nne ni maelfu.",
+            "pg011_n0003": "",
+            "pg011_n0004": "Kwa hiyo, 9999 kwa maneno ni elfu tisa mia tisa tisini na tisa.",
+            "pg011_n0005": "Zoezi la Pili",
+        },
         "remove": {
             "pg011_n0008", "pg011_n0009", "pg011_n0010", "pg011_n0011",
             "pg011_n0012", "pg011_n0013", "pg011_n0014", "pg011_n0015",
@@ -103,21 +120,29 @@ CONFIG = {
         },
         "after": {
             "pg011_n0007": [
-                "Jedwali la kwanza. Picha inaonesha mafungu ya visanduku katika maelfu, mamia, makumi na mamoja. Maelfu yana mafungu matano ya visanduku. Mamia yana mafungu matatu ya visanduku. Makumi yana mafungu manne ya visanduku. Mamoja yana visanduku sita.",
-                "Jedwali la pili. Picha inaonesha mafungu ya penseli katika maelfu, mamia, makumi na mamoja. Maelfu yana mafungu tisa ya penseli. Mamia yana mafungu tisa ya penseli. Makumi yana mafungu sifuri. Mamoja yana penseli tisa.",
+                "Jedwali la kwanza, kutoka kulia kwenda kushoto. Mamoja yana visanduku sita. Makumi yana mafungu manne ya visanduku. Mamia yana mafungu matatu ya visanduku. Maelfu yana mafungu matano ya visanduku.",
+                "Jedwali la pili, kutoka kulia kwenda kushoto. Mamoja yana penseli tisa. Makumi yana mafungu sifuri. Mamia yana mafungu tisa ya penseli. Maelfu yana mafungu tisa ya penseli.",
             ],
         },
     },
     12: {
         "remove": {"pg012_n0002", "pg012_n0003", "pg012_n0010", "pg012_n0011", "pg012_n0012"},
         "replace": {
+            "pg012_n0001": "3. Kutoka kulia kwenda kushoto: mamoja, makumi, mamia, na maelfu.",
             "pg012_n0007": "Mfano wa Kwanza",
             "pg012_n0008": "Angalia jedwali, kisha taja na uandike namba kwa tarakimu",
             "pg012_n0009": "na kwa maneno.",
+            "pg012_n0014": "Hatua ya kwanza. Anza upande wa kulia. Mamoja ni sifuri. Hatua ya pili. Makumi ni sifuri. Hatua ya tatu. Mamia ni sifuri. Hatua ya nne. Maelfu ni sifuri. Hatua ya tano. Makumi elfu yana fungu moja lenye 10000.",
+            "pg012_n0015": "",
+            "pg012_n0016": "",
+            "pg012_n0017": "",
+            "pg012_n0018": "Hatua ya sita. Jumlisha kutoka kulia kwenda kushoto: sifuri jumlisha sifuri, jumlisha sifuri, jumlisha sifuri, jumlisha 10000, sawa sawa na 10000.",
+            "pg012_n0019": "",
+            "pg012_n0020": "",
         },
         "after": {
-            "pg012_n0001": ["Picha inaonesha mafungu katika maelfu, mamia, makumi na mamoja. Maelfu yana mafungu sita. Mamia yana mafungu saba. Makumi yana mafungu matano. Mamoja yana vipande tisa."],
-            "pg012_n0009": ["Makumi elfu. Maelfu. Mamia. Makumi. Mamoja. Jedwali lina fungu moja la makumi elfu. Safu za maelfu, mamia, makumi na mamoja hazina mafungu; kila moja imeandikwa sifuri."],
+            "pg012_n0001": ["Picha inasomwa kutoka kulia kwenda kushoto. Mamoja yana vipande tisa. Makumi yana mafungu matano. Mamia yana mafungu saba. Maelfu yana mafungu sita."],
+            "pg012_n0009": ["Jedwali linasomwa kutoka kulia kwenda kushoto. Mamoja ni sifuri. Makumi ni sifuri. Mamia ni sifuri. Maelfu ni sifuri. Makumi elfu yana fungu moja."],
         },
     },
     13: {
@@ -130,26 +155,61 @@ CONFIG = {
             "pg013_n0018": "Mfano wa Tatu",
             "pg013_n0002": "Angalia jedwali, kisha taja na uandike namba kwa",
             "pg013_n0019": "Angalia jedwali, kisha taja na uandike namba kwa",
+            "pg013_n0008": "Hatua ya kwanza. Anza upande wa kulia. Mamoja yana sarafu moja. Hatua ya pili. Makumi ni sifuri. Hatua ya tatu. Mamia ni sifuri. Hatua ya nne. Maelfu ni sifuri. Hatua ya tano. Makumi elfu yana fungu moja lenye 10000.",
+            "pg013_n0009": "",
+            "pg013_n0010": "",
+            "pg013_n0011": "",
+            "pg013_n0012": "",
+            "pg013_n0013": "Hatua ya sita. Jumlisha kutoka kulia kwenda kushoto: moja jumlisha sifuri, jumlisha sifuri, jumlisha sifuri, jumlisha 10000, sawa sawa na 10001.",
+            "pg013_n0014": "",
+            "pg013_n0015": "",
         },
         "after": {
-            "pg013_n0003": ["Picha inaonesha mafungu ya sarafu katika makumi elfu, maelfu, mamia, makumi na mamoja. Makumi elfu yana fungu moja la sarafu. Maelfu, mamia na makumi yana mafungu sifuri. Mamoja yana sarafu moja."],
-            "pg013_n0020": ["Picha inaonesha mafungu ya sarafu katika makumi elfu, maelfu, mamia, makumi na mamoja. Makumi elfu yana mafungu matatu ya sarafu. Maelfu yana mafungu mawili ya sarafu. Mamia yana fungu moja la sarafu. Makumi yana mafungu mawili ya sarafu. Mamoja yana sarafu moja."],
+            "pg013_n0003": ["Picha inasomwa kutoka kulia kwenda kushoto. Mamoja yana sarafu moja. Makumi ni sifuri. Mamia ni sifuri. Maelfu ni sifuri. Makumi elfu yana fungu moja la sarafu."],
+            "pg013_n0020": ["Picha inasomwa kutoka kulia kwenda kushoto. Mamoja yana sarafu moja. Makumi yana mafungu mawili ya sarafu. Mamia yana fungu moja la sarafu. Maelfu yana mafungu mawili; kila fungu la maelfu lina sarafu elfu moja. Makumi elfu yana mafungu matatu ya sarafu."],
         },
     },
     14: {
         "remove": {"pg014_n0020", "pg014_n0021", "pg014_n0022", "pg014_n0023"},
         "replace": {
+            "pg014_n0002": "Hatua ya kwanza. Anza upande wa kulia kwenye mamoja. Kuna mamoja moja.",
+            "pg014_n0003": "",
+            "pg014_n0004": "Hatua ya pili. Hamia kushoto kwenye makumi. Kuna mafungu mawili yenye 10 kila fungu.",
+            "pg014_n0005": "",
+            "pg014_n0006": "Hatua ya tatu. Hamia kushoto kwenye mamia. Kuna fungu moja lenye 100.",
+            "pg014_n0007": "",
+            "pg014_n0008": "Hatua ya nne. Hamia kushoto kwenye maelfu. Kuna mafungu mawili yenye 1000 kila fungu.",
+            "pg014_n0009": "",
+            "pg014_n0010": "Hatua ya tano. Hamia kushoto kwenye makumi elfu. Kuna mafungu matatu yenye 10000 kila fungu.",
+            "pg014_n0011": "Hatua ya sita. Jumlisha kutoka kulia kwenda kushoto: moja jumlisha 10, jumlisha 10, jumlisha 100, jumlisha 1000, jumlisha 1000, jumlisha 10000, jumlisha 10000, jumlisha 10000, sawa sawa na 32121.",
+            "pg014_n0012": "",
+            "pg014_n0013": "",
             "pg014_n0016": "Zoezi la Tatu",
             "pg014_n0018": "1. Hesabu au eleza, kisha andika kwa tarakimu na kwa maneno",
         },
         "after": {
-            "pg014_n0019": ["Mchoro a unaonesha mafungu ya sarafu katika makumi elfu, maelfu, mamia, makumi na mamoja. Makumi elfu yana mafungu mawili ya sarafu. Maelfu yana mafungu matano ya sarafu. Mamia yana mafungu manne ya sarafu. Makumi yana mafungu matano ya sarafu. Mamoja yana sarafu sita."],
+            "pg014_n0019": ["Mchoro a unasomwa kutoka kulia kwenda kushoto. Mamoja yana sarafu sita. Makumi yana mafungu matano ya sarafu. Mamia yana mafungu manne ya sarafu. Maelfu yana mafungu matano ya sarafu. Makumi elfu yana mafungu mawili ya sarafu."],
         },
     },
-    15: {"remove": {"pg015_n0002", "pg015_n0003", "pg015_n0004", "pg015_n0005", "pg015_n0006"}, "after": {
-        "pg015_n0001": ["Mchoro b unaonesha mafungu ya sarafu katika makumi elfu, maelfu, mamia, makumi na mamoja. Makumi elfu yana mafungu nane ya sarafu. Maelfu yana fungu moja la sarafu. Mamia yana fungu moja la sarafu. Makumi yana mafungu matatu ya sarafu. Mamoja yana sarafu sita."],
-        "pg015_n0016": ["Makumi elfu. Maelfu. Mamia. Makumi. Mamoja. Abakasi ina shanga saba za makumi elfu, shanga nne za maelfu, shanga tatu za mamia, shanga tatu za makumi na shanga tano za mamoja."],
+    15: {"remove": {"pg015_n0002", "pg015_n0003", "pg015_n0004", "pg015_n0005", "pg015_n0006"}, "replace": {
+        "pg015_n0016": "Abakasi inasomwa kutoka kulia kwenda kushoto. Mamoja yana shanga tano. Makumi yana shanga tatu. Mamia yana shanga tatu. Maelfu yana shanga nne. Makumi elfu yana shanga saba.",
+    }, "after": {
+        "pg015_n0001": ["Mchoro b unasomwa kutoka kulia kwenda kushoto. Mamoja yana sarafu sita. Makumi yana mafungu matatu ya sarafu. Mamia yana fungu moja la sarafu. Maelfu yana fungu moja la sarafu. Makumi elfu yana mafungu nane ya sarafu."],
+        "pg015_n0002": [],
+        "pg015_n0016": [],
     }},
+    16: {
+        "replace": {
+            "pg016_n0020": "Mstari wa kwanza. Namba ni 19567. Kutoka kulia kwenda kushoto: 7 ni mamoja, 6 ni makumi, 5 ni mamia, 9 ni maelfu, na 1 ni makumi elfu.",
+            "pg016_n0021": "Namba hiyo inasomwa elfu kumi na tisa mia tano sitini na saba.",
+            "pg016_n0022": "",
+            "pg016_n0023": "Mstari wa pili. Namba ni 98879. Kutoka kulia kwenda kushoto: 9 ni mamoja, 7 ni makumi, 8 ni mamia, 8 ni maelfu, na 9 ni makumi elfu.",
+            "pg016_n0024": "Namba hiyo inasomwa elfu tisini na nane mia nane sabini na tisa.",
+            "pg016_n0025": "",
+            "pg016_n0026": "",
+            "pg016_n0027": "",
+        },
+    },
     17: {
         "remove": {
             "pg017_n0005", "pg017_n0006", "pg017_n0007",
@@ -157,9 +217,30 @@ CONFIG = {
         },
         "replace": {
             "pg017_n0001": "Mfano wa Kwanza",
-            "pg017_n0004": "Jedwali lina nafasi tano. Namba ni elfu ishirini na moja, mia tatu sitini na nne. Kutoka kushoto kwenda kulia: nafasi ya tano ni makumi elfu, ina tarakimu mbili. Nafasi ya nne ni maelfu, ina tarakimu moja. Nafasi ya tatu ni mamia, ina tarakimu tatu. Nafasi ya pili ni makumi, ina tarakimu sita. Nafasi ya kwanza ni mamoja, ina tarakimu nne.",
+            "pg017_n0004": "Jedwali lina nafasi tano. Namba ni elfu ishirini na moja, mia tatu sitini na nne. Kutoka kulia kwenda kushoto: nafasi ya kwanza ni mamoja, ina tarakimu 4. Nafasi ya pili ni makumi, ina tarakimu 6. Nafasi ya tatu ni mamia, ina tarakimu 3. Nafasi ya nne ni maelfu, ina tarakimu 1. Nafasi ya tano ni makumi elfu, ina tarakimu 2.",
             "pg017_n0010": "Mfano wa Pili",
             "pg017_n0014": "Jibu. Sehemu a. Namba ni elfu nne mia sita ishirini na nane. Kutoka kulia kwenda kushoto: nane ni mamoja, mbili ni makumi, sita ni mamia, na nne ni maelfu. Sehemu b. Namba ni elfu themanini na tatu na hamsini. Kutoka kulia kwenda kushoto: sifuri ni mamoja, tano ni makumi, sifuri ni mamia, tatu ni maelfu, na nane ni makumi elfu.",
+        },
+        "after": {"pg017_n0006": []},
+    },
+    18: {
+        "replace": {
+            "pg018_n0001": "Mfano wa Kwanza",
+            "pg018_n0004": "Hatua ya kwanza. Andika thamani ya kila tarakimu katika namba 29567 kutoka kulia kwenda kushoto.",
+            "pg018_n0005": "Mamoja ni 7. Makumi ni 6. Mamia ni 5. Maelfu ni 9. Makumi elfu ni 2.",
+            "pg018_n0006": "",
+            "pg018_n0007": "Hatua ya pili. Andika thamani ya namba inayotokana na kila tarakimu kutoka kulia kwenda kushoto.",
+            "pg018_n0008": "Mamoja 7 ni 7. Makumi 6 ni 60. Mamia 5 ni 500. Maelfu 9 ni 9000. Makumi elfu 2 ni 20000.",
+            "pg018_n0009": "",
+            "pg018_n0010": "Hatua ya tatu. Andika namba kwa kirefu, kuanzia kulia kwenda kushoto.",
+            "pg018_n0011": "7 jumlisha 60, jumlisha 500, jumlisha 9000, jumlisha 20000, sawa sawa na 29567.",
+            "pg018_n0012": "Kwa hiyo, namba ni 29567.",
+            "pg018_n0013": "Mfano wa Pili",
+            "pg018_n0017": "Kutoka kulia kwenda kushoto: sifuri jumlisha 60, jumlisha 200, jumlisha sifuri, jumlisha 90000, sawa sawa na 90260.",
+            "pg018_n0021": "Mfano wa Tatu",
+            "pg018_n0023": "Sehemu a. Moja jumlisha 30, jumlisha 500, jumlisha 4000.",
+            "pg018_n0024": "Sehemu b. 6 jumlisha 80, jumlisha sifuri, jumlisha 7000, jumlisha 60000.",
+            "pg018_n0025": "Sehemu c. 9 jumlisha 30, jumlisha 900, jumlisha 2000, jumlisha 90000.",
         },
     },
     19: {
@@ -169,17 +250,20 @@ CONFIG = {
             "pg019_n0024", "pg019_n0025",
         },
         "replace": {
+            "pg019_n0002": "Sehemu a. Moja jumlisha 30, jumlisha 500, jumlisha 4000, sawa sawa na 4531.",
+            "pg019_n0003": "Sehemu b. 6 jumlisha 80, jumlisha sifuri, jumlisha 7000, jumlisha 60000, sawa sawa na 67086.",
+            "pg019_n0004": "Sehemu c. 9 jumlisha 30, jumlisha 900, jumlisha 2000, jumlisha 90000, sawa sawa na 92939.",
             "pg019_n0005": "Zoezi la Nne",
             "pg019_n0007": "Swali la kwanza. Andika thamani ya kila tarakimu katika namba zifuatazo.",
-            "pg019_n0008": "Sehemu a, 23967. Sehemu b, 76012. Sehemu c, 30645. Sehemu d, 80020.",
+            "pg019_n0008": "Sehemu a, elfu ishirini na tatu mia tisa sitini na saba. Sehemu b, elfu sabini na sita na kumi na mbili. Sehemu c, elfu thelathini mia sita arobaini na tano. Sehemu d, elfu themanini na ishirini.",
             "pg019_n0010": "Swali la pili. Fafanua namba zifuatazo kwa kuzingatia nafasi ya kila tarakimu.",
             "pg019_n0012": "Sehemu a, 40788. Sehemu b, 39615. Sehemu c, 8205. Sehemu d, 98735.",
             "pg019_n0014": "Swali la tatu. Tumia namba zilizoorodheshwa kujaza nafasi zilizo wazi.",
-            "pg019_n0015": "Sehemu a. Namba 13739. Makumi elfu, dashi. Maelfu, dashi. Mamia, dashi. Makumi, dashi. Mamoja, dashi.",
-            "pg019_n0017": "Sehemu b. Namba 19897. Makumi elfu, dashi. Maelfu, dashi. Mamia, dashi. Makumi, dashi. Mamoja, dashi.",
-            "pg019_n0019": "Sehemu c. Namba 39001. Makumi elfu, dashi. Maelfu, dashi. Mamia, dashi. Makumi, dashi. Mamoja, dashi.",
-            "pg019_n0021": "Sehemu d. Namba 99678. Makumi elfu, dashi. Maelfu, dashi. Mamia, dashi. Makumi, dashi. Mamoja, dashi.",
-            "pg019_n0023": "Swali la nne. Andika namba ambayo tarakimu 7 ipo katika nafasi ya mamia, tarakimu 8 ipo katika nafasi ya mamoja, tarakimu 2 ipo katika nafasi ya maelfu, na tarakimu 8 ipo katika nafasi ya makumi.",
+            "pg019_n0015": "Sehemu a. Namba 13739. Soma kutoka kulia kwenda kushoto. Mamoja, dashi. Makumi, dashi. Mamia, dashi. Maelfu, dashi. Makumi elfu, dashi.",
+            "pg019_n0017": "Sehemu b. Namba 19897. Soma kutoka kulia kwenda kushoto. Mamoja, dashi. Makumi, dashi. Mamia, dashi. Maelfu, dashi. Makumi elfu, dashi.",
+            "pg019_n0019": "Sehemu c. Namba 39001. Soma kutoka kulia kwenda kushoto. Mamoja, dashi. Makumi, dashi. Mamia, dashi. Maelfu, dashi. Makumi elfu, dashi.",
+            "pg019_n0021": "Sehemu d. Namba 99678. Soma kutoka kulia kwenda kushoto. Mamoja, dashi. Makumi, dashi. Mamia, dashi. Maelfu, dashi. Makumi elfu, dashi.",
+            "pg019_n0023": "Swali la nne. Soma kutoka kulia kwenda kushoto. Andika namba ambayo tarakimu 8 ipo katika nafasi ya mamoja, tarakimu 8 ipo katika nafasi ya makumi, tarakimu 7 ipo katika nafasi ya mamia, na tarakimu 2 ipo katika nafasi ya maelfu.",
         },
     },
     20: {
@@ -292,7 +376,7 @@ CONFIG = {
             "pg025_n0016", "pg025_n0021", "pg025_n0023", "pg025_n0025", "pg025_n0026",
         },
         "replace": {
-            "pg025_n0001": "Sehemu b. Soma kutoka kulia kwenda kushoto. Elfu sita mia tano ishirini na tano. Elfu tano mia saba. Elfu nne mia nane sabini na tano. Elfu nne hamsini. Elfu tatu mia mbili ishirini na tano. Elfu mbili mia nne. Elfu moja mia tano sabini na tano. Mia saba hamsini.",
+            "pg025_n0001": "Sehemu b. Soma namba kwanza, kutoka kushoto kwenda kulia. Mia saba hamsini. Elfu moja mia tano sabini na tano. Elfu mbili mia nne. Elfu tatu mia mbili ishirini na tano. Elfu nne hamsini. Elfu nne mia nane sabini na tano. Elfu tano mia saba. Elfu sita mia tano ishirini na tano.",
             "pg025_n0002": "Mpangilio huu wa namba unaongezeka kwa mia nane ishirini na tano katika kila namba inayofuata.",
             "pg025_n0004": "Sehemu c. Soma kutoka kulia kwenda kushoto. Sifuri. Hamsini. Mia moja. Mia moja hamsini. Mia mbili. Mia mbili hamsini. Mia tatu. Mia tatu hamsini.",
             "pg025_n0005": "Mpangilio huu wa namba unapungua kwa hamsini katika kila namba inayofuata.",
@@ -324,7 +408,7 @@ CONFIG = {
             "pg026_n0006": "Hatua ya tatu. Jumlisha tofauti ya namba hizo na namba iliyotangulia.",
             "pg026_n0007": "Mfano wa kwanza.",
             "pg026_n0008": "Jaza namba zinazokosekana katika mpangilio ufuatao.",
-            "pg026_n0009": "Soma mpangilio kutoka kulia kwenda kushoto. Upande wa kulia kuna nafasi mbili zilizo wazi. Tukisogea kushoto tunakutana na: kumi na tisa, kumi na sita, kumi na tatu, kumi, saba, nne, na moja.",
+            "pg026_n0009": "Soma namba kwanza, kutoka kushoto kwenda kulia. Moja, nne, saba, kumi, kumi na tatu, kumi na sita, kumi na tisa, dashi, dashi. Baada ya namba kumi na tisa kuna nafasi mbili zilizo wazi.",
             "pg026_n0011": "Hatua ya kwanza. Namba mbili zilizotangulia ni moja na nne.",
             "pg026_n0012": "Hatua ya pili. Tofauti ni nne kutoa moja, ni sawa na tatu.",
             "pg026_n0013": "Hatua ya tatu. Namba inayofuata katika mpangilio huu inapatikana kwa kujumlisha tatu kwenye namba iliyotangulia. Fuata hesabu kutoka juu kwenda chini.",
@@ -339,7 +423,7 @@ CONFIG = {
             "pg026_n0023": "Kwa hiyo, mpangilio kamili ni: moja, nne, saba, kumi, kumi na tatu, kumi na sita, kumi na tisa, ishirini na mbili, na ishirini na tano. Namba zilizokosekana ni ishirini na mbili na ishirini na tano.",
             "pg026_n0024": "Mfano wa pili.",
             "pg026_n0025": "Andika namba zinazokosekana katika mpangilio ufuatao.",
-            "pg026_n0026": "Soma mpangilio kutoka kulia kwenda kushoto. Upande wa kulia kuna nafasi tatu zilizo wazi. Tukisogea kushoto tunakutana na: mia tano na nne, mia nne na tatu, mia tatu na mbili, na mia mbili na moja. Endeleza mpangilio kwa kuandika namba zinazokosekana.",
+            "pg026_n0026": "Soma namba kwanza, kutoka kushoto kwenda kulia. Mia mbili na moja, mia tatu na mbili, mia nne na tatu, mia tano na nne, dashi, dashi, dashi. Baada ya namba mia tano na nne kuna nafasi tatu zilizo wazi. Endeleza mpangilio kwa kuandika namba zinazokosekana.",
         },
     },
     27: {
@@ -369,13 +453,15 @@ CONFIG = {
     31: {
         "remove": {"pg031_n0028", "pg031_n0029"},
         "replace": {
+            "pg031_n0001": "Kumi na sita zidisha kwa mbili ni sawa na thelathini na mbili.",
+            "pg031_n0002": "Thelathini na mbili zidisha kwa mbili ni sawa na sitini na nne.",
             "pg031_n0003": "Kwa hiyo, jibu ni: sitini na nne.",
             "pg031_n0004": "Zoezi la Nne.",
             "pg031_n0023": "Swali namba nne. Jaza namba zinazokosekana katika nafasi zilizo wazi.",
-            "pg031_n0024": "Sehemu a. Tano kuzidisha dashi, sawa sawa na kumi.",
-            "pg031_n0025": "Sehemu b. Dashi kuzidisha mbili, sawa sawa na mia moja.",
-            "pg031_n0026": "Sehemu c. Mia tano kuzidisha mbili, sawa sawa na dashi.",
-            "pg031_n0027": "Sehemu d. Dashi kuzidisha mbili, sawa sawa na elfu kumi.",
+            "pg031_n0024": "Sehemu a. Tano zidisha kwa dashi, ni sawa na kumi.",
+            "pg031_n0025": "Sehemu b. Dashi zidisha kwa mbili, ni sawa na mia moja.",
+            "pg031_n0026": "Sehemu c. Mia tano zidisha kwa mbili, ni sawa na dashi.",
+            "pg031_n0027": "Sehemu d. Dashi zidisha kwa mbili, ni sawa na elfu kumi.",
         },
     },
     33: {
@@ -406,6 +492,10 @@ CONFIG = {
     34: {
         "replace": {
             "pg034_n0002": "Chunguza orodha hii; 4, II, 5, IV, I, III, 2, V, na 3 kisha jibu maswali",
+            "pg034_n0009": "Jedwali la kwanza lina mistari miwili na safu tatu. Mstari wa kwanza ni Namba za Kiarabu. Namba zake ni moja, mbili, na tatu.",
+            "pg034_n0010": "Mstari wa pili ni Namba za Kirumi. Chini ya moja kuna I. Chini ya mbili kuna II. Chini ya tatu kuna III.",
+            "pg034_n0014": "Jedwali la pili linasomwa safu kwa safu kutoka kushoto kwenda kulia. Namba za Kirumi ni IV, V, VI, VII, VIII, na IX.",
+            "pg034_n0015": "Safu ya kwanza. Tano toa moja ni nne. Hii inaunda namba nne ya Kirumi, IV. Safu ya pili. Tano. Hii ni namba tano ya Kirumi, V. Safu ya tatu. Tano jumlisha moja ni sita. Hii inaunda namba sita ya Kirumi, VI. Safu ya nne. Tano jumlisha mbili ni saba. Hii inaunda namba saba ya Kirumi, VII. Safu ya tano. Tano jumlisha tatu ni nane. Hii inaunda namba nane ya Kirumi, VIII. Safu ya sita. Kumi toa moja ni tisa. Hii inaunda namba tisa ya Kirumi, IX.",
         },
     },
     36: {
@@ -442,12 +532,12 @@ CONFIG = {
         },
         "replace": {
             "pg037_n0001": "Swali namba tatu. Andika namba za Kiarabu zifuatazo kwa namba za Kirumi.",
-            "pg037_n0003": "Jedwali lina mistari miwili. Mstari wa juu una namba za Kiarabu. Mstari wa chini una nafasi za kuandika namba za Kirumi. Soma namba za Kiarabu kutoka kulia kwenda kushoto: kumi na tano, kumi na moja, kumi na nane, kumi na mbili, kumi na nne, ishirini, kumi na sita, kumi na tatu, kumi na saba, na kumi na tisa. Andika alama ya Kirumi inayolingana chini ya kila namba.",
+            "pg037_n0003": "Jedwali lina mistari miwili. Mstari wa juu una namba za Kiarabu. Mstari wa chini una nafasi za kuandika namba za Kirumi. Soma kutoka kushoto kwenda kulia: kumi na tisa, kumi na saba, kumi na tatu, kumi na sita, ishirini, kumi na nne, kumi na mbili, kumi na nane, kumi na moja, na kumi na tano. Andika alama ya Kirumi inayolingana chini ya kila namba.",
             "pg037_n0007": "Swali namba nne. Andika namba za Kirumi zifuatazo kwa namba za Kiarabu.",
-            "pg037_n0009": "Jedwali lina mistari miwili. Mstari wa juu una alama za Kirumi. Mstari wa chini una nafasi za kuandika namba za Kiarabu. Soma kutoka kulia kwenda kushoto. Alama ya kwanza ni X ikifuatiwa na I mbili. Ya pili ni X ikifuatiwa na I kabla ya V. Ya tatu ni X ikifuatiwa na V na I mbili. Ya nne ni X ikifuatiwa na V. Ya tano ni X ikifuatiwa na V na I tatu. Ya sita ni X ikifuatiwa na I moja. Andika namba ya Kiarabu inayolingana chini ya kila alama.",
+            "pg037_n0009": "Jedwali lina mistari miwili. Mstari wa juu una namba za Kirumi. Mstari wa chini una nafasi za kuandika namba za Kiarabu. Soma namba za Kirumi kutoka kushoto kwenda kulia. Namba ya kwanza inasomwa kumi na moja. Ya pili inasomwa kumi na nane. Ya tatu inasomwa kumi na tano. Ya nne inasomwa kumi na saba. Ya tano inasomwa kumi na nne. Ya sita inasomwa kumi na mbili. Andika namba ya Kiarabu inayolingana chini ya kila namba ya Kirumi.",
             "pg037_n0011": "Swali namba tano. Andika namba zinazokosekana katika kila mpangilio ufuatao.",
-            "pg037_n0013": "Sehemu a. Soma kutoka kulia kwenda kushoto. Herufi X mbili, nafasi ya kwanza iliyo wazi, X ikifuatiwa na V na I moja, X ikifuatiwa na I kabla ya V, nafasi ya pili iliyo wazi, kisha herufi X moja. Jaza nafasi mbili bila kubadilisha mpangilio.",
-            "pg037_n0014": "Sehemu b. Soma kutoka kulia kwenda kushoto. Herufi X moja, nafasi ya kwanza iliyo wazi, X ikifuatiwa na I mbili, nafasi ya pili iliyo wazi, X ikifuatiwa na I kabla ya V, kisha nafasi ya tatu iliyo wazi. Jaza nafasi tatu bila kubadilisha mpangilio.",
+            "pg037_n0013": "Sehemu a. Soma kutoka kushoto kwenda kulia. Kumi, dashi, kumi na nne, kumi na sita, dashi, ishirini. Jaza nafasi mbili bila kubadilisha mpangilio.",
+            "pg037_n0014": "Sehemu b. Soma kutoka kushoto kwenda kulia. Dashi, kumi na nne, dashi, kumi na mbili, dashi, kumi. Jaza nafasi tatu bila kubadilisha mpangilio.",
             "pg037_n0015": "Namba za Kirumi kuanzia ishirini na moja hadi thelathini na tatu.",
             "pg037_n0016": "Soma jedwali lifuatalo mstari kwa mstari kutoka juu kwenda chini. Sehemu iliyopo kwenye ukurasa huu inaanzia ishirini na moja hadi thelathini.",
             "pg037_n0017": "Jedwali lina safu wima mbili. Safu ya kwanza ina alama za Kirumi. Safu ya pili ina namba za kawaida.",
@@ -489,6 +579,39 @@ CONFIG = {
             "pg038_n0022": "Sehemu b. Dashi; dashi; dashi; herufi X mbili zikifuatiwa na I kabla ya X; dashi; dashi; herufi X mbili zikifuatiwa na V na I moja; dashi; kisha herufi X mbili zikifuatiwa na I kabla ya V.",
             "pg038_n0023": "Sehemu c. Herufi X mbili zikifuatiwa na V na I moja; dashi; herufi X mbili zikifuatiwa na V na I tatu; dashi; herufi X tatu; dashi; kisha herufi X tatu zikifuatiwa na I mbili.",
             "pg038_n0024": "Sehemu d. Dashi; herufi X mbili zikifuatiwa na I mbili; herufi X mbili zikifuatiwa na I tatu; dashi; herufi X mbili zikifuatiwa na V; dashi; kisha dashi.",
+        },
+    },
+    39: {
+        "remove": {"pg039_n0029", "pg039_n0030"},
+        "replace": {
+            "pg039_n0001": "Namba za Kirumi kuanzia thelathini na nne hadi hamsini.",
+            "pg039_n0002": "Soma jedwali lifuatalo mstari kwa mstari kutoka juu kwenda chini.",
+            "pg039_n0003": "Jedwali lina safu mbili. Safu ya kwanza ina namba za Kirumi. Safu ya pili ina namba za kawaida.",
+            "pg039_n0004": "Mstari wa kwanza. Alama ina herufi X tatu, ikifuatiwa na I kabla ya V. Inasomwa thelathini na nne.",
+            "pg039_n0005": "Mstari wa pili. Alama ina herufi X tatu, ikifuatiwa na V. Inasomwa thelathini na tano.",
+            "pg039_n0006": "Mstari wa tatu. Alama ina herufi X tatu, ikifuatiwa na V na I moja. Inasomwa thelathini na sita.",
+            "pg039_n0007": "Mstari wa nne. Alama ina herufi X tatu, ikifuatiwa na V na I mbili. Inasomwa thelathini na saba.",
+            "pg039_n0008": "Mstari wa tano. Alama ina herufi X tatu, ikifuatiwa na V na I tatu. Inasomwa thelathini na nane.",
+            "pg039_n0009": "Mstari wa sita. Alama ina herufi X tatu, ikifuatiwa na I kabla ya X. Inasomwa thelathini na tisa.",
+            "pg039_n0010": "Mstari wa saba. Alama ina X kabla ya L. Inasomwa arobaini.",
+            "pg039_n0011": "Mstari wa nane. Alama ina X kabla ya L, ikifuatiwa na I moja. Inasomwa arobaini na moja.",
+            "pg039_n0012": "Mstari wa tisa. Alama ina X kabla ya L, ikifuatiwa na I mbili. Inasomwa arobaini na mbili.",
+            "pg039_n0013": "Mstari wa kumi. Alama ina X kabla ya L, ikifuatiwa na I tatu. Inasomwa arobaini na tatu.",
+            "pg039_n0014": "Mstari wa kumi na moja. Alama ina X kabla ya L, ikifuatiwa na I kabla ya V. Inasomwa arobaini na nne.",
+            "pg039_n0015": "Mstari wa kumi na mbili. Alama ina X kabla ya L, ikifuatiwa na V. Inasomwa arobaini na tano.",
+            "pg039_n0016": "Mstari wa kumi na tatu. Alama ina X kabla ya L, ikifuatiwa na V na I moja. Inasomwa arobaini na sita.",
+            "pg039_n0017": "Mstari wa kumi na nne. Alama ina X kabla ya L, ikifuatiwa na V na I mbili. Inasomwa arobaini na saba.",
+            "pg039_n0018": "Mstari wa kumi na tano. Alama ina X kabla ya L, ikifuatiwa na V na I tatu. Inasomwa arobaini na nane.",
+            "pg039_n0019": "Mstari wa kumi na sita. Alama ina X kabla ya L, ikifuatiwa na I kabla ya X. Inasomwa arobaini na tisa.",
+            "pg039_n0020": "Mstari wa kumi na saba. Alama ni herufi L. Inasomwa hamsini.",
+            "pg039_n0021": "Mfano wa kwanza.",
+            "pg039_n0022": "Andika namba zifuatazo kwa namba za Kirumi.",
+            "pg039_n0023": "Sehemu a, thelathini na tano. Sehemu b, thelathini na tisa.",
+            "pg039_n0024": "Jibu.",
+            "pg039_n0025": "Sehemu a. Thelathini na tano ni kumi jumlisha kumi, jumlisha kumi, jumlisha tano.",
+            "pg039_n0026": "Kwa hiyo, thelathini na tano kwa namba za Kirumi ni X tatu zikifuatiwa na V.",
+            "pg039_n0027": "Sehemu b. Thelathini na tisa ni kumi jumlisha kumi, jumlisha kumi, jumlisha tisa. Tisa ni kumi kutoa moja.",
+            "pg039_n0028": "Kwa hiyo, thelathini na tisa kwa namba za Kirumi ni X tatu zikifuatiwa na I kabla ya X.",
         },
     },
     40: {
@@ -651,6 +774,22 @@ CONFIG = {
             "pg049_n0012": "Swali namba 17. Mpangilio wa wima. Namba ya juu ni 61823. Namba ya chini ni 27278. Pangilia mamoja upande wa kulia, kisha jumlisha. Jibu ni ngapi? Swali namba 18. Mpangilio wa wima. Namba ya juu ni 87735. Namba ya chini ni 5486. Namba ya chini ina tarakimu nne, hivyo nafasi ya makumi elfu iko wazi. Pangilia mamoja upande wa kulia, kisha jumlisha. Jibu ni ngapi? Swali namba 19. Mpangilio wa wima. Namba ya juu ni 85519. Namba ya chini ni 2791. Namba ya chini ina tarakimu nne, hivyo nafasi ya makumi elfu iko wazi. Pangilia mamoja upande wa kulia, kisha jumlisha. Jibu ni ngapi?",
             "pg049_n0014": "Swali namba 20. Mpangilio wa wima. Namba ya juu ni 18702. Namba ya chini ni 79308. Pangilia mamoja upande wa kulia, kisha jumlisha. Jibu ni ngapi?",
             "pg049_n0017": "Mfano wa Kwanza",
+        },
+    },
+    51: {
+        "remove": {
+            "pg051_n0002", "pg051_n0003", "pg051_n0005", "pg051_n0006", "pg051_n0007",
+            "pg051_n0009", "pg051_n0010", "pg051_n0012", "pg051_n0013", "pg051_n0015",
+            "pg051_n0016", "pg051_n0017", "pg051_n0019", "pg051_n0020", "pg051_n0021",
+            "pg051_n0022", "pg051_n0030", "pg051_n0031",
+        },
+        "replace": {
+            "pg051_n0001": "Swali la tatu. Magari elfu tisa mia nne thelathini na sita yalikaguliwa mkoa wa Mtwara. Magari mengine elfu kumi mia moja thelathini yalikaguliwa mkoa wa Ruvuma. Je, magari mangapi yalikaguliwa katika mikoa hiyo?",
+            "pg051_n0004": "Swali la nne. Mkulima alihifadhi kilogramu elfu ishirini na tano mia sita sabini na saba za mahindi msimu wa kwanza wa mavuno. Akahifadhi tena kilogramu elfu ishirini na moja mia tisa kumi na tatu za mahindi msimu wa pili wa mavuno. Jumla alihifadhi kilogramu ngapi za mahindi kwa misimu yote miwili?",
+            "pg051_n0008": "Swali la tano. Mfugaji wa ng'ombe aliuza lita elfu thelathini na tano mia saba hamsini na mbili za maziwa mwezi Januari na lita elfu ishirini na saba mia nane themanini na nane za maziwa mwezi Februari. Mfugaji aliuza jumla ya lita ngapi za maziwa kwa miezi hiyo?",
+            "pg051_n0011": "Swali la sita. Kikundi cha vijana kilipanda miche elfu ishirini na saba mia sita tisini na nane ya mipera na miche elfu hamsini na tatu mia tano sitini na nne ya michungwa. Kikundi hicho jumla kilipanda miche mingapi?",
+            "pg051_n0014": "Swali la saba. Kombe alimpatia mtoto wake shilingi elfu arobaini na tano mia tano kwa ajili ya matumizi kwa muhula wa kwanza. Akampatia tena shilingi elfu hamsini kwa muhula wa pili. Jumla alimpatia mtoto wake shilingi ngapi?",
+            "pg051_n0018": "Swali la nane. Mwaka elfu mbili na kumi na sita, wanafunzi elfu moja na hamsini waliandikishwa kuanza darasa la kwanza katika kata ya Twendepamoja. Pia, wanafunzi mia nane themanini na tisa waliandikishwa katika kata ya Mwembetogwa. Jumla waliandikishwa wanafunzi wangapi kwa kata hizo?",
         },
     },
     52: {
@@ -1057,6 +1196,29 @@ CONFIG = {
             "pg082_n0021": "Hatua ya pili. Ishirini na nne kugawanya tano, sawa sawa na nne, na baki ni nne. Andika tarakimu nne katika nafasi ya kwanza ya jibu.",
             "pg082_n0023": "Hatua ya tatu. Leta chini tarakimu tano ya mwisho. Baki la nne linawakilisha makumi arobaini; liunganishe na mamoja matano ili kupata arobaini na tano. Arobaini na tano kugawanya tano, sawa sawa na tisa. Andika tarakimu tisa kulia kwa tarakimu nne.",
             "pg082_n0026": "Kwa hiyo, mia mbili arobaini na tano kugawanya tano, sawa sawa na arobaini na tisa.",
+        },
+    },
+    83: {
+        "remove": {"pg083_n0011", "pg083_n0021", "pg083_n0022"},
+        "replace": {
+            "pg083_n0001": "Zoezi la Tatu.",
+            "pg083_n0003": "Swali namba moja. Themanini na nane kugawanya nane, sawa sawa na ngapi? Swali namba mbili. Sitini na nne kugawanya nne, sawa sawa na ngapi? Swali namba tatu. Arobaini na nane kugawanya tatu, sawa sawa na ngapi?",
+            "pg083_n0004": "Swali namba nne. Sabini kugawanya saba, sawa sawa na ngapi? Swali namba tano. Thelathini na sita kugawanya sita, sawa sawa na ngapi? Swali namba sita. Hamsini na nne kugawanya tatu, sawa sawa na ngapi?",
+            "pg083_n0005": "Swali namba saba. Sabini na mbili kugawanya tatu, sawa sawa na ngapi? Swali namba nane. Themanini na sita kugawanya mbili, sawa sawa na ngapi? Swali namba tisa. Tisini na sita kugawanya sita, sawa sawa na ngapi?",
+            "pg083_n0006": "Swali namba kumi. Mia moja hamsini na sita kugawanya nne, sawa sawa na ngapi? Swali namba kumi na moja. Mia mbili sabini na mbili kugawanya nane, sawa sawa na ngapi? Swali namba kumi na mbili. Mia tisa themanini na moja kugawanya tatu, sawa sawa na ngapi?",
+            "pg083_n0007": "Swali namba kumi na tatu. Mia mbili ishirini na tano kugawanya tano, sawa sawa na ngapi? Swali namba kumi na nne. Mia moja tisini na sita kugawanya nne, sawa sawa na ngapi? Swali namba kumi na tano. Mia moja sabini na tano kugawanya tano, sawa sawa na ngapi?",
+            "pg083_n0008": "Swali namba kumi na sita. Mia moja ishirini na tano kugawanya tano, sawa sawa na ngapi? Swali namba kumi na saba. Tisini na tisa kugawanya tisa, sawa sawa na ngapi? Swali namba kumi na nane. Themanini na saba kugawanya tatu, sawa sawa na ngapi?",
+            "pg083_n0009": "Swali namba kumi na tisa. Mia nne arobaini na nne kugawanya nne, sawa sawa na ngapi? Swali namba ishirini. Themanini na nne kugawanya nne, sawa sawa na ngapi? Swali namba ishirini na moja. Mia moja kugawanya tano, sawa sawa na ngapi?",
+            "pg083_n0010": "Kugawanya namba nzima kwa njia fupi kwa kutumia alama.",
+            "pg083_n0012": "Mfano wa Kwanza.",
+            "pg083_n0013": "Mchoro wa kugawanya kwa njia fupi unaonesha mia mbili themanini na nne kugawanya mbili, sawa sawa na mia moja arobaini na mbili. Kigawanyo mbili kiko upande wa kushoto. Kigawanywa mia mbili themanini na nne kiko ndani ya alama. Jibu mia moja arobaini na mbili limeandikwa juu ya mstari.",
+            "pg083_n0014": "Hatua ya Kwanza. Anza upande wa kushoto. Gawanya mbili kwa mbili; unapata moja.",
+            "pg083_n0015": "Andika moja juu ya tarakimu mbili, katika nafasi ya kwanza ya jibu.",
+            "pg083_n0016": "Hatua ya Pili. Hamia kwenye tarakimu inayofuata upande wa kulia. Gawanya nane kwa mbili; unapata nne.",
+            "pg083_n0017": "Andika nne kulia kwa moja katika jibu.",
+            "pg083_n0018": "Hatua ya Tatu. Hamia tena upande wa kulia. Gawanya nne kwa mbili; unapata mbili.",
+            "pg083_n0019": "Andika mbili kulia kwa nne. Jibu linakuwa mia moja arobaini na mbili.",
+            "pg083_n0020": "Kwa hiyo, mia mbili themanini na nne kugawanya mbili, sawa sawa na mia moja arobaini na mbili.",
         },
     },
     84: {
@@ -3170,7 +3332,7 @@ async def generate(page, timecodes):
             segments.append((pronounce_roman_letters(extra), kind))
     text = " ".join(value for value, _ in segments)
     cues = []
-    audio_name = f"page-{page:03d}-matrix-v32.mp3"
+    audio_name = f"page-{page:03d}-matrix-v33.mp3"
     output = ROOT / "content" / "rehema"
     audio_path = output / audio_name
     temp_path = output / f".{audio_name}.tmp"
@@ -3211,7 +3373,6 @@ async def generate(page, timecodes):
                 break
     if page == 8:
         visual_phrases = {
-            "q3": "Andika namba zifuatazo kwa tarakimu Mstari wa kwanza na wa pili ni mfano",
             "q4": "Chunguza chati ya namba kisha jibu swali linalofuata",
             "q5": "Andika namba zinazowakilishwa katika mchoro ufuatao",
         }
@@ -3334,7 +3495,7 @@ async def generate(page, timecodes):
                 cue["sourceIndex"] = active
         offset += count
     default_rate = 0.8 if 8 <= page <= 15 or page == 17 else 0.9
-    entry = {"audio": audio_name, "voice": VOICE, "rate": cfg.get("rate", default_rate), "pitch": "neutral", "version": 47, "words": cues}
+    entry = {"audio": audio_name, "voice": VOICE, "rate": cfg.get("rate", default_rate), "pitch": "neutral", "version": 48, "words": cues}
     (output / f"page-{page:03d}.json").write_text(json.dumps(entry, ensure_ascii=False, indent=2), encoding="utf-8")
     timecodes[str(page)] = entry
     path.write_text(patch_transcript(raw, replacements, after, cfg.get("remove", set())), encoding="utf-8")
