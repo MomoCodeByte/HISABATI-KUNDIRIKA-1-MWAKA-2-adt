@@ -1,9 +1,9 @@
 {
-  "audio": "page-010-matrix-v32.mp3",
+  "audio": "page-010-matrix-v33.mp3",
   "voice": "sw-TZ-RehemaNeural",
   "rate": 0.8,
   "pitch": "neutral",
-  "version": 47,
+  "version": 48,
   "words": [
     {
       "text": "7",
@@ -503,553 +503,1079 @@
       "sourceIndex": 161
     },
     {
-      "text": "Anza",
-      "start": 50.641458,
-      "end": 50.871708,
-      "sourceIndex": 161
-    },
-    {
-      "text": "upande",
-      "start": 51.01975,
-      "end": 51.513166,
-      "sourceIndex": 161
-    },
-    {
-      "text": "wa",
-      "start": 51.546041,
-      "end": 51.644707,
-      "sourceIndex": 161
-    },
-    {
-      "text": "kulia",
-      "start": 51.677625,
-      "end": 52.154583,
-      "sourceIndex": 161
-    },
-    {
-      "text": "kwenye",
-      "start": 52.203958,
-      "end": 52.516458,
-      "sourceIndex": 161
-    },
-    {
-      "text": "mamoja",
-      "start": 52.549333,
-      "end": 53.256583,
-      "sourceIndex": 161
-    },
-    {
       "text": "Hesabu",
-      "start": 54.473666,
-      "end": 54.999999,
+      "start": 50.608541,
+      "end": 51.036166,
       "sourceIndex": 161,
       "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(1)"
     },
     {
-      "text": "au",
-      "start": 55.131583,
-      "end": 55.378291,
+      "text": "mafungu",
+      "start": 51.151333,
+      "end": 51.726999,
       "sourceIndex": 161,
-      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(2)"
+      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(4)"
     },
     {
-      "text": "taja",
-      "start": 55.411166,
-      "end": 55.838791,
+      "text": "yenye",
+      "start": 51.759875,
+      "end": 52.0395,
       "sourceIndex": 161,
-      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(3)"
+      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(5)"
     },
     {
-      "text": "sarafu",
-      "start": 55.871708,
-      "end": 56.513166,
-      "sourceIndex": 161
-    },
-    {
-      "text": "katika",
-      "start": 56.546041,
-      "end": 57.022999,
-      "sourceIndex": 161
-    },
-    {
-      "text": "mamoja",
-      "start": 57.055916,
-      "end": 57.746707,
-      "sourceIndex": 161
+      "text": "maelfu",
+      "start": 52.072375,
+      "end": 52.697375,
+      "sourceIndex": 161,
+      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(6)"
     },
     {
       "text": "unapata",
-      "start": 57.927625,
-      "end": 58.601958,
+      "start": 52.861833,
+      "end": 53.552624,
       "sourceIndex": 161,
       "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(7)"
     },
     {
-      "text": "sarafu",
-      "start": 58.634875,
-      "end": 59.309208,
-      "sourceIndex": 161
+      "text": "mafungu",
+      "start": 53.585541,
+      "end": 54.144749,
+      "sourceIndex": 161,
+      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(8)"
     },
     {
       "text": "tisa",
-      "start": 59.358541,
-      "end": 59.720374,
+      "start": 54.194083,
+      "end": 54.572374,
       "sourceIndex": 161,
       "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(9)"
     },
     {
-      "text": "za",
-      "start": 59.753291,
-      "end": 59.917749,
+      "text": "yenye",
+      "start": 54.60525,
+      "end": 54.91775,
+      "sourceIndex": 161,
+      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(10)"
+    },
+    {
+      "text": "elfu",
+      "start": 54.967125,
+      "end": 55.345416,
+      "sourceIndex": 61
+    },
+    {
+      "text": "moja",
+      "start": 55.39475,
+      "end": 55.805916,
+      "sourceIndex": 61,
+      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(13)"
+    },
+    {
+      "text": "kila",
+      "start": 55.85525,
+      "end": 56.200625,
       "sourceIndex": 161
     },
     {
-      "text": "mamoja",
-      "start": 59.950666,
-      "end": 60.657916,
-      "sourceIndex": 161
+      "text": "moja",
+      "start": 56.233541,
+      "end": 56.759874,
+      "sourceIndex": 164
+    },
+    {
+      "text": "Sawa",
+      "start": 57.993416,
+      "end": 58.388166,
+      "sourceIndex": 78,
+      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(14)"
+    },
+    {
+      "text": "na",
+      "start": 58.503291,
+      "end": 58.700666,
+      "sourceIndex": 78,
+      "targetSelector": ".step1 .matrix-highlight-word:nth-of-type(15)"
+    },
+    {
+      "text": "elfu",
+      "start": 58.930916,
+      "end": 59.325666,
+      "sourceIndex": 63
+    },
+    {
+      "text": "moja",
+      "start": 59.375,
+      "end": 59.76975,
+      "sourceIndex": 63
+    },
+    {
+      "text": "jumlisha",
+      "start": 59.802625,
+      "end": 60.444083,
+      "sourceIndex": 62
+    },
+    {
+      "text": "elfu",
+      "start": 60.493416,
+      "end": 60.871707,
+      "sourceIndex": 65
+    },
+    {
+      "text": "moja",
+      "start": 60.921041,
+      "end": 61.315791,
+      "sourceIndex": 65
+    },
+    {
+      "text": "jumlisha",
+      "start": 61.365125,
+      "end": 62.006583,
+      "sourceIndex": 64
+    },
+    {
+      "text": "elfu",
+      "start": 62.055916,
+      "end": 62.434207,
+      "sourceIndex": 67
+    },
+    {
+      "text": "moja",
+      "start": 62.483541,
+      "end": 62.878291,
+      "sourceIndex": 67
+    },
+    {
+      "text": "jumlisha",
+      "start": 62.927625,
+      "end": 63.569083,
+      "sourceIndex": 66
+    },
+    {
+      "text": "elfu",
+      "start": 63.618416,
+      "end": 63.996707,
+      "sourceIndex": 69
+    },
+    {
+      "text": "moja",
+      "start": 64.046041,
+      "end": 64.440791,
+      "sourceIndex": 69
+    },
+    {
+      "text": "jumlisha",
+      "start": 64.490125,
+      "end": 65.131583,
+      "sourceIndex": 68
+    },
+    {
+      "text": "elfu",
+      "start": 65.180916,
+      "end": 65.559207,
+      "sourceIndex": 71
+    },
+    {
+      "text": "moja",
+      "start": 65.608541,
+      "end": 66.003291,
+      "sourceIndex": 71
+    },
+    {
+      "text": "jumlisha",
+      "start": 66.052625,
+      "end": 66.694083,
+      "sourceIndex": 70
+    },
+    {
+      "text": "elfu",
+      "start": 66.743416,
+      "end": 67.138166,
+      "sourceIndex": 73
+    },
+    {
+      "text": "moja",
+      "start": 67.1875,
+      "end": 67.58225,
+      "sourceIndex": 73
+    },
+    {
+      "text": "jumlisha",
+      "start": 67.631583,
+      "end": 68.273041,
+      "sourceIndex": 72
+    },
+    {
+      "text": "elfu",
+      "start": 68.322375,
+      "end": 68.700666,
+      "sourceIndex": 75
+    },
+    {
+      "text": "moja",
+      "start": 68.75,
+      "end": 69.14475,
+      "sourceIndex": 75
+    },
+    {
+      "text": "jumlisha",
+      "start": 69.194083,
+      "end": 69.835541,
+      "sourceIndex": 74
+    },
+    {
+      "text": "elfu",
+      "start": 69.884875,
+      "end": 70.263166,
+      "sourceIndex": 77
+    },
+    {
+      "text": "moja",
+      "start": 70.3125,
+      "end": 70.70725,
+      "sourceIndex": 77
+    },
+    {
+      "text": "jumlisha",
+      "start": 70.756583,
+      "end": 71.398041,
+      "sourceIndex": 76
+    },
+    {
+      "text": "elfu",
+      "start": 71.447375,
+      "end": 71.825666,
+      "sourceIndex": 183
+    },
+    {
+      "text": "moja",
+      "start": 71.858541,
+      "end": 72.335499,
+      "sourceIndex": 183
+    },
+    {
+      "text": "sawa",
+      "start": 72.450666,
+      "end": 72.911207,
+      "sourceIndex": 113
+    },
+    {
+      "text": "sawa",
+      "start": 72.960541,
+      "end": 73.355291,
+      "sourceIndex": 147
+    },
+    {
+      "text": "na",
+      "start": 73.388166,
+      "end": 73.519749,
+      "sourceIndex": 147
+    },
+    {
+      "text": "elfu",
+      "start": 73.552625,
+      "end": 73.947375,
+      "sourceIndex": 79
+    },
+    {
+      "text": "tisa",
+      "start": 73.996708,
+      "end": 74.457249,
+      "sourceIndex": 79
     },
     {
       "text": "Hatua",
-      "start": 61.858541,
-      "end": 62.269707,
+      "start": 75.657875,
+      "end": 76.069041,
       "sourceIndex": 161
     },
     {
       "text": "ya",
-      "start": 62.384875,
-      "end": 62.532916,
+      "start": 76.184208,
+      "end": 76.332249,
       "sourceIndex": 161
     },
     {
       "text": "pili",
-      "start": 62.565791,
-      "end": 63.124999,
-      "sourceIndex": 161
-    },
-    {
-      "text": "Hamia",
-      "start": 64.358541,
-      "end": 64.687499,
-      "sourceIndex": 161
-    },
-    {
-      "text": "kushoto",
-      "start": 64.802625,
-      "end": 65.378291,
-      "sourceIndex": 161
-    },
-    {
-      "text": "kwenye",
-      "start": 65.411166,
-      "end": 65.707207,
-      "sourceIndex": 161
-    },
-    {
-      "text": "makumi",
-      "start": 65.740125,
-      "end": 66.447375,
+      "start": 76.365125,
+      "end": 76.924333,
       "sourceIndex": 161
     },
     {
       "text": "Hesabu",
-      "start": 67.664458,
-      "end": 68.092083,
+      "start": 78.157875,
+      "end": 78.5855,
       "sourceIndex": 161,
       "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(1)"
     },
     {
       "text": "mafungu",
-      "start": 68.20725,
-      "end": 68.782916,
+      "start": 78.700666,
+      "end": 79.259874,
       "sourceIndex": 161,
       "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(4)"
     },
     {
       "text": "ya",
-      "start": 68.815791,
-      "end": 68.898041,
+      "start": 79.29275,
+      "end": 79.375,
       "sourceIndex": 161,
       "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(5)"
     },
     {
-      "text": "makumi",
-      "start": 68.930916,
-      "end": 69.605249,
-      "sourceIndex": 161
+      "text": "mamia",
+      "start": 79.407875,
+      "end": 80.032875,
+      "sourceIndex": 161,
+      "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(6)"
     },
     {
       "text": "unapata",
-      "start": 69.786166,
-      "end": 70.493416,
+      "start": 80.197375,
+      "end": 80.871708,
       "sourceIndex": 161,
       "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(7)"
     },
     {
       "text": "mafungu",
-      "start": 70.526333,
-      "end": 71.118458,
+      "start": 80.904625,
+      "end": 81.49675,
       "sourceIndex": 161,
       "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(8)"
     },
     {
       "text": "tisa",
-      "start": 71.16775,
-      "end": 71.546041,
+      "start": 81.546041,
+      "end": 81.924332,
       "sourceIndex": 161,
       "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(9)"
     },
     {
       "text": "yenye",
-      "start": 71.578958,
-      "end": 71.858583,
+      "start": 81.95725,
+      "end": 82.253291,
       "sourceIndex": 161,
       "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(10)"
     },
     {
-      "text": "sarafu",
-      "start": 71.907875,
-      "end": 72.56575,
-      "sourceIndex": 161
-    },
-    {
-      "text": "10",
-      "start": 72.598666,
-      "end": 72.960499,
-      "sourceIndex": 201
-    },
-    {
-      "text": "kila",
-      "start": 73.009875,
-      "end": 73.35525,
-      "sourceIndex": 201,
-      "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(12)"
+      "text": "mia",
+      "start": 82.302625,
+      "end": 82.549333,
+      "sourceIndex": 89
     },
     {
       "text": "moja",
-      "start": 73.388166,
-      "end": 73.881582,
-      "sourceIndex": 164,
+      "start": 82.58225,
+      "end": 82.993416,
+      "sourceIndex": 89,
       "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(13)"
     },
     {
+      "text": "kila",
+      "start": 83.04275,
+      "end": 83.388125,
+      "sourceIndex": 161
+    },
+    {
+      "text": "moja",
+      "start": 83.421041,
+      "end": 83.963791,
+      "sourceIndex": 166
+    },
+    {
+      "text": "Hii",
+      "start": 85.197375,
+      "end": 85.3125,
+      "sourceIndex": 162,
+      "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(14)"
+    },
+    {
+      "text": "ni",
+      "start": 85.427625,
+      "end": 85.526291,
+      "sourceIndex": 162,
+      "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(15)"
+    },
+    {
       "text": "sawa",
-      "start": 73.996708,
-      "end": 74.473666,
-      "sourceIndex": 78,
+      "start": 85.559208,
+      "end": 86.019749,
+      "sourceIndex": 181,
       "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(16)"
     },
     {
-      "text": "sawa",
-      "start": 74.506583,
-      "end": 74.934208,
-      "sourceIndex": 113
-    },
-    {
       "text": "na",
-      "start": 74.967125,
-      "end": 75.098708,
-      "sourceIndex": 113,
+      "start": 86.052625,
+      "end": 86.25,
+      "sourceIndex": 181,
       "targetSelector": ".step2 .matrix-highlight-word:nth-of-type(17)"
     },
     {
-      "text": "90",
-      "start": 75.148041,
-      "end": 75.838832,
-      "sourceIndex": 201
+      "text": "mia",
+      "start": 86.430916,
+      "end": 86.743416,
+      "sourceIndex": 96
+    },
+    {
+      "text": "moja",
+      "start": 86.776333,
+      "end": 87.187499,
+      "sourceIndex": 96
+    },
+    {
+      "text": "jumlisha",
+      "start": 87.220375,
+      "end": 87.861833,
+      "sourceIndex": 97
+    },
+    {
+      "text": "mia",
+      "start": 87.911166,
+      "end": 88.174332,
+      "sourceIndex": 98
+    },
+    {
+      "text": "moja",
+      "start": 88.20725,
+      "end": 88.602,
+      "sourceIndex": 98
+    },
+    {
+      "text": "jumlisha",
+      "start": 88.651333,
+      "end": 89.292791,
+      "sourceIndex": 99
+    },
+    {
+      "text": "mia",
+      "start": 89.342125,
+      "end": 89.605291,
+      "sourceIndex": 100
+    },
+    {
+      "text": "moja",
+      "start": 89.638166,
+      "end": 90.032916,
+      "sourceIndex": 100
+    },
+    {
+      "text": "jumlisha",
+      "start": 90.08225,
+      "end": 90.723708,
+      "sourceIndex": 101
+    },
+    {
+      "text": "mia",
+      "start": 90.773041,
+      "end": 91.036207,
+      "sourceIndex": 102
+    },
+    {
+      "text": "moja",
+      "start": 91.069083,
+      "end": 91.463833,
+      "sourceIndex": 102
+    },
+    {
+      "text": "jumlisha",
+      "start": 91.513166,
+      "end": 92.154624,
+      "sourceIndex": 103
+    },
+    {
+      "text": "mia",
+      "start": 92.203958,
+      "end": 92.467124,
+      "sourceIndex": 104
+    },
+    {
+      "text": "moja",
+      "start": 92.5,
+      "end": 92.89475,
+      "sourceIndex": 104
+    },
+    {
+      "text": "jumlisha",
+      "start": 92.944083,
+      "end": 93.585541,
+      "sourceIndex": 105
+    },
+    {
+      "text": "mia",
+      "start": 93.634875,
+      "end": 93.898041,
+      "sourceIndex": 106
+    },
+    {
+      "text": "moja",
+      "start": 93.930916,
+      "end": 94.325666,
+      "sourceIndex": 106
+    },
+    {
+      "text": "jumlisha",
+      "start": 94.375,
+      "end": 95.016458,
+      "sourceIndex": 107
+    },
+    {
+      "text": "mia",
+      "start": 95.065791,
+      "end": 95.328957,
+      "sourceIndex": 108
+    },
+    {
+      "text": "moja",
+      "start": 95.361833,
+      "end": 95.756583,
+      "sourceIndex": 108
+    },
+    {
+      "text": "jumlisha",
+      "start": 95.805916,
+      "end": 96.447374,
+      "sourceIndex": 109
+    },
+    {
+      "text": "mia",
+      "start": 96.496708,
+      "end": 96.759874,
+      "sourceIndex": 110
+    },
+    {
+      "text": "moja",
+      "start": 96.79275,
+      "end": 97.1875,
+      "sourceIndex": 110
+    },
+    {
+      "text": "jumlisha",
+      "start": 97.236833,
+      "end": 97.878291,
+      "sourceIndex": 111
+    },
+    {
+      "text": "mia",
+      "start": 97.927625,
+      "end": 98.190791,
+      "sourceIndex": 112
+    },
+    {
+      "text": "moja",
+      "start": 98.223666,
+      "end": 98.684207,
+      "sourceIndex": 112
+    },
+    {
+      "text": "sawa",
+      "start": 98.815791,
+      "end": 99.292749,
+      "sourceIndex": 162
+    },
+    {
+      "text": "sawa",
+      "start": 99.342125,
+      "end": 99.753291,
+      "sourceIndex": 162
+    },
+    {
+      "text": "na",
+      "start": 99.786166,
+      "end": 99.901291,
+      "sourceIndex": 162
+    },
+    {
+      "text": "mia",
+      "start": 99.950666,
+      "end": 100.279624,
+      "sourceIndex": 114
+    },
+    {
+      "text": "tisa",
+      "start": 100.328958,
+      "end": 100.838833,
+      "sourceIndex": 114
     },
     {
       "text": "Hatua",
-      "start": 77.055916,
-      "end": 77.483541,
-      "sourceIndex": 201
+      "start": 102.072375,
+      "end": 102.5,
+      "sourceIndex": 162
     },
     {
       "text": "ya",
-      "start": 77.598666,
-      "end": 77.746707,
-      "sourceIndex": 201
+      "start": 102.615125,
+      "end": 102.763166,
+      "sourceIndex": 162
     },
     {
       "text": "tatu",
-      "start": 77.796041,
-      "end": 78.486832,
-      "sourceIndex": 201
-    },
-    {
-      "text": "Hamia",
-      "start": 79.703958,
-      "end": 80.049333,
-      "sourceIndex": 201
-    },
-    {
-      "text": "kushoto",
-      "start": 80.164458,
-      "end": 80.740124,
-      "sourceIndex": 201
-    },
-    {
-      "text": "kwenye",
-      "start": 80.773041,
-      "end": 81.069082,
-      "sourceIndex": 201
-    },
-    {
-      "text": "mamia",
-      "start": 81.101958,
-      "end": 81.776291,
-      "sourceIndex": 201
+      "start": 102.8125,
+      "end": 103.503291,
+      "sourceIndex": 162
     },
     {
       "text": "Hesabu",
-      "start": 83.009875,
-      "end": 83.4375,
-      "sourceIndex": 201,
+      "start": 104.720416,
+      "end": 105.148041,
+      "sourceIndex": 162,
       "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(1)"
     },
     {
       "text": "mafungu",
-      "start": 83.552625,
-      "end": 84.111833,
-      "sourceIndex": 201,
+      "start": 105.279625,
+      "end": 105.855291,
+      "sourceIndex": 162,
       "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(4)"
     },
     {
       "text": "ya",
-      "start": 84.14475,
-      "end": 84.227,
-      "sourceIndex": 201,
+      "start": 105.888166,
+      "end": 105.970416,
+      "sourceIndex": 162,
       "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(5)"
     },
     {
-      "text": "mamia",
-      "start": 84.259875,
-      "end": 84.884875,
-      "sourceIndex": 201
+      "text": "makumi",
+      "start": 106.003291,
+      "end": 106.694082,
+      "sourceIndex": 162,
+      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(6)"
     },
     {
       "text": "unapata",
-      "start": 85.065791,
-      "end": 85.740124,
-      "sourceIndex": 201,
+      "start": 106.907916,
+      "end": 107.615166,
+      "sourceIndex": 162,
       "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(7)"
     },
     {
       "text": "mafungu",
-      "start": 85.773041,
-      "end": 86.348707,
-      "sourceIndex": 201,
+      "start": 107.648041,
+      "end": 108.256582,
+      "sourceIndex": 162,
       "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(8)"
     },
     {
       "text": "tisa",
-      "start": 86.398041,
-      "end": 86.776332,
-      "sourceIndex": 201,
+      "start": 108.305916,
+      "end": 108.684207,
+      "sourceIndex": 162,
       "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(9)"
     },
     {
       "text": "yenye",
-      "start": 86.809208,
-      "end": 87.088833,
-      "sourceIndex": 201,
+      "start": 108.717125,
+      "end": 108.99675,
+      "sourceIndex": 162,
       "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(10)"
     },
     {
       "text": "sarafu",
-      "start": 87.138166,
-      "end": 87.779624,
-      "sourceIndex": 201,
+      "start": 109.046041,
+      "end": 109.720374,
+      "sourceIndex": 162,
       "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(11)"
     },
     {
-      "text": "100",
-      "start": 87.828958,
-      "end": 88.519707,
-      "sourceIndex": 201
+      "text": "kumi",
+      "start": 109.76975,
+      "end": 110.131583,
+      "sourceIndex": 130
     },
     {
       "text": "kila",
-      "start": 88.569083,
-      "end": 88.930916,
-      "sourceIndex": 201,
+      "start": 110.180916,
+      "end": 110.542749,
+      "sourceIndex": 162,
       "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(13)"
     },
     {
       "text": "moja",
-      "start": 88.963833,
-      "end": 89.440791,
-      "sourceIndex": 166,
+      "start": 110.575666,
+      "end": 111.085541,
+      "sourceIndex": 168,
       "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(14)"
     },
     {
-      "text": "sawa",
-      "start": 89.555916,
-      "end": 90.032874,
-      "sourceIndex": 147
+      "text": "ambazo",
+      "start": 111.217125,
+      "end": 111.825666,
+      "sourceIndex": 162,
+      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(15)"
+    },
+    {
+      "text": "ni",
+      "start": 111.858541,
+      "end": 112.055916,
+      "sourceIndex": 162,
+      "targetSelector": ".step3 .matrix-highlight-word:nth-of-type(16)"
+    },
+    {
+      "text": "kumi",
+      "start": 112.335541,
+      "end": 112.680916,
+      "sourceIndex": 132
+    },
+    {
+      "text": "jumlisha",
+      "start": 112.73025,
+      "end": 113.371708,
+      "sourceIndex": 131
+    },
+    {
+      "text": "kumi",
+      "start": 113.404625,
+      "end": 113.766458,
+      "sourceIndex": 134
+    },
+    {
+      "text": "jumlisha",
+      "start": 113.815791,
+      "end": 114.440791,
+      "sourceIndex": 133
+    },
+    {
+      "text": "kumi",
+      "start": 114.490125,
+      "end": 114.851958,
+      "sourceIndex": 136
+    },
+    {
+      "text": "jumlisha",
+      "start": 114.901333,
+      "end": 115.526333,
+      "sourceIndex": 135
+    },
+    {
+      "text": "kumi",
+      "start": 115.575666,
+      "end": 115.937499,
+      "sourceIndex": 138
+    },
+    {
+      "text": "jumlisha",
+      "start": 115.986833,
+      "end": 116.628291,
+      "sourceIndex": 137
+    },
+    {
+      "text": "kumi",
+      "start": 116.677625,
+      "end": 117.039458,
+      "sourceIndex": 140
+    },
+    {
+      "text": "jumlisha",
+      "start": 117.088833,
+      "end": 117.730291,
+      "sourceIndex": 139
+    },
+    {
+      "text": "kumi",
+      "start": 117.779625,
+      "end": 118.141458,
+      "sourceIndex": 142
+    },
+    {
+      "text": "jumlisha",
+      "start": 118.190791,
+      "end": 118.832249,
+      "sourceIndex": 141
+    },
+    {
+      "text": "kumi",
+      "start": 118.881583,
+      "end": 119.243416,
+      "sourceIndex": 144
+    },
+    {
+      "text": "jumlisha",
+      "start": 119.29275,
+      "end": 119.934208,
+      "sourceIndex": 143
+    },
+    {
+      "text": "kumi",
+      "start": 119.983541,
+      "end": 120.345374,
+      "sourceIndex": 146
+    },
+    {
+      "text": "jumlisha",
+      "start": 120.39475,
+      "end": 121.036208,
+      "sourceIndex": 145
+    },
+    {
+      "text": "kumi",
+      "start": 121.085541,
+      "end": 121.513166,
+      "sourceIndex": 201
     },
     {
       "text": "sawa",
-      "start": 90.065791,
-      "end": 90.476957,
-      "sourceIndex": 181
+      "start": 121.677625,
+      "end": 122.171041,
+      "sourceIndex": 162
+    },
+    {
+      "text": "sawa",
+      "start": 122.220416,
+      "end": 122.648041,
+      "sourceIndex": 162
     },
     {
       "text": "na",
-      "start": 90.509875,
-      "end": 90.625,
-      "sourceIndex": 181
+      "start": 122.680916,
+      "end": 122.812499,
+      "sourceIndex": 162
     },
     {
-      "text": "900",
-      "start": 90.674333,
-      "end": 91.562499,
-      "sourceIndex": 201
+      "text": "tisini",
+      "start": 122.861833,
+      "end": 123.569083,
+      "sourceIndex": 148
     },
     {
       "text": "Hatua",
-      "start": 92.779625,
-      "end": 93.223708,
-      "sourceIndex": 201
+      "start": 124.786166,
+      "end": 125.230249,
+      "sourceIndex": 162
     },
     {
       "text": "ya",
-      "start": 93.338833,
-      "end": 93.503291,
-      "sourceIndex": 201
+      "start": 125.345416,
+      "end": 125.509874,
+      "sourceIndex": 162
     },
     {
       "text": "nne",
-      "start": 93.536166,
-      "end": 93.996707,
+      "start": 125.54275,
+      "end": 126.003291,
       "sourceIndex": 0
     },
     {
-      "text": "Hamia",
-      "start": 95.279625,
-      "end": 95.625,
-      "sourceIndex": 201
-    },
-    {
-      "text": "kushoto",
-      "start": 95.740125,
-      "end": 96.315791,
-      "sourceIndex": 201
-    },
-    {
-      "text": "kwenye",
-      "start": 96.348666,
-      "end": 96.644707,
-      "sourceIndex": 201
-    },
-    {
-      "text": "maelfu",
-      "start": 96.677625,
-      "end": 97.3355,
-      "sourceIndex": 201
-    },
-    {
       "text": "Hesabu",
-      "start": 98.536166,
-      "end": 98.963791,
-      "sourceIndex": 201,
+      "start": 127.286166,
+      "end": 127.697332,
+      "sourceIndex": 162,
       "targetSelector": ".step4 .matrix-highlight-word:nth-of-type(1)"
     },
     {
-      "text": "mafungu",
-      "start": 99.078958,
-      "end": 99.654624,
-      "sourceIndex": 201
+      "text": "sarafu",
+      "start": 127.8125,
+      "end": 128.421041,
+      "sourceIndex": 162,
+      "targetSelector": ".step4 .matrix-highlight-word:nth-of-type(4)"
     },
     {
-      "text": "ya",
-      "start": 99.6875,
-      "end": 99.76975,
-      "sourceIndex": 201
+      "text": "katika",
+      "start": 128.453958,
+      "end": 128.930916,
+      "sourceIndex": 162,
+      "targetSelector": ".step4 .matrix-highlight-word:nth-of-type(5)"
     },
     {
-      "text": "maelfu",
-      "start": 99.802625,
-      "end": 100.427625,
-      "sourceIndex": 201
+      "text": "mamoja",
+      "start": 128.963833,
+      "end": 129.654624,
+      "sourceIndex": 162,
+      "targetSelector": ".step4 .matrix-highlight-word:nth-of-type(6)"
     },
     {
       "text": "unapata",
-      "start": 100.592125,
-      "end": 101.266458,
-      "sourceIndex": 201,
+      "start": 129.819083,
+      "end": 130.493416,
+      "sourceIndex": 162,
       "targetSelector": ".step4 .matrix-highlight-word:nth-of-type(7)"
     },
     {
-      "text": "mafungu",
-      "start": 101.299333,
-      "end": 101.874999,
-      "sourceIndex": 201
+      "text": "mamoja",
+      "start": 130.526333,
+      "end": 131.101999,
+      "sourceIndex": 162,
+      "targetSelector": ".step4 .matrix-highlight-word:nth-of-type(8)"
     },
     {
       "text": "tisa",
-      "start": 101.924333,
-      "end": 102.302624,
-      "sourceIndex": 201,
+      "start": 131.151333,
+      "end": 131.529624,
+      "sourceIndex": 162,
       "targetSelector": ".step4 .matrix-highlight-word:nth-of-type(9)"
     },
     {
       "text": "yenye",
-      "start": 102.335541,
-      "end": 102.615166,
-      "sourceIndex": 201,
+      "start": 131.5625,
+      "end": 131.842125,
+      "sourceIndex": 162,
       "targetSelector": ".step4 .matrix-highlight-word:nth-of-type(10)"
     },
     {
       "text": "sarafu",
-      "start": 102.664458,
-      "end": 103.355249,
-      "sourceIndex": 201,
+      "start": 131.891458,
+      "end": 132.532916,
+      "sourceIndex": 162,
       "targetSelector": ".step4 .matrix-highlight-word:nth-of-type(11)"
     },
     {
-      "text": "1000",
-      "start": 103.404625,
-      "end": 104.210499,
-      "sourceIndex": 201
-    },
-    {
-      "text": "kila",
-      "start": 104.259875,
-      "end": 104.60525,
-      "sourceIndex": 201,
-      "targetSelector": ".step4 .matrix-highlight-word:nth-of-type(13)"
-    },
-    {
       "text": "moja",
-      "start": 104.638166,
-      "end": 105.115124,
-      "sourceIndex": 168,
+      "start": 132.58225,
+      "end": 132.993416,
+      "sourceIndex": 170,
       "targetSelector": ".step4 .matrix-highlight-word:nth-of-type(14)"
     },
     {
-      "text": "sawa",
-      "start": 105.213833,
-      "end": 105.690791,
-      "sourceIndex": 201
+      "text": "kila",
+      "start": 133.04275,
+      "end": 133.388125,
+      "sourceIndex": 162
+    },
+    {
+      "text": "moja",
+      "start": 133.421041,
+      "end": 133.947374,
+      "sourceIndex": 172
+    },
+    {
+      "text": "Hii",
+      "start": 135.148041,
+      "end": 135.296082,
+      "sourceIndex": 162,
+      "targetSelector": ".step4 .matrix-highlight-word:nth-of-type(15)"
+    },
+    {
+      "text": "inakuwa",
+      "start": 135.411166,
+      "end": 136.101957,
+      "sourceIndex": 163,
+      "targetSelector": ".step4 .matrix-highlight-word:nth-of-type(16)"
+    },
+    {
+      "text": "moja",
+      "start": 136.266458,
+      "end": 136.710541,
+      "sourceIndex": 174
+    },
+    {
+      "text": "jumlisha",
+      "start": 136.759875,
+      "end": 137.368416,
+      "sourceIndex": 165
+    },
+    {
+      "text": "moja",
+      "start": 137.401333,
+      "end": 137.796083,
+      "sourceIndex": 176
+    },
+    {
+      "text": "jumlisha",
+      "start": 137.845416,
+      "end": 138.486874,
+      "sourceIndex": 167
+    },
+    {
+      "text": "moja",
+      "start": 138.51975,
+      "end": 138.9145,
+      "sourceIndex": 178
+    },
+    {
+      "text": "jumlisha",
+      "start": 138.963833,
+      "end": 139.605291,
+      "sourceIndex": 169
+    },
+    {
+      "text": "moja",
+      "start": 139.638166,
+      "end": 140.032916,
+      "sourceIndex": 180
+    },
+    {
+      "text": "jumlisha",
+      "start": 140.08225,
+      "end": 140.723708,
+      "sourceIndex": 171
+    },
+    {
+      "text": "moja",
+      "start": 140.756583,
+      "end": 141.151333,
+      "sourceIndex": 212
+    },
+    {
+      "text": "jumlisha",
+      "start": 141.200666,
+      "end": 141.842124,
+      "sourceIndex": 173
+    },
+    {
+      "text": "moja",
+      "start": 141.875,
+      "end": 142.26975,
+      "sourceIndex": 163
+    },
+    {
+      "text": "jumlisha",
+      "start": 142.319083,
+      "end": 142.960541,
+      "sourceIndex": 175
+    },
+    {
+      "text": "moja",
+      "start": 142.993416,
+      "end": 143.371707,
+      "sourceIndex": 163
+    },
+    {
+      "text": "jumlisha",
+      "start": 143.421041,
+      "end": 144.062499,
+      "sourceIndex": 177
+    },
+    {
+      "text": "moja",
+      "start": 144.095416,
+      "end": 144.473707,
+      "sourceIndex": 163
+    },
+    {
+      "text": "jumlisha",
+      "start": 144.523041,
+      "end": 145.164499,
+      "sourceIndex": 179
+    },
+    {
+      "text": "moja",
+      "start": 145.197375,
+      "end": 145.657916,
+      "sourceIndex": 163
     },
     {
       "text": "sawa",
-      "start": 105.723666,
-      "end": 106.118416,
-      "sourceIndex": 201
+      "start": 145.789458,
+      "end": 146.266416,
+      "sourceIndex": 163
+    },
+    {
+      "text": "sawa",
+      "start": 146.315791,
+      "end": 146.726957,
+      "sourceIndex": 163
     },
     {
       "text": "na",
-      "start": 106.151333,
-      "end": 106.282916,
-      "sourceIndex": 201
+      "start": 146.759875,
+      "end": 146.907916,
+      "sourceIndex": 163
     },
     {
-      "text": "9000",
-      "start": 106.315791,
-      "end": 107.286208,
-      "sourceIndex": 201
+      "text": "tisa",
+      "start": 146.95725,
+      "end": 147.5,
+      "sourceIndex": 163
     }
   ]
 }
